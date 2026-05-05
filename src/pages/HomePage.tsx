@@ -41,8 +41,7 @@ const HomePage = () => {
     fetch("/data/keyword-schedule.json")
       .then((r) => r.json())
       .then((schedule: Record<string, string>) => {
-        if (schedule[todayStr]) setKeyword("typescript-generics");
-        // if (schedule[todayStr]) setKeyword(schedule[todayStr]);
+        if (schedule[todayStr]) setKeyword(schedule[todayStr]);
       })
       .catch(() => null);
   }, []);
