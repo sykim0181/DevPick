@@ -24,7 +24,7 @@ jobs:
       - name: Run keyword scheduler agent
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: claude --agent keyword-scheduler "schedule next week"
+        run: claude --dangerouslySkipPermissions --agent keyword-scheduler "schedule next week"
 
       - name: Commit and push updated schedule
         run: |
