@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* class 기반 다크모드 */
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Segoe UI", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+/* rgba 토큰 — Tailwind arbitrary value로 표현하기 어려운 값만 변수로 */
+:root {
+  --sub:        rgba(60, 60, 67, 0.6);
+  --sep:        rgba(60, 60, 67, 0.18);
+  --fill:       rgba(120, 120, 128, 0.12);
+  --fill-strong:rgba(120, 120, 128, 0.2);
+}
+.dark {
+  --sub:        rgba(235, 235, 245, 0.6);
+  --sep:        rgba(84, 84, 88, 0.4);
+  --fill:       rgba(120, 120, 128, 0.24);
+  --fill-strong:rgba(120, 120, 128, 0.36);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+#root { min-height: 100vh; }

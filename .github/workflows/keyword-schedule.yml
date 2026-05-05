@@ -1,0 +1,39 @@
+name: Weekly Keyword Schedule
+
+on:
+  schedule:
+    - cron: '0 12 * * 0'  # 매주 일요일 21:00 KST (UTC 12:00) — 다음 주 키워드 선정
+  workflow_dispatch:
+
+jobs:
+  schedule:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Claude Code CLI
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Run keyword scheduler agent
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: claude --agent keyword-scheduler "schedule next week"
+
+      - name: Commit and push updated schedule
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/data/keyword-schedule.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update keyword-schedule.json [$(date +%Y-%m-%d)]"
+            git push
+          fi
