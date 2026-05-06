@@ -406,6 +406,271 @@
           ]
         }
       ]
+    },
+    "container-queries": {
+      "articles": [
+        {
+          "title": "Future CSS: State Container Queries",
+          "url": "https://ishadeed.com/article/css-state-queries/",
+          "source": "hn",
+          "lang": "en",
+          "points": 231,
+          "published_at": "2023-06-28",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "CSS Container Queries로 부모 컨테이너 크기에 따라 스타일을 동적으로 변경하는 기법",
+          "summary": "Container Queries는 뷰포트 크기가 아닌 부모 컨테이너의 크기에 따라 요소의 스타일을 조정하는 CSS 기능입니다. 이를 통해 컴포넌트는 어디에 배치되든 자동으로 적절한 스타일을 적용받을 수 있어 재사용성과 유연성이 크게 향상됩니다.",
+          "prereqs": [
+            {
+              "name": "미디어 쿼리(Media Queries)",
+              "detail": "뷰포트 기반 반응형 디자인의 기본 개념 이해 필요"
+            },
+            {
+              "name": "CSS 상속 및 우선순위",
+              "detail": "스타일 적용 순서를 이해하기 위한 선수 지식"
+            },
+            {
+              "name": "컴포넌트 기반 개발",
+              "detail": "재사용 가능한 UI 구조 설계 이해가 도움됨"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "media-queries",
+              "reason": "뷰포트 기반 반응형 디자인의 선행 기술"
+            },
+            {
+              "keyword": "responsive-design",
+              "reason": "다양한 화면 크기에 대응하는 레이아웃 설계"
+            },
+            {
+              "keyword": "css-custom-properties",
+              "reason": "동적 스타일 값 관리를 위한 보조 기술"
+            },
+            {
+              "keyword": "component-driven-development",
+              "reason": "재사용 가능한 독립적 컴포넌트 구현"
+            }
+          ]
+        },
+        {
+          "title": "CSS Container Queries in Web Components",
+          "url": "https://mxb.dev/blog/container-queries-web-components/",
+          "source": "hn",
+          "lang": "en",
+          "points": 97,
+          "published_at": "2021-05-16",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "Web Components에서 Container Queries를 활용한 반응형 디자인 구현",
+          "summary": "Container Queries는 뷰포트 대신 컨테이너 크기에 따라 스타일을 적용하는 CSS 기능입니다. Web Components와 함께 사용하면 재사용 가능하고 독립적인 컴포넌트를 만들 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Web Components",
+              "detail": "Container Queries와 함께 캡슐화된 UI를 구축하기 위함"
+            },
+            {
+              "name": "CSS Media Queries",
+              "detail": "Container Queries와의 차이를 이해하기 위한 기초 개념"
+            },
+            {
+              "name": "Responsive Design",
+              "detail": "다양한 크기에서 동작하는 컴포넌트 설계 방식 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "shadow-dom",
+              "reason": "Web Components 스타일 캡슐화의 핵심 기술"
+            },
+            {
+              "keyword": "css-variables",
+              "reason": "Container Queries와 함께 동적 스타일 관리"
+            },
+            {
+              "keyword": "component-design",
+              "reason": "재사용 가능한 독립적 컴포넌트 개발 방법론"
+            },
+            {
+              "keyword": "responsive-components",
+              "reason": "뷰포트 대신 컨테이너 기반 반응형 설계"
+            }
+          ]
+        },
+        {
+          "title": "On Container Queries, Responsive Images, and JPEG-XL",
+          "url": "https://cloudfour.com/thinks/on-container-queries-responsive-images-and-jpeg-xl/",
+          "source": "hn",
+          "lang": "en",
+          "points": 31,
+          "published_at": "2023-03-01",
+          "collected_at": "2026-05-07",
+          "minutes": 8,
+          "one_liner": "컨테이너 쿼리와 반응형 이미지, JPEG-XL의 관계를 설명하는 글",
+          "summary": "컨테이너 쿼리는 뷰포트 크기가 아닌 부모 요소 크기에 따라 스타일을 적용하는 새로운 CSS 기능입니다. 반응형 이미지와 함께 사용하면 컴포넌트 기반의 더 유연한 레이아웃을 만들 수 있으며, JPEG-XL 같은 현대적 이미지 포맷은 이러한 반응형 설계를 더욱 효율적으로 지원합니다.",
+          "prereqs": [
+            {
+              "name": "미디어 쿼리",
+              "detail": "뷰포트 기반 반응형 웹의 기초 개념"
+            },
+            {
+              "name": "CSS 레이아웃",
+              "detail": "flexbox, grid 등 현대 레이아웃 방식"
+            },
+            {
+              "name": "반응형 이미지",
+              "detail": "다양한 화면 크기에 최적화된 이미지 제공"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "media-queries",
+              "reason": "뷰포트 기반 스타일링의 전통적 방식"
+            },
+            {
+              "keyword": "responsive-design",
+              "reason": "다양한 기기에 적응하는 웹 설계 패러다임"
+            },
+            {
+              "keyword": "image-formats",
+              "reason": "JPEG-XL 같은 현대 이미지 포맷의 장점"
+            },
+            {
+              "keyword": "component-based-design",
+              "reason": "컨테이너 쿼리의 핵심 사용 사례"
+            }
+          ]
+        },
+        {
+          "title": "Container Queries",
+          "url": "https://velog.io/@khjoo1203/Container-Queries",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-09-07",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "부모 요소 크기에 따라 자식 스타일을 반응형으로 제어하는 기술",
+          "summary": "Container Queries는 뷰포트 크기가 아닌 컨테이너 크기를 기준으로 요소의 스타일을 변경하는 CSS 기능입니다. 컴포넌트를 더 독립적이고 재사용 가능하게 만들며, 미디어 쿼리의 한계를 극복합니다.",
+          "prereqs": [
+            {
+              "name": "CSS Media Queries",
+              "detail": "Container Queries의 기초가 되는 반응형 디자인 개념"
+            },
+            {
+              "name": "CSS Box Model",
+              "detail": "컨테이너 크기 측정 원리를 이해하기 위해 필요"
+            },
+            {
+              "name": "Component-based Design",
+              "detail": "컨테이너 쿼리 활용의 핵심 패턴을 이해하기 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "media-queries",
+              "reason": "뷰포트 기반 반응형 디자인의 선행 기술"
+            },
+            {
+              "keyword": "css-flexbox",
+              "reason": "컨테이너 내 요소 배치와 함께 사용되는 레이아웃"
+            },
+            {
+              "keyword": "css-grid",
+              "reason": "복잡한 레이아웃 구성 시 함께 활용되는 기술"
+            },
+            {
+              "keyword": "responsive-design",
+              "reason": "현대적인 반응형 웹 디자인의 진화된 접근방식"
+            }
+          ]
+        },
+        {
+          "title": "Containment/Container queries",
+          "url": "https://velog.io/@ehdgus8054/ContainmentContainer-queries",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2026-03-21",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "컨테이너의 크기에 따라 반응형 스타일을 적용하는 CSS 기능",
+          "summary": "Container queries는 부모 요소의 크기에 따라 자식 요소의 스타일을 동적으로 변경할 수 있는 CSS 기능입니다. 뷰포트 기반의 미디어 쿼리와 달리, 특정 컨테이너의 너비나 높이를 기준으로 더 세밀한 반응형 디자인을 구현할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "CSS Media Queries",
+              "detail": "뷰포트 기반 반응형 디자인의 기초"
+            },
+            {
+              "name": "Responsive Design",
+              "detail": "다양한 화면 크기 대응 방식 이해"
+            },
+            {
+              "name": "CSS 선택자 및 상속",
+              "detail": "스타일 적용 범위와 우선순위 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "media-queries",
+              "reason": "뷰포트 기반 반응형 대 컨테이너 기반"
+            },
+            {
+              "keyword": "flexible-layouts",
+              "reason": "유연한 레이아웃 설계의 핵심 도구"
+            },
+            {
+              "keyword": "component-driven-design",
+              "reason": "독립적인 컴포넌트 스타일링"
+            },
+            {
+              "keyword": "css-containment",
+              "reason": "성능 최적화를 위한 레이아웃 격리"
+            }
+          ]
+        },
+        {
+          "title": "[CSS]컨테이너 쿼리(Container queries)",
+          "url": "https://velog.io/@yoodeok/CSS컨테이너-쿼리Container-queries",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-11-15",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "부모 크기에 반응하는 CSS 컨테이너 쿼리 완벽 가이드",
+          "summary": "컨테이너 쿼리는 뷰포트 크기가 아닌 부모 컨테이너의 크기에 따라 스타일을 적용하는 CSS 기능입니다. 미디어 쿼리의 한계를 극복하고 더 유연하고 재사용 가능한 컴포넌트를 만들 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "CSS 미디어 쿼리",
+              "detail": "컨테이너 쿼리와 비교하기 위한 기본 개념"
+            },
+            {
+              "name": "CSS 선택자와 스타일",
+              "detail": "컨테이너 쿼리 문법을 이해하기 위한 필수 지식"
+            },
+            {
+              "name": "반응형 웹 디자인",
+              "detail": "유연한 레이아웃 설계의 맥락 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "media-queries",
+              "reason": "뷰포트 기반 반응형 설계의 기존 방식"
+            },
+            {
+              "keyword": "css-custom-properties",
+              "reason": "컨테이너 값을 동적으로 활용 가능"
+            },
+            {
+              "keyword": "component-based-design",
+              "reason": "재사용 가능한 독립적 컴포넌트 구현"
+            },
+            {
+              "keyword": "responsive-typography",
+              "reason": "컨테이너 크기에 따른 폰트 스타일 조정"
+            }
+          ]
+        }
+      ]
     }
   }
 }
