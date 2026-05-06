@@ -23,18 +23,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Claude Code CLI
-        run: npm install -g @anthropic-ai/claude-code
-
-      - name: Run article collector agent
+      - name: Run article collector
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: |
-          if [ -n "${{ github.event.inputs.keyword }}" ]; then
-            claude --dangerouslySkipPermissions --agent article-collector "keyword: ${{ github.event.inputs.keyword }}"
-          else
-            claude --dangerouslySkipPermissions --agent article-collector "collect tomorrow"
-          fi
+        run: node scripts/collect.js "${{ github.event.inputs.keyword }}"
 
       - name: Commit and push updated data
         run: |

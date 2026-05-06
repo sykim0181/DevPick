@@ -18,13 +18,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Claude Code CLI
-        run: npm install -g @anthropic-ai/claude-code
-
-      - name: Run trending collector agent
+      - name: Run trending collector
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: claude --dangerouslySkipPermissions --agent trending-collector "collect trending"
+        run: node scripts/collect-trending.js
 
       - name: Commit and push updated data
         run: |

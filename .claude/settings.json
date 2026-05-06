@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Write",
+      "Bash(node *)",
+      "Bash(curl *)",
+      "WebFetch(domain:hn.algolia.com)",
+      "WebFetch(domain:dev.to)",
+      "WebFetch(domain:news.hada.io)",
+      "WebFetch(domain:velog.io)",
+      "WebFetch(domain:api.anthropic.com)",
+      "WebSearch"
+    ]
+  }
+}
