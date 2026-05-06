@@ -45,6 +45,7 @@ async function analyzeArticle(article) {
 
 다음 JSON 형식으로만 응답하세요 (설명 없이):
 {
+  "is_dev_related": true,
   "category": "frontend",
   "lang": "en",
   "minutes": 5,
@@ -55,13 +56,14 @@ async function analyzeArticle(article) {
 }
 
 규칙:
+- is_dev_related: 소프트웨어 개발·프로그래밍·기술 인프라와 직접 관련된 글이면 true, 그 외(정치·사회·건강·스포츠 등)면 false
 - category: frontend | backend | ai | devops | cs | other
 - lang: 글이 작성된 언어 (en 또는 ko)
 - minutes: 예상 읽기 시간 (분 단위 정수)
-- one_liner: 40자 이내 한국어
-- summary: 2~3문장 150자 이내 한국어
-- prereqs: 사전 지식 2~3개
-- related_concepts: 연관 개념 3~5개 (keyword: 영어 소문자·하이픈)`;
+- one_liner: 40자 이내 한국어 (is_dev_related가 false면 빈 문자열)
+- summary: 2~3문장 150자 이내 한국어 (is_dev_related가 false면 빈 문자열)
+- prereqs: 사전 지식 2~3개 (is_dev_related가 false면 빈 배열)
+- related_concepts: 연관 개념 3~5개 (keyword: 영어 소문자·하이픈, is_dev_related가 false면 빈 배열)`;
 
   if (!ANTHROPIC_API_KEY) {
     console.error('[Anthropic] ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.');
@@ -112,6 +114,10 @@ async function main() {
   const enriched = [];
   for (const article of articles) {
     const r = await analyzeArticle(article);
+    if (r.is_dev_related === false) {
+      console.log(`[필터] 개발 무관 글 제외: ${article.title}`);
+      continue;
+    }
     enriched.push({
       ...article,
       category: r.category ?? 'other',
