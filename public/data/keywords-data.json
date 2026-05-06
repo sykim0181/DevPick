@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-06",
+  "generated_at": "2026-05-07",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -269,6 +269,139 @@
             {
               "keyword": "async-components",
               "reason": "서버 컴포넌트에서 비동기 작업 활용"
+            }
+          ]
+        }
+      ]
+    },
+    "typescript-generics": {
+      "articles": [
+        {
+          "title": "[TypeScript] Generics",
+          "url": "https://velog.io/@sangyouh/TypeScript-Generics",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2022-09-12",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "TypeScript Generics로 타입 안전성을 유지하며 재사용 가능한 코드 작성하기",
+          "summary": "Generics는 함수, 클래스, 인터페이스에서 타입을 매개변수화하여 다양한 타입을 처리할 수 있게 해줍니다. 타입 안전성을 보장하면서도 코드 중복을 줄일 수 있는 강력한 기능입니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 타입",
+              "detail": "Generics를 이해하기 위한 기초 타입 시스템 이해"
+            },
+            {
+              "name": "함수와 클래스",
+              "detail": "Generics가 적용되는 주요 대상 학습"
+            },
+            {
+              "name": "인터페이스",
+              "detail": "Generic 인터페이스 작성에 필요한 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "type-constraints",
+              "reason": "Generic 타입의 범위를 제한하는 방법"
+            },
+            {
+              "keyword": "conditional-types",
+              "reason": "조건부 타입으로 더 정교한 제너릭 구현"
+            },
+            {
+              "keyword": "utility-types",
+              "reason": "제너릭과 함께 쓰는 내장 유틸리티 타입"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "제너릭 타입을 자동으로 추론하는 메커니즘"
+            },
+            {
+              "keyword": "polymorphism",
+              "reason": "Generics로 구현하는 다형성 프로그래밍"
+            }
+          ]
+        },
+        {
+          "title": "[TypeScript] - Generics",
+          "url": "https://velog.io/@henrynoowah/Typescript-Generics",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2022-01-27",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "타입스크립트에서 재사용 가능한 컴포넌트를 만드는 제네릭 문법",
+          "summary": "제네릭은 함수, 클래스, 인터페이스에서 타입을 매개변수로 받아 코드 재사용성을 높이는 기능입니다. 타입 변수를 사용해 다양한 타입을 지원하면서도 타입 안정성을 유지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "타입 시스템",
+              "detail": "제네릭이 작동하는 기반이 되는 개념"
+            },
+            {
+              "name": "함수와 클래스",
+              "detail": "제네릭이 적용되는 주요 대상"
+            },
+            {
+              "name": "인터페이스",
+              "detail": "제네릭과 함께 사용되는 구조 정의 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "type-parameters",
+              "reason": "제네릭의 핵심인 타입 매개변수 개념"
+            },
+            {
+              "keyword": "generic-constraints",
+              "reason": "타입 변수의 범위를 제한하는 방법"
+            },
+            {
+              "keyword": "utility-types",
+              "reason": "제네릭 기반의 내장 유틸리티 타입들"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "제네릭 타입을 자동으로 추론하는 메커니즘"
+            }
+          ]
+        },
+        {
+          "title": "[typescript] Generics",
+          "url": "https://velog.io/@suyeonme/typescript-Generics",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2020-11-12",
+          "collected_at": "2026-05-07",
+          "minutes": 5,
+          "one_liner": "TypeScript 제네릭으로 재사용 가능한 타입 안전 코드 작성하기",
+          "summary": "제네릭은 함수, 클래스, 인터페이스에서 다양한 타입을 처리하면서 타입 안정성을 유지하는 TypeScript의 핵심 기능입니다. 타입 변수를 사용하여 유연하고 재사용 가능한 컴포넌트를 작성할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 타입",
+              "detail": "제네릭 문법을 이해하기 위한 기초 지식"
+            },
+            {
+              "name": "함수와 클래스",
+              "detail": "제네릭이 적용되는 주요 선언 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "type-constraints",
+              "reason": "제네릭 타입에 제약 조건 추가하기"
+            },
+            {
+              "keyword": "interface",
+              "reason": "제네릭 인터페이스 정의 및 구현"
+            },
+            {
+              "keyword": "function-overloading",
+              "reason": "제네릭과 함께 사용하는 오버로딩 기법"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "제네릭 타입 자동 추론 메커니즘"
             }
           ]
         }
