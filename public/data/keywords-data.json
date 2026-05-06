@@ -1,1 +1,449 @@
-{}
+{
+  "generated_at": "2026-05-06",
+  "keywords": {
+    "typescript-generics": {
+      "articles": [
+        {
+          "title": "[TypeScript] Generics",
+          "url": "https://velog.io/@sangyouh/TypeScript-Generics",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2022-09-12",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "TypeScript에서 타입의 재사용성을 높이는 제네릭 문법 가이드",
+          "summary": "제네릭은 TypeScript에서 함수, 클래스, 인터페이스 등에서 타입을 변수처럼 다룰 수 있게 해주는 기능입니다. 이를 통해 동일한 로직을 다양한 타입에 적용하면서도 타입 안정성을 유지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 타입",
+              "detail": "제네릭을 사용하기 위한 기초 타입 개념"
+            },
+            {
+              "name": "함수와 클래스",
+              "detail": "제네릭이 적용되는 주요 대상"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "typescript-interfaces",
+              "reason": "제네릭 인터페이스 작성시 함께 사용"
+            },
+            {
+              "keyword": "typescript-type-constraints",
+              "reason": "제네릭 타입의 범위를 제한하는 방법"
+            },
+            {
+              "keyword": "typescript-conditional-types",
+              "reason": "고급 제네릭 패턴 구현에 필요"
+            },
+            {
+              "keyword": "typescript-utility-types",
+              "reason": "제네릭 기반의 내장 유틸리티 타입"
+            }
+          ]
+        },
+        {
+          "title": "[TypeScript] - Generics",
+          "url": "https://velog.io/@henrynoowah/Typescript-Generics",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2022-01-27",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "타입스크립트에서 재사용 가능한 컴포넌트를 만드는 제네릭 문법",
+          "summary": "제네릭은 타입을 파라미터처럼 받아 다양한 타입에 대응하는 재사용 가능한 코드를 작성하는 기능입니다. 함수, 클래스, 인터페이스에서 사용되며 타입 안정성을 유지하면서 유연성을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 타입",
+              "detail": "제네릭 이해의 기초가 되는 핵심 개념"
+            },
+            {
+              "name": "함수와 클래스",
+              "detail": "제네릭이 적용되는 주요 대상"
+            },
+            {
+              "name": "인터페이스",
+              "detail": "제네릭 타입 정의에 사용되는 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "type-constraints",
+              "reason": "제네릭의 범위를 제한하기 위한 기법"
+            },
+            {
+              "keyword": "utility-types",
+              "reason": "제네릭과 함께 활용하는 내장 타입 유틸리티"
+            },
+            {
+              "keyword": "conditional-types",
+              "reason": "조건부 제네릭 타입 정의에 필요"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "제네릭 타입 자동 추론 메커니즘"
+            }
+          ]
+        },
+        {
+          "title": "[typescript] Generics",
+          "url": "https://velog.io/@suyeonme/typescript-Generics",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2020-11-12",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "TypeScript에서 재사용 가능한 컴포넌트를 만드는 제네릭 문법",
+          "summary": "제네릭은 타입을 변수처럼 사용하여 다양한 타입에 대응하는 재사용 가능한 코드를 작성하는 기능입니다. 함수, 클래스, 인터페이스에서 타입 매개변수를 정의하여 유연하면서도 타입 안전성을 유지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 타입",
+              "detail": "타입 개념을 이해해야 제네릭 이해 가능"
+            },
+            {
+              "name": "함수와 클래스",
+              "detail": "제네릭이 적용되는 주요 대상"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "type-constraints",
+              "reason": "제네릭 타입의 범위를 제한하는 방법"
+            },
+            {
+              "keyword": "conditional-types",
+              "reason": "제네릭으로 조건부 타입 구현 가능"
+            },
+            {
+              "keyword": "utility-types",
+              "reason": "제네릭 기반의 내장 유틸리티 타입들"
+            },
+            {
+              "keyword": "function-overloading",
+              "reason": "제네릭과 함께 사용되는 고급 기법"
+            }
+          ]
+        }
+      ]
+    },
+    "zustand": {
+      "articles": [
+        {
+          "title": "Show HN: Linkwarden – An open source collaborative bookmark manager",
+          "url": "https://linkwarden.app",
+          "source": "hn",
+          "lang": "en",
+          "points": 280,
+          "published_at": "2023-07-31",
+          "collected_at": "2026-05-06",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Show HN: A code editor that integrates into the browser",
+          "url": "https://tachicode.dev/",
+          "source": "hn",
+          "lang": "en",
+          "points": 45,
+          "published_at": "2025-07-24",
+          "collected_at": "2026-05-06",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Show HN: Wall Go – browser remake of a Devil's Plan 2 mini-game",
+          "url": "https://schaoss.github.io/wall-go/",
+          "source": "hn",
+          "lang": "en",
+          "points": 33,
+          "published_at": "2025-05-25",
+          "collected_at": "2026-05-06",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        }
+      ]
+    },
+    "react-server-components": {
+      "articles": [
+        {
+          "title": "Denial of service and source code exposure in React Server Components",
+          "url": "https://react.dev/blog/2025/12/11/denial-of-service-and-source-code-exposure-in-react-server-components",
+          "source": "hn",
+          "lang": "en",
+          "points": 346,
+          "published_at": "2025-12-11",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "React Server Components의 보안 취약점과 대응 방안",
+          "summary": "React Server Components에서 발생할 수 있는 서비스 거부(DoS) 공격과 소스 코드 노출 문제를 다룹니다. 이러한 보안 취약점의 원인과 영향, 그리고 개발자가 취해야 할 보안 대책을 설명합니다.",
+          "prereqs": [
+            {
+              "name": "React Server Components",
+              "detail": "서버에서 렌더링하는 React의 새로운 패러다임"
+            },
+            {
+              "name": "보안 취약점",
+              "detail": "웹 애플리케이션의 DoS와 정보 유출 이해 필요"
+            },
+            {
+              "name": "클라이언트-서버 아키텍처",
+              "detail": "데이터 흐름과 보안 경계 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "denial-of-service",
+              "reason": "서버 자원 고갈 공격 방식 이해"
+            },
+            {
+              "keyword": "source-code-exposure",
+              "reason": "민감한 코드 정보 유출 메커니즘"
+            },
+            {
+              "keyword": "server-security",
+              "reason": "서버 측 보안 모범 사례"
+            },
+            {
+              "keyword": "next-js",
+              "reason": "RSC를 지원하는 주요 프레임워크"
+            }
+          ]
+        },
+        {
+          "title": "Things I wish I knew before moving 50K lines of code to React Server Components",
+          "url": "https://www.mux.com/blog/what-are-react-server-components",
+          "source": "hn",
+          "lang": "en",
+          "points": 275,
+          "published_at": "2023-09-01",
+          "collected_at": "2026-05-06",
+          "minutes": 8,
+          "one_liner": "50K 라인 코드를 React Server Components로 마이그레이션할 때 알아야 할 실전 팁",
+          "summary": "대규모 프로젝트를 React Server Components로 이전할 때의 실제 경험과 주의사항을 다룹니다. 성능 최적화, 상태 관리, 번들 크기 감소 등의 이점을 얻기 위한 마이그레이션 전략과 예상치 못한 함정들을 설명합니다.",
+          "prereqs": [
+            {
+              "name": "React 기초",
+              "detail": "RSC의 변화를 이해하기 위한 필수 선행 학습"
+            },
+            {
+              "name": "서버-클라이언트 렌더링 개념",
+              "detail": "RSC 아키텍처의 기본이 되는 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "next-js",
+              "reason": "RSC를 가장 잘 지원하는 프레임워크"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "RSC 마이그레이션 시 번들 최적화 방안"
+            },
+            {
+              "keyword": "state-management",
+              "reason": "클라이언트/서버 경계에서의 상태 관리 방식"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "RSC 도입의 주요 목표이자 고려사항"
+            }
+          ]
+        },
+        {
+          "title": "Zero-Bundle-Size React Server Components",
+          "url": "https://reactjs.org/blog/2020/12/21/data-fetching-with-react-server-components.html",
+          "source": "hn",
+          "lang": "en",
+          "points": 227,
+          "published_at": "2020-12-21",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "번들 크기 증가 없이 React 서버 컴포넌트로 성능을 최적화하는 방법",
+          "summary": "React Server Components는 서버에서 렌더링되어 클라이언트 번들 크기를 증가시키지 않으면서도 강력한 기능을 제공합니다. 이를 통해 더 빠른 초기 로딩과 향상된 사용자 경험을 구현할 수 있으며, 기존 React 개발 방식을 혁신적으로 변화시킵니다.",
+          "prereqs": [
+            {
+              "name": "React 기본 개념",
+              "detail": "컴포넌트, 상태, Props 이해 필요"
+            },
+            {
+              "name": "클라이언트-서버 아키텍처",
+              "detail": "렌더링 위치와 번들 최적화 원리 이해"
+            },
+            {
+              "name": "번들 크기 최적화",
+              "detail": "웹 성능과 번들 사이즈의 관계 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "server-side-rendering",
+              "reason": "서버에서의 렌더링 개념 이해"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "번들 크기 최적화 기법"
+            },
+            {
+              "keyword": "streaming-html",
+              "reason": "점진적 렌더링 전달 방식"
+            },
+            {
+              "keyword": "hydration",
+              "reason": "서버-클라이언트 동기화 메커니즘"
+            },
+            {
+              "keyword": "web-performance",
+              "reason": "사용자 경험 개선 지표"
+            }
+          ]
+        },
+        {
+          "title": "React Server Components",
+          "url": "https://velog.io/@dobby_min/React-Server-Components",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-09-26",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "서버에서 React 컴포넌트를 렌더링하여 성능을 개선하는 기술",
+          "summary": "React Server Components는 컴포넌트를 서버에서 렌더링하고 클라이언트로 전송하는 새로운 패러다임입니다. 번들 크기를 줄이고 보안을 강화하며 데이터 접근을 간편하게 해줍니다.",
+          "prereqs": [
+            {
+              "name": "React 기본",
+              "detail": "RSC의 개념을 이해하기 위한 기초"
+            },
+            {
+              "name": "클라이언트-서버 아키텍처",
+              "detail": "렌더링 위치 결정의 중요성 이해"
+            },
+            {
+              "name": "번들 최적화",
+              "detail": "RSC의 주요 이점을 이해하기 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "streaming-ssr",
+              "reason": "서버 렌더링 방식의 발전된 형태"
+            },
+            {
+              "keyword": "client-components",
+              "reason": "서버와 클라이언트 컴포넌트의 구분"
+            },
+            {
+              "keyword": "next-js",
+              "reason": "RSC를 가장 먼저 구현한 프레임워크"
+            },
+            {
+              "keyword": "suspense",
+              "reason": "비동기 처리와 로딩 상태 관리"
+            },
+            {
+              "keyword": "data-fetching",
+              "reason": "서버 컴포넌트에서 직접 데이터 조회"
+            }
+          ]
+        },
+        {
+          "title": "React Server Components",
+          "url": "https://velog.io/@innerbloo/React-Server-Components",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-01-22",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "React에서 서버에서 실행되는 컴포넌트 방식을 소개합니다.",
+          "summary": "React Server Components는 컴포넌트를 서버에서 실행하여 클라이언트 번들 크기를 줄이고 성능을 개선하는 새로운 패러다임입니다. 서버와 클라이언트 컴포넌트의 차이와 활용 방법을 학습할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React 기초",
+              "detail": "컴포넌트 개념을 이해해야 새로운 방식을 적용할 수 있습니다."
+            },
+            {
+              "name": "클라이언트-서버 아키텍처",
+              "detail": "서버/클라이언트 역할 분담을 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "JavaScript 번들링",
+              "detail": "번들 크기 최적화의 중요성을 알아야 합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "next-js",
+              "reason": "RSC를 공식 지원하는 프레임워크입니다."
+            },
+            {
+              "keyword": "server-side-rendering",
+              "reason": "서버에서 렌더링하는 유사 개념입니다."
+            },
+            {
+              "keyword": "client-components",
+              "reason": "RSC와 대조되는 클라이언트 컴포넌트 방식입니다."
+            },
+            {
+              "keyword": "streaming-html",
+              "reason": "RSC와 함께 성능 최적화하는 기술입니다."
+            }
+          ]
+        },
+        {
+          "title": "React Server Components",
+          "url": "https://velog.io/@innerbloo/React-Server-Components-p5t34dvl",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-02-23",
+          "collected_at": "2026-05-06",
+          "minutes": 5,
+          "one_liner": "React에서 서버에서 실행되는 컴포넌트를 활용하는 방식",
+          "summary": "React Server Components는 서버에서 렌더링되는 컴포넌트로, 클라이언트 번들 크기를 줄이고 서버의 리소스에 직접 접근할 수 있습니다. 이를 통해 성능 최적화와 보안을 동시에 개선할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React 기본 개념",
+              "detail": "컴포넌트 구조와 렌더링 방식의 이해가 필수"
+            },
+            {
+              "name": "클라이언트/서버 아키텍처",
+              "detail": "서버와 클라이언트의 역할 분담을 이해해야 함"
+            },
+            {
+              "name": "Next.js 기초",
+              "detail": "Server Components는 주로 Next.js에서 활용됨"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "server-side-rendering",
+              "reason": "서버에서 HTML을 생성하는 개념과 연관"
+            },
+            {
+              "keyword": "client-components",
+              "reason": "Server Components와 대비되는 클라이언트 렌더링"
+            },
+            {
+              "keyword": "data-fetching",
+              "reason": "서버에서 직접 데이터를 가져올 수 있음"
+            },
+            {
+              "keyword": "bundle-optimization",
+              "reason": "번들 크기 감소로 성능 최적화 달성"
+            },
+            {
+              "keyword": "async-components",
+              "reason": "서버 컴포넌트에서 비동기 작업 활용"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
