@@ -144,7 +144,10 @@ async function analyzeArticle(article, keyword) {
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 1024,
-        messages: [{ role: 'user', content: prompt }],
+        messages: [
+          { role: 'user', content: prompt },
+          { role: 'assistant', content: '{' },
+        ],
       }),
     });
     const data = await res.json();
@@ -152,7 +155,8 @@ async function analyzeArticle(article, keyword) {
       console.error(`[Anthropic] API 오류 (${article.title}):`, JSON.stringify(data.error));
       return {};
     }
-    const raw = (data.content?.[0]?.text ?? '{}').replace(/^```(?:json)?\n?/,'').replace(/\n?```$/,'').trim();
+    const text = data.content?.[0]?.text ?? '';
+    const raw = ('{' + text).replace(/^```(?:json)?\n?/,'').replace(/\n?```$/,'').trim();
     return JSON.parse(raw);
   } catch (e) {
     console.error(`[Anthropic] 요청 실패 (${article.title}):`, e.message);
