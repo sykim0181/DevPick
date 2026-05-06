@@ -63,6 +63,10 @@ async function analyzeArticle(article) {
 - prereqs: 사전 지식 2~3개
 - related_concepts: 연관 개념 3~5개 (keyword: 영어 소문자·하이픈)`;
 
+  if (!ANTHROPIC_API_KEY) {
+    console.error('[Anthropic] ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.');
+    return {};
+  }
   try {
     const res = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -78,8 +82,16 @@ async function analyzeArticle(article) {
       }),
     });
     const data = await res.json();
-    return JSON.parse(data.content?.[0]?.text ?? '{}');
-  } catch { return {}; }
+    if (data.error) {
+      console.error(`[Anthropic] API 오류 (${article.title}):`, JSON.stringify(data.error));
+      return {};
+    }
+    const raw = (data.content?.[0]?.text ?? '{}').replace(/^```(?:json)?\n?/,'').replace(/\n?```$/,'').trim();
+    return JSON.parse(raw);
+  } catch (e) {
+    console.error(`[Anthropic] 요청 실패 (${article.title}):`, e.message);
+    return {};
+  }
 }
 
 async function main() {

@@ -63,7 +63,7 @@ async function fetchHN(keyword) {
 
 async function fetchVelog(keyword) {
   const query = `query SearchPosts($keyword: String!) {
-    searchPosts(input: { keyword: $keyword }) {
+    searchPosts(keyword: $keyword) {
       posts { id title url_slug user { username } released_at }
     }
   }`;
@@ -74,6 +74,7 @@ async function fetchVelog(keyword) {
       body: JSON.stringify({ query, variables: { keyword } }),
     });
     const data = await res.json();
+    if (data.errors) console.error('[velog] GraphQL 오류:', JSON.stringify(data.errors));
     return (data?.data?.searchPosts?.posts ?? []).slice(0, 3).map(p => ({
       title: p.title,
       url: `https://velog.io/@${p.user.username}/${p.url_slug}`,
@@ -82,7 +83,10 @@ async function fetchVelog(keyword) {
       published_at: p.released_at?.slice(0, 10) ?? null,
       collected_at: kstDate(),
     }));
-  } catch { return []; }
+  } catch (e) {
+    console.error('[velog] 수집 실패:', e.message);
+    return [];
+  }
 }
 
 async function fetchGeekNews(keyword) {
@@ -97,7 +101,10 @@ async function fetchGeekNews(keyword) {
       lang: 'ko',
       collected_at: kstDate(),
     })).filter(a => a.title);
-  } catch { return []; }
+  } catch (e) {
+    console.error('[GeekNews] 수집 실패:', e.message);
+    return [];
+  }
 }
 
 async function analyzeArticle(article, keyword) {
@@ -122,6 +129,10 @@ async function analyzeArticle(article, keyword) {
 - prereqs: 사전 지식 2~3개 (name: 개념명, detail: 30자 이내)
 - related_concepts: 연관 개념 3~5개 (keyword: 영어 소문자·하이픈, reason: 40자 이내, ${keyword} 자체 제외)`;
 
+  if (!ANTHROPIC_API_KEY) {
+    console.error('[Anthropic] ANTHROPIC_API_KEY 환경 변수가 설정되지 않았습니다.');
+    return {};
+  }
   try {
     const res = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
@@ -137,8 +148,16 @@ async function analyzeArticle(article, keyword) {
       }),
     });
     const data = await res.json();
-    return JSON.parse(data.content?.[0]?.text ?? '{}');
-  } catch { return {}; }
+    if (data.error) {
+      console.error(`[Anthropic] API 오류 (${article.title}):`, JSON.stringify(data.error));
+      return {};
+    }
+    const raw = (data.content?.[0]?.text ?? '{}').replace(/^```(?:json)?\n?/,'').replace(/\n?```$/,'').trim();
+    return JSON.parse(raw);
+  } catch (e) {
+    console.error(`[Anthropic] 요청 실패 (${article.title}):`, e.message);
+    return {};
+  }
 }
 
 async function main() {
