@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07",
+  "generated_at": "2026-05-08",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -667,6 +667,195 @@
             {
               "keyword": "responsive-typography",
               "reason": "컨테이너 크기에 따른 폰트 스타일 조정"
+            }
+          ]
+        }
+      ]
+    },
+    "tanstack-query": {
+      "articles": [
+        {
+          "title": "TanStack Query(a.k.a. React Query) v5 announced",
+          "url": "https://tanstack.com/blog/announcing-tanstack-query-v5",
+          "source": "hn",
+          "lang": "en",
+          "points": 62,
+          "published_at": "2023-10-19",
+          "collected_at": "2026-05-08",
+          "minutes": 5,
+          "one_liner": "React Query가 TanStack Query v5로 진화하며 새로운 기능을 제공합니다.",
+          "summary": "TanStack Query v5는 React Query의 주요 버전 업데이트입니다. 더 나은 성능, 개선된 API, 그리고 향상된 개발자 경험을 제공하며 서버 상태 관리의 표준이 되어가고 있습니다.",
+          "prereqs": [
+            {
+              "name": "Server State Management",
+              "detail": "클라이언트와 서버 간의 데이터 동기화 관리의 중요성을 이해"
+            },
+            {
+              "name": "React Hooks",
+              "detail": "useQuery, useMutation 등의 훅 기반 API를 활용하기 위함"
+            },
+            {
+              "name": "Data Fetching",
+              "detail": "API 호출과 캐싱 전략에 대한 기초 개념이 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "react-hooks",
+              "reason": "TanStack Query의 주요 API 구현 방식"
+            },
+            {
+              "keyword": "cache-management",
+              "reason": "서버 데이터 캐싱 및 동기화 전략"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "백엔드 API와의 통신 및 상태 관리"
+            },
+            {
+              "keyword": "state-management",
+              "reason": "전역 상태 관리 패턴의 진화"
+            },
+            {
+              "keyword": "devtools",
+              "reason": "TanStack Query DevTools로 디버깅 효율성 향상"
+            }
+          ]
+        },
+        {
+          "title": "8년 차 개발자가 추천하는 FE 공부 자료 및 공부법 by 코딩냥이",
+          "url": "https://velog.io/@coding-nyang-e/8년차-개발자가-추천하는-FE-공부-자료-및-공부법",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-08-07",
+          "collected_at": "2026-05-08",
+          "minutes": 8,
+          "one_liner": "8년 차 개발자가 추천하는 프론트엔드 학습 자료와 효과적인 공부 방법",
+          "summary": "경험 많은 개발자가 프론트엔드 주니어 개발자를 위해 추천하는 구체적인 학습 자료와 공부 전략을 소개합니다. TanStack Query를 포함한 실무에서 필요한 라이브러리와 개념들을 체계적으로 학습하는 방법을 제시합니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 기초",
+              "detail": "async/await, Promise 등 비동기 처리 이해 필요"
+            },
+            {
+              "name": "React 기본",
+              "detail": "컴포넌트, Hook 등 React 핵심 개념 숙지 필요"
+            },
+            {
+              "name": "HTTP 통신",
+              "detail": "fetch, axios 등 API 요청 방식 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "state-management",
+              "reason": "서버 상태 관리와 클라이언트 상태 관리 분리"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "백엔드 API와 효율적으로 연동하기 위한 패턴"
+            },
+            {
+              "keyword": "caching-strategy",
+              "reason": "데이터 캐싱으로 성능 최적화 실현"
+            },
+            {
+              "keyword": "react-hooks",
+              "reason": "TanStack Query 사용을 위한 Hook 기반 설계"
+            }
+          ]
+        },
+        {
+          "title": "TanStack Query",
+          "url": "https://velog.io/@yeondon/TanStack-Query",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-12-27",
+          "collected_at": "2026-05-08",
+          "minutes": 5,
+          "one_liner": "서버 상태 관리를 위한 강력한 라이브러리 TanStack Query",
+          "summary": "TanStack Query는 React에서 서버 상태 관리를 간편하게 해주는 라이브러리입니다. 데이터 페칭, 캐싱, 동기화를 자동으로 처리하며, API 요청의 복잡성을 줄이고 사용자 경험을 개선합니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "TanStack Query의 useQuery 등 훅 기반 API를 사용하기 위함"
+            },
+            {
+              "name": "서버 상태 vs 클라이언트 상태",
+              "detail": "캐싱과 동기화의 필요성을 이해하기 위함"
+            },
+            {
+              "name": "API 통신 (fetch/axios)",
+              "detail": "데이터 요청 방식을 이해하기 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "react-query",
+              "reason": "TanStack Query의 이전 명칭이자 출발점"
+            },
+            {
+              "keyword": "server-state-management",
+              "reason": "TanStack Query가 해결하는 핵심 문제"
+            },
+            {
+              "keyword": "data-caching",
+              "reason": "성능 최적화와 네트워크 비용 절감 메커니즘"
+            },
+            {
+              "keyword": "api-synchronization",
+              "reason": "클라이언트와 서버 데이터 일관성 유지"
+            },
+            {
+              "keyword": "zustand-recoil",
+              "reason": "다른 상태관리 도구와의 조합 사용"
+            }
+          ]
+        },
+        {
+          "title": "tanstack-query",
+          "url": "https://velog.io/@choijinho817/tanstack-query",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-10-17",
+          "collected_at": "2026-05-08",
+          "minutes": 5,
+          "one_liner": "서버 상태 관리를 효율적으로 처리하는 라이브러리",
+          "summary": "TanStack Query는 React에서 서버 데이터 페칭, 캐싱, 동기화를 자동으로 관리해주는 강력한 라이브러리입니다. 복잡한 데이터 로딩 상태 관리를 단순화하고, 캐시 무효화와 재요청을 효율적으로 처리할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "TanStack Query가 Hook 기반으로 동작하기 때문"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "API 호출과 데이터 페칭 처리를 이해하기 위해"
+            },
+            {
+              "name": "상태 관리 개념",
+              "detail": "서버 상태와 클라이언트 상태의 차이를 알아야 함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "react-hooks",
+              "reason": "TanStack Query 사용 기반 기술"
+            },
+            {
+              "keyword": "server-state-management",
+              "reason": "서버 상태 관리의 핵심 개념"
+            },
+            {
+              "keyword": "api-caching",
+              "reason": "효율적인 캐싱 전략 이해 필요"
+            },
+            {
+              "keyword": "swr",
+              "reason": "유사한 서버 상태 관리 라이브러리"
+            },
+            {
+              "keyword": "axios-fetch",
+              "reason": "TanStack Query와 함께 사용하는 HTTP 클라이언트"
             }
           ]
         }
