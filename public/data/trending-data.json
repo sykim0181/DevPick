@@ -1,544 +1,564 @@
 {
-  "generated_at": "2026-05-06T14:16:15.911Z",
+  "generated_at": "2026-05-07T04:39:37.975Z",
   "period": "24h",
   "articles": [
     {
-      "title": "DNSSEC disruption affecting .de domains – Resolved",
-      "url": "https://status.denic.de/pages/incident/592577eab611ce1e0d00046f/69fa60ef9d12f5057a974f38",
+      "title": "Valve releases Steam Controller CAD files under Creative Commons license",
+      "url": "https://www.digitalfoundry.net/news/2026/05/valve-releases-steam-controller-cad-files-under-creative-commons-license",
       "source": "hn",
-      "points": 704,
-      "comments": 372,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
-      "category": "devops",
+      "points": 1178,
+      "comments": 374,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "other",
       "lang": "en",
       "minutes": 3,
-      "one_liner": ".de 도메인의 DNSSEC 장애 발생 및 해결 소식",
-      "summary": ".de 도메인에서 DNSSEC 관련 장애가 발생했으나 현재 해결되었습니다. 이는 도메인 네임 시스템의 보안 인프라 문제였으며, 개발자들이 도메인 설정과 DNS 구성을 확인해야 했습니다.",
+      "one_liner": "Valve이 Steam Controller CAD 파일을 오픈소스로 공개",
+      "summary": "Valve은 Steam Controller의 CAD 파일을 Creative Commons 라이선스 하에 공개했습니다. 이는 개발자와 하드웨어 애호가들이 컨트롤러를 자유롭게 수정하고 개선할 수 있게 합니다.",
       "prereqs": [
         {
-          "name": "DNS",
-          "detail": "도메인명을 IP주소로 변환하는 시스템으로, 웹서비스 접근성에 필수적입니다"
+          "name": "CAD (Computer-Aided Design)",
+          "detail": "하드웨어 설계 파일의 형식을 이해하기 위해 필요합니다"
         },
         {
-          "name": "DNSSEC",
-          "detail": "DNS 응답의 진위성을 검증하는 보안 프로토콜로, 도메인 보안을 담당합니다"
+          "name": "Creative Commons 라이선스",
+          "detail": "파일 공개 시 적용된 라이선스의 제약사항을 파악해야 합니다"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "domain-registration",
-          "reason": ".de는 독일 국가 최상위 도메인이므로 도메인 등록과 관리 지식 필요"
+          "keyword": "open-source-hardware",
+          "reason": "오픈소스 하드웨어 문화와 커뮤니티"
         },
         {
-          "keyword": "dns-propagation",
-          "reason": "DNS 장애 복구 후 전파 시간을 이해하기 위해 필요합니다"
+          "keyword": "cad-design",
+          "reason": "게이밍 기기 설계 및 맞춤화 기술"
         },
         {
-          "keyword": "tld-infrastructure",
-          "reason": "최상위 도메인의 인프라 장애와 운영을 이해하는 데 도움됩니다"
+          "keyword": "hardware-hacking",
+          "reason": "커뮤니티 기반 하드웨어 개선 사례"
+        },
+        {
+          "keyword": "steam-ecosystem",
+          "reason": "Valve의 게이밍 플랫폼 전략"
         }
       ]
     },
     {
-      "title": "Accelerating Gemma 4: faster inference with multi-token prediction drafters",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/multi-token-prediction-gemma-4/",
-      "source": "hn",
-      "points": 614,
-      "comments": 298,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Gemma 4의 다중 토큰 예측으로 추론 속도를 향상시키는 기법",
-      "summary": "Gemma 4 모델의 추론 성능을 개선하기 위해 다중 토큰 예측 드래프터(multi-token prediction drafter)를 활용한 방법을 소개합니다. 이 기법은 한 번에 여러 토큰을 예측하여 생성 속도를 크게 향상시킵니다.",
-      "prereqs": [
-        {
-          "name": "LLM 추론",
-          "detail": "언어 모델이 텍스트를 생성하는 방식과 성능 최적화의 필요성을 이해하기 위해"
-        },
-        {
-          "name": "토큰화",
-          "detail": "텍스트가 어떻게 토큰으로 변환되고 처리되는지 알기 위해"
-        },
-        {
-          "name": "Gemma 모델",
-          "detail": "Google의 Gemma 시리즈의 구조와 특성을 파악하기 위해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "speculative-decoding",
-          "reason": "유사한 추론 가속 기법으로 비교 학습에 필요"
-        },
-        {
-          "keyword": "token-prediction",
-          "reason": "다중 토큰 예측의 핵심 메커니즘"
-        },
-        {
-          "keyword": "inference-optimization",
-          "reason": "LLM 추론 최적화의 주요 전략"
-        },
-        {
-          "keyword": "latency-reduction",
-          "reason": "모델 응답 시간 단축의 직접적 목표"
-        },
-        {
-          "keyword": "model-compression",
-          "reason": "추론 성능 개선의 관련된 최적화 기법"
-        }
-      ]
-    },
-    {
-      "title": "Three Inverse Laws of AI",
-      "url": "https://susam.net/inverse-laws-of-robotics.html",
-      "source": "hn",
-      "points": 486,
-      "comments": 326,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "AI 성능과 비용, 복잡성 간의 역설적 관계를 설명",
-      "summary": "AI 개발에서 발생하는 세 가지 역설적 법칙을 다룹니다. 모델 성능 향상이 더 높은 비용과 복잡성을 초래하며, 이러한 트레이드오프를 이해하는 것이 효율적인 AI 시스템 설계에 필수적입니다.",
-      "prereqs": [
-        {
-          "name": "Machine Learning 기초",
-          "detail": "모델 성능과 리소스의 관계를 이해하기 위한 기본 개념"
-        },
-        {
-          "name": "AI/ML 시스템 설계",
-          "detail": "실제 프로덕션 환경에서의 성능-비용 트레이드오프 인식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "scaling-laws",
-          "reason": "AI 모델 크기와 성능의 관계 이해"
-        },
-        {
-          "keyword": "computational-cost",
-          "reason": "AI 학습 및 추론의 리소스 소비 분석"
-        },
-        {
-          "keyword": "model-efficiency",
-          "reason": "제한된 리소스 내 최적 성능 달성 방법"
-        },
-        {
-          "keyword": "trade-off-analysis",
-          "reason": "성능, 비용, 복잡성 간 균형점 찾기"
-        },
-        {
-          "keyword": "ml-optimization",
-          "reason": "모델 최적화를 통한 비용 효율성 개선"
-        }
-      ]
-    },
-    {
-      "title": "Show HN: Red Squares – GitHub outages as contributions",
+      "title": "Red Squares – GitHub outages as contributions",
       "url": "https://red-squares.cian.lol/",
       "source": "hn",
-      "points": 474,
-      "comments": 96,
+      "points": 735,
+      "comments": 164,
       "published_at": "2026-05-06",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "devops",
       "lang": "en",
-      "minutes": 3,
-      "one_liner": "GitHub 장애를 마치 코드 기여처럼 시각화하는 프로젝트",
-      "summary": "GitHub의 잔디 그래프(contribution graph)를 활용하여 GitHub 서비스 장애 시간을 빨간 사각형으로 표시하는 창의적인 프로젝트다. 개발자 커뮤니티의 어려움을 유머러스하게 표현하면서 서비스 신뢰성 모니터링의 중요성을 드러낸다.",
+      "minutes": 5,
+      "one_liner": "GitHub 장애가 기여도 그래프에 미치는 영향",
+      "summary": "GitHub의 장애로 인해 커밋을 하지 못하면 기여도 그래프의 잔디밭에 빨간 네모(Red Squares)가 생기는 현상을 다룬다. 개발자의 실제 작업량과 플랫폼의 가용성 문제 사이의 괴리를 재미있게 풀어낸 글이다.",
       "prereqs": [
         {
-          "name": "GitHub contribution graph",
-          "detail": "GitHub 프로필의 활동 시각화를 이해하기 위해 필요합니다"
+          "name": "GitHub 기여도 그래프",
+          "detail": "개발자의 활동을 시각화하는 GitHub 기능을 이해해야 글의 주제를 파악할 수 있다."
         },
         {
-          "name": "API 모니터링",
-          "detail": "서비스 상태를 자동으로 추적하는 방식을 이해하는 데 도움이 됩니다"
+          "name": "서비스 장애(Outage)",
+          "detail": "인프라 문제로 인한 서비스 중단이 사용자에게 미치는 영향을 이해하기 위해 필요하다."
         }
       ],
       "related_concepts": [
+        {
+          "keyword": "service-reliability",
+          "reason": "GitHub 같은 개발 플랫폼의 안정성 중요성"
+        },
         {
           "keyword": "uptime-monitoring",
-          "reason": "서비스 가용성을 지속적으로 감시하는 기술"
+          "reason": "서비스 장애 감지 및 모니터링 기술"
         },
         {
-          "keyword": "status-page",
-          "reason": "GitHub 같은 서비스가 장애 정보를 공개하는 방식"
+          "keyword": "incident-response",
+          "reason": "장애 발생 시 대응 프로세스와 복구 방안"
         },
         {
-          "keyword": "visualization",
-          "reason": "복잡한 데이터를 시각적으로 표현하는 기법"
-        },
-        {
-          "keyword": "github-api",
-          "reason": "GitHub 데이터에 접근하는 프로그래밍 인터페이스"
+          "keyword": "platform-dependencies",
+          "reason": "개발자 생태계의 중앙 플랫폼 의존도 문제"
         }
       ]
     },
     {
-      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
-      "url": "https://blog.cloudflare.com/agents-stripe-projects/",
+      "title": "Vibe coding and agentic engineering are getting closer than I'd like",
+      "url": "https://simonwillison.net/2026/May/6/vibe-coding-and-agentic-engineering/",
       "source": "hn",
-      "points": 461,
-      "comments": 248,
+      "points": 466,
+      "comments": 512,
       "published_at": "2026-05-06",
-      "collected_at": "2026-05-06",
-      "category": "devops",
-      "lang": "en",
-      "minutes": 5,
-      "one_liner": "AI 에이전트가 Cloudflare 계정 생성부터 배포까지 자동화",
-      "summary": "Cloudflare가 AI 에이전트에게 계정 생성, 도메인 구매, 애플리케이션 배포 기능을 제공하기 시작했습니다. 이는 개발 및 배포 과정의 자동화를 더욱 진전시키며, 개발자들의 인프라 관리 부담을 줄일 수 있습니다.",
-      "prereqs": [
-        {
-          "name": "Cloudflare",
-          "detail": "클라우드플레어의 기본 서비스와 기능을 이해해야 에이전트 기능을 파악할 수 있습니다"
-        },
-        {
-          "name": "AI Agents",
-          "detail": "AI 에이전트가 어떻게 작동하고 무엇을 할 수 있는지 알아야 이 기능의 의미를 이해할 수 있습니다"
-        },
-        {
-          "name": "Infrastructure as Code",
-          "detail": "인프라 자동화 개념을 알면 에이전트 기반 배포의 가치를 더 잘 이해할 수 있습니다"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "serverless-deployment",
-          "reason": "Cloudflare의 배포 방식과 연관"
-        },
-        {
-          "keyword": "automation",
-          "reason": "에이전트 기능의 핵심 가치"
-        },
-        {
-          "keyword": "api-integration",
-          "reason": "에이전트가 Cloudflare와 통신하는 방식"
-        },
-        {
-          "keyword": "domain-management",
-          "reason": "도메인 구매 자동화와 관련"
-        },
-        {
-          "keyword": "ai-orchestration",
-          "reason": "에이전트의 작업 흐름 관리와 연관"
-        }
-      ]
-    },
-    {
-      "title": "Computer Use is 45x more expensive than structured APIs",
-      "url": "https://reflex.dev/blog/computer-use-is-45x-more-expensive-than-structured-apis/",
-      "source": "hn",
-      "points": 432,
-      "comments": 244,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "ai",
       "lang": "en",
-      "minutes": 5,
-      "one_liner": "Computer Vision API의 비용이 구조화된 API보다 45배 더 비싼 이유",
-      "summary": "Computer Use(컴퓨터 비전 기반 자동화) 방식은 구조화된 API 호출에 비해 훨씬 높은 비용 효율성 문제가 있습니다. 직접적인 API 연결이 더 저렴하고 효율적인 솔루션이라는 점을 강조합니다.",
+      "minutes": 6,
+      "one_liner": "직관적 코딩과 에이전틱 엔지니어링의 경계가 모호해지고 있다.",
+      "summary": "직관에 의존하는 '바이브 코딩'과 AI 에이전트 기반의 '에이전틱 엔지니어링'의 접근 방식이 유사해지고 있음을 다룬다. 두 방식 모두 명확한 논리보다 패턴 인식과 추상적 판단에 의존하며, 이는 코드 품질과 예측 가능성에 대한 우려를 제기한다.",
       "prereqs": [
         {
-          "name": "API 개념",
-          "detail": "소프트웨어 간 통신 방식의 기본 이해가 필요합니다"
+          "name": "AI 에이전트",
+          "detail": "자율적으로 작업을 수행하는 AI 시스템의 개념을 이해하기 위해 필요"
         },
         {
-          "name": "Computer Vision",
-          "detail": "이미지 처리 기반 자동화의 작동 원리를 알아야 합니다"
+          "name": "코드 품질 원칙",
+          "detail": "가독성, 유지보수성 등의 기준을 알아야 글의 비판을 이해 가능"
         },
         {
-          "name": "비용 분석",
-          "detail": "API 호출 비용 구조를 비교 이해하는 것이 중요합니다"
+          "name": "소프트웨어 엔지니어링 방법론",
+          "detail": "구조화된 개발 프로세스와 비교 분석하기 위한 배경 지식"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "structured-api",
-          "reason": "직구조화된 데이터 기반의 효율적 API 설계"
+          "keyword": "prompt-driven-development",
+          "reason": "AI 에이전트 기반 개발 방식의 핵심"
         },
         {
-          "keyword": "computer-vision",
-          "reason": "화면 해석 기반 자동화의 성능과 비용"
+          "keyword": "code-quality-metrics",
+          "reason": "직관적 코딩과 AI의 산출물 품질 평가"
         },
         {
-          "keyword": "cost-optimization",
-          "reason": "AI 기반 솔루션의 경제성 평가 방법"
+          "keyword": "llm-limitations",
+          "reason": "에이전트 엔지니어링의 한계와 위험성 이해"
         },
         {
-          "keyword": "automation-patterns",
-          "reason": "다양한 자동화 접근 방식의 트레이드오프"
+          "keyword": "software-testing",
+          "reason": "예측 불가능한 코드의 신뢰성 검증 방법"
         },
         {
-          "keyword": "api-design",
-          "reason": "효율적인 API 설계로 비용 절감 방법"
+          "keyword": "ai-engineering-ethics",
+          "reason": "AI 기반 개발의 책임성과 윤리적 고려"
         }
       ]
     },
     {
-      "title": "IBM didn't want Microsoft to use the Tab key to move between dialog fields",
-      "url": "https://devblogs.microsoft.com/oldnewthing/20260505-00/?p=112298",
+      "title": "Higher usage limits for Claude and a compute deal with SpaceX",
+      "url": "https://www.anthropic.com/news/higher-limits-spacex",
       "source": "hn",
-      "points": 361,
-      "comments": 209,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
+      "points": 428,
+      "comments": 372,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 4,
+      "one_liner": "Claude의 사용량 한도 확대와 SpaceX와의 컴퓨팅 계약",
+      "summary": "Anthropic이 Claude AI 모델의 사용 한도를 대폭 확대하고 SpaceX와 컴퓨팅 인프라 계약을 체결했다. 이는 대규모 AI 서비스 제공을 위한 인프라 강화와 확장성 개선을 나타낸다.",
+      "prereqs": [
+        {
+          "name": "API Rate Limiting",
+          "detail": "API 사용량 제한이 어떻게 작동하고 비즈니스에 영향을 미치는지 이해하기 위해 필요"
+        },
+        {
+          "name": "Cloud Computing Infrastructure",
+          "detail": "AI 모델 서빙에 필요한 대규모 컴퓨팅 리소스의 구조를 파악하기 위해 필요"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "llm-api",
+          "reason": "Claude 같은 대규모 언어 모델 API 서비스 이해"
+        },
+        {
+          "keyword": "rate-limiting",
+          "reason": "사용량 한도 관리의 기술적 구현 방식"
+        },
+        {
+          "keyword": "gpu-computing",
+          "reason": "AI 모델 학습과 추론을 위한 컴퓨팅 리소스"
+        },
+        {
+          "keyword": "infrastructure-scaling",
+          "reason": "증가하는 AI 트래픽에 대응한 인프라 확장"
+        },
+        {
+          "keyword": "api-quota-management",
+          "reason": "사용자별 API 사용량 제어 및 관리 전략"
+        }
+      ]
+    },
+    {
+      "title": "Multi-stroke text effect in CSS",
+      "url": "https://yuanchuan.dev/multi-stroke-text-effect-in-css",
+      "source": "hn",
+      "points": 335,
+      "comments": 44,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "frontend",
       "lang": "en",
       "minutes": 5,
-      "one_liner": "IBM의 Tab 키 사용 정책이 Microsoft 개발에 미친 영향",
-      "summary": "IBM의 특허 정책으로 인해 Microsoft가 초기 Windows에서 Tab 키로 다이얼로그 필드를 탐색하는 기능을 구현하지 못했던 역사적 사건을 다룬다. 이는 UI/UX 설계의 표준화 과정에서 법적 제약이 어떻게 기술 결정에 영향을 미쳤는지 보여준다.",
+      "one_liner": "CSS를 활용한 다중 획 텍스트 효과 구현 기법",
+      "summary": "CSS의 text-shadow 또는 stroke 속성을 조합하여 텍스트에 다층의 획(stroke) 효과를 만드는 방법을 소개합니다. 이를 통해 텍스트에 깊이감과 시각적 강조 효과를 더할 수 있으며, 다양한 색상과 두께 조합으로 창의적인 텍스트 스타일링이 가능합니다.",
       "prereqs": [
         {
-          "name": "UI Dialog Fields",
-          "detail": "사용자 인터페이스에서 입력을 받는 기본 요소로, 효율적인 네비게이션 방식이 중요합니다."
+          "name": "CSS text-shadow",
+          "detail": "여러 겹의 그림자를 텍스트에 적용하여 획 효과를 구현하는 기본 방법"
         },
         {
-          "name": "Software Patent",
-          "detail": "기술 혁신을 보호하지만 때로 산업 표준화를 방해할 수 있는 법적 제도입니다."
+          "name": "CSS 기본 선택자",
+          "detail": "텍스트 스타일을 적용할 요소를 정확히 선택하기 위한 필수 지식"
+        },
+        {
+          "name": "색상 및 길이 단위",
+          "detail": "획 효과의 색상과 두께를 정확히 지정하기 위한 CSS 값 표현"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "keyboard-navigation",
-          "reason": "접근성과 사용자 경험을 위한 핵심 UI/UX 패턴"
+          "keyword": "text-shadow",
+          "reason": "다중 획 효과의 핵심 CSS 속성"
         },
         {
-          "keyword": "dialog-design",
-          "reason": "효율적인 폼 입력 인터페이스 구현의 기본 요소"
+          "keyword": "webkit-text-stroke",
+          "reason": "브라우저별 텍스트 획 스타일링 방법"
         },
         {
-          "keyword": "software-patent",
-          "reason": "기술 표준화에 영향을 미치는 지적재산권 이슈"
+          "keyword": "css-filters",
+          "reason": "고급 텍스트 시각 효과 구현"
         },
         {
-          "keyword": "legacy-ui",
-          "reason": "역사적 제약에서 비롯된 UI 관례의 이해"
+          "keyword": "accessibility",
+          "reason": "텍스트 가독성 유지 고려 사항"
         }
       ]
     },
     {
-      "title": "Write some software, give it away for free",
-      "url": "https://nonogra.ph/write-some-software-give-it-away-for-free-05-05-2026",
+      "title": "Inkscape 1.4.4",
+      "url": "https://inkscape.org/doc/release_notes/1.4.4/Inkscape_1.4.4.html",
       "source": "hn",
-      "points": 310,
-      "comments": 213,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
-      "category": "other",
+      "points": 247,
+      "comments": 71,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "frontend",
       "lang": "en",
       "minutes": 5,
-      "one_liner": "무료 소프트웨어 개발·배포로 커뮤니티에 기여하기",
-      "summary": "소프트웨어를 개발하여 무료로 배포하는 것의 가치와 이점을 다룬 글입니다. 개발자가 오픈소스 프로젝트에 참여하거나 유용한 도구를 무료로 공개함으로써 커뮤니티에 기여할 수 있음을 설명합니다.",
+      "one_liner": "벡터 그래픽 디자인 도구 Inkscape의 최신 버전 1.4.4 업데이트",
+      "summary": "Inkscape 1.4.4는 오픈소스 벡터 그래픽 편집 소프트웨어의 최신 릴리스로, UI/UX 개선과 성능 최적화가 포함되었습니다. 웹 디자인, 아이콘 제작, 그래픽 디자인 등 다양한 분야에서 활용되는 전문 도구입니다.",
       "prereqs": [
         {
-          "name": "오픈소스 소프트웨어",
-          "detail": "무료 소프트웨어 배포의 기초 개념을 이해하기 위해 필요합니다."
+          "name": "벡터 그래픽",
+          "detail": "래스터 이미지와의 차이를 이해하고 확장 가능한 그래픽의 특성을 알아야 함"
         },
         {
-          "name": "소프트웨어 개발 기본",
-          "detail": "글의 맥락을 이해하기 위해 기본적인 개발 경험이 도움이 됩니다."
+          "name": "그래픽 디자인 기초",
+          "detail": "도형, 색상, 경로 등 기본 디자인 개념을 알면 도구 학습이 수월함"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "open-source",
-          "reason": "무료 소프트웨어 배포의 핵심 방식"
+          "keyword": "svg",
+          "reason": "Inkscape의 기본 출력 포맷으로 웹에서 많이 사용"
         },
         {
-          "keyword": "community-contribution",
-          "reason": "개발자가 커뮤니티에 기여하는 방법"
+          "keyword": "bezier-curve",
+          "reason": "벡터 그래픽 편집의 핵심 개념"
         },
         {
-          "keyword": "software-licensing",
-          "reason": "무료 배포 시 라이선싱 선택의 중요성"
+          "keyword": "ui-design",
+          "reason": "아이콘, 로고 등 UI 요소 제작에 필수"
         },
         {
-          "keyword": "portfolio-building",
-          "reason": "무료 프로젝트를 통한 개발자 역량 입증"
+          "keyword": "graphic-design",
+          "reason": "전문 디자이너들의 주요 작업 도구"
         }
       ]
     },
     {
-      "title": "EEVblog: The 555 Timer is 55 years old [video]",
-      "url": "https://www.youtube.com/watch?v=6JhK8iCQuqI",
+      "title": "Google Cloud fraud defense, the next evolution of reCAPTCHA",
+      "url": "https://cloud.google.com/blog/products/identity-security/introducing-google-cloud-fraud-defense-the-next-evolution-of-recaptcha/",
       "source": "hn",
-      "points": 307,
-      "comments": 80,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
+      "points": 243,
+      "comments": 227,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "frontend",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "reCAPTCHA의 새로운 진화로 부정행위 탐지 기능 강화",
+      "summary": "Google Cloud는 reCAPTCHA의 최신 버전을 통해 봇과 부정행위를 더 효과적으로 탐지하는 기술을 선보였습니다. 머신러닝 기반 위협 탐지 능력이 향상되어 사용자 경험을 해치지 않으면서도 보안을 강화합니다.",
+      "prereqs": [
+        {
+          "name": "reCAPTCHA",
+          "detail": "Google의 챌린지 기반 봇 탐지 서비스의 작동 원리를 이해해야 함"
+        },
+        {
+          "name": "머신러닝 기초",
+          "detail": "위협 탐지 알고리즘의 학습 방식을 이해하기 위해 필요"
+        },
+        {
+          "name": "웹 보안",
+          "detail": "부정행위와 봇 공격의 종류와 영향을 이해해야 함"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "bot-detection",
+          "reason": "글의 핵심인 자동화 공격 탐지 기술"
+        },
+        {
+          "keyword": "machine-learning",
+          "reason": "reCAPTCHA의 위협 탐지 알고리즘 기반"
+        },
+        {
+          "keyword": "api-security",
+          "reason": "웹 서비스 보호의 중요 요소"
+        },
+        {
+          "keyword": "user-experience",
+          "reason": "보안과 사용성의 균형 고려"
+        },
+        {
+          "keyword": "fraud-detection",
+          "reason": "부정행위 방지의 실제 구현 방법"
+        }
+      ]
+    },
+    {
+      "title": "Reverse-engineering the 1998 Ultima Online demo server",
+      "url": "https://draxinar.github.io/articles/2026-05-01-uodemo-reverse-engineering.html",
+      "source": "hn",
+      "points": 232,
+      "comments": 62,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "1998년 울티마 온라인 데모 서버를 역공학으로 분석",
+      "summary": "20년 이상 된 울티마 온라인 데모 서버의 바이너리를 역공학 기법으로 분석하여 당시 게임 아키텍처와 네트워크 프로토콜을 복원하는 과정을 다룹니다. 레거시 시스템 분석과 게임 개발의 역사적 관점을 제공합니다.",
+      "prereqs": [
+        {
+          "name": "reverse-engineering",
+          "detail": "바이너리를 분석하여 원본 소스코드 없이 시스템을 이해하기 위한 핵심 기술"
+        },
+        {
+          "name": "network-protocol",
+          "detail": "게임 서버와 클라이언트 간 통신 방식을 파악하기 위해 필요한 개념"
+        },
+        {
+          "name": "game-server-architecture",
+          "detail": "온라인 게임의 서버 구조와 동작 원리 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "binary-analysis",
+          "reason": "레거시 게임 서버를 분석하는 핵심 기술"
+        },
+        {
+          "keyword": "packet-sniffing",
+          "reason": "서버-클라이언트 통신을 해석하기 위한 도구"
+        },
+        {
+          "keyword": "legacy-system",
+          "reason": "오래된 시스템의 역공학 및 유지보수 전략"
+        },
+        {
+          "keyword": "mmo-architecture",
+          "reason": "대규모 온라인 게임의 구조적 특징 학습"
+        },
+        {
+          "keyword": "game-dev-history",
+          "reason": "1990년대 게임 개발 기술의 진화 과정 이해"
+        }
+      ]
+    },
+    {
+      "title": "From Supabase to Clerk to Better Auth",
+      "url": "https://blog.val.town/better-auth",
+      "source": "hn",
+      "points": 229,
+      "comments": 154,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "Supabase에서 Clerk을 거쳐 Better Auth로의 인증 솔루션 마이그레이션",
+      "summary": "개발자가 여러 인증 솔루션을 직접 사용해본 경험과 각각의 장단점을 비교 분석한 글입니다. Supabase, Clerk, Better Auth의 기능과 개발자 경험을 평가하며, 프로젝트에 맞는 인증 솔루션 선택 기준을 제시합니다.",
+      "prereqs": [
+        {
+          "name": "인증(Authentication)",
+          "detail": "사용자 신원 확인 및 보안 관리의 기본 개념 이해 필요"
+        },
+        {
+          "name": "백엔드 기초",
+          "detail": "API, 세션/토큰 기반 인증 등 서버 측 인증 메커니즘 이해 필요"
+        },
+        {
+          "name": "데이터베이스",
+          "detail": "사용자 정보 저장 및 관리의 기본 개념 이해 필요"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "jwt",
+          "reason": "토큰 기반 인증의 표준 방식"
+        },
+        {
+          "keyword": "oauth",
+          "reason": "외부 서비스 연동 인증의 주요 프로토콜"
+        },
+        {
+          "keyword": "session-management",
+          "reason": "사용자 상태 관리의 핵심 개념"
+        },
+        {
+          "keyword": "security",
+          "reason": "인증 솔루션 평가 시 중요 고려 요소"
+        },
+        {
+          "keyword": "api-integration",
+          "reason": "인증 서비스의 실제 통합 방식"
+        }
+      ]
+    },
+    {
+      "title": "Programming Still Sucks",
+      "url": "https://www.stvn.sh/writing/programming-still-sucks-fqffhyp",
+      "source": "hn",
+      "points": 192,
+      "comments": 45,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "other",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "55년된 555 타이머 IC의 역사와 활용",
-      "summary": "555 타이머는 1972년 출시된 아날로그 IC로, 55년이 지난 현재까지도 광범위하게 사용되고 있습니다. EEVblog 영상에서는 이 클래식 칩의 설계, 동작 원리, 실제 응용 사례를 소개하며 전자공학에서의 중요성을 조명합니다.",
+      "one_liner": "프로그래밍 분야의 지속적인 문제점과 개선 필요성",
+      "summary": "프로그래밍 산업이 여전히 많은 근본적인 문제들을 안고 있음을 다룬 글입니다. 복잡성, 유지보수성, 개발 속도 등 해결되지 못한 과제들이 존재하며, 이러한 문제들을 인식하고 개선하려는 노력이 필요함을 강조합니다.",
       "prereqs": [
         {
-          "name": "Analog Electronics",
-          "detail": "555 타이머의 동작 원리를 이해하기 위한 기본 전자공학 지식"
+          "name": "소프트웨어 개발 경험",
+          "detail": "실제 코딩 과정에서 마주치는 현실적인 문제를 이해하기 위해 필요합니다."
         },
         {
-          "name": "Circuit Design Basics",
-          "detail": "타이밍 회로와 신호 생성의 개념 이해"
+          "name": "소프트웨어 아키텍처",
+          "detail": "복잡한 시스템 설계와 유지보수의 어려움을 이해하는 데 도움이 됩니다."
         }
       ],
       "related_concepts": [
         {
-          "keyword": "timer-ic",
-          "reason": "타이머 칩의 종류와 특성 비교"
+          "keyword": "code-complexity",
+          "reason": "프로그래밍의 핵심 문제 중 하나"
         },
         {
-          "keyword": "oscillator-circuit",
-          "reason": "555의 발진 회로 동작 원리"
+          "keyword": "technical-debt",
+          "reason": "프로젝트 진행 과정에서 누적되는 문제"
         },
         {
-          "keyword": "pulse-generation",
-          "reason": "펄스 신호 생성 메커니즘"
+          "keyword": "software-maintenance",
+          "reason": "장기적인 코드 유지보수의 어려움"
         },
         {
-          "keyword": "analog-design",
-          "reason": "아날로그 회로 설계의 실제 사례"
-        },
-        {
-          "keyword": "embedded-hardware",
-          "reason": "임베디드 시스템에서의 활용"
+          "keyword": "developer-productivity",
+          "reason": "개발 효율성 저하의 주요 요인"
         }
       ]
     },
     {
-      "title": "Agents for financial services and insurance",
-      "url": "https://www.anthropic.com/news/finance-agents",
+      "title": "Show HN: Hallucinopedia",
+      "url": "http://halupedia.com/",
       "source": "hn",
-      "points": 248,
-      "comments": 176,
-      "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
+      "points": 175,
+      "comments": 164,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "ai",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "금융·보험 서비스를 위한 AI 에이전트 기술",
-      "summary": "금융 및 보험 산업에 특화된 AI 에이전트 시스템의 설계와 구현 방법을 다룹니다. 자동화된 상담, 거래 처리, 위험 관리 등 실무 응용 사례를 통해 엔터프라이즈 수준의 에이전트 개발 전략을 제시합니다.",
+      "one_liner": "AI 모델의 환각 현상을 시각화하고 분석하는 도구",
+      "summary": "Hallucinopedia는 대규모 언어 모델(LLM)이 생성하는 환각(hallucination) 현상을 추적하고 분석하는 프로젝트입니다. AI 모델이 부정확하거나 거짓 정보를 생성하는 패턴을 시각화하여 모델의 신뢰성 문제를 파악하고 개선하는 데 도움을 줍니다.",
       "prereqs": [
         {
-          "name": "AI Agents",
-          "detail": "금융 서비스 자동화의 핵심 기술이므로 기본 개념 이해 필요"
+          "name": "Large Language Models (LLM)",
+          "detail": "AI 모델의 환각 문제를 이해하기 위해 LLM의 작동 원리를 알아야 합니다"
         },
         {
-          "name": "LLM (Large Language Models)",
-          "detail": "에이전트의 의사결정과 자연어 처리 기능을 담당"
+          "name": "Hallucination in AI",
+          "detail": "AI가 그럴듯하지만 거짓인 정보를 생성하는 현상을 이해하는 것이 핵심입니다"
         },
         {
-          "name": "금융 시스템 기초",
-          "detail": "도메인 특화 에이전트 설계를 위한 업무 이해 필수"
+          "name": "Model Evaluation",
+          "detail": "AI 모델의 성능을 측정하고 문제점을 진단하는 방법론이 필요합니다"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "llm-agents",
-          "reason": "금융 데이터 처리의 핵심 기술"
+          "keyword": "fact-checking",
+          "reason": "AI 출력의 정확성을 검증하는 기법"
         },
         {
           "keyword": "prompt-engineering",
-          "reason": "금융 규정 준수 지시어 작성 필수"
+          "reason": "모델 환각을 줄이기 위한 프롬프트 최적화"
         },
         {
-          "keyword": "retrieval-augmented-generation",
-          "reason": "정확한 금융 정보 검색 및 생성"
+          "keyword": "model-interpretability",
+          "reason": "AI 모델의 의사결정 과정을 이해하는 방법"
         },
         {
-          "keyword": "compliance-automation",
-          "reason": "금융 규제 요건 자동 충족"
+          "keyword": "knowledge-grounding",
+          "reason": "환각을 줄이기 위해 외부 지식 기반과 연동"
         },
         {
-          "keyword": "multi-agent-systems",
-          "reason": "복잡한 금융 프로세스 분산 처리"
+          "keyword": "benchmark-datasets",
+          "reason": "AI 모델의 환각 현상을 측정할 표준 데이터셋"
         }
       ]
     },
     {
-      "title": "YouTube, your RSS feeds are broken",
-      "url": "https://openrss.org/blog/youtube-your-feeds-are-broken",
+      "title": "Going Full Time on Open Source",
+      "url": "https://jdx.dev/posts/2026-04-17-going-full-time-on-open-source/",
       "source": "hn",
-      "points": 214,
-      "comments": 78,
+      "points": 173,
+      "comments": 38,
       "published_at": "2026-05-06",
-      "collected_at": "2026-05-06",
-      "category": "backend",
+      "collected_at": "2026-05-07",
+      "category": "other",
       "lang": "en",
-      "minutes": 5,
-      "one_liner": "YouTube RSS 피드의 문제점과 해결 방안",
-      "summary": "YouTube의 RSS 피드 기능이 제대로 작동하지 않는 문제를 다룹니다. 이 글은 개발자들이 YouTube 콘텐츠 구독 기능을 구현할 때 마주하는 기술적 문제점을 설명하고, 웹 표준 기반의 피드 시스템의 중요성을 강조합니다.",
+      "minutes": 8,
+      "one_liner": "오픈소스 프로젝트로 풀타임 전환하기 위한 경험과 조언",
+      "summary": "개발자가 오픈소스 프로젝트에 풀타임으로 전환하는 과정과 현실적인 도전 과제들을 다룬다. 지속 가능한 오픈소스 활동을 위한 재정 확보, 커뮤니티 관리, 그리고 개인적 성장 전략을 제시한다.",
       "prereqs": [
         {
-          "name": "RSS/Atom 프로토콜",
-          "detail": "웹 피드 표준을 이해해야 YouTube RSS 문제를 파악할 수 있습니다."
+          "name": "오픈소스 생태계",
+          "detail": "오픈소스 프로젝트의 구조와 커뮤니티 문화를 이해하기 위해 필요"
         },
         {
-          "name": "API와 웹 표준",
-          "detail": "표준 기반 데이터 배포 방식이 필요한 이유를 알아야 합니다."
+          "name": "소프트웨어 개발 경험",
+          "detail": "풀타임 오픈소스 개발의 현실적 난제를 이해하기 위한 기초"
+        },
+        {
+          "name": "프로젝트 관리",
+          "detail": "오픈소스 메인테이너의 책임과 시간 관리 전략을 파악하기 위해"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "rss-feed",
-          "reason": "글의 핵심 주제로 구독 기반 콘텐츠 배포 방식"
+          "keyword": "open-source-funding",
+          "reason": "풀타임 전환 시 필수적인 재정 조달 방법 이해"
         },
         {
-          "keyword": "web-standards",
-          "reason": "RSS처럼 공개 표준 기반 기술의 중요성"
+          "keyword": "community-management",
+          "reason": "커뮤니티 유지와 협업 전략의 중요성"
         },
         {
-          "keyword": "api-design",
-          "reason": "YouTube의 API 설계 문제와 개선 방안"
+          "keyword": "maintainer-burnout",
+          "reason": "장기 오픈소스 활동 시 발생하는 번아웃 예방"
         },
         {
-          "keyword": "content-distribution",
-          "reason": "효율적인 콘텐츠 배포 메커니즘"
-        }
-      ]
-    },
-    {
-      "title": "Telus Uses AI to Alter Call-Agent Accents",
-      "url": "https://letsdatascience.com/news/telus-uses-ai-to-alter-call-agent-accents-a3868f63",
-      "source": "hn",
-      "points": 196,
-      "comments": 161,
-      "published_at": "2026-05-06",
-      "collected_at": "2026-05-06",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 5,
-      "one_liner": "Telus가 AI로 콜센터 상담원의 억양을 변환하는 기술",
-      "summary": "Telus는 AI 기술을 활용하여 콜센터 상담원의 음성 억양을 실시간으로 변환하는 시스템을 도입했습니다. 이는 고객 경험을 개선하고 지역 언어 장벽을 줄이기 위한 혁신적인 시도입니다. 음성 처리 및 신경망 기술의 발전으로 가능해진 사례입니다.",
-      "prereqs": [
-        {
-          "name": "음성 처리(Speech Processing)",
-          "detail": "음성 신호의 수집, 분석, 변환 방식을 이해해야 AI 음성 변환의 원리를 파악할 수 있습니다."
+          "keyword": "career-transition",
+          "reason": "직업 전환 시 고려할 실질적 요소들"
         },
         {
-          "name": "딥러닝/신경망",
-          "detail": "음성 억양 변환은 신경망 기반의 모델을 사용하므로 기본 원리 이해가 필요합니다."
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "voice-conversion",
-          "reason": "음성 특성을 유지하며 억양만 변환하는 핵심 기술"
-        },
-        {
-          "keyword": "natural-language-processing",
-          "reason": "음성 이해 및 변환 과정의 기초 기술"
-        },
-        {
-          "keyword": "real-time-audio-processing",
-          "reason": "콜센터 실시간 적용을 위한 필수 기술"
-        },
-        {
-          "keyword": "neural-speech-synthesis",
-          "reason": "자연스러운 음성 생성 기술의 근간"
+          "keyword": "open-source-business-model",
+          "reason": "지속 가능한 오픈소스 수익화 전략"
         }
       ]
     },
@@ -550,89 +570,188 @@
       "comments": 87,
       "reading_time_minutes": 3,
       "published_at": "2026-04-30",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "other",
       "lang": "en",
       "minutes": 6,
-      "one_liner": "Jira를 통해 본 소프트웨어 개발의 우선순위 관리",
-      "summary": "소프트웨어 개발이 주요 업무인지 부수 업무인지에 대한 조직 문화의 문제를 Jira 관리 도구의 관점에서 탐색합니다. 개발 팀의 우선순위 설정과 일정 관리의 중요성을 강조합니다.",
+      "one_liner": "소프트웨어 개발 업무 관리의 현실과 Jira의 역할에 대한 풍자적 분석",
+      "summary": "소프트웨어 개발을 RPG 게임에 빗대어 주요 작업과 부차 작업의 우선순위 관리 문제를 다룬다. Jira와 같은 프로젝트 관리 도구가 개발 업무를 어떻게 시스템화하는지, 그리고 개발자가 실제 업무에서 겪는 현실적 어려움을 표현한다.",
       "prereqs": [
         {
-          "name": "프로젝트 관리",
-          "detail": "소프트웨어 개발 팀의 작업 흐름을 이해하는 데 필수적입니다"
-        },
-        {
           "name": "Jira",
-          "detail": "글에서 다루는 주요 도구로서 기본 개념 이해가 필요합니다"
+          "detail": "업무 추적 및 프로젝트 관리 도구로서 개발팀의 작업 흐름을 이해하기 위해 필요"
         },
         {
-          "name": "애자일 방법론",
-          "detail": "현대적 개발 프로세스와 작업 우선순위 관리를 이해하기 위해 필요합니다"
+          "name": "Agile 방법론",
+          "detail": "스프린트와 작업 우선순위 관리 등 현대적 개발 프로세스를 이해하기 위해 필요"
+        },
+        {
+          "name": "소프트웨어 개발 프로세스",
+          "detail": "주요 기능 개발과 기술 부채, 버그 수정 등 실제 개발 업무 구조를 파악하기 위해 필요"
         }
       ],
       "related_concepts": [
         {
           "keyword": "project-management",
-          "reason": "개발 팀의 작업 흐름 관리와 직접 연관"
+          "reason": "개발 프로젝트 관리 도구의 역할과 한계를 이해하기 위해"
         },
         {
-          "keyword": "jira",
-          "reason": "글의 중심이 되는 도구"
+          "keyword": "sprint-planning",
+          "reason": "작업 우선순위 결정 과정과 현실적 문제를 다루기 위해"
         },
         {
-          "keyword": "team-prioritization",
-          "reason": "개발 업무의 중요도 결정 프로세스"
+          "keyword": "technical-debt",
+          "reason": "부차 작업과 기술 부채의 관계를 파악하기 위해"
         },
         {
-          "keyword": "agile-workflow",
-          "reason": "현대 개발 팀의 표준 작업 방식"
+          "keyword": "developer-experience",
+          "reason": "개발자 관점에서 업무 관리 도구의 영향을 이해하기 위해"
         },
         {
-          "keyword": "developer-productivity",
-          "reason": "우선순위 관리가 생산성에 미치는 영향"
+          "keyword": "workflow-automation",
+          "reason": "자동화된 업무 흐름 관리의 장단점을 알기 위해"
         }
       ]
     },
     {
-      "title": "Announcing the Winners of the DEV Weekend Challenge: Earth Day Edition 🌍",
-      "url": "https://dev.to/devteam/announcing-the-winners-of-the-dev-weekend-challenge-earth-day-edition-1n4",
-      "source": "devto",
-      "positive_reactions": 122,
-      "comments": 51,
-      "reading_time_minutes": 4,
-      "published_at": "2026-04-30",
-      "collected_at": "2026-05-06",
-      "category": "frontend",
+      "title": "Show HN: Tilde.run – Agent sandbox with a transactional, versioned filesystem",
+      "url": "https://tilde.run/",
+      "source": "hn",
+      "points": 134,
+      "comments": 102,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "devops",
       "lang": "en",
-      "minutes": 3,
-      "one_liner": "지구의 날 주제 DEV 위켄드 챌린지 우승자 발표",
-      "summary": "DEV 커뮤니티의 지구의 날 에디션 위켄드 챌린지 우승자들을 소개하는 글입니다. 환경 관련 주제로 개발자들이 참여한 프로젝트들의 결과를 공유하고 있습니다.",
+      "minutes": 8,
+      "one_liner": "트랜잭션과 버전 관리 기능이 있는 에이전트 샌드박스",
+      "summary": "Tilde.run은 에이전트가 안전하게 실행될 수 있는 샌드박스 환경으로, 트랜잭션 기반의 버전 관리 파일시스템을 제공합니다. 변경사항을 추적하고 필요시 롤백할 수 있어 에이전트 작업의 안전성과 신뢰성을 보장합니다.",
       "prereqs": [
         {
-          "name": "DEV 커뮤니티",
-          "detail": "개발자 커뮤니티 플랫폼의 챌린지 프로그램 이해"
+          "name": "샌드박스 환경",
+          "detail": "에이전트가 격리된 환경에서 안전하게 실행되도록 하기 위해"
         },
         {
-          "name": "프로젝트 포트폴리오",
-          "detail": "개발자 작업물을 공개하고 공유하는 방식 학습"
+          "name": "트랜잭션 처리",
+          "detail": "파일시스템의 일관성을 보장하고 원자성을 유지하기 위해"
+        },
+        {
+          "name": "버전 관리 시스템",
+          "detail": "변경사항을 추적하고 이전 상태로 복구할 수 있는 능력이 필요"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "hackathon",
-          "reason": "유사한 개발 경쟁 형식 이해"
+          "keyword": "containerization",
+          "reason": "격리된 실행 환경을 구성하는 핵심 기술"
         },
         {
-          "keyword": "web-development",
-          "reason": "챌린지 참여 프로젝트의 주요 기술 스택"
+          "keyword": "filesystem-versioning",
+          "reason": "파일 변경을 추적하고 이력 관리"
         },
         {
-          "keyword": "community-building",
-          "reason": "개발자 커뮤니티 활성화 방식 학습"
+          "keyword": "transaction-management",
+          "reason": "데이터 무결성과 일관성 보장"
         },
         {
-          "keyword": "portfolio-project",
-          "reason": "우수 포트폴리오 사례 참고"
+          "keyword": "ai-agents",
+          "reason": "에이전트 안전성과 신뢰성 강화"
+        },
+        {
+          "keyword": "rollback-recovery",
+          "reason": "장애 발생 시 이전 상태로 복구 기능"
+        }
+      ]
+    },
+    {
+      "title": "RAM prices are forcing companies to choose higher prices, worse specs, or both",
+      "url": "https://gizmodo.com/shrinkflation-is-quietly-making-all-gadgets-worse-2000754565",
+      "source": "hn",
+      "points": 133,
+      "comments": 101,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "devops",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "RAM 가격 상승이 기업의 제품 가격과 사양에 미치는 영향",
+      "summary": "RAM 가격 상승으로 인해 기업들은 제품 가격 인상, 사양 하향, 또는 둘 다를 선택하게 되고 있습니다. 이는 서버, PC, 임베디드 시스템 등 다양한 하드웨어 제품에 영향을 미칩니다. 개발자들은 제한된 메모리 환경에서 효율적인 솔루션을 구축해야 하는 도전과제에 직면하고 있습니다.",
+      "prereqs": [
+        {
+          "name": "하드웨어 가격 변동 메커니즘",
+          "detail": "반도체 공급망과 시장 수요가 하드웨어 가격에 어떻게 영향을 미치는지 이해하기 위해"
+        },
+        {
+          "name": "메모리 아키텍처",
+          "detail": "RAM의 역할과 성능에 미치는 영향을 이해하여 개발 최적화 전략을 수립하기 위해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "memory-optimization",
+          "reason": "제한된 메모리에서 애플리케이션 성능을 극대화하는 기법"
+        },
+        {
+          "keyword": "hardware-constraints",
+          "reason": "비용 상승으로 인한 하드웨어 제약을 개발 단계에서 고려해야 함"
+        },
+        {
+          "keyword": "supply-chain",
+          "reason": "반도체 공급망 이슈가 개발자의 배포 환경에 미치는 영향"
+        },
+        {
+          "keyword": "cost-optimization",
+          "reason": "인프라 비용 절감을 위한 효율적인 리소스 관리 전략"
+        }
+      ]
+    },
+    {
+      "title": "Setting up a Sun Ray server on OpenIndiana Hipster 2025.10",
+      "url": "https://catstret.ch/202605/srss-hipster202510/",
+      "source": "hn",
+      "points": 131,
+      "comments": 46,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "devops",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "OpenIndiana Hipster에서 Sun Ray 서버 설정하기",
+      "summary": "Sun Ray 서버를 OpenIndiana Hipster 2025.10 환경에서 설정하는 방법을 다룹니다. 씬 클라이언트 기반의 원격 데스크톱 인프라를 구축하기 위한 단계별 설정 가이드입니다.",
+      "prereqs": [
+        {
+          "name": "OpenIndiana",
+          "detail": "오픈소스 Solaris 기반 운영체제로 Sun Ray 서버 구축의 기초가 됩니다."
+        },
+        {
+          "name": "씬 클라이언트(Thin Client)",
+          "detail": "Sun Ray 아키텍처의 핵심 개념으로 최소한의 로컬 처리만 수행합니다."
+        },
+        {
+          "name": "원격 데스크톱 인프라",
+          "detail": "중앙 집중식 서버 환경에서 클라이언트로 서비스를 제공하는 방식입니다."
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "sun-ray-protocol",
+          "reason": "Sun Ray 통신 프로토콜 이해가 필요합니다."
+        },
+        {
+          "keyword": "vdi-virtual-desktop",
+          "reason": "가상 데스크톱 인프라와 유사한 개념입니다."
+        },
+        {
+          "keyword": "server-virtualization",
+          "reason": "서버 환경 구성과 관리에 필요합니다."
+        },
+        {
+          "keyword": "network-configuration",
+          "reason": "클라이언트-서버 네트워크 설정이 필수입니다."
+        },
+        {
+          "keyword": "system-administration",
+          "reason": "OpenIndiana 시스템 관리 기술이 요구됩니다."
         }
       ]
     },
@@ -640,42 +759,85 @@
       "title": "I Love Tailwind. Sorry Not Sorry",
       "url": "https://dev.to/sylwia-lask/i-love-tailwind-sorry-not-sorry-5cfh",
       "source": "devto",
-      "positive_reactions": 115,
-      "comments": 106,
+      "positive_reactions": 126,
+      "comments": 111,
       "reading_time_minutes": 5,
       "published_at": "2026-05-04",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "frontend",
       "lang": "en",
       "minutes": 5,
-      "one_liner": "Tailwind CSS의 장점과 개발 경험을 소개하는 글",
-      "summary": "저자가 Tailwind CSS를 선호하는 이유와 이를 통한 개발 경험을 공유합니다. Utility-first CSS 접근 방식의 생산성과 유지보수성 향상에 대해 설명합니다.",
+      "one_liner": "Tailwind CSS의 장점과 개발 경험을 긍정적으로 소개",
+      "summary": "이 글은 Tailwind CSS의 유틸리티-퍼스트 접근 방식의 효율성과 생산성 향상을 강조합니다. 개발자의 관점에서 전통적인 CSS 작성 방식 대비 Tailwind의 장점을 설득력 있게 설명하고 있습니다.",
       "prereqs": [
         {
-          "name": "CSS",
-          "detail": "스타일링의 기본 원리를 이해하기 위해 필요합니다"
+          "name": "CSS 기초",
+          "detail": "스타일링의 기본 개념과 선택자, 속성을 이해해야 Tailwind의 편의성을 인식할 수 있습니다."
         },
         {
-          "name": "Utility-first 개념",
-          "detail": "Tailwind의 핵심 철학을 파악하기 위해 필요합니다"
+          "name": "HTML 마크업",
+          "detail": "Tailwind의 클래스 기반 스타일링은 HTML 요소에 직접 적용되므로 마크업 구조 이해가 필수입니다."
         }
       ],
       "related_concepts": [
         {
-          "keyword": "css-frameworks",
-          "reason": "다른 CSS 프레임워크와의 비교 이해"
+          "keyword": "utility-first-css",
+          "reason": "Tailwind의 핵심 철학으로 유틸리티 클래스 중심 개발 방식"
+        },
+        {
+          "keyword": "css-framework",
+          "reason": "Bootstrap, Foundation 등과의 비교를 통해 차별점 이해"
         },
         {
           "keyword": "responsive-design",
-          "reason": "Tailwind의 반응형 디자인 구현 방식"
+          "reason": "Tailwind의 반응형 디자인 구현 방식 학습"
         },
         {
-          "keyword": "component-development",
-          "reason": "Tailwind로 재사용 가능한 컴포넌트 작성"
+          "keyword": "component-based-development",
+          "reason": "재사용 가능한 컴포넌트 구축 시 Tailwind 활용"
+        }
+      ]
+    },
+    {
+      "title": "Announcing the Winners of the DEV Weekend Challenge: Earth Day Edition 🌍",
+      "url": "https://dev.to/devteam/announcing-the-winners-of-the-dev-weekend-challenge-earth-day-edition-1n4",
+      "source": "devto",
+      "positive_reactions": 123,
+      "comments": 51,
+      "reading_time_minutes": 4,
+      "published_at": "2026-04-30",
+      "collected_at": "2026-05-07",
+      "category": "frontend",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "어스데이 테마의 개발자 챌린지 우승작 발표",
+      "summary": "DEV 커뮤니티에서 개최한 어스데이 주제의 주말 챌린지 우승자들을 발표하는 글입니다. 환경 관련 웹 프로젝트들의 창의적인 구현사례와 우수작들을 소개합니다.",
+      "prereqs": [
+        {
+          "name": "Web Development",
+          "detail": "프론트엔드 프로젝트 구현과 평가 기준을 이해하기 위해 필요합니다"
         },
         {
-          "keyword": "design-system",
-          "reason": "일관된 디자인 시스템 구축에 활용"
+          "name": "Community Challenges",
+          "detail": "개발자 커뮤니티 챌린지의 특성과 참여 방식을 파악하기 위해 필요합니다"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "web-development",
+          "reason": "우승작들의 기술스택과 구현 방식 학습"
+        },
+        {
+          "keyword": "frontend-design",
+          "reason": "UI/UX 디자인 우수사례 참고"
+        },
+        {
+          "keyword": "coding-challenge",
+          "reason": "개발자 스킬 검증 및 경험 축적"
+        },
+        {
+          "keyword": "community-driven-project",
+          "reason": "협업과 피드백 문화 이해"
         }
       ]
     },
@@ -683,50 +845,50 @@
       "title": "Write Code That's Easy to Delete: The Art of Impermanent Software",
       "url": "https://dev.to/adamthedeveloper/write-code-thats-easy-to-delete-the-art-of-impermanent-software-19l1",
       "source": "devto",
-      "positive_reactions": 106,
-      "comments": 54,
+      "positive_reactions": 117,
+      "comments": 62,
       "reading_time_minutes": 5,
       "published_at": "2026-05-02",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "other",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "삭제하기 쉬운 코드 작성으로 소프트웨어 설계를 개선하자",
-      "summary": "좋은 소프트웨어는 필요시 쉽게 삭제할 수 있도록 설계되어야 합니다. 과도한 일반화와 복잡한 추상화를 피하고, 단순하고 독립적인 모듈을 만들어 요구사항 변화에 유연하게 대응할 수 있는 코드를 작성하는 방법을 제시합니다.",
+      "one_liner": "삭제 가능한 코드 작성으로 소프트웨어 유지보수성 향상하기",
+      "summary": "영구적인 코드보다 필요할 때 쉽게 삭제할 수 있는 임시 소프트웨어를 작성하는 것의 중요성을 설명합니다. 복잡한 추상화와 과도한 엔지니어링을 피하고, 간단하고 명확한 코드를 통해 장기적인 유지보수 비용을 줄일 수 있습니다.",
       "prereqs": [
         {
-          "name": "YAGNI 원칙",
-          "detail": "불필요한 기능을 미리 만들지 않는 설계 철학을 이해하기 위함"
+          "name": "소프트웨어 설계 원칙",
+          "detail": "효과적인 코드 구조를 이해하는 기반이 필요합니다."
         },
         {
-          "name": "모듈화와 단일책임원칙",
-          "detail": "코드 간결성과 삭제 용이성을 확보하기 위한 기초 개념"
+          "name": "코드 리팩토링",
+          "detail": "기존 코드 개선 방법을 알아야 삭제 가능한 설계와 비교할 수 있습니다."
         },
         {
-          "name": "기술 부채",
-          "detail": "왜 삭제 가능한 코드 구조가 중요한지 이해하기 위함"
+          "name": "기술 부채 개념",
+          "detail": "과도한 설계로 인한 유지보수 비용을 이해하는 데 도움됩니다."
         }
       ],
       "related_concepts": [
         {
+          "keyword": "yagni-principle",
+          "reason": "필요하지 않은 기능을 미리 추가하지 말자는 철학과 맥락을 같이함"
+        },
+        {
           "keyword": "code-simplicity",
-          "reason": "복잡도를 줄일수록 코드 삭제가 용이"
+          "reason": "복잡성을 줄여 삭제 가능성을 높이는 핵심 전략"
         },
         {
-          "keyword": "modular-design",
-          "reason": "독립적 모듈은 영향 범위 최소화하며 삭제 가능"
+          "keyword": "technical-debt",
+          "reason": "과도한 엔지니어링이 만드는 장기적 비용 이해 필요"
         },
         {
-          "keyword": "over-engineering",
-          "reason": "과도한 설계는 삭제를 어렵게 만드는 주요 원인"
+          "keyword": "software-architecture",
+          "reason": "삭제 가능한 모듈식 구조 설계에 영향을 미침"
         },
         {
-          "keyword": "software-flexibility",
-          "reason": "변화에 대응하려면 삭제 용이성이 필수"
-        },
-        {
-          "keyword": "agile-development",
-          "reason": "빈번한 요구사항 변화 속에서 중요한 설계 원칙"
+          "keyword": "maintainability",
+          "reason": "코드 수명주기 관리에서 삭제 용이성의 역할 이해"
         }
       ]
     },
@@ -734,46 +896,46 @@
       "title": "I Don't Like Tailwind. Sorry Not Sorry",
       "url": "https://dev.to/freshcaffeine/i-dont-like-tailwind-sorry-not-sorry-50b5",
       "source": "devto",
-      "positive_reactions": 75,
-      "comments": 32,
+      "positive_reactions": 88,
+      "comments": 38,
       "reading_time_minutes": 5,
       "published_at": "2026-05-01",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "frontend",
       "lang": "en",
       "minutes": 5,
-      "one_liner": "Tailwind CSS의 장점과 한계를 비판적으로 분석한 글",
-      "summary": "저자는 Tailwind CSS의 인기에도 불구하고 유틸리티 우선 CSS 방식의 문제점을 지적합니다. 마크업 가독성 저하, CSS 학습 회피, 중복된 클래스 작성 등의 한계를 제시하며, 전통적인 CSS 방식의 가치를 재평가합니다.",
+      "one_liner": "Tailwind CSS의 한계와 문제점을 비판하는 개발자의 의견",
+      "summary": "저자는 Tailwind CSS가 현대 웹 개발의 인기 있는 선택지이지만 여러 문제점이 있다고 주장합니다. 가독성 저하, 클래스명 중복, 학습곡선 등의 이유로 전통적인 CSS 작성 방식이 더 나을 수 있다는 관점을 제시합니다.",
       "prereqs": [
         {
           "name": "CSS 기초",
-          "detail": "Tailwind와 전통적인CSS 방식의 차이를 이해하기 위함"
+          "detail": "Tailwind의 장단점을 이해하려면 전통 CSS의 작동 원리를 알아야 합니다"
         },
         {
-          "name": "HTML 마크업",
-          "detail": "클래스 적용과 가독성 문제를 평가하기 위함"
+          "name": "Utility-first CSS 개념",
+          "detail": "Tailwind의 철학을 비판적으로 평가하기 위한 배경지식이 필요합니다"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "utility-first-css",
-          "reason": "Tailwind의 핵심 설계 패러다임"
-        },
-        {
           "keyword": "css-in-js",
-          "reason": "스타일링 방식의 다양한 대안"
+          "reason": "CSS 스타일링의 다양한 방식 중 하나"
         },
         {
-          "keyword": "semantic-html",
-          "reason": "마크업 가독성과 관련된 개념"
+          "keyword": "bem-naming",
+          "reason": "CSS 클래스 명명 규칙의 대안"
         },
         {
-          "keyword": "css-maintainability",
-          "reason": "스타일 유지보수성 비교"
+          "keyword": "css-modules",
+          "reason": "스코프 CSS로 Tailwind의 문제 해결"
         },
         {
-          "keyword": "design-system",
-          "reason": "Tailwind 사용 시 설계 체계의 중요성"
+          "keyword": "styled-components",
+          "reason": "컴포넌트 기반 스타일링 접근"
+        },
+        {
+          "keyword": "developer-experience",
+          "reason": "개발 편의성 평가의 중요성"
         }
       ]
     },
@@ -781,101 +943,128 @@
       "title": "Am I a Developer or Just a Prompt Engineer?",
       "url": "https://dev.to/harsh2644/am-i-a-developer-or-just-a-prompt-engineer-4ece",
       "source": "devto",
-      "positive_reactions": 65,
-      "comments": 36,
+      "positive_reactions": 84,
+      "comments": 60,
       "reading_time_minutes": 5,
       "published_at": "2026-05-05",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "ai",
       "lang": "en",
-      "minutes": 6,
-      "one_liner": "AI 시대에 진정한 개발자의 정의와 역할에 관한 고찰",
-      "summary": "프롬프트 엔지니어링만으로 코딩을 하는 개발자와 진정한 프로그래머의 차이를 탐색합니다. AI 도구 활용 시대에 개발자가 갖춰야 할 핵심 역량과 기술적 이해의 중요성을 논의합니다.",
+      "minutes": 5,
+      "one_liner": "프롬프트 엔지니어링만으로 개발자라고 할 수 있는지 묻는 글",
+      "summary": "AI 시대에 프롬프트 엔지니어링 능력만으로 개발자로 인정받을 수 있는지에 대한 질문을 던집니다. 실제 소프트웨어 개발에 필요한 기술적 깊이, 문제 해결 능력, 코드 이해도와 프롬프트 작성 능력의 차이를 탐색합니다.",
       "prereqs": [
         {
-          "name": "AI/LLM 기초",
-          "detail": "프롬프트 엔지니어링과 AI 모델의 동작 원리 이해가 필요합니다"
+          "name": "소프트웨어 개발의 핵심 역량",
+          "detail": "개발자가 갖춰야 할 기술적 기초와 문제 해결 능력을 이해하기 위해 필요합니다"
         },
         {
-          "name": "프로그래밍 기초",
-          "detail": "소프트웨어 개발의 기본 개념과 코딩 능력 평가 기준을 알아야 합니다"
-        },
-        {
-          "name": "개발자 역량",
-          "detail": "문제 해결 능력과 기술적 깊이의 의미를 이해해야 합니다"
+          "name": "AI 및 LLM의 능력과 한계",
+          "detail": "프롬프트 엔지니어링의 가능성과 제약을 정확히 판단하기 위한 배경 지식입니다"
         }
       ],
       "related_concepts": [
         {
           "keyword": "prompt-engineering",
-          "reason": "AI 도구 활용의 기본 기술이자 주요 논점"
+          "reason": "글의 중심 주제로 핵심 기술입니다"
         },
         {
           "keyword": "ai-assisted-development",
-          "reason": "현대 개발 환경의 변화와 트렌드 파악"
+          "reason": "AI 도구를 활용한 개발 방식의 변화를 이해하기 위해"
         },
         {
-          "keyword": "problem-solving-skills",
-          "reason": "진정한 개발자의 핵심 역량"
+          "keyword": "software-engineer-skills",
+          "reason": "진정한 개발자의 역할과 필수 역량을 구분하기 위해"
         },
         {
-          "keyword": "code-understanding",
-          "reason": "AI 생성 코드의 검증과 개선"
-        },
-        {
-          "keyword": "developer-identity",
-          "reason": "기술 발전 시대의 개발자 정체성 논의"
+          "keyword": "llm-limitations",
+          "reason": "AI의 한계를 인식하고 언제 인간의 개입이 필요한지 알기 위해"
         }
       ]
     },
     {
-      "title": "How I Used AI to Fix Our E2E Test Architecture",
-      "url": "https://dev.to/debs_obrien/how-i-used-ai-to-fix-our-e2e-test-architecture-444a",
+      "title": "A LinkedIn Recruiter Sent Me Malware Disguised as a \"Pre-Interview Code Review\"",
+      "url": "https://dev.to/vladimirnovick/a-linkedin-recruiter-sent-me-malware-disguised-as-a-pre-interview-code-review-2k3j",
       "source": "devto",
-      "positive_reactions": 47,
-      "comments": 13,
+      "positive_reactions": 65,
+      "comments": 8,
       "reading_time_minutes": 6,
-      "published_at": "2026-04-29",
-      "collected_at": "2026-05-06",
-      "category": "devops",
+      "published_at": "2026-05-04",
+      "collected_at": "2026-05-07",
+      "category": "other",
       "lang": "en",
-      "minutes": 8,
-      "one_liner": "AI를 활용한 E2E 테스트 아키텍처 개선 사례",
-      "summary": "개발자가 AI 도구를 활용하여 E2E 테스트 아키텍처의 문제점을 분석하고 개선한 경험을 공유합니다. AI의 도움으로 테스트 코드 리팩토링, 유지보수성 향상, 테스트 실행 효율성을 증대시킨 실무 사례입니다.",
+      "minutes": 6,
+      "one_liner": "채용담당자를 사칭한 악성코드 배포 사건과 보안 주의사항",
+      "summary": "LinkedIn 채용담당자를 사칭하여 면접 전 코드 리뷰라는 명목으로 악성코드를 전송하는 사기 사건이 발생했다. 개발자들이 신뢰할 수 있는 출처인지 검증하고 의심스러운 링크나 파일에 주의해야 한다.",
       "prereqs": [
         {
-          "name": "End-to-End (E2E) 테스트",
-          "detail": "사용자 관점에서 전체 애플리케이션을 테스트하는 방식을 이해해야 합니다."
+          "name": "악성코드(Malware)",
+          "detail": "개발자들이 타겟이 되는 보안 위협의 유형을 이해하기 위해 필요"
         },
         {
-          "name": "테스트 아키텍처",
-          "detail": "테스트 코드의 구조, 페이지 객체 패턴, 테스트 유지보수성 개념이 필요합니다."
-        },
-        {
-          "name": "AI 개발 보조 도구",
-          "detail": "ChatGPT, GitHub Copilot 같은 AI 도구가 코드 작성에 어떻게 활용되는지 알면 도움됩니다."
+          "name": "소셜 엔지니어링",
+          "detail": "채용 과정을 이용한 신뢰 조작 수법을 인식하기 위해 필요"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "test-automation",
-          "reason": "E2E 테스트의 자동화 전략과 모범 사례 이해"
+          "keyword": "phishing-attack",
+          "reason": "채용담당자를 사칭한 피싱 공격 기법"
         },
         {
-          "keyword": "page-object-model",
-          "reason": "테스트 코드 유지보수성을 높이는 주요 설계 패턴"
+          "keyword": "code-review",
+          "reason": "정상적인 면접 절차로 악용된 방식"
         },
         {
-          "keyword": "ci-cd-pipeline",
-          "reason": "E2E 테스트를 배포 파이프라인에 통합하는 방식"
+          "keyword": "security-awareness",
+          "reason": "개발자의 보안 인식 필요성"
         },
         {
-          "keyword": "ai-code-generation",
-          "reason": "AI 도구로 코드 작성 생산성 향상시키는 방법"
+          "keyword": "source-verification",
+          "reason": "채용 정보 출처 확인의 중요성"
+        }
+      ]
+    },
+    {
+      "title": "I Didn’t Stop Building. I Just Left My Laptop.",
+      "url": "https://dev.to/itsugo/i-didnt-stop-building-i-just-left-my-laptop-27da",
+      "source": "devto",
+      "positive_reactions": 43,
+      "comments": 6,
+      "reading_time_minutes": 4,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
+      "category": "other",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "개발자의 번아웃 극복과 삶의 균형 찾기",
+      "summary": "개발자가 지속적인 성장을 위해서는 노트북에서 벗어나 삶의 다른 영역을 경험하는 것이 중요함을 강조합니다. 휴식과 다양한 활동을 통해 창의성과 문제해결 능력을 더욱 강화할 수 있으며, 이는 장기적인 개발 역량 향상으로 이어집니다.",
+      "prereqs": [
+        {
+          "name": "개발자 번아웃",
+          "detail": "지속적인 업무와 성장 압박으로 인한 심리적 피로 상태를 이해하기 위함"
         },
         {
-          "keyword": "test-flakiness",
-          "reason": "E2E 테스트의 불안정성 문제와 해결 방안 학습"
+          "name": "웰빙과 생산성의 관계",
+          "detail": "개인의 정신건강이 업무 효율성과 창의성에 미치는 긍정적 영향 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "work-life-balance",
+          "reason": "개발자의 지속가능한 커리어를 위한 필수요소"
+        },
+        {
+          "keyword": "burnout-prevention",
+          "reason": "장기적으로 개발 역량을 유지하기 위한 전략"
+        },
+        {
+          "keyword": "creative-thinking",
+          "reason": "문제해결과 혁신을 위해 휴식의 역할 이해"
+        },
+        {
+          "keyword": "mindfulness",
+          "reason": "정신건강 관리를 통한 생산성 향상"
         }
       ]
     },
@@ -884,147 +1073,96 @@
       "url": "https://dev.to/thisisryanswift/stop-using-your-clipboard-to-share-context-3941",
       "source": "devto",
       "positive_reactions": 43,
-      "comments": 10,
+      "comments": 11,
       "reading_time_minutes": 4,
       "published_at": "2026-04-30",
-      "collected_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "devops",
       "lang": "en",
-      "minutes": 6,
-      "one_liner": "클립보드 대신 효율적인 컨텍스트 공유 방법 활용하기",
-      "summary": "클립보드를 사용한 컨텍스트 공유는 보안 위험과 관리의 어려움이 있습니다. 이 글은 팀 협업에서 더 안전하고 추적 가능한 컨텍스트 공유 방식의 필요성을 설명합니다.",
+      "minutes": 5,
+      "one_liner": "클립보드 대신 효율적인 컨텍스트 공유 방법 알아보기",
+      "summary": "개발팀 간 컨텍스트 공유 시 클립보드 사용의 문제점을 지적하고, 더 효율적이고 안전한 대체 방법들을 제시합니다. 적절한 도구와 시스템을 통해 정보 공유의 일관성과 보안을 개선하는 방법을 다룹니다.",
       "prereqs": [
         {
-          "name": "팀 협업 문화",
-          "detail": "개발팀 내 정보 공유 방식의 중요성을 이해하기 위해 필요합니다"
+          "name": "Team Collaboration",
+          "detail": "팀 간 효과적인 협업 방식을 이해하기 위해 필요합니다"
         },
         {
-          "name": "정보 보안",
-          "detail": "클립보드 공유의 보안 위험성을 인식하는 데 필수적입니다"
+          "name": "Context Sharing",
+          "detail": "개발 과정에서 필요한 정보 공유의 중요성을 알아야 합니다"
+        },
+        {
+          "name": "Security Awareness",
+          "detail": "클립보드 공유의 보안 위험성을 인지하는 것이 중요합니다"
         }
       ],
       "related_concepts": [
         {
           "keyword": "knowledge-management",
-          "reason": "팀의 지식을 체계적으로 관리하는 방법"
-        },
-        {
-          "keyword": "information-security",
-          "reason": "민감한 정보 공유 시 보안 고려사항"
-        },
-        {
-          "keyword": "collaboration-tools",
-          "reason": "효율적인 협업을 위한 도구 활용"
+          "reason": "팀 내 지식 공유의 구조화된 방식"
         },
         {
           "keyword": "documentation",
-          "reason": "컨텍스트 보존과 추적을 위한 문서화"
+          "reason": "컨텍스트 기록과 재사용성 향상"
         },
         {
-          "keyword": "team-workflow",
-          "reason": "팀의 작업 흐름 최적화"
+          "keyword": "secure-sharing",
+          "reason": "민감한 정보 보호를 위한 안전 공유"
+        },
+        {
+          "keyword": "collaboration-tools",
+          "reason": "효율적인 팀 협업 플랫폼 활용"
         }
       ]
     },
     {
-      "title": "Forking Paseo: Mobile vibe coding for me",
-      "url": "https://dev.to/thisisryanswift/forking-paseo-mobile-vibe-coding-for-me-48pa",
+      "title": "Build Your Own AI Butler - A Scheduled Agent That Runs Itself!",
+      "url": "https://dev.to/aws/build-your-own-ai-butler-a-scheduled-agent-that-runs-itself-3dmk",
       "source": "devto",
-      "positive_reactions": 41,
-      "comments": 7,
-      "reading_time_minutes": 5,
-      "published_at": "2026-04-29",
-      "collected_at": "2026-05-06",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 5,
-      "one_liner": "모바일 환경에서의 효율적인 코딩 경험을 위한 Paseo 포킹",
-      "summary": "Paseo를 포킹하여 모바일 기기에서 더 나은 개발 경험을 구현한 프로젝트입니다. 모바일 환경의 제약 조건을 극복하면서 직관적이고 효율적인 코딩 환경을 만드는 방법을 소개합니다.",
-      "prereqs": [
-        {
-          "name": "Paseo 프레임워크",
-          "detail": "포킹의 대상이 되는 기본 프레임워크 이해"
-        },
-        {
-          "name": "모바일 웹 개발",
-          "detail": "모바일 환경의 특성과 제약사항 파악"
-        },
-        {
-          "name": "UX/UI 기초",
-          "detail": "모바일 사용자 경험 최적화의 중요성 인식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "responsive-design",
-          "reason": "모바일 환경 최적화를 위한 필수 기술"
-        },
-        {
-          "keyword": "mobile-first",
-          "reason": "모바일 우선 개발 접근 방식"
-        },
-        {
-          "keyword": "progressive-web-app",
-          "reason": "모바일에서 앱 같은 경험 제공"
-        },
-        {
-          "keyword": "code-editor",
-          "reason": "모바일 코딩 편집기 구현"
-        },
-        {
-          "keyword": "developer-experience",
-          "reason": "효율적인 개발 경험 향상"
-        }
-      ]
-    },
-    {
-      "title": "I Rebuilt Karpathy's NanoChat in JAX. Here's What XLA Gets Right and What It Gets Dead Wrong.",
-      "url": "https://dev.to/gde/i-rebuilt-karpathys-nanochat-in-jax-heres-what-xla-gets-right-and-what-it-gets-dead-wrong-4641",
-      "source": "devto",
-      "positive_reactions": 18,
-      "comments": 2,
-      "reading_time_minutes": 13,
-      "published_at": "2026-05-01",
-      "collected_at": "2026-05-06",
+      "positive_reactions": 30,
+      "comments": 1,
+      "reading_time_minutes": 18,
+      "published_at": "2026-05-06",
+      "collected_at": "2026-05-07",
       "category": "ai",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "JAX로 재구현한 NanoChat을 통한 XLA 컴파일러의 장단점 분석",
-      "summary": "저자가 Andrej Karpathy의 NanoChat을 JAX로 재구현하면서 XLA 컴파일러의 강점과 약점을 직접 경험했습니다. 머신러닝 프레임워크 선택 시 성능 최적화와 개발 경험 사이의 트레이드오프를 이해하는 데 도움이 됩니다.",
+      "one_liner": "자동으로 실행되는 AI 에이전트를 직접 구축하기",
+      "summary": "이 글은 스스로 주기적으로 실행되는 AI 에이전트(AI Butler) 구축 방법을 설명합니다. 스케줄링을 통해 인간의 개입 없이 자동으로 작동하는 AI 시스템을 만드는 실무적인 가이드를 제공합니다.",
       "prereqs": [
         {
-          "name": "NanoChat",
-          "detail": "Karpathy의 단순한 챗봇 구현으로 JAX 학습에 좋은 예제입니다"
+          "name": "AI 에이전트",
+          "detail": "자율적으로 작업을 수행하는 AI 시스템의 개념 이해가 필요합니다"
         },
         {
-          "name": "JAX 기초",
-          "detail": "NumPy 스타일의 배열 연산과 함수형 프로그래밍 패러다임을 이해해야 합니다"
+          "name": "Task Scheduling",
+          "detail": "주기적인 작업 실행을 위한 스케줄링 메커니즘 이해가 필수적입니다"
         },
         {
-          "name": "XLA 컴파일러",
-          "detail": "TensorFlow/JAX의 성능 최적화 엔진이므로 컴파일 메커니즘을 알면 좋습니다"
+          "name": "API Integration",
+          "detail": "외부 서비스와의 연동을 통해 에이전트 기능 확장이 가능해야 합니다"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "jit-compilation",
-          "reason": "XLA의 핵심 기능으로 런타임 성능을 크게 좌우합니다"
+          "keyword": "agent-automation",
+          "reason": "자동화된 에이전트 구현의 핵심 패턴"
         },
         {
-          "keyword": "automatic-differentiation",
-          "reason": "JAX의 grad 함수 동작 원리를 이해하는 데 필수입니다"
+          "keyword": "task-scheduling",
+          "reason": "정기적인 실행 관리를 위한 필수 기술"
         },
         {
-          "keyword": "compiler-optimization",
-          "reason": "XLA가 수행하는 최적화 과정과 한계를 학습할 수 있습니다"
+          "keyword": "llm-integration",
+          "reason": "AI 에이전트의 동작을 위한 언어모델 연동"
         },
         {
-          "keyword": "tensorflow-vs-pytorch",
-          "reason": "서로 다른 ML 프레임워크의 컴파일 방식 비교에 도움됩니다"
+          "keyword": "workflow-orchestration",
+          "reason": "복잡한 에이전트 작업 흐름 관리"
         },
         {
-          "keyword": "low-level-performance",
-          "reason": "GPU 메모리 접근 패턴과 커널 퓨전 등 저수준 최적화를 학습합니다"
+          "keyword": "event-driven-architecture",
+          "reason": "트리거 기반 에이전트 실행 구조"
         }
       ]
     }
