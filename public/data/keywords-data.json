@@ -872,42 +872,38 @@
           "published_at": "2025-02-19",
           "collected_at": "2026-05-09",
           "minutes": 5,
-          "one_liner": "Gatsby 개발팀이 만든 오픈소스 JS 에이전트 프레임워크 Mastra 소개",
-          "summary": "Gatsby의 개발팀이 새로운 오픈소스 JavaScript 에이전트 프레임워크인 Mastra를 출시했습니다. 이 프레임워크는 AI 에이전트 개발을 단순화하고 확장 가능하게 설계되었으며, 개발자들이 쉽게 구축할 수 있는 도구를 제공합니다.",
+          "one_liner": "Gatsby 개발자들이 만든 오픈소스 JS 에이전트 프레임워크 Mastra 소개",
+          "summary": "Gatsby 개발팀이 개발한 Mastra는 JavaScript 기반의 오픈소스 에이전트 프레임워크입니다. AI 에이전트 구축을 간편하게 하며 다양한 LLM과 통합 가능한 도구를 제공합니다.",
           "prereqs": [
             {
-              "name": "AI 에이전트",
-              "detail": "자율적으로 작업을 수행하는 AI 시스템의 기초 개념"
+              "name": "AI Agent",
+              "detail": "자율적으로 작업을 수행하는 AI 시스템 이해"
             },
             {
-              "name": "JavaScript/Node.js",
-              "detail": "이 프레임워크의 기본 언어이므로 필수적"
+              "name": "LLM (Large Language Model)",
+              "detail": "대규모 언어모델의 역할과 활용 방식 학습"
             },
             {
-              "name": "API 통합",
-              "detail": "외부 서비스와의 연동 방식 이해가 필요"
+              "name": "JavaScript/TypeScript",
+              "detail": "프레임워크 사용을 위한 기본 언어 능력"
             }
           ],
           "related_concepts": [
             {
               "keyword": "langchain",
-              "reason": "AI 에이전트 개발의 주요 경쟁 프레임워크"
+              "reason": "비슷한 AI 에이전트 프레임워크"
             },
             {
-              "keyword": "large-language-models",
-              "reason": "에이전트의 기반이 되는 AI 모델"
-            },
-            {
-              "keyword": "react-agents",
-              "reason": "React 기반 에이전트 아키텍처"
-            },
-            {
-              "keyword": "function-calling",
-              "reason": "에이전트가 외부 도구 실행 방식"
+              "keyword": "openai-api",
+              "reason": "LLM 통합을 위한 주요 API"
             },
             {
               "keyword": "prompt-engineering",
-              "reason": "에이전트 성능을 높이는 핵심 기술"
+              "reason": "에이전트의 동작 방식 제어"
+            },
+            {
+              "keyword": "tool-integration",
+              "reason": "외부 API/서비스 연결 방식"
             }
           ]
         },
@@ -920,38 +916,38 @@
           "published_at": "2025-07-10",
           "collected_at": "2026-05-09",
           "minutes": 5,
-          "one_liner": "비용 효율적인 폼 빌더를 직접 개발한 개발자의 경험 공유",
-          "summary": "Typeform의 높은 비용에 불만을 느낀 개발자가 자체 폼 빌더를 구축했습니다. 이 프로젝트는 폼 작성의 자동화와 효율성을 개선하는 솔루션을 제시하며, 오픈소스로 공개되어 커뮤니티와 공유됩니다.",
+          "one_liner": "Typeform 대신 저렴한 커스텀 폼 빌더를 만든 개발자 이야기",
+          "summary": "개발자가 높은 가격의 Typeform을 대체하기 위해 자체 폼 빌더를 개발했습니다. Vercel AI SDK를 활용하여 AI 기능을 통합하고 비용 효율적인 솔루션을 구축했으며, 오픈소스로 공유하고 있습니다.",
           "prereqs": [
             {
-              "name": "Form Builder",
-              "detail": "사용자 입력을 수집하는 웹 폼 구축 기술"
+              "name": "Typeform",
+              "detail": "SaaS 폼 빌더 서비스로 높은 비용 문제를 이해하기 위해"
+            },
+            {
+              "name": "REST API",
+              "detail": "폼 데이터 처리 및 백엔드 연동 방식 이해 필요"
             },
             {
               "name": "React",
-              "detail": "프론트엔드 UI 구현을 위한 필수 라이브러리"
-            },
-            {
-              "name": "API Integration",
-              "detail": "외부 서비스와의 데이터 연동 방식"
+              "detail": "프론트엔드 폼 UI 구현 방식을 이해하기 위해"
             }
           ],
           "related_concepts": [
             {
-              "keyword": "form-validation",
-              "reason": "사용자 입력 데이터 검증 처리"
+              "keyword": "form-builder",
+              "reason": "커스텀 폼 빌더 개발의 핵심 개념"
             },
             {
-              "keyword": "react-hooks",
-              "reason": "동적 폼 상태 관리 구현"
+              "keyword": "cost-optimization",
+              "reason": "SaaS 도구 대체를 통한 비용 절감 전략"
             },
             {
-              "keyword": "typescript",
-              "reason": "타입 안정성으로 버그 방지"
+              "keyword": "ai-integration",
+              "reason": "Vercel AI SDK로 폼에 AI 기능 추가"
             },
             {
-              "keyword": "saas-alternative",
-              "reason": "기존 유료 서비스 대체 솔루션"
+              "keyword": "open-source",
+              "reason": "개발한 도구를 커뮤니티와 공유하는 방식"
             }
           ]
         },
@@ -963,38 +959,42 @@
           "published_at": "2024-05-02",
           "collected_at": "2026-05-09",
           "minutes": 5,
-          "one_liner": "AI 애플리케이션 개발을 위한 Vercel의 오픈소스 SDK 소개",
-          "summary": "Vercel AI SDK는 JavaScript/TypeScript 기반 AI 애플리케이션을 빠르게 구축하기 위한 도구모음입니다. LLM 통합, 스트리밍, 메시지 관리 등 AI 개발에 필요한 핵심 기능을 제공하며 다양한 모델과 플랫폼을 지원합니다.",
+          "one_liner": "AI 기능을 웹 애플리케이션에 쉽게 통합하는 Vercel의 SDK",
+          "summary": "Vercel AI SDK는 OpenAI, Anthropic 등 다양한 AI 모델을 연동하여 AI 기능을 빠르게 구현할 수 있는 라이브러리입니다. 스트리밍, 함수 호출, 메시지 관리 등의 기능을 제공하여 개발 복잡도를 줄입니다.",
           "prereqs": [
             {
-              "name": "JavaScript/TypeScript",
-              "detail": "SDK를 사용하기 위한 기본 프로그래밍 언어"
+              "name": "LLM (대형언어모델)",
+              "detail": "AI SDK와 연동할 AI 모델의 개념 이해 필요"
             },
             {
-              "name": "LLM(Large Language Model)",
-              "detail": "AI SDK가 통합하는 대규모 언어 모델의 개념"
+              "name": "API 통신",
+              "detail": "외부 AI 서비스와의 HTTP 요청/응답 방식 이해"
             },
             {
-              "name": "API 개념",
-              "detail": "외부 AI 서비스와 통신하기 위한 기초 지식"
+              "name": "React/JavaScript",
+              "detail": "프론트엔드 구현 시 사용되는 주요 프레임워크"
             }
           ],
           "related_concepts": [
             {
-              "keyword": "langchain",
-              "reason": "유사한 LLM 통합 프레임워크"
+              "keyword": "openai-api",
+              "reason": "Vercel SDK가 지원하는 주요 AI 제공자"
             },
             {
               "keyword": "streaming-response",
-              "reason": "실시간 데이터 스트리밍 처리 방식"
+              "reason": "실시간 AI 응답 처리의 핵심 기술"
+            },
+            {
+              "keyword": "function-calling",
+              "reason": "AI 모델과 사용자 함수 연결 기능"
             },
             {
               "keyword": "prompt-engineering",
-              "reason": "효과적인 AI 모델 활용 기법"
+              "reason": "효과적인 AI 활용을 위한 기본 기술"
             },
             {
-              "keyword": "openai-api",
-              "reason": "주요 지원 LLM 제공자"
+              "keyword": "nextjs-integration",
+              "reason": "Vercel 플랫폼과의 최적화된 통합"
             }
           ]
         },
@@ -1007,37 +1007,41 @@
           "collected_at": "2026-05-09",
           "minutes": 5,
           "one_liner": "Vercel AI SDK로 실시간 스트리밍 챗봇을 구현하는 방법",
-          "summary": "Vercel AI SDK는 AI 애플리케이션 개발을 위한 오픈소스 라이브러리로, 스트리밍 방식의 챗봇 개발을 간편하게 지원합니다. 프롬프트 엔지니어링부터 응답 스트리밍까지 통합된 기능을 제공하여 사용자 경험을 향상시킵니다.",
+          "summary": "Vercel AI SDK는 AI 모델과의 통합을 간편하게 해주는 라이브러리입니다. 이를 활용하여 스트리밍 방식의 챗봇을 개발하면 사용자 경험을 향상시킬 수 있으며, 실시간 응답 처리가 가능합니다.",
           "prereqs": [
             {
-              "name": "LLM API 기본 개념",
-              "detail": "OpenAI 등 외부 AI 모델 활용 방식 이해"
+              "name": "Node.js/JavaScript",
+              "detail": "SDK 사용 및 백엔드 로직 구현에 필수"
             },
             {
-              "name": "스트리밍 통신",
-              "detail": "실시간 데이터 전송의 필요성과 장점 파악"
+              "name": "API 스트리밍 개념",
+              "detail": "서버에서 클라이언트로 데이터를 연속 전송하는 방식"
             },
             {
-              "name": "React/Next.js",
-              "detail": "프론트엔드 구현을 위한 기본 프레임워크 지식"
+              "name": "LLM(Large Language Model)",
+              "detail": "AI 챗봇의 기반이 되는 언어 모델 이해"
             }
           ],
           "related_concepts": [
             {
-              "keyword": "streaming-response",
-              "reason": "실시간으로 응답을 전송하는 핵심 기술"
+              "keyword": "server-sent-events",
+              "reason": "스트리밍 데이터 전송을 위한 웹 표준"
             },
             {
-              "keyword": "llm-integration",
-              "reason": "외부 언어 모델 연동 방법 이해"
+              "keyword": "openai-api",
+              "reason": "Vercel AI SDK가 지원하는 주요 AI 모델"
             },
             {
-              "keyword": "prompt-engineering",
-              "reason": "AI 모델 동작을 제어하는 필수 기술"
+              "keyword": "react-hooks",
+              "reason": "프론트엔드에서 스트리밍 상태 관리"
             },
             {
-              "keyword": "sse-websocket",
-              "reason": "스트리밍 데이터 전송 프로토콜 선택"
+              "keyword": "typescript",
+              "reason": "타입 안정성으로 개발 효율성 향상"
+            },
+            {
+              "keyword": "next-js",
+              "reason": "Vercel에서 권장하는 풀스택 프레임워크"
             }
           ]
         },
@@ -1049,42 +1053,42 @@
           "published_at": "2025-11-19",
           "collected_at": "2026-05-09",
           "minutes": 5,
-          "one_liner": "Vercel AI SDK로 AI 기반 애플리케이션을 빠르게 구축하는 방법",
-          "summary": "Vercel AI SDK는 AI 모델을 활용한 웹 애플리케이션 개발을 간편하게 해주는 라이브러리입니다. LLM 통합, 스트리밍, 상태 관리 등 핵심 기능을 제공하여 개발자가 AI 기능을 빠르고 쉽게 구현할 수 있도록 지원합니다.",
+          "one_liner": "Vercel AI SDK의 핵심 개념과 역할을 이해하는 가이드",
+          "summary": "Vercel AI SDK는 AI 모델과의 통신을 단순화하는 JavaScript 라이브러리입니다. 프론트엔드에서 LLM API를 쉽게 통합하고, 스트리밍 응답 처리와 상태 관리를 효율적으로 수행할 수 있도록 지원합니다.",
           "prereqs": [
             {
-              "name": "React/JavaScript 기초",
-              "detail": "SDK 사용을 위한 기본 언어 및 프레임워크 이해"
+              "name": "JavaScript/TypeScript",
+              "detail": "SDK 사용을 위한 기본 프로그래밍 언어"
             },
             {
-              "name": "API 개념",
-              "detail": "AI 모델과의 통신 방식을 이해하기 위해 필요"
+              "name": "REST API 개념",
+              "detail": "AI 모델과의 HTTP 통신 이해"
             },
             {
-              "name": "LLM(대규모언어모델)",
-              "detail": "SDK가 지원하는 AI 모델의 기본 개념 이해"
+              "name": "비동기 프로그래밍",
+              "detail": "스트리밍 응답 처리를 위해 필수"
             }
           ],
           "related_concepts": [
             {
-              "keyword": "openai-api",
-              "reason": "Vercel AI SDK와 통합 가능한 주요 LLM 제공자"
+              "keyword": "large-language-models",
+              "reason": "Vercel AI SDK가 통합하는 주요 대상"
             },
             {
-              "keyword": "streaming",
-              "reason": "AI 응답을 실시간으로 처리하는 핵심 기능"
+              "keyword": "stream-processing",
+              "reason": "실시간 응답 처리의 핵심 기능"
             },
             {
-              "keyword": "next-js",
-              "reason": "Vercel SDK가 최적화된 React 풀스택 프레임워크"
+              "keyword": "react-hooks",
+              "reason": "React에서 AI 기능 통합 시 활용"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "프론트엔드에서 백엔드/외부 API 연동"
             },
             {
               "keyword": "prompt-engineering",
-              "reason": "AI 모델의 출력 품질을 높이는 필수 기술"
-            },
-            {
-              "keyword": "function-calling",
-              "reason": "AI가 외부 함수를 호출하도록 구성하는 기능"
+              "reason": "AI 모델과의 효과적인 상호작용"
             }
           ]
         }
