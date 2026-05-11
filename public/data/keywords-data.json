@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-10",
+  "generated_at": "2026-05-12",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -1370,6 +1370,287 @@
             {
               "keyword": "user-interface",
               "reason": "직관적인 설계로 사용성 향상"
+            }
+          ]
+        }
+      ]
+    },
+    "trpc": {
+      "articles": [
+        {
+          "title": "tRPC – Build and consume typesafe APIs without schemas or code generation",
+          "url": "https://trpc.io/",
+          "source": "hn",
+          "lang": "en",
+          "points": 316,
+          "published_at": "2023-08-12",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "스키마 없이 타입 안전한 API를 빌드하고 사용하는 tRPC",
+          "summary": "tRPC는 스키마나 코드 생성 없이 TypeScript의 타입 시스템을 활용하여 타입 안전한 API를 구축할 수 있는 라이브러리입니다. 클라이언트와 서버 간 자동 타입 동기화로 개발 생산성을 높이고 런타임 에러를 사전에 방지합니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript",
+              "detail": "tRPC의 타입 시스템 활용을 위한 필수 언어"
+            },
+            {
+              "name": "RPC 개념",
+              "detail": "원격 프로시저 호출 패턴을 이해하기 위함"
+            },
+            {
+              "name": "클라이언트-서버 아키텍처",
+              "detail": "API 통신 구조 이해를 위한 기초 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "typescript",
+              "reason": "타입 안전성 구현의 핵심 언어"
+            },
+            {
+              "keyword": "api-development",
+              "reason": "타입 안전한 API 개발 방식"
+            },
+            {
+              "keyword": "type-safety",
+              "reason": "런타임 에러 방지의 핵심 장점"
+            },
+            {
+              "keyword": "schema-less-apis",
+              "reason": "스키마 정의 없는 API 패러다임"
+            },
+            {
+              "keyword": "fullstack-development",
+              "reason": "풀스택에서 일관된 타입 관리"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: REST Alternative to GraphQL and tRPC",
+          "url": "https://openapistack.co/docs/intro/",
+          "source": "hn",
+          "lang": "en",
+          "points": 123,
+          "published_at": "2023-10-10",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "GraphQL과 tRPC의 대안이 되는 새로운 REST 기반 API 방식 소개",
+          "summary": "GraphQL과 tRPC의 복잡성을 해결하기 위한 새로운 REST 기반 API 아키텍처를 제시합니다. 타입 안정성을 유지하면서도 더 간단한 구현을 목표로 하는 접근 방식입니다.",
+          "prereqs": [
+            {
+              "name": "REST API",
+              "detail": "기본적인 HTTP 기반 API 설계 방식 이해 필요"
+            },
+            {
+              "name": "GraphQL",
+              "detail": "tRPC의 대안 기술로, 비교 대상을 이해하기 위함"
+            },
+            {
+              "name": "타입 안정성",
+              "detail": "개발 중 타입 오류를 줄이려는 목표 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "rest-api",
+              "reason": "기본이 되는 API 아키텍처 패러다임"
+            },
+            {
+              "keyword": "api-design",
+              "reason": "효율적인 API 설계 원칙 학습"
+            },
+            {
+              "keyword": "type-safety",
+              "reason": "현대 웹 개발의 중요한 요구사항"
+            },
+            {
+              "keyword": "backend-frontend-communication",
+              "reason": "클라이언트와 서버 통신 방식 이해"
+            }
+          ]
+        },
+        {
+          "title": "TRPC: End-to-end typesafe APIs made easy",
+          "url": "https://trpc.io/",
+          "source": "hn",
+          "lang": "en",
+          "points": 123,
+          "published_at": "2022-05-06",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "TypeScript로 타입 안전한 API를 쉽게 만드는 tRPC 프레임워크",
+          "summary": "tRPC는 백엔드와 프론트엔드 간의 타입 안전성을 보장하는 API 개발 도구입니다. 복잡한 API 정의 없이 TypeScript 타입을 공유하여 런타임 에러를 줄이고 개발 생산성을 높입니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript",
+              "detail": "타입 안전성을 활용하기 위한 필수 언어"
+            },
+            {
+              "name": "REST API / GraphQL",
+              "detail": "기존 API 방식과의 차이를 이해하기 위해"
+            },
+            {
+              "name": "풀스택 개발",
+              "detail": "클라이언트와 서버 양쪽 이해가 필요함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "end-to-end-typesafety",
+              "reason": "클라이언트-서버 전체 타입 안전성 확보"
+            },
+            {
+              "keyword": "rpc",
+              "reason": "tRPC의 기반이 되는 원격 프로시저 호출 패턴"
+            },
+            {
+              "keyword": "typescript-codegen",
+              "reason": "타입 정의 자동화 및 코드 생성"
+            },
+            {
+              "keyword": "api-contract",
+              "reason": "프론트엔드와 백엔드 간 계약 정의"
+            },
+            {
+              "keyword": "zod-validation",
+              "reason": "런타임 데이터 검증을 통한 타입 안전성"
+            }
+          ]
+        },
+        {
+          "title": "tRPC?",
+          "url": "https://velog.io/@godyuo/tRPC",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-06-06",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "TypeScript 기반 end-to-end 타입 안전성을 제공하는 RPC 프레임워크",
+          "summary": "tRPC는 TypeScript를 사용하여 서버와 클라이언트 간의 통신에서 완벽한 타입 안전성을 제공합니다. REST API나 GraphQL 없이도 직접 함수를 호출하는 방식으로 개발 경험을 향상시킵니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript",
+              "detail": "tRPC의 핵심 기능인 타입 추론을 활용하기 위해 필수"
+            },
+            {
+              "name": "REST API",
+              "detail": "전통적인 API 방식과 tRPC의 차이를 이해하기 위함"
+            },
+            {
+              "name": "클라이언트-서버 통신",
+              "detail": "API 호출 원리와 데이터 송수신 방식 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "rpc",
+              "reason": "tRPC의 기반이 되는 원격 프로시저 호출 개념"
+            },
+            {
+              "keyword": "rest-api",
+              "reason": "tRPC와 비교되는 기존 API 아키텍처 패턴"
+            },
+            {
+              "keyword": "graphql",
+              "reason": "타입 안전성을 제공하는 대체 API 쿼리 언어"
+            },
+            {
+              "keyword": "type-safety",
+              "reason": "tRPC의 주요 장점인 end-to-end 타입 검증"
+            },
+            {
+              "keyword": "next-js",
+              "reason": "tRPC를 자주 사용하는 풀스택 프레임워크"
+            }
+          ]
+        },
+        {
+          "title": "tRPC (feat. zod)",
+          "url": "https://velog.io/@aspark49/tRPC-feat.-zod",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-12-27",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "타입 안전한 API 통신을 위한 tRPC와 Zod 활용 가이드",
+          "summary": "tRPC는 TypeScript를 활용해 클라이언트-서버 간 타입 안전성을 보장하는 RPC 프레임워크입니다. Zod와 함께 사용하면 런타임 데이터 검증까지 처리할 수 있어 더욱 견고한 API를 구축할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript",
+              "detail": "tRPC는 TS 기반이므로 기본 문법 이해 필수"
+            },
+            {
+              "name": "REST API 개념",
+              "detail": "기존 API 방식과의 차이 이해를 위해 필요"
+            },
+            {
+              "name": "Node.js 기초",
+              "detail": "백엔드 서버 구성을 위한 기본 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "zod",
+              "reason": "tRPC와 함께 데이터 검증을 담당하는 필수 라이브러리"
+            },
+            {
+              "keyword": "type-safety",
+              "reason": "tRPC의 핵심 가치인 엔드투엔드 타입 안전성"
+            },
+            {
+              "keyword": "rpc",
+              "reason": "tRPC의 기반이 되는 원격 프로시저 호출 패러다임"
+            },
+            {
+              "keyword": "next-js",
+              "reason": "tRPC를 자주 사용하는 풀스택 프레임워크"
+            },
+            {
+              "keyword": "api-validation",
+              "reason": "Zod를 통한 입력값 검증 방법론"
+            }
+          ]
+        },
+        {
+          "title": "tRPC 처음 써본 후기",
+          "url": "https://velog.io/@wonjang/tRPC",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-10-21",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "tRPC를 처음 사용한 개발자의 실제 경험과 장점을 공유합니다.",
+          "summary": "tRPC는 TypeScript 기반의 타입 안전한 RPC 프레임워크로, 클라이언트와 서버 간의 통신을 간편하게 만듭니다. 초보자도 쉽게 배울 수 있으며, 자동 타입 추론으로 런타임 에러를 줄일 수 있는 장점이 있습니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript",
+              "detail": "tRPC의 핵심은 타입 안전성이므로 필수"
+            },
+            {
+              "name": "REST API 개념",
+              "detail": "tRPC와의 차이점을 이해하기 위함"
+            },
+            {
+              "name": "Node.js 기본",
+              "detail": "백엔드 환경 구성에 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "api-routing",
+              "reason": "tRPC의 라우팅 메커니즘 이해"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "자동 타입 추론의 원리 학습"
+            },
+            {
+              "keyword": "rpc-pattern",
+              "reason": "RPC 패턴의 기본 개념 습득"
+            },
+            {
+              "keyword": "end-to-end-typing",
+              "reason": "풀스택 타입 안전성 구현 방법"
             }
           ]
         }
