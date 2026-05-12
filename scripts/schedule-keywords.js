@@ -74,11 +74,17 @@ ${recentKeywords.join(', ')}
     body: JSON.stringify({
       model: 'claude-haiku-4-5-20251001',
       max_tokens: 256,
-      messages: [{ role: 'user', content: prompt }],
+      messages: [
+        { role: 'user', content: prompt },
+        { role: 'assistant', content: '[' },
+      ],
     }),
   });
   const data = await res.json();
-  return JSON.parse(data.content?.[0]?.text ?? '[]');
+  if (data.error) throw new Error(`Anthropic API 오류: ${JSON.stringify(data.error)}`);
+  const text = data.content?.[0]?.text ?? '';
+  const raw = ('[' + text).replace(/^```(?:json)?\n?/, '').replace(/\n?```$/, '').trim();
+  return JSON.parse(raw);
 }
 
 async function main() {
