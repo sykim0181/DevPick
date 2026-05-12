@@ -5,5 +5,12 @@
   "2026-05-08": "container-queries",
   "2026-05-09": "tanstack-query",
   "2026-05-10": "vercel-ai-sdk",
-  "2026-05-11": "inp"
+  "2026-05-11": "inp",
+  "2026-05-13": "nextjs-cache",
+  "2026-05-14": "ai-sdk-rsc",
+  "2026-05-15": "vitest",
+  "2026-05-16": "prompt-engineering",
+  "2026-05-17": "react-performance",
+  "2026-05-18": "edge-functions",
+  "2026-05-19": "msw"
 }
