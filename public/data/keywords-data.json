@@ -1655,6 +1655,147 @@
           ]
         }
       ]
+    },
+    "contract-testing": {
+      "articles": [
+        {
+          "title": "Why Smart Contract Testing Is Critical for Blockchain Security",
+          "url": "https://velog.io/@ishavalentina93/Why-Smart-Contract-Testing-Is-Critical-for-Blockchain-Security-10kgwdel",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2026-01-10",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "스마트 컨트랙트 테스팅이 블록체인 보안을 보장하는 필수 요소",
+          "summary": "스마트 컨트랙트의 버그와 취약점은 막대한 재정적 손실을 초래할 수 있으므로 철저한 테스팅이 필수적입니다. 단위 테스트, 통합 테스트, 보안 감시 등 다층 테스팅 전략을 통해 배포 전 잠재적 문제를 사전에 발견할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "스마트 컨트랙트",
+              "detail": "블록체인 위의 자동 실행 코드로, 테스팅이 필요한 대상"
+            },
+            {
+              "name": "블록체인 보안",
+              "detail": "불변성과 분산성의 특성을 이해하는 것이 테스팅 전략 수립의 기초"
+            },
+            {
+              "name": "소프트웨어 테스팅 기초",
+              "detail": "단위 테스트, 통합 테스트 등 일반적인 테스팅 개념 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "solidity",
+              "reason": "가장 널리 사용되는 스마트 컨트랙트 언어"
+            },
+            {
+              "keyword": "security-audit",
+              "reason": "전문가에 의한 보안 검토로 테스팅 보완"
+            },
+            {
+              "keyword": "unit-testing",
+              "reason": "개별 함수 검증의 핵심 테스팅 기법"
+            },
+            {
+              "keyword": "vulnerability-detection",
+              "reason": "알려진 취약점 패턴 자동 탐지"
+            },
+            {
+              "keyword": "deployment-pipeline",
+              "reason": "테스팅을 포함한 배포 프로세스 자동화"
+            }
+          ]
+        },
+        {
+          "title": "Smart Contract 개발 Tools 유형 및 종류",
+          "url": "https://velog.io/@johnny_ji/Smart-Contract-개발-Tools-유형-및-종류",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-03-28",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "스마트 컨트랙트 개발에 필요한 다양한 도구들의 종류와 역할",
+          "summary": "스마트 컨트랙트 개발에 사용되는 주요 도구들을 테스팅, 배포, 모니터링 등 목적별로 분류합니다. 각 도구의 특징과 용도를 이해하면 효율적인 개발 워크플로우를 구성할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "스마트 컨트랙트",
+              "detail": "블록체인에서 실행되는 자동화된 계약 코드의 기본 개념"
+            },
+            {
+              "name": "블록체인 기초",
+              "detail": "분산 네트워크와 스마트 컨트랙트 실행 환경 이해"
+            },
+            {
+              "name": "솔리디티(Solidity)",
+              "detail": "이더리움 기반 스마트 컨트랙트 개발 언어"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "smart-contract-deployment",
+              "reason": "개발된 컨트랙트를 네트워크에 배포하는 도구"
+            },
+            {
+              "keyword": "blockchain-development-environment",
+              "reason": "스마트 컨트랙트 개발을 위한 통합 환경 구축"
+            },
+            {
+              "keyword": "code-security-audit",
+              "reason": "컨트랙트의 보안 취약점을 찾기 위한 정적 분석"
+            },
+            {
+              "keyword": "gas-optimization",
+              "reason": "스마트 컨트랙트 실행 비용 최소화 기법"
+            },
+            {
+              "keyword": "debugging-tools",
+              "reason": "컨트랙트 실행 오류를 추적하고 분석하는 도구"
+            }
+          ]
+        },
+        {
+          "title": "SpringCloud OverView",
+          "url": "https://velog.io/@dbdb1114/SpringCloud-OverView",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-03-29",
+          "collected_at": "2026-05-12",
+          "minutes": 5,
+          "one_liner": "Spring Cloud를 이용한 마이크로서비스 아키텍처의 기본 개념",
+          "summary": "Spring Cloud는 분산 시스템 환경에서 마이크로서비스를 구축하기 위한 프레임워크입니다. 서비스 간 통신, 설정 관리, 로드 밸런싱 등의 기능을 제공하며, 계약 기반 테스트를 통해 서비스 간 호환성을 보장합니다.",
+          "prereqs": [
+            {
+              "name": "마이크로서비스 아키텍처",
+              "detail": "Spring Cloud의 기반이 되는 분산 시스템 설계 패턴"
+            },
+            {
+              "name": "Spring Framework",
+              "detail": "Spring Cloud를 사용하기 위한 기본 Java 프레임워크"
+            },
+            {
+              "name": "REST API",
+              "detail": "마이크로서비스 간 통신의 표준 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "service-discovery",
+              "reason": "동적으로 변하는 서비스 위치를 자동 등록·발견"
+            },
+            {
+              "keyword": "load-balancing",
+              "reason": "여러 인스턴스 간 요청 분산 처리"
+            },
+            {
+              "keyword": "api-gateway",
+              "reason": "클라이언트와 마이크로서비스 간의 단일 진입점"
+            },
+            {
+              "keyword": "circuit-breaker",
+              "reason": "서비스 장애 시 연쇄 실패 방지 메커니즘"
+            }
+          ]
+        }
+      ]
     }
   }
 }
