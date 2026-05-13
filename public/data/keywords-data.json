@@ -1799,6 +1799,239 @@
     },
     "ai-sdk-rsc": {
       "articles": []
+    },
+    "nextjs-cache": {
+      "articles": [
+        {
+          "title": "Vercel Cache API: A progressive cache, integrated with Next.js",
+          "url": "https://vercel.com/blog/vercel-cache-api-nextjs-cache",
+          "source": "hn",
+          "lang": "en",
+          "points": 32,
+          "published_at": "2023-02-23",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js와 통합된 Vercel의 진보적 캐시 API를 소개합니다.",
+          "summary": "Vercel Cache API는 Next.js 애플리케이션의 성능 최적화를 위한 캐싱 솔루션입니다. 동적 데이터의 캐싱과 재검증을 효율적으로 관리하여 빠른 로딩 속도와 사용자 경험을 개선합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기본 개념",
+              "detail": "서버·클라이언트 렌더링 이해가 필요합니다"
+            },
+            {
+              "name": "HTTP 캐싱",
+              "detail": "캐시 동작 원리를 이해해야 합니다"
+            },
+            {
+              "name": "ISR(Incremental Static Regeneration)",
+              "detail": "정적 생성 및 재검증 방식을 알아야 합니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "next-revalidate",
+              "reason": "캐시 재검증 시간 설정과 직접 관련"
+            },
+            {
+              "keyword": "server-components",
+              "reason": "서버 컴포넌트와 캐싱 전략의 연동"
+            },
+            {
+              "keyword": "edge-caching",
+              "reason": "엣지에서의 캐시 최적화 방식 이해"
+            },
+            {
+              "keyword": "vercel-deployment",
+              "reason": "Vercel 배포 환경의 캐시 활용"
+            }
+          ]
+        },
+        {
+          "title": "This is what 864GB of RAM looks like now",
+          "url": "http://37signals.com/svn/posts/3090-basecamp-nexts-caching-hardware",
+          "source": "hn",
+          "lang": "en",
+          "points": 231,
+          "published_at": "2012-01-27",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js의 대규모 캐시 메모리 사용 현황과 최적화 전략",
+          "summary": "Next.js 애플리케이션에서 864GB의 RAM을 사용하는 캐시 문제에 대해 다룹니다. 과도한 메모리 사용의 원인을 분석하고 캐시 최적화 방법을 제시하여 성능 개선 방향을 제안합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js의 빌드 및 캐싱 메커니즘 이해 필요"
+            },
+            {
+              "name": "메모리 관리",
+              "detail": "애플리케이션 메모리 누수와 최적화 개념"
+            },
+            {
+              "name": "캐싱 전략",
+              "detail": "웹 애플리케이션의 캐시 전략과 TTL 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memory-optimization",
+              "reason": "RAM 사용량 감소를 위한 실제 최적화 기법"
+            },
+            {
+              "keyword": "build-performance",
+              "reason": "빌드 단계에서의 캐시 처리와 성능 영향"
+            },
+            {
+              "keyword": "server-side-caching",
+              "reason": "서버 캐싱 전략과 메모리 할당 관리"
+            },
+            {
+              "keyword": "incremental-static-regeneration",
+              "reason": "ISR 사용 시 캐시 메모리 관리 방법"
+            }
+          ]
+        },
+        {
+          "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 1기 - NextJS-Cache",
+          "url": "https://velog.io/@nile27/NextJS-Cache",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-06-12",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js의 캐싱 메커니즘을 이해하고 프로젝트에 적용하는 방법",
+          "summary": "Next.js의 캐싱 전략은 애플리케이션 성능 최적화의 핵심입니다. 빌드 시점의 Static Generation, 런타임의 ISR, 그리고 동적 렌더링 등 다양한 캐싱 방식을 활용하여 효율적인 웹 애플리케이션을 구축할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js의 렌더링 방식과 라우팅을 이해해야 캐싱 전략을 적용할 수 있습니다."
+            },
+            {
+              "name": "HTTP 캐싱",
+              "detail": "웹 캐싱의 기본 개념을 알아야 Next.js 캐싱 메커니즘을 이해할 수 있습니다."
+            },
+            {
+              "name": "성능 최적화",
+              "detail": "캐싱이 성능에 미치는 영향을 인식해야 적절한 전략을 선택할 수 있습니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "static-generation",
+              "reason": "빌드 시점에 페이지를 미리 생성하여 캐시하는 방식"
+            },
+            {
+              "keyword": "incremental-static-regeneration",
+              "reason": "배포 후에도 정적 페이지를 갱신할 수 있는 캐싱 전략"
+            },
+            {
+              "keyword": "server-side-rendering",
+              "reason": "요청 시마다 서버에서 렌더링하는 방식과의 비교 필요"
+            },
+            {
+              "keyword": "revalidation",
+              "reason": "캐시된 콘텐츠를 언제 갱신할지 결정하는 핵심 메커니즘"
+            },
+            {
+              "keyword": "cdn-caching",
+              "reason": "엣지 레벨에서의 캐싱으로 글로벌 성능 향상 가능"
+            }
+          ]
+        },
+        {
+          "title": "nextjs app router, 정말 알고 사용하시나요?",
+          "url": "https://velog.io/@ubin_ing/nextjs-app-router",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-08-09",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js App Router의 캐싱 메커니즘을 제대로 이해하고 활용하기",
+          "summary": "Next.js App Router에서 제공하는 다양한 캐싱 전략을 설명합니다. Request Memoization, Data Cache, Full Route Cache 등의 캐싱 레이어를 이해하면 성능 최적화와 예상치 못한 버그를 방지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기본 개념",
+              "detail": "App Router의 구조와 동작 방식을 알아야 캐싱 정책을 이해할 수 있습니다."
+            },
+            {
+              "name": "서버 사이드 렌더링(SSR)",
+              "detail": "캐싱이 서버에서 어떻게 동작하는지 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "HTTP 캐싱",
+              "detail": "브라우저와 서버 캐싱의 기본 원리를 알면 Next.js 캐싱을 더 잘 이해합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "request-memoization",
+              "reason": "단일 요청 내 중복 데이터 페칭을 방지하는 캐싱 레이어"
+            },
+            {
+              "keyword": "server-component",
+              "reason": "캐싱이 주로 적용되는 서버 컴포넌트의 특성 이해 필요"
+            },
+            {
+              "keyword": "revalidation",
+              "reason": "캐시된 데이터를 갱신하는 전략(ISR, On-demand) 학습"
+            },
+            {
+              "keyword": "route-handler",
+              "reason": "API 라우트에서의 캐싱 동작 방식 차이 이해"
+            },
+            {
+              "keyword": "dynamic-rendering",
+              "reason": "캐싱을 우회하는 동적 렌더링 사용 시점 파악"
+            }
+          ]
+        },
+        {
+          "title": "Next에서 이미지 최적화는 마법이 아니다.",
+          "url": "https://velog.io/@haryan248/Next-Image-Optimization",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-02-15",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js 이미지 최적화의 동작 원리를 이해하고 캐싱 전략을 활용하자.",
+          "summary": "Next.js의 이미지 최적화는 자동 포맷 변환, 반응형 이미지 제공, 캐싱을 통해 성능을 향상시킵니다. 캐시 헤더와 CDN 활용으로 더욱 효율적인 이미지 관리가 가능하며, 개발자가 직접 최적화 전략을 설정할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "HTTP 캐싱",
+              "detail": "이미지 캐시 헤더와 TTL을 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "이미지 포맷",
+              "detail": "WebP, AVIF 등 최신 포맷의 장점을 알아야 합니다."
+            },
+            {
+              "name": "Next.js Image 컴포넌트",
+              "detail": "최적화 기능을 활용하는 기본 요소입니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "cdn-caching",
+              "reason": "CDN을 통한 이미지 배포 및 캐싱 전략"
+            },
+            {
+              "keyword": "image-format-conversion",
+              "reason": "WebP, AVIF 자동 변환 메커니즘"
+            },
+            {
+              "keyword": "responsive-images",
+              "reason": "다양한 화면 크기에 최적화된 이미지 제공"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "이미지 지연 로딩으로 초기 성능 개선"
+            },
+            {
+              "keyword": "core-web-vitals",
+              "reason": "이미지 최적화가 성능 지표에 미치는 영향"
+            }
+          ]
+        }
+      ]
     }
   }
 }
