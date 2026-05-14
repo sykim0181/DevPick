@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14",
+  "generated_at": "2026-05-15",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -2309,6 +2309,267 @@
             {
               "keyword": "test-coverage",
               "reason": "테스트 코드가 얼마나 커버하는지 측정하는 방법"
+            }
+          ]
+        }
+      ]
+    },
+    "prompt-engineering": {
+      "articles": [
+        {
+          "title": "Prompt Engineering Guide: Guides, papers, and resources for prompt engineering",
+          "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+          "source": "hn",
+          "lang": "en",
+          "points": 544,
+          "published_at": "2023-02-21",
+          "collected_at": "2026-05-15",
+          "minutes": 8,
+          "one_liner": "AI 모델과의 상호작용을 최적화하는 프롬프트 작성 기법 가이드",
+          "summary": "프롬프트 엔지니어링은 AI 모델으로부터 더 나은 결과를 얻기 위한 입력값 작성 기술입니다. 이 가이드는 효과적인 프롬프트 작성 전략, 관련 논문, 실무 자료를 제공합니다.",
+          "prereqs": [
+            {
+              "name": "AI/머신러닝 기초",
+              "detail": "AI 모델의 작동 원리를 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "자연어처리(NLP)",
+              "detail": "텍스트 기반 AI와의 상호작용을 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "API 및 LLM 기초",
+              "detail": "실제 언어 모델 API 사용 방식을 알아야 합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "large-language-models",
+              "reason": "프롬프트 엔지니어링의 주요 대상 기술입니다."
+            },
+            {
+              "keyword": "ai-interaction",
+              "reason": "사용자와 AI 간 효과적인 의사소통 방식입니다."
+            },
+            {
+              "keyword": "text-generation",
+              "reason": "프롬프트 입력으로 인한 직접적인 결과물입니다."
+            },
+            {
+              "keyword": "few-shot-learning",
+              "reason": "프롬프트에 예시를 포함하는 고급 기법입니다."
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "복잡한 문제 해결을 위한 프롬프트 기법입니다."
+            }
+          ]
+        },
+        {
+          "title": "Brex’s Prompt Engineering Guide",
+          "url": "https://github.com/brexhq/prompt-engineering",
+          "source": "hn",
+          "lang": "en",
+          "points": 540,
+          "published_at": "2023-05-15",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델과 효과적으로 소통하기 위한 프롬프트 작성 기법",
+          "summary": "Brex의 프롬프트 엔지니어링 가이드는 AI 모델에서 최적의 결과를 얻기 위한 실전 기법들을 다룹니다. 명확한 지시문 작성, 컨텍스트 제공, 단계적 사고 유도 등 효율적인 프롬프트 구성 원칙을 제시합니다.",
+          "prereqs": [
+            {
+              "name": "LLM의 기본 개념",
+              "detail": "대규모 언어 모델의 작동 방식 이해"
+            },
+            {
+              "name": "자연어 처리",
+              "detail": "AI가 텍스트를 어떻게 해석하는지 기초 지식"
+            },
+            {
+              "name": "AI 활용 경험",
+              "detail": "ChatGPT 등 생성AI와의 상호작용 경험"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시를 통한 모델 학습 방식 이해"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계적 추론으로 정확도 향상"
+            },
+            {
+              "keyword": "token-limit",
+              "reason": "입출력 길이 제약 이해 및 최적화"
+            },
+            {
+              "keyword": "temperature-sampling",
+              "reason": "출력 다양성과 일관성 조절 방법"
+            }
+          ]
+        },
+        {
+          "title": "Prompt engineering playbook for programmers",
+          "url": "https://addyo.substack.com/p/the-prompt-engineering-playbook-for",
+          "source": "hn",
+          "lang": "en",
+          "points": 464,
+          "published_at": "2025-06-04",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "프로그래머를 위한 프롬프트 엔지니어링 실전 가이드",
+          "summary": "프로그래머가 AI 모델과 효과적으로 상호작용하기 위한 프롬프트 작성 기법과 실전 팁을 다룹니다. 명확한 지시문, 컨텍스트 제공, 반복적 개선을 통해 더 나은 코드 생성 결과를 얻는 방법을 설명합니다.",
+          "prereqs": [
+            {
+              "name": "AI 모델 기초",
+              "detail": "LLM의 동작 원리를 이해하기 위한 기본 개념"
+            },
+            {
+              "name": "자연언어 처리",
+              "detail": "프롬프트 작성 시 효과적인 언어 표현 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시 제공으로 모델 성능 향상"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계별 사고로 복잡한 문제 해결"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "LLM API와 코드 통합 방법"
+            },
+            {
+              "keyword": "testing-prompts",
+              "reason": "프롬프트 효과성 검증 및 최적화"
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering",
+          "url": "https://velog.io/@ilmaster/Prompt-Engineering",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-02-27",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델에게 원하는 결과를 얻기 위한 효과적인 질문 작성 기법",
+          "summary": "프롬프트 엔지니어링은 AI 모델에 입력하는 질문이나 지시문을 최적화하여 더 정확하고 유용한 답변을 이끌어내는 기술입니다. 올바른 프롬프트 작성으로 생성형 AI의 성능을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "생성형 AI 이해",
+              "detail": "ChatGPT 같은 AI 모델의 기본 동작 원리를 알아야 합니다"
+            },
+            {
+              "name": "자연어 처리(NLP)",
+              "detail": "AI가 텍스트를 어떻게 이해하는지 알면 도움됩니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시를 통해 모델의 성능을 향상시키는 기법"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계별 사고 과정을 유도하는 프롬프팅 방식"
+            },
+            {
+              "keyword": "temperature-setting",
+              "reason": "AI 응답의 창의성과 일관성을 조절하는 파라미터"
+            },
+            {
+              "keyword": "context-window",
+              "reason": "프롬프트에 포함할 수 있는 컨텍스트의 길이 제한"
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering",
+          "url": "https://velog.io/@tiktakdad/Prompt-Engineering",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-09-03",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델의 응답 품질을 높이기 위한 질문 작성 기법",
+          "summary": "프롬프트 엔지니어링은 AI 모델에게 정확하고 유용한 답변을 얻기 위해 질문을 효과적으로 구성하는 기술입니다. 명확한 지시문, 예시, 맥락 제공을 통해 모델의 성능을 극대화할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "AI/LLM 기본 이해",
+              "detail": "언어 모델이 어떻게 작동하는지 알아야 합니다"
+            },
+            {
+              "name": "자연어 처리(NLP)",
+              "detail": "텍스트 입출력 과정을 이해하면 도움이 됩니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시를 통한 모델 학습 방식 이해"
+            },
+            {
+              "keyword": "temperature-sampling",
+              "reason": "모델 응답의 창의성과 일관성 조절"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계적 추론을 유도하는 기법"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "프롬프트를 실제 애플리케이션에 활용"
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering",
+          "url": "https://velog.io/@pprriitt/이어드림Prompt-Engineering",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-04-15",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델의 성능을 최대화하는 효과적인 질문 작성 기법",
+          "summary": "프롬프트 엔지니어링은 AI 모델에 주어지는 질문이나 지시를 최적화하여 더 나은 결과를 얻는 기술입니다. 명확한 지시문, 예제, 맥락 제공 등의 전략을 통해 AI의 응답 품질을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "AI/LLM 기초",
+              "detail": "대형언어모델이 텍스트를 어떻게 처리하는지 이해 필요"
+            },
+            {
+              "name": "자연어 이해",
+              "detail": "명확하고 효과적인 문장 작성 능력 필수"
+            },
+            {
+              "name": "기본 머신러닝 개념",
+              "detail": "모델의 입출력과 학습 원리 이해 도움"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "llm",
+              "reason": "LLM의 능력을 최대한 활용하기 위한 기술"
+            },
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예제를 통한 프롬프트 최적화 기법"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계적 사고를 유도하는 프롬프팅 방법"
+            },
+            {
+              "keyword": "ai-fine-tuning",
+              "reason": "프롬프트와 함께 모델 커스터마이징 고려"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "실제 AI 서비스와 프롬프트 연동 방법"
             }
           ]
         }
