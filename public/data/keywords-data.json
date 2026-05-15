@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15",
+  "generated_at": "2026-05-16",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -2570,6 +2570,191 @@
             {
               "keyword": "api-integration",
               "reason": "실제 AI 서비스와 프롬프트 연동 방법"
+            }
+          ]
+        }
+      ]
+    },
+    "react-performance": {
+      "articles": [
+        {
+          "title": "React Performance",
+          "url": "https://aerotwist.com/blog/react-plus-performance-equals-what/",
+          "source": "hn",
+          "lang": "en",
+          "points": 145,
+          "published_at": "2015-07-03",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 애플리케이션의 렌더링 성능을 최적화하는 기법",
+          "summary": "React 애플리케이션의 성능 저하 원인을 파악하고 렌더링 최적화, 메모이제이션, 코드 분할 등의 기법을 통해 사용자 경험을 개선하는 방법을 다룹니다.",
+          "prereqs": [
+            {
+              "name": "React 기본 개념",
+              "detail": "React의 컴포넌트와 상태 관리 이해 필요"
+            },
+            {
+              "name": "Virtual DOM",
+              "detail": "React의 렌더링 메커니즘 이해 필요"
+            },
+            {
+              "name": "JavaScript 비동기 처리",
+              "detail": "성능 최적화 기법 이해에 필수"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "불필요한 리렌더링을 방지하는 핵심 기법"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "번들 크기를 줄여 초기 로딩 성능 개선"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요한 컴포넌트만 동적으로 로드하는 방식"
+            },
+            {
+              "keyword": "profiler-api",
+              "reason": "React DevTools로 성능 병목 지점 분석"
+            },
+            {
+              "keyword": "hook-optimization",
+              "reason": "useCallback, useMemo 등 성능 최적화 훅"
+            }
+          ]
+        },
+        {
+          "title": "React Performance",
+          "url": "https://velog.io/@mochang2/React-Performance",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-12-10",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 애플리케이션의 렌더링 성능을 최적화하는 핵심 기법들",
+          "summary": "React의 렌더링 최적화는 불필요한 리렌더링을 방지하고 번들 크기를 줄이는 것이 핵심입니다. useMemo, useCallback, Code Splitting 등의 기법을 활용하여 사용자 경험을 개선할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React 기본 개념",
+              "detail": "컴포넌트, 상태, Props 이해 필요"
+            },
+            {
+              "name": "렌더링 원리",
+              "detail": "Virtual DOM과 재조정 과정 이해 필요"
+            },
+            {
+              "name": "JavaScript 기본",
+              "detail": "클로저, 메모이제이션 개념 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "불필요한 재계산 방지로 성능 향상"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "번들 크기 감소로 초기 로딩 속도 개선"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요시에만 컴포넌트 로드하여 성능 최적화"
+            },
+            {
+              "keyword": "react-profiler",
+              "reason": "성능 병목 지점 식별 및 분석 도구"
+            }
+          ]
+        },
+        {
+          "title": "[MGS] React Performance",
+          "url": "https://velog.io/@syoon624/MGS-React-Performance",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2022-12-17",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 애플리케이션의 성능을 최적화하는 방법과 기법",
+          "summary": "React 애플리케이션의 성능을 개선하기 위한 핵심 기법들을 다룹니다. 불필요한 렌더링 방지, 메모이제이션, 코드 스플리팅 등의 최적화 전략을 통해 사용자 경험을 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React 렌더링 메커니즘",
+              "detail": "성능 최적화의 기초가 되는 리렌더링 원리 이해"
+            },
+            {
+              "name": "JavaScript 함수형 프로그래밍",
+              "detail": "메모이제이션과 최적화 기법 학습에 필요"
+            },
+            {
+              "name": "브라우저 성능 분석",
+              "detail": "성능 개선 결과를 측정하고 검증하기 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "불필요한 렌더링을 방지하는 핵심 기법"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "초기 로딩 시간 개선을 위한 번들 최적화"
+            },
+            {
+              "keyword": "virtual-dom",
+              "reason": "React의 렌더링 최적화 원리 이해"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요한 시점의 데이터 로딩으로 성능 향상"
+            },
+            {
+              "keyword": "profiler",
+              "reason": "성능 문제 식별 및 병목 지점 파악"
+            }
+          ]
+        },
+        {
+          "title": "Epic React - performance tab",
+          "url": "https://velog.io/@dongha1992/useMemo-with-performance-tab",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-03-24",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 성능 최적화를 위한 Performance 탭 활용법",
+          "summary": "React DevTools의 Performance 탭을 사용하여 컴포넌트 렌더링 성능을 측정하고 분석하는 방법을 다룹니다. 불필요한 리렌더링을 감지하고 성능 병목 지점을 파악하여 애플리케이션 최적화에 활용할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React Rendering",
+              "detail": "성능 측정 대상인 렌더링 과정의 이해"
+            },
+            {
+              "name": "React DevTools",
+              "detail": "Performance 탭을 포함한 개발자 도구의 기본 사용법"
+            },
+            {
+              "name": "Component Lifecycle",
+              "detail": "성능 분석 시 마운트, 업데이트 단계 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "렌더링 최적화의 핵심 기법"
+            },
+            {
+              "keyword": "profiler-api",
+              "reason": "성능 측정을 위한 공식 API"
+            },
+            {
+              "keyword": "re-render",
+              "reason": "불필요한 재렌더링 감지 및 해결"
+            },
+            {
+              "keyword": "render-optimization",
+              "reason": "렌더링 성능 개선 전략"
             }
           ]
         }
