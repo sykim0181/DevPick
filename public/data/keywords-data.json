@@ -2586,20 +2586,20 @@
           "published_at": "2015-07-03",
           "collected_at": "2026-05-16",
           "minutes": 5,
-          "one_liner": "React 애플리케이션의 렌더링 성능을 최적화하는 기법",
-          "summary": "React 애플리케이션의 성능 저하 원인을 파악하고 렌더링 최적화, 메모이제이션, 코드 분할 등의 기법을 통해 사용자 경험을 개선하는 방법을 다룹니다.",
+          "one_liner": "React 애플리케이션의 성능을 최적화하는 핵심 기법들",
+          "summary": "React 성능 최적화는 렌더링 최적화, 메모이제이션, 코드 분할 등을 통해 애플리케이션 속도를 향상시킵니다. 불필요한 리렌더링을 방지하고 번들 크기를 줄여 사용자 경험을 개선할 수 있습니다.",
           "prereqs": [
             {
-              "name": "React 기본 개념",
-              "detail": "React의 컴포넌트와 상태 관리 이해 필요"
+              "name": "React 렌더링 원리",
+              "detail": "성능 최적화 기법이 어떤 원리로 작동하는지 이해하기 위해 필요합니다"
             },
             {
-              "name": "Virtual DOM",
-              "detail": "React의 렌더링 메커니즘 이해 필요"
+              "name": "Virtual DOM 개념",
+              "detail": "React의 효율성 개선 방식을 이해하는 기초가 됩니다"
             },
             {
-              "name": "JavaScript 비동기 처리",
-              "detail": "성능 최적화 기법 이해에 필수"
+              "name": "JavaScript 기본 문법",
+              "detail": "최적화 코드 작성 시 필요한 핵심 언어 지식입니다"
             }
           ],
           "related_concepts": [
@@ -2609,152 +2609,156 @@
             },
             {
               "keyword": "code-splitting",
-              "reason": "번들 크기를 줄여 초기 로딩 성능 개선"
+              "reason": "번들 크기 최적화로 초기 로딩 속도 개선"
             },
             {
               "keyword": "lazy-loading",
-              "reason": "필요한 컴포넌트만 동적으로 로드하는 방식"
+              "reason": "필요한 시점에만 컴포넌트를 로드하여 성능 향상"
             },
             {
-              "keyword": "profiler-api",
-              "reason": "React DevTools로 성능 병목 지점 분석"
+              "keyword": "profiler-devtools",
+              "reason": "성능 문제를 진단하고 측정하는 도구"
             },
             {
-              "keyword": "hook-optimization",
-              "reason": "useCallback, useMemo 등 성능 최적화 훅"
+              "keyword": "web-vitals",
+              "reason": "사용자 경험을 정량적으로 측정하는 메트릭"
             }
           ]
         },
         {
-          "title": "React Performance",
-          "url": "https://velog.io/@mochang2/React-Performance",
+          "title": "React 19.2 에 무엇이 추가되었을까요~!",
+          "url": "https://velog.io/@miinhho/React-19.2-에-무엇이-추가되었을까요",
           "source": "velog",
           "lang": "ko",
-          "published_at": "2023-12-10",
+          "published_at": "2025-10-02",
           "collected_at": "2026-05-16",
           "minutes": 5,
-          "one_liner": "React 애플리케이션의 렌더링 성능을 최적화하는 핵심 기법들",
-          "summary": "React의 렌더링 최적화는 불필요한 리렌더링을 방지하고 번들 크기를 줄이는 것이 핵심입니다. useMemo, useCallback, Code Splitting 등의 기법을 활용하여 사용자 경험을 개선할 수 있습니다.",
+          "one_liner": "React 19.2의 새로운 성능 최적화 기능과 개선사항을 소개합니다.",
+          "summary": "React 19.2에서 추가된 성능 개선 기능들을 다룹니다. 렌더링 최적화, 메모리 관리 개선 등 주요 업데이트를 통해 앱의 성능을 한 단계 높일 수 있습니다.",
           "prereqs": [
             {
               "name": "React 기본 개념",
-              "detail": "컴포넌트, 상태, Props 이해 필요"
+              "detail": "React의 동작 원리를 이해하기 위한 필수 기초"
             },
             {
-              "name": "렌더링 원리",
-              "detail": "Virtual DOM과 재조정 과정 이해 필요"
+              "name": "렌더링 최적화",
+              "detail": "불필요한 렌더링을 피하는 방식의 이해"
             },
             {
-              "name": "JavaScript 기본",
-              "detail": "클로저, 메모이제이션 개념 필요"
+              "name": "성능 측정",
+              "detail": "앱 성능을 평가하는 지표와 도구 이해"
             }
           ],
           "related_concepts": [
             {
+              "keyword": "react-hooks",
+              "reason": "성능 최적화에 필수적인 Hook 사용법"
+            },
+            {
               "keyword": "memoization",
-              "reason": "불필요한 재계산 방지로 성능 향상"
+              "reason": "불필요한 재계산을 방지하는 핵심 기법"
             },
             {
-              "keyword": "code-splitting",
-              "reason": "번들 크기 감소로 초기 로딩 속도 개선"
+              "keyword": "concurrent-rendering",
+              "reason": "React 19의 핵심 성능 기능"
             },
             {
-              "keyword": "lazy-loading",
-              "reason": "필요시에만 컴포넌트 로드하여 성능 최적화"
-            },
-            {
-              "keyword": "react-profiler",
-              "reason": "성능 병목 지점 식별 및 분석 도구"
+              "keyword": "state-management",
+              "reason": "상태 관리와 성능의 밀접한 관계"
             }
           ]
         },
         {
-          "title": "[MGS] React Performance",
-          "url": "https://velog.io/@syoon624/MGS-React-Performance",
+          "title": "[리액트] 성능 최적화 - 메모이제이션",
+          "url": "https://velog.io/@hwang0010/리액트-성능-최적화-메모이제이션",
           "source": "velog",
           "lang": "ko",
-          "published_at": "2022-12-17",
+          "published_at": "2025-01-12",
           "collected_at": "2026-05-16",
           "minutes": 5,
-          "one_liner": "React 애플리케이션의 성능을 최적화하는 방법과 기법",
-          "summary": "React 애플리케이션의 성능을 개선하기 위한 핵심 기법들을 다룹니다. 불필요한 렌더링 방지, 메모이제이션, 코드 스플리팅 등의 최적화 전략을 통해 사용자 경험을 향상시킬 수 있습니다.",
+          "one_liner": "리액트 메모이제이션으로 불필요한 리렌더링을 방지하는 최적화 기법",
+          "summary": "메모이제이션은 컴포넌트나 함수의 결과를 캐싱하여 불필요한 재계산을 막는 최적화 기법입니다. React.memo, useMemo, useCallback 등을 활용하면 성능을 크게 향상시킬 수 있습니다.",
           "prereqs": [
             {
-              "name": "React 렌더링 메커니즘",
-              "detail": "성능 최적화의 기초가 되는 리렌더링 원리 이해"
+              "name": "리액트 라이프사이클",
+              "detail": "컴포넌트 렌더링 시점을 이해하기 위해 필수"
             },
             {
-              "name": "JavaScript 함수형 프로그래밍",
-              "detail": "메모이제이션과 최적화 기법 학습에 필요"
+              "name": "Props와 State",
+              "detail": "메모이제이션이 필요한 상황을 판단하기 위해 필요"
             },
             {
-              "name": "브라우저 성능 분석",
-              "detail": "성능 개선 결과를 측정하고 검증하기 위함"
+              "name": "클로저(Closure)",
+              "detail": "useCallback의 의존성 배열 동작 원리 이해"
             }
           ],
           "related_concepts": [
             {
-              "keyword": "memoization",
-              "reason": "불필요한 렌더링을 방지하는 핵심 기법"
+              "keyword": "react-memo",
+              "reason": "함수형 컴포넌트의 불필요한 리렌더링 방지"
             },
             {
-              "keyword": "code-splitting",
-              "reason": "초기 로딩 시간 개선을 위한 번들 최적화"
+              "keyword": "use-memo-hook",
+              "reason": "계산 결과를 메모이제이션하는 훅"
+            },
+            {
+              "keyword": "use-callback-hook",
+              "reason": "콜백 함수를 캐싱하는 훅"
             },
             {
               "keyword": "virtual-dom",
-              "reason": "React의 렌더링 최적화 원리 이해"
+              "reason": "리액트 렌더링 메커니즘 이해 필요"
             },
             {
-              "keyword": "lazy-loading",
-              "reason": "필요한 시점의 데이터 로딩으로 성능 향상"
-            },
-            {
-              "keyword": "profiler",
-              "reason": "성능 문제 식별 및 병목 지점 파악"
+              "keyword": "dependency-array",
+              "reason": "메모이제이션 최적화 실패의 주요 원인"
             }
           ]
         },
         {
-          "title": "Epic React - performance tab",
-          "url": "https://velog.io/@dongha1992/useMemo-with-performance-tab",
+          "title": "React 컴포넌트 설계의 핵심: 재사용성과 유지보수성을 높이는 방법",
+          "url": "https://velog.io/@kimkuns/React-컴포넌트-설계의-핵심-재사용성과-유지보수성을-높이는-방법",
           "source": "velog",
           "lang": "ko",
-          "published_at": "2023-03-24",
+          "published_at": "2025-05-27",
           "collected_at": "2026-05-16",
           "minutes": 5,
-          "one_liner": "React 성능 최적화를 위한 Performance 탭 활용법",
-          "summary": "React DevTools의 Performance 탭을 사용하여 컴포넌트 렌더링 성능을 측정하고 분석하는 방법을 다룹니다. 불필요한 리렌더링을 감지하고 성능 병목 지점을 파악하여 애플리케이션 최적화에 활용할 수 있습니다.",
+          "one_liner": "React 컴포넌트를 재사용 가능하고 유지보수하기 쉽게 설계하는 방법",
+          "summary": "React 컴포넌트의 재사용성과 유지보수성을 높이기 위한 핵심 설계 원칙들을 다룹니다. Props 분리, 단일 책임 원칙, 컴포지션 패턴 등을 통해 확장 가능한 컴포넌트 구조를 만드는 실전 가이드입니다.",
           "prereqs": [
             {
-              "name": "React Rendering",
-              "detail": "성능 측정 대상인 렌더링 과정의 이해"
+              "name": "React 기초",
+              "detail": "컴포넌트와 Props의 기본 개념 이해가 필수입니다."
             },
             {
-              "name": "React DevTools",
-              "detail": "Performance 탭을 포함한 개발자 도구의 기본 사용법"
+              "name": "JavaScript ES6+",
+              "detail": "화살표 함수, 구조 분해 등 현대적 문법 이해가 필요합니다."
             },
             {
-              "name": "Component Lifecycle",
-              "detail": "성능 분석 시 마운트, 업데이트 단계 이해"
+              "name": "컴포넌트 라이프사이클",
+              "detail": "렌더링 과정과 상태 업데이트 메커니즘을 알아야 합니다."
             }
           ],
           "related_concepts": [
             {
+              "keyword": "component-composition",
+              "reason": "재사용성 높은 컴포넌트 구조의 핵심 패턴입니다."
+            },
+            {
+              "keyword": "prop-drilling",
+              "reason": "Props 설계 시 피해야 할 안티패턴을 이해하는 데 중요합니다."
+            },
+            {
+              "keyword": "single-responsibility",
+              "reason": "각 컴포넌트가 하나의 책임만 갖도록 하는 설계 원칙입니다."
+            },
+            {
+              "keyword": "custom-hooks",
+              "reason": "로직 재사용성을 높이는 핵심 기법입니다."
+            },
+            {
               "keyword": "memoization",
-              "reason": "렌더링 최적화의 핵심 기법"
-            },
-            {
-              "keyword": "profiler-api",
-              "reason": "성능 측정을 위한 공식 API"
-            },
-            {
-              "keyword": "re-render",
-              "reason": "불필요한 재렌더링 감지 및 해결"
-            },
-            {
-              "keyword": "render-optimization",
-              "reason": "렌더링 성능 개선 전략"
+              "reason": "불필요한 렌더링을 방지하는 최적화 기법입니다."
             }
           ]
         }
