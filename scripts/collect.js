@@ -64,7 +64,7 @@ async function fetchHN(keyword) {
 async function fetchVelog(keyword) {
   const query = `query SearchPosts($keyword: String!) {
     searchPosts(keyword: $keyword) {
-      posts { id title url_slug user { username } released_at }
+      posts { id title url_slug user { username } released_at likes }
     }
   }`;
   try {
@@ -75,7 +75,13 @@ async function fetchVelog(keyword) {
     });
     const data = await res.json();
     if (data.errors) console.error('[velog] GraphQL 오류:', JSON.stringify(data.errors));
-    return (data?.data?.searchPosts?.posts ?? []).slice(0, 3).map(p => ({
+    const cutoff = new Date();
+    cutoff.setFullYear(cutoff.getFullYear() - 2);
+    return (data?.data?.searchPosts?.posts ?? [])
+      .filter(p => new Date(p.released_at) >= cutoff)
+      .sort((a, b) => (b.likes ?? 0) - (a.likes ?? 0))
+      .slice(0, 3)
+      .map(p => ({
       title: p.title,
       url: `https://velog.io/@${p.user.username}/${p.url_slug}`,
       source: 'velog',
