@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13",
+  "generated_at": "2026-05-16",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -1799,6 +1799,966 @@
     },
     "ai-sdk-rsc": {
       "articles": []
+    },
+    "nextjs-cache": {
+      "articles": [
+        {
+          "title": "Vercel Cache API: A progressive cache, integrated with Next.js",
+          "url": "https://vercel.com/blog/vercel-cache-api-nextjs-cache",
+          "source": "hn",
+          "lang": "en",
+          "points": 32,
+          "published_at": "2023-02-23",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js와 통합된 Vercel의 진보적 캐시 API를 소개합니다.",
+          "summary": "Vercel Cache API는 Next.js 애플리케이션의 성능 최적화를 위한 캐싱 솔루션입니다. 동적 데이터의 캐싱과 재검증을 효율적으로 관리하여 빠른 로딩 속도와 사용자 경험을 개선합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기본 개념",
+              "detail": "서버·클라이언트 렌더링 이해가 필요합니다"
+            },
+            {
+              "name": "HTTP 캐싱",
+              "detail": "캐시 동작 원리를 이해해야 합니다"
+            },
+            {
+              "name": "ISR(Incremental Static Regeneration)",
+              "detail": "정적 생성 및 재검증 방식을 알아야 합니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "next-revalidate",
+              "reason": "캐시 재검증 시간 설정과 직접 관련"
+            },
+            {
+              "keyword": "server-components",
+              "reason": "서버 컴포넌트와 캐싱 전략의 연동"
+            },
+            {
+              "keyword": "edge-caching",
+              "reason": "엣지에서의 캐시 최적화 방식 이해"
+            },
+            {
+              "keyword": "vercel-deployment",
+              "reason": "Vercel 배포 환경의 캐시 활용"
+            }
+          ]
+        },
+        {
+          "title": "This is what 864GB of RAM looks like now",
+          "url": "http://37signals.com/svn/posts/3090-basecamp-nexts-caching-hardware",
+          "source": "hn",
+          "lang": "en",
+          "points": 231,
+          "published_at": "2012-01-27",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js의 대규모 캐시 메모리 사용 현황과 최적화 전략",
+          "summary": "Next.js 애플리케이션에서 864GB의 RAM을 사용하는 캐시 문제에 대해 다룹니다. 과도한 메모리 사용의 원인을 분석하고 캐시 최적화 방법을 제시하여 성능 개선 방향을 제안합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js의 빌드 및 캐싱 메커니즘 이해 필요"
+            },
+            {
+              "name": "메모리 관리",
+              "detail": "애플리케이션 메모리 누수와 최적화 개념"
+            },
+            {
+              "name": "캐싱 전략",
+              "detail": "웹 애플리케이션의 캐시 전략과 TTL 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memory-optimization",
+              "reason": "RAM 사용량 감소를 위한 실제 최적화 기법"
+            },
+            {
+              "keyword": "build-performance",
+              "reason": "빌드 단계에서의 캐시 처리와 성능 영향"
+            },
+            {
+              "keyword": "server-side-caching",
+              "reason": "서버 캐싱 전략과 메모리 할당 관리"
+            },
+            {
+              "keyword": "incremental-static-regeneration",
+              "reason": "ISR 사용 시 캐시 메모리 관리 방법"
+            }
+          ]
+        },
+        {
+          "title": "[유데미x스나이퍼팩토리] 프로젝트 캠프 : Next.js 1기 - NextJS-Cache",
+          "url": "https://velog.io/@nile27/NextJS-Cache",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-06-12",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js의 캐싱 메커니즘을 이해하고 프로젝트에 적용하는 방법",
+          "summary": "Next.js의 캐싱 전략은 애플리케이션 성능 최적화의 핵심입니다. 빌드 시점의 Static Generation, 런타임의 ISR, 그리고 동적 렌더링 등 다양한 캐싱 방식을 활용하여 효율적인 웹 애플리케이션을 구축할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js의 렌더링 방식과 라우팅을 이해해야 캐싱 전략을 적용할 수 있습니다."
+            },
+            {
+              "name": "HTTP 캐싱",
+              "detail": "웹 캐싱의 기본 개념을 알아야 Next.js 캐싱 메커니즘을 이해할 수 있습니다."
+            },
+            {
+              "name": "성능 최적화",
+              "detail": "캐싱이 성능에 미치는 영향을 인식해야 적절한 전략을 선택할 수 있습니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "static-generation",
+              "reason": "빌드 시점에 페이지를 미리 생성하여 캐시하는 방식"
+            },
+            {
+              "keyword": "incremental-static-regeneration",
+              "reason": "배포 후에도 정적 페이지를 갱신할 수 있는 캐싱 전략"
+            },
+            {
+              "keyword": "server-side-rendering",
+              "reason": "요청 시마다 서버에서 렌더링하는 방식과의 비교 필요"
+            },
+            {
+              "keyword": "revalidation",
+              "reason": "캐시된 콘텐츠를 언제 갱신할지 결정하는 핵심 메커니즘"
+            },
+            {
+              "keyword": "cdn-caching",
+              "reason": "엣지 레벨에서의 캐싱으로 글로벌 성능 향상 가능"
+            }
+          ]
+        },
+        {
+          "title": "nextjs app router, 정말 알고 사용하시나요?",
+          "url": "https://velog.io/@ubin_ing/nextjs-app-router",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-08-09",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js App Router의 캐싱 메커니즘을 제대로 이해하고 활용하기",
+          "summary": "Next.js App Router에서 제공하는 다양한 캐싱 전략을 설명합니다. Request Memoization, Data Cache, Full Route Cache 등의 캐싱 레이어를 이해하면 성능 최적화와 예상치 못한 버그를 방지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기본 개념",
+              "detail": "App Router의 구조와 동작 방식을 알아야 캐싱 정책을 이해할 수 있습니다."
+            },
+            {
+              "name": "서버 사이드 렌더링(SSR)",
+              "detail": "캐싱이 서버에서 어떻게 동작하는지 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "HTTP 캐싱",
+              "detail": "브라우저와 서버 캐싱의 기본 원리를 알면 Next.js 캐싱을 더 잘 이해합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "request-memoization",
+              "reason": "단일 요청 내 중복 데이터 페칭을 방지하는 캐싱 레이어"
+            },
+            {
+              "keyword": "server-component",
+              "reason": "캐싱이 주로 적용되는 서버 컴포넌트의 특성 이해 필요"
+            },
+            {
+              "keyword": "revalidation",
+              "reason": "캐시된 데이터를 갱신하는 전략(ISR, On-demand) 학습"
+            },
+            {
+              "keyword": "route-handler",
+              "reason": "API 라우트에서의 캐싱 동작 방식 차이 이해"
+            },
+            {
+              "keyword": "dynamic-rendering",
+              "reason": "캐싱을 우회하는 동적 렌더링 사용 시점 파악"
+            }
+          ]
+        },
+        {
+          "title": "Next에서 이미지 최적화는 마법이 아니다.",
+          "url": "https://velog.io/@haryan248/Next-Image-Optimization",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-02-15",
+          "collected_at": "2026-05-13",
+          "minutes": 5,
+          "one_liner": "Next.js 이미지 최적화의 동작 원리를 이해하고 캐싱 전략을 활용하자.",
+          "summary": "Next.js의 이미지 최적화는 자동 포맷 변환, 반응형 이미지 제공, 캐싱을 통해 성능을 향상시킵니다. 캐시 헤더와 CDN 활용으로 더욱 효율적인 이미지 관리가 가능하며, 개발자가 직접 최적화 전략을 설정할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "HTTP 캐싱",
+              "detail": "이미지 캐시 헤더와 TTL을 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "이미지 포맷",
+              "detail": "WebP, AVIF 등 최신 포맷의 장점을 알아야 합니다."
+            },
+            {
+              "name": "Next.js Image 컴포넌트",
+              "detail": "최적화 기능을 활용하는 기본 요소입니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "cdn-caching",
+              "reason": "CDN을 통한 이미지 배포 및 캐싱 전략"
+            },
+            {
+              "keyword": "image-format-conversion",
+              "reason": "WebP, AVIF 자동 변환 메커니즘"
+            },
+            {
+              "keyword": "responsive-images",
+              "reason": "다양한 화면 크기에 최적화된 이미지 제공"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "이미지 지연 로딩으로 초기 성능 개선"
+            },
+            {
+              "keyword": "core-web-vitals",
+              "reason": "이미지 최적화가 성능 지표에 미치는 영향"
+            }
+          ]
+        }
+      ]
+    },
+    "vitest": {
+      "articles": [
+        {
+          "title": "Vitest Browser Mode Guide",
+          "url": "https://howtotestfrontend.com/resources/vitest-browser-mode-guide-and-setup-info",
+          "source": "hn",
+          "lang": "en",
+          "points": 72,
+          "published_at": "2025-12-25",
+          "collected_at": "2026-05-14",
+          "minutes": 5,
+          "one_liner": "Vitest의 브라우저 모드를 활용하여 실제 브라우저 환경에서 테스트하는 방법",
+          "summary": "Vitest Browser Mode는 실제 브라우저 환경에서 테스트를 실행할 수 있는 기능입니다. Node.js 환경의 제한을 벗어나 DOM 조작, 이벤트 핸들링 등 실제 브라우저 동작을 테스트할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "단위 테스트 개념",
+              "detail": "테스트 기본 개념을 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "Vitest 기초",
+              "detail": "Vitest의 기본 설정과 테스트 작성 방식을 알아야 합니다."
+            },
+            {
+              "name": "브라우저 API",
+              "detail": "DOM, 이벤트, 스토리지 등 브라우저 기능 이해가 필요합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "dom-testing",
+              "reason": "브라우저 환경에서 DOM 요소 테스트에 필수적입니다."
+            },
+            {
+              "keyword": "e2e-testing",
+              "reason": "브라우저 모드와 함께 통합 테스트 전략으로 활용됩니다."
+            },
+            {
+              "keyword": "component-testing",
+              "reason": "React, Vue 등 컴포넌트를 브라우저에서 검증할 수 있습니다."
+            },
+            {
+              "keyword": "browser-automation",
+              "reason": "실제 브라우저 환경에서 자동화 테스트를 수행합니다."
+            },
+            {
+              "keyword": "test-isolation",
+              "reason": "브라우저 모드에서 테스트 간 독립성을 보장해야 합니다."
+            }
+          ]
+        },
+        {
+          "title": "Vitest vs. Jest",
+          "url": "https://www.speakeasy.com/post/vitest-vs-jest",
+          "source": "hn",
+          "lang": "en",
+          "points": 44,
+          "published_at": "2024-11-26",
+          "collected_at": "2026-05-14",
+          "minutes": 5,
+          "one_liner": "Vitest와 Jest의 차이점과 각각의 장단점을 비교 분석",
+          "summary": "Vitest는 Vite 기반의 차세대 테스트 프레임워크로, Jest보다 빠른 속도와 ES 모듈 네이티브 지원을 제공합니다. 두 도구의 성능, 호환성, 설정 복잡도를 비교하여 프로젝트에 맞는 선택을 돕습니다.",
+          "prereqs": [
+            {
+              "name": "Jest",
+              "detail": "JavaScript 테스트 프레임워크의 표준"
+            },
+            {
+              "name": "Vite",
+              "detail": "차세대 빌드 도구의 특성 이해"
+            },
+            {
+              "name": "테스트 주도 개발",
+              "detail": "TDD 개념과 중요성"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "jest",
+              "reason": "비교 대상인 주요 테스트 프레임워크"
+            },
+            {
+              "keyword": "vite",
+              "reason": "Vitest의 기반이 되는 빌드 도구"
+            },
+            {
+              "keyword": "unit-testing",
+              "reason": "테스트 프레임워크의 기본 목적"
+            },
+            {
+              "keyword": "es-modules",
+              "reason": "Vitest의 네이티브 지원 기능"
+            },
+            {
+              "keyword": "test-performance",
+              "reason": "두 도구 비교의 핵심 요소"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: Recall: Give Claude memory with Redis-backed persistent context",
+          "url": "https://www.npmjs.com/package/@joseairosa/recall",
+          "source": "hn",
+          "lang": "en",
+          "points": 171,
+          "published_at": "2025-10-08",
+          "collected_at": "2026-05-14",
+          "minutes": 5,
+          "one_liner": "Redis를 활용해 Claude AI에 지속적인 메모리 기능을 부여하는 Recall 도구",
+          "summary": "Recall은 Redis 기반 영속적 컨텍스트를 통해 Claude AI에 메모리 기능을 추가합니다. 대화 세션 간 정보 유지가 가능해지며, 애플리케이션에서 AI 어시스턴트의 지속성을 개선할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Claude API",
+              "detail": "AI 기능 통합을 위한 기초 이해가 필요합니다"
+            },
+            {
+              "name": "Redis",
+              "detail": "메모리 데이터 저장소의 동작 방식을 이해해야 합니다"
+            },
+            {
+              "name": "컨텍스트 관리",
+              "detail": "AI 모델의 입출력 문맥 처리 개념이 필요합니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "persistent-storage",
+              "reason": "데이터 지속성 구현의 핵심 개념입니다"
+            },
+            {
+              "keyword": "session-management",
+              "reason": "사용자 세션 간 상태 유지 방식을 이해해야 합니다"
+            },
+            {
+              "keyword": "ai-integration",
+              "reason": "AI API 통합 시 필요한 메모리 전략입니다"
+            },
+            {
+              "keyword": "caching-strategy",
+              "reason": "효율적인 데이터 접근을 위한 캐싱 기법입니다"
+            },
+            {
+              "keyword": "prompt-engineering",
+              "reason": "AI 모델에 컨텍스트를 효과적으로 전달하는 기법입니다"
+            }
+          ]
+        },
+        {
+          "title": "[Vitest] Vitest 시작 (2)",
+          "url": "https://velog.io/@kimsuro/Vitest",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-11-18",
+          "collected_at": "2026-05-14",
+          "minutes": 5,
+          "one_liner": "Vitest의 기본 사용법과 테스트 작성 방법을 배운다.",
+          "summary": "Vitest 시작 시리즈의 두 번째 글로, Vitest의 기본 설정과 테스트 파일 작성 방법을 다룬다. 테스트 함수의 구조와 단순한 테스트 케이스 작성법을 학습할 수 있다.",
+          "prereqs": [
+            {
+              "name": "JavaScript/TypeScript 기본 문법",
+              "detail": "테스트 코드 작성을 위한 기본 언어 문법 이해"
+            },
+            {
+              "name": "단위 테스트 개념",
+              "detail": "테스트의 목적과 필요성 이해"
+            },
+            {
+              "name": "Node.js 기본",
+              "detail": "개발 환경 설정과 패키지 관리"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "unit-testing",
+              "reason": "Vitest로 구현하는 핵심 테스트 유형"
+            },
+            {
+              "keyword": "jest",
+              "reason": "유사한 테스트 프레임워크로 API 비교 학습"
+            },
+            {
+              "keyword": "test-driven-development",
+              "reason": "테스트 작성의 실무적 적용 방법론"
+            },
+            {
+              "keyword": "assertion-library",
+              "reason": "테스트 검증에 사용되는 단언 도구"
+            }
+          ]
+        },
+        {
+          "title": "Vitest (2) - Vitest 기초",
+          "url": "https://velog.io/@beanbeeean/Vitest-2-Vitest-기초",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-05-27",
+          "collected_at": "2026-05-14",
+          "minutes": 5,
+          "one_liner": "Vitest의 기본 개념과 설정 방법을 학습한다",
+          "summary": "Vitest는 Vite 기반의 고속 단위 테스트 프레임워크입니다. Jest와 유사한 API를 제공하면서도 Vite의 빠른 변환 속도를 활용하여 더욱 효율적인 테스트 환경을 제공합니다. 기본 설정과 테스트 작성 방법을 다룹니다.",
+          "prereqs": [
+            {
+              "name": "Jest",
+              "detail": "Vitest가 API를 참고한 주요 테스트 프레임워크"
+            },
+            {
+              "name": "Vite",
+              "detail": "Vitest의 기반이 되는 빌드 도구"
+            },
+            {
+              "name": "Unit Testing",
+              "detail": "개별 함수나 모듈 단위의 테스트 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "test-runner",
+              "reason": "Vitest와 같이 테스트를 실행하는 도구"
+            },
+            {
+              "keyword": "assertion-library",
+              "reason": "테스트에서 예상값 검증에 필요한 라이브러리"
+            },
+            {
+              "keyword": "mock-testing",
+              "reason": "Vitest에서 의존성 모킹 기능 활용"
+            },
+            {
+              "keyword": "coverage-report",
+              "reason": "테스트 커버리지 분석 및 리포팅"
+            }
+          ]
+        },
+        {
+          "title": "vitest",
+          "url": "https://velog.io/@minji105/vitest",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-07-21",
+          "collected_at": "2026-05-14",
+          "minutes": 5,
+          "one_liner": "Vitest는 Vite 기반의 빠른 단위 테스트 프레임워크입니다.",
+          "summary": "Vitest는 Vite를 활용한 현대적인 JavaScript 테스트 프레임워크입니다. Jest 호환 API를 제공하면서도 Vite의 빠른 성능을 장점으로 하며, ESM을 기본으로 지원합니다.",
+          "prereqs": [
+            {
+              "name": "Unit Testing",
+              "detail": "코드의 개별 단위를 검증하는 테스트 개념을 이해해야 합니다."
+            },
+            {
+              "name": "Vite",
+              "detail": "Vitest의 기반이 되는 빌드 도구를 알아야 합니다."
+            },
+            {
+              "name": "JavaScript/TypeScript",
+              "detail": "테스트 코드를 작성하기 위한 기본 언어 지식이 필요합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "jest",
+              "reason": "Jest와 유사한 API를 제공하는 기존 테스트 도구"
+            },
+            {
+              "keyword": "testing-library",
+              "reason": "React 컴포넌트 테스트를 위한 추가 라이브러리"
+            },
+            {
+              "keyword": "mocking",
+              "reason": "테스트에서 외부 의존성을 시뮬레이션하는 기법"
+            },
+            {
+              "keyword": "esm",
+              "reason": "Vitest가 기본으로 지원하는 모듈 시스템"
+            },
+            {
+              "keyword": "test-coverage",
+              "reason": "테스트 코드가 얼마나 커버하는지 측정하는 방법"
+            }
+          ]
+        }
+      ]
+    },
+    "prompt-engineering": {
+      "articles": [
+        {
+          "title": "Prompt Engineering Guide: Guides, papers, and resources for prompt engineering",
+          "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+          "source": "hn",
+          "lang": "en",
+          "points": 544,
+          "published_at": "2023-02-21",
+          "collected_at": "2026-05-15",
+          "minutes": 8,
+          "one_liner": "AI 모델과의 상호작용을 최적화하는 프롬프트 작성 기법 가이드",
+          "summary": "프롬프트 엔지니어링은 AI 모델으로부터 더 나은 결과를 얻기 위한 입력값 작성 기술입니다. 이 가이드는 효과적인 프롬프트 작성 전략, 관련 논문, 실무 자료를 제공합니다.",
+          "prereqs": [
+            {
+              "name": "AI/머신러닝 기초",
+              "detail": "AI 모델의 작동 원리를 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "자연어처리(NLP)",
+              "detail": "텍스트 기반 AI와의 상호작용을 이해하기 위해 필요합니다."
+            },
+            {
+              "name": "API 및 LLM 기초",
+              "detail": "실제 언어 모델 API 사용 방식을 알아야 합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "large-language-models",
+              "reason": "프롬프트 엔지니어링의 주요 대상 기술입니다."
+            },
+            {
+              "keyword": "ai-interaction",
+              "reason": "사용자와 AI 간 효과적인 의사소통 방식입니다."
+            },
+            {
+              "keyword": "text-generation",
+              "reason": "프롬프트 입력으로 인한 직접적인 결과물입니다."
+            },
+            {
+              "keyword": "few-shot-learning",
+              "reason": "프롬프트에 예시를 포함하는 고급 기법입니다."
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "복잡한 문제 해결을 위한 프롬프트 기법입니다."
+            }
+          ]
+        },
+        {
+          "title": "Brex’s Prompt Engineering Guide",
+          "url": "https://github.com/brexhq/prompt-engineering",
+          "source": "hn",
+          "lang": "en",
+          "points": 540,
+          "published_at": "2023-05-15",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델과 효과적으로 소통하기 위한 프롬프트 작성 기법",
+          "summary": "Brex의 프롬프트 엔지니어링 가이드는 AI 모델에서 최적의 결과를 얻기 위한 실전 기법들을 다룹니다. 명확한 지시문 작성, 컨텍스트 제공, 단계적 사고 유도 등 효율적인 프롬프트 구성 원칙을 제시합니다.",
+          "prereqs": [
+            {
+              "name": "LLM의 기본 개념",
+              "detail": "대규모 언어 모델의 작동 방식 이해"
+            },
+            {
+              "name": "자연어 처리",
+              "detail": "AI가 텍스트를 어떻게 해석하는지 기초 지식"
+            },
+            {
+              "name": "AI 활용 경험",
+              "detail": "ChatGPT 등 생성AI와의 상호작용 경험"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시를 통한 모델 학습 방식 이해"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계적 추론으로 정확도 향상"
+            },
+            {
+              "keyword": "token-limit",
+              "reason": "입출력 길이 제약 이해 및 최적화"
+            },
+            {
+              "keyword": "temperature-sampling",
+              "reason": "출력 다양성과 일관성 조절 방법"
+            }
+          ]
+        },
+        {
+          "title": "Prompt engineering playbook for programmers",
+          "url": "https://addyo.substack.com/p/the-prompt-engineering-playbook-for",
+          "source": "hn",
+          "lang": "en",
+          "points": 464,
+          "published_at": "2025-06-04",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "프로그래머를 위한 프롬프트 엔지니어링 실전 가이드",
+          "summary": "프로그래머가 AI 모델과 효과적으로 상호작용하기 위한 프롬프트 작성 기법과 실전 팁을 다룹니다. 명확한 지시문, 컨텍스트 제공, 반복적 개선을 통해 더 나은 코드 생성 결과를 얻는 방법을 설명합니다.",
+          "prereqs": [
+            {
+              "name": "AI 모델 기초",
+              "detail": "LLM의 동작 원리를 이해하기 위한 기본 개념"
+            },
+            {
+              "name": "자연언어 처리",
+              "detail": "프롬프트 작성 시 효과적인 언어 표현 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시 제공으로 모델 성능 향상"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계별 사고로 복잡한 문제 해결"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "LLM API와 코드 통합 방법"
+            },
+            {
+              "keyword": "testing-prompts",
+              "reason": "프롬프트 효과성 검증 및 최적화"
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering",
+          "url": "https://velog.io/@ilmaster/Prompt-Engineering",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-02-27",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델에게 원하는 결과를 얻기 위한 효과적인 질문 작성 기법",
+          "summary": "프롬프트 엔지니어링은 AI 모델에 입력하는 질문이나 지시문을 최적화하여 더 정확하고 유용한 답변을 이끌어내는 기술입니다. 올바른 프롬프트 작성으로 생성형 AI의 성능을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "생성형 AI 이해",
+              "detail": "ChatGPT 같은 AI 모델의 기본 동작 원리를 알아야 합니다"
+            },
+            {
+              "name": "자연어 처리(NLP)",
+              "detail": "AI가 텍스트를 어떻게 이해하는지 알면 도움됩니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시를 통해 모델의 성능을 향상시키는 기법"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계별 사고 과정을 유도하는 프롬프팅 방식"
+            },
+            {
+              "keyword": "temperature-setting",
+              "reason": "AI 응답의 창의성과 일관성을 조절하는 파라미터"
+            },
+            {
+              "keyword": "context-window",
+              "reason": "프롬프트에 포함할 수 있는 컨텍스트의 길이 제한"
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering",
+          "url": "https://velog.io/@tiktakdad/Prompt-Engineering",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-09-03",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델의 응답 품질을 높이기 위한 질문 작성 기법",
+          "summary": "프롬프트 엔지니어링은 AI 모델에게 정확하고 유용한 답변을 얻기 위해 질문을 효과적으로 구성하는 기술입니다. 명확한 지시문, 예시, 맥락 제공을 통해 모델의 성능을 극대화할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "AI/LLM 기본 이해",
+              "detail": "언어 모델이 어떻게 작동하는지 알아야 합니다"
+            },
+            {
+              "name": "자연어 처리(NLP)",
+              "detail": "텍스트 입출력 과정을 이해하면 도움이 됩니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예시를 통한 모델 학습 방식 이해"
+            },
+            {
+              "keyword": "temperature-sampling",
+              "reason": "모델 응답의 창의성과 일관성 조절"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계적 추론을 유도하는 기법"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "프롬프트를 실제 애플리케이션에 활용"
+            }
+          ]
+        },
+        {
+          "title": "Prompt Engineering",
+          "url": "https://velog.io/@pprriitt/이어드림Prompt-Engineering",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-04-15",
+          "collected_at": "2026-05-15",
+          "minutes": 5,
+          "one_liner": "AI 모델의 성능을 최대화하는 효과적인 질문 작성 기법",
+          "summary": "프롬프트 엔지니어링은 AI 모델에 주어지는 질문이나 지시를 최적화하여 더 나은 결과를 얻는 기술입니다. 명확한 지시문, 예제, 맥락 제공 등의 전략을 통해 AI의 응답 품질을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "AI/LLM 기초",
+              "detail": "대형언어모델이 텍스트를 어떻게 처리하는지 이해 필요"
+            },
+            {
+              "name": "자연어 이해",
+              "detail": "명확하고 효과적인 문장 작성 능력 필수"
+            },
+            {
+              "name": "기본 머신러닝 개념",
+              "detail": "모델의 입출력과 학습 원리 이해 도움"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "llm",
+              "reason": "LLM의 능력을 최대한 활용하기 위한 기술"
+            },
+            {
+              "keyword": "few-shot-learning",
+              "reason": "예제를 통한 프롬프트 최적화 기법"
+            },
+            {
+              "keyword": "chain-of-thought",
+              "reason": "단계적 사고를 유도하는 프롬프팅 방법"
+            },
+            {
+              "keyword": "ai-fine-tuning",
+              "reason": "프롬프트와 함께 모델 커스터마이징 고려"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "실제 AI 서비스와 프롬프트 연동 방법"
+            }
+          ]
+        }
+      ]
+    },
+    "react-performance": {
+      "articles": [
+        {
+          "title": "React Performance",
+          "url": "https://aerotwist.com/blog/react-plus-performance-equals-what/",
+          "source": "hn",
+          "lang": "en",
+          "points": 145,
+          "published_at": "2015-07-03",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 애플리케이션의 렌더링 성능을 최적화하는 기법",
+          "summary": "React 애플리케이션의 성능 저하 원인을 파악하고 렌더링 최적화, 메모이제이션, 코드 분할 등의 기법을 통해 사용자 경험을 개선하는 방법을 다룹니다.",
+          "prereqs": [
+            {
+              "name": "React 기본 개념",
+              "detail": "React의 컴포넌트와 상태 관리 이해 필요"
+            },
+            {
+              "name": "Virtual DOM",
+              "detail": "React의 렌더링 메커니즘 이해 필요"
+            },
+            {
+              "name": "JavaScript 비동기 처리",
+              "detail": "성능 최적화 기법 이해에 필수"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "불필요한 리렌더링을 방지하는 핵심 기법"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "번들 크기를 줄여 초기 로딩 성능 개선"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요한 컴포넌트만 동적으로 로드하는 방식"
+            },
+            {
+              "keyword": "profiler-api",
+              "reason": "React DevTools로 성능 병목 지점 분석"
+            },
+            {
+              "keyword": "hook-optimization",
+              "reason": "useCallback, useMemo 등 성능 최적화 훅"
+            }
+          ]
+        },
+        {
+          "title": "React Performance",
+          "url": "https://velog.io/@mochang2/React-Performance",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-12-10",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 애플리케이션의 렌더링 성능을 최적화하는 핵심 기법들",
+          "summary": "React의 렌더링 최적화는 불필요한 리렌더링을 방지하고 번들 크기를 줄이는 것이 핵심입니다. useMemo, useCallback, Code Splitting 등의 기법을 활용하여 사용자 경험을 개선할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React 기본 개념",
+              "detail": "컴포넌트, 상태, Props 이해 필요"
+            },
+            {
+              "name": "렌더링 원리",
+              "detail": "Virtual DOM과 재조정 과정 이해 필요"
+            },
+            {
+              "name": "JavaScript 기본",
+              "detail": "클로저, 메모이제이션 개념 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "불필요한 재계산 방지로 성능 향상"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "번들 크기 감소로 초기 로딩 속도 개선"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요시에만 컴포넌트 로드하여 성능 최적화"
+            },
+            {
+              "keyword": "react-profiler",
+              "reason": "성능 병목 지점 식별 및 분석 도구"
+            }
+          ]
+        },
+        {
+          "title": "[MGS] React Performance",
+          "url": "https://velog.io/@syoon624/MGS-React-Performance",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2022-12-17",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 애플리케이션의 성능을 최적화하는 방법과 기법",
+          "summary": "React 애플리케이션의 성능을 개선하기 위한 핵심 기법들을 다룹니다. 불필요한 렌더링 방지, 메모이제이션, 코드 스플리팅 등의 최적화 전략을 통해 사용자 경험을 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React 렌더링 메커니즘",
+              "detail": "성능 최적화의 기초가 되는 리렌더링 원리 이해"
+            },
+            {
+              "name": "JavaScript 함수형 프로그래밍",
+              "detail": "메모이제이션과 최적화 기법 학습에 필요"
+            },
+            {
+              "name": "브라우저 성능 분석",
+              "detail": "성능 개선 결과를 측정하고 검증하기 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "불필요한 렌더링을 방지하는 핵심 기법"
+            },
+            {
+              "keyword": "code-splitting",
+              "reason": "초기 로딩 시간 개선을 위한 번들 최적화"
+            },
+            {
+              "keyword": "virtual-dom",
+              "reason": "React의 렌더링 최적화 원리 이해"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요한 시점의 데이터 로딩으로 성능 향상"
+            },
+            {
+              "keyword": "profiler",
+              "reason": "성능 문제 식별 및 병목 지점 파악"
+            }
+          ]
+        },
+        {
+          "title": "Epic React - performance tab",
+          "url": "https://velog.io/@dongha1992/useMemo-with-performance-tab",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2023-03-24",
+          "collected_at": "2026-05-16",
+          "minutes": 5,
+          "one_liner": "React 성능 최적화를 위한 Performance 탭 활용법",
+          "summary": "React DevTools의 Performance 탭을 사용하여 컴포넌트 렌더링 성능을 측정하고 분석하는 방법을 다룹니다. 불필요한 리렌더링을 감지하고 성능 병목 지점을 파악하여 애플리케이션 최적화에 활용할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React Rendering",
+              "detail": "성능 측정 대상인 렌더링 과정의 이해"
+            },
+            {
+              "name": "React DevTools",
+              "detail": "Performance 탭을 포함한 개발자 도구의 기본 사용법"
+            },
+            {
+              "name": "Component Lifecycle",
+              "detail": "성능 분석 시 마운트, 업데이트 단계 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "memoization",
+              "reason": "렌더링 최적화의 핵심 기법"
+            },
+            {
+              "keyword": "profiler-api",
+              "reason": "성능 측정을 위한 공식 API"
+            },
+            {
+              "keyword": "re-render",
+              "reason": "불필요한 재렌더링 감지 및 해결"
+            },
+            {
+              "keyword": "render-optimization",
+              "reason": "렌더링 성능 개선 전략"
+            }
+          ]
+        }
+      ]
     }
   }
 }
