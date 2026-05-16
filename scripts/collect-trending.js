@@ -39,9 +39,34 @@ async function fetchDevTo() {
   }));
 }
 
+async function fetchArticleContent(url) {
+  try {
+    const res = await fetch(url, {
+      signal: AbortSignal.timeout(8000),
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; DevPick/1.0)' },
+    });
+    if (!res.ok) return '';
+    const html = await res.text();
+    return html
+      .replace(/<script[\s\S]*?<\/script>/gi, '')
+      .replace(/<style[\s\S]*?<\/style>/gi, '')
+      .replace(/<[^>]+>/g, ' ')
+      .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&nbsp;/g, ' ')
+      .replace(/\s+/g, ' ')
+      .trim()
+      .slice(0, 3000);
+  } catch {
+    return '';
+  }
+}
+
 async function analyzeArticle(article) {
+  const content = await fetchArticleContent(article.url);
+  const contentSection = content ? `\n글 본문 (일부):\n${content}` : '';
+  if (content) console.log(`[본문] 수집 성공: ${article.title.slice(0, 40)}`);
+
   const prompt = `다음 글을 읽을 주니어 개발자를 위해 아래 정보를 생성해주세요.
-글 제목: "${article.title}"
+글 제목: "${article.title}"${contentSection}
 
 다음 JSON 형식으로만 응답하세요 (설명 없이):
 {
