@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-16",
+  "generated_at": "2026-05-17",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -2759,6 +2759,279 @@
             {
               "keyword": "memoization",
               "reason": "불필요한 렌더링을 방지하는 최적화 기법입니다."
+            }
+          ]
+        }
+      ]
+    },
+    "optimistic-updates": {
+      "articles": [
+        {
+          "title": "Show HN: InstantDB – A Modern Firebase",
+          "url": "https://github.com/instantdb/instant",
+          "source": "hn",
+          "lang": "en",
+          "points": 1145,
+          "published_at": "2024-08-22",
+          "collected_at": "2026-05-17",
+          "minutes": 5,
+          "one_liner": "Firebase를 대체할 수 있는 현대적인 백엔드 솔루션 InstantDB 소개",
+          "summary": "InstantDB는 AI 기반 앱 개발을 위한 완전한 백엔드 솔루션으로, 인증, 권한 관리, 스토리지, 프레젠스, 스트림 등의 기능을 제공합니다. Firebase의 현대적 대안으로 개발자가 필요한 모든 기능을 통합 제공합니다.",
+          "prereqs": [
+            {
+              "name": "Firebase",
+              "detail": "현대적 백엔드 솔루션의 업계 표준을 이해하기 위함"
+            },
+            {
+              "name": "실시간 데이터베이스",
+              "detail": "InstantDB의 핵심 기능인 실시간 동기화 이해가 필요"
+            },
+            {
+              "name": "백엔드 아키텍처",
+              "detail": "인증, 권한, 스토리지 등 백엔드 구성요소 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "real-time-sync",
+              "reason": "InstantDB의 핵심 기능인 실시간 데이터 동기화"
+            },
+            {
+              "keyword": "authentication",
+              "reason": "백엔드 솔루션의 필수 보안 기능"
+            },
+            {
+              "keyword": "presence-detection",
+              "reason": "사용자 상태 추적의 modern 백엔드 기능"
+            },
+            {
+              "keyword": "permission-system",
+              "reason": "데이터 접근 제어를 위한 중요한 기능"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: I spent 2 years building Tablane as a 17-year-old",
+          "url": "https://github.com/Tablane/tablane",
+          "source": "hn",
+          "lang": "en",
+          "points": 352,
+          "published_at": "2023-01-06",
+          "collected_at": "2026-05-17",
+          "minutes": 8,
+          "one_liner": "17세 개발자가 2년간 만든 협업 플랫폼 Tablane 프로젝트 이야기",
+          "summary": "젊은 개발자가 장시간에 걸쳐 완성한 오픈소스 협업 플랫폼 Tablane을 소개하는 글입니다. GitHub에 공개된 프로젝트로 팀 협업과 데이터 관리를 위한 플랫폼을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "React 또는 Vue",
+              "detail": "현대적 UI 구현을 위한 필수 프론트엔드 프레임워크"
+            },
+            {
+              "name": "REST API",
+              "detail": "백엔드와 통신하기 위한 기본 API 개념"
+            },
+            {
+              "name": "상태 관리",
+              "detail": "UI 상태 동기화를 위한 핵심 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "real-time-collaboration",
+              "reason": "다중 사용자 동시 작업 구현 기술"
+            },
+            {
+              "keyword": "state-management",
+              "reason": "UI 상태와 서버 동기화 유지"
+            },
+            {
+              "keyword": "undo-redo",
+              "reason": "사용자 작업 취소 기능 구현"
+            },
+            {
+              "keyword": "conflict-resolution",
+              "reason": "동시 편집 시 충돌 처리 방식"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "대규모 데이터 처리 시 렌더링 최적화"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: YourNextStore – an open-source Shopify with Stripe as the back end",
+          "url": "https://github.com/yournextstore/yournextstore",
+          "source": "hn",
+          "lang": "en",
+          "points": 285,
+          "published_at": "2024-09-10",
+          "collected_at": "2026-05-17",
+          "minutes": 5,
+          "one_liner": "Stripe 기반 오픈소스 Shopify 대체 솔루션",
+          "summary": "YourNextStore는 Next.js와 Stripe를 활용한 AI 네이티브 오픈소스 전자상거래 플랫폼입니다. 타입 안전 Commerce SDK와 빠른 성능을 제공하며, Claude와 Cursor 같은 AI 도구로 개발하기에 최적화되어 있습니다.",
+          "prereqs": [
+            {
+              "name": "Next.js",
+              "detail": "현대적 React 프레임워크를 이해하기 위해"
+            },
+            {
+              "name": "Stripe API",
+              "detail": "결제 처리 및 백엔드 통합 방식을 알기 위해"
+            },
+            {
+              "name": "TypeScript",
+              "detail": "타입 안전성과 개발자 경험을 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "server-side-rendering",
+              "reason": "Next.js 기반의 성능 최적화 이해"
+            },
+            {
+              "keyword": "commerce-sdk",
+              "reason": "타입세이프 상거래 기능 구현"
+            },
+            {
+              "keyword": "payment-integration",
+              "reason": "Stripe 결제 연동 방식 학습"
+            },
+            {
+              "keyword": "open-source-shopify",
+              "reason": "기존 솔루션과의 비교 이해"
+            }
+          ]
+        },
+        {
+          "title": "React-Query] - Optimistic Updates(낙관적 업데이트)\n",
+          "url": "https://velog.io/@rlaclghks123/React-Query-Optimistic-Updates낙관적-업데이트",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-06-06",
+          "collected_at": "2026-05-17",
+          "minutes": 5,
+          "one_liner": "React-Query에서 낙관적 업데이트로 UX를 2배 빠르게 개선하기",
+          "summary": "낙관적 업데이트는 서버 응답을 기다리지 않고 UI를 먼저 변경한 후, 실패 시 되돌리는 기법입니다. React-Query의 onMutate, onError, onSettled를 활용하여 구현하며, 좋아요 버튼처럼 빠른 피드백이 필요한 UI에 효과적입니다.",
+          "prereqs": [
+            {
+              "name": "React-Query useMutation",
+              "detail": "데이터 변경 작업을 관리하는 훅으로 낙관적 업데이트의 기반"
+            },
+            {
+              "name": "queryClient API",
+              "detail": "캐시된 데이터를 수동으로 조작하여 UI를 즉시 업데이트"
+            },
+            {
+              "name": "async/await",
+              "detail": "비동기 작업 처리로 쿼리 취소 등의 작업 수행"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "cache-invalidation",
+              "reason": "데이터 동기화 실패 시 캐시 무효화로 정합성 유지"
+            },
+            {
+              "keyword": "error-handling",
+              "reason": "낙관적 업데이트 실패 시 이전 상태로 롤백 처리"
+            },
+            {
+              "keyword": "user-experience",
+              "reason": "즉각적인 UI 반응으로 체감 성능 향상"
+            },
+            {
+              "keyword": "mutation-lifecycle",
+              "reason": "onMutate, onError, onSettled 라이프사이클 이해 필수"
+            }
+          ]
+        },
+        {
+          "title": "React Query - Optimistic Updates",
+          "url": "https://velog.io/@hameee/React-Query-Optimistic-Updates",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-07-02",
+          "collected_at": "2026-05-17",
+          "minutes": 5,
+          "one_liner": "React Query에서 mutation 완료 전 UI를 즉시 업데이트하는 방법",
+          "summary": "React Query의 Optimistic Updates는 서버 응답을 기다리지 않고 UI를 미리 업데이트하는 기법입니다. onMutate로 캐시를 직접 수정하거나 useMutation의 variables를 활용하여 사용자 경험을 향상시킬 수 있으며, 실패 시 onError로 이전 상태로 롤백합니다.",
+          "prereqs": [
+            {
+              "name": "React Query (TanStack Query)",
+              "detail": "서버 상태 관리 라이브러리로, mutations와 queries 개념을 이해해야 함"
+            },
+            {
+              "name": "useMutation 훅",
+              "detail": "데이터 변경 작업을 처리하는 React Query의 핵심 훅"
+            },
+            {
+              "name": "비동기 작업 (async/await)",
+              "detail": "mutation 완료 타이밍을 정확히 제어하기 위해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "mutation",
+              "reason": "optimistic updates의 대상이 되는 데이터 변경 작업"
+            },
+            {
+              "keyword": "query-invalidation",
+              "reason": "mutation 후 서버와 동기화하기 위해 캐시 무효화 필요"
+            },
+            {
+              "keyword": "rollback",
+              "reason": "mutation 실패 시 이전 상태로 복원하는 오류 처리 전략"
+            },
+            {
+              "keyword": "query-caching",
+              "reason": "optimistic updates는 캐시 데이터를 직접 조작하는 기법"
+            },
+            {
+              "keyword": "ux-optimization",
+              "reason": "네트워크 지연 없이 즉시 반응하는 사용자 경험 개선"
+            }
+          ]
+        },
+        {
+          "title": "[React] Tanstack Query Optimistic Updates",
+          "url": "https://velog.io/@liin/React-Tanstack-Query-Optimistic-Updates",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-06-24",
+          "collected_at": "2026-05-17",
+          "minutes": 5,
+          "one_liner": "Tanstack Query로 서버 요청 전에 UI를 미리 업데이트하기",
+          "summary": "Optimistic Updates는 서버 요청이 성공할 것으로 가정하고 미리 UI에 변경사항을 반영하는 기법입니다. Tanstack Query의 useMutation과 onMutate, onError를 활용하여 낙관적 업데이트를 구현하고, 실패 시 이전 상태로 롤백할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "함수형 컴포넌트에서 상태와 생명주기를 다루기 위함"
+            },
+            {
+              "name": "Tanstack Query 기초",
+              "detail": "useQuery, useMutation 등 기본 API 이해 필요"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "Promise와 async/await 개념으로 데이터 동기화 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "cache-invalidation",
+              "reason": "변경된 데이터를 서버와 동기화하기 위해 필수"
+            },
+            {
+              "keyword": "mutation-state",
+              "reason": "다른 컴포넌트에서 뮤테이션 상태 추적 시 사용"
+            },
+            {
+              "keyword": "error-handling",
+              "reason": "실패 시 이전 상태 복원(rollback) 처리"
+            },
+            {
+              "keyword": "ux-patterns",
+              "reason": "사용자 경험 향상을 위한 UI 패턴 적용"
             }
           ]
         }
