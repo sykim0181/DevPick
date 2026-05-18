@@ -19,7 +19,7 @@
 | 스타일     | Tailwind CSS v4                     |
 | 라우팅     | React Router v7                     |
 | 상태 관리  | Zustand                             |
-| 자동화     | GitHub Actions + Claude Code Agents |
+| 자동화     | Windows Task Scheduler + Claude Code Agents |
 
 ## 프로젝트 구조
 
@@ -31,18 +31,56 @@ devpick/
 │   ├── pages/
 │   ├── lib/
 │   └── store/
-├── .claude/agents/     # Claude Code 자동화 에이전트 정의
-└── .github/workflows/  # GitHub Actions 워크플로우
+├── .claude/
+│   ├── agents/         # Claude Code 자동화 에이전트 정의
+│   └── skills/         # Claude Code 슬래시 커맨드 정의
+├── scripts/            # Task Scheduler 실행 스크립트 (PowerShell)
+└── .github/workflows/  # GitHub Actions 워크플로우 (수동 실행용 백업)
 ```
 
 ## 자동화 파이프라인
 
-세 가지 GitHub Actions 워크플로우가 데이터를 자동으로 최신 상태로 유지합니다.
+Windows Task Scheduler가 PowerShell 스크립트를 실행하고, 스크립트가 Claude Code 에이전트를 호출해 데이터를 수집합니다.
 
-| 워크플로우             | 실행 시각 (KST)   | 역할                                                |
-| ---------------------- | ----------------- | --------------------------------------------------- |
-| `keyword-schedule.yml` | 매주 일요일 21:00 | Claude API로 다음 주 7일치 키워드 선정              |
-| `collect.yml`          | 매일 23:00        | 다음날 키워드로 HN·GeekNews·velog 글 수집 + AI 분석 |
-| `trending.yml`         | 매일 10:00        | HN·dev.to 24시간 인기글 수집 + AI 분석              |
+| 작업                  | 실행 시각 (KST)   | 역할                                                |
+| --------------------- | ----------------- | --------------------------------------------------- |
+| `DevPick-Schedule`    | 매주 일요일 12:00 | 다음 주 7일치 키워드 선정 → `keyword-schedule.json` |
+| `DevPick-Collect`     | 매일 22:00        | 다음날 키워드로 HN·GeekNews·velog 글 수집 + AI 분석 |
+| `DevPick-Trending`    | 매일 23:00        | HN·dev.to 24시간 인기글 수집 + AI 분석              |
 
-각 워크플로우는 Claude Code 에이전트(`.claude/agents/`)를 실행해 데이터를 수집하고 `public/data/`의 JSON 파일을 업데이트한 뒤 자동으로 커밋합니다.
+각 에이전트(`.claude/agents/`)는 WebFetch·WebSearch로 실제 글 본문을 읽어 Claude AI로 분석하고, `public/data/`의 JSON 파일을 업데이트한 뒤 자동으로 커밋·푸시합니다.
+
+## 로컬 실행
+
+```bash
+npm install
+npm run dev
+```
+
+## 환경 변수
+
+`.env` 파일을 프로젝트 루트에 생성합니다:
+
+```
+ANTHROPIC_API_KEY=sk-ant-...
+```
+
+## Task Scheduler 등록
+
+PowerShell을 **관리자 권한**으로 실행 후:
+
+```powershell
+.\scripts\setup-tasks.ps1
+```
+
+## 수동 수집 (Claude Code)
+
+Claude Code에서 슬래시 커맨드로 즉시 실행:
+
+```
+/collect [keyword]   # 특정 키워드 기사 수집
+/trending            # 트렌딩 기사 수집
+/schedule            # 다음 주 키워드 선정
+```
+
+GitHub Actions에서 수동 실행도 가능합니다 (`workflow_dispatch`).
