@@ -20,6 +20,9 @@ dist-ssr
 # Temp files (article-collector agent)
 tmp/
 
+# Task Scheduler 실행 로그
+logs/
+
 # Claude Code local settings
 .claude/settings.local.json
 

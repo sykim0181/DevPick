@@ -59,13 +59,19 @@ WebFetch로 JSON 응답을 파싱합니다. 배열에서 추출:
 
 ### 3단계: Claude API로 글 분석
 
-수집한 articles 배열을 `/tmp/articles.json`에 저장한 뒤, `/tmp/analyze.js`를 작성해 각 글을 순차적으로 분석합니다.
+수집한 articles 배열을 `tmp/articles.json`에 저장한 뒤, `tmp/analyze.js`를 작성해 각 글을 순차적으로 분석합니다.
 
-`/tmp/analyze.js`:
+먼저 tmp 디렉토리를 생성합니다:
+
+```bash
+node -e "require('fs').mkdirSync('tmp', { recursive: true })"
+```
+
+`tmp/analyze.js`:
 
 ```javascript
 const fs = require('fs');
-const articles = JSON.parse(fs.readFileSync('/tmp/articles.json', 'utf8'));
+const articles = JSON.parse(fs.readFileSync('tmp/articles.json', 'utf8'));
 const apiKey = process.env.ANTHROPIC_API_KEY;
 
 const PROMPT_TEMPLATE = (title) => `다음 글을 읽을 주니어 개발자를 위해 아래 정보를 생성해주세요.
@@ -140,7 +146,7 @@ main();
 ```
 
 ```bash
-node /tmp/analyze.js > /tmp/enriched_articles.json
+node tmp/analyze.js > /tmp/enriched_articles.json
 ```
 
 ### 4단계: JSON 저장
@@ -202,6 +208,20 @@ node -e "console.log(new Date().toISOString().slice(0,10))"
 ```
 
 `public/data/trending-data.json`에 씁니다.
+
+### 5단계: git commit & push
+
+```bash
+node -e "const d=new Date();const kst=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul'}).format(d);console.log(kst)"
+```
+
+위 명령으로 오늘 날짜를 구한 뒤:
+
+```bash
+git add public/data/trending-data.json
+git commit -m "chore: update trending-data.json [오늘날짜]"
+git push
+```
 
 ## 완료 후 보고
 

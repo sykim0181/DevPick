@@ -85,19 +85,20 @@ for(let i=1;i<=7;i++){
 
 ```bash
 # HN 최근 72시간 인기 글 제목
-curl -s "https://hn.algolia.com/api/v1/search?tags=story&numericFilters=created_at_i%3E$(date -d '3 days ago' +%s),points%3E50&hitsPerPage=30" \
-  | node -e "
-const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-d.hits.forEach(h=>console.log(h.title));
+node -e "
+const since = Math.floor(Date.now() / 1000) - 86400 * 3;
+fetch('https://hn.algolia.com/api/v1/search?tags=story&numericFilters=created_at_i>' + since + ',points>50&hitsPerPage=30')
+  .then(r => r.json())
+  .then(d => d.hits.forEach(h => console.log(h.title)));
 "
 ```
 
 ```bash
 # dev.to 이번 주 인기 글 제목
-curl -s "https://dev.to/api/articles?top=7&per_page=20" \
-  | node -e "
-const d=JSON.parse(require('fs').readFileSync('/dev/stdin','utf8'));
-d.forEach(a=>console.log(a.title));
+node -e "
+fetch('https://dev.to/api/articles?top=7&per_page=20')
+  .then(r => r.json())
+  .then(d => d.forEach(a => console.log(a.title)));
 "
 ```
 
@@ -106,11 +107,18 @@ d.forEach(a=>console.log(a.title));
 수집한 트렌드 제목, Evergreen 풀, 최근 사용 키워드를 포함해 Claude에게 요청합니다.
 
 ```bash
-curl -s https://api.anthropic.com/v1/messages \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "anthropic-version: 2023-06-01" \
-  -H "content-type: application/json" \
-  -d '<아래 JSON 본문>'
+node -e "
+const body = { /* 아래 프롬프트 포함 JSON */ };
+fetch('https://api.anthropic.com/v1/messages', {
+  method: 'POST',
+  headers: {
+    'x-api-key': process.env.ANTHROPIC_API_KEY,
+    'anthropic-version': '2023-06-01',
+    'content-type': 'application/json',
+  },
+  body: JSON.stringify(body),
+}).then(r => r.json()).then(d => console.log(d.content[0].text));
+"
 ```
 
 **프롬프트:**
@@ -172,6 +180,20 @@ const sorted = Object.fromEntries(
   Object.entries(existing).sort(([a], [b]) => a.localeCompare(b))
 );
 fs.writeFileSync('public/data/keyword-schedule.json', JSON.stringify(sorted, null, 2));
+```
+
+### 6단계: git commit & push
+
+```bash
+node -e "const kst=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul'}).format(new Date());console.log(kst)"
+```
+
+위 명령으로 오늘 날짜를 구한 뒤:
+
+```bash
+git add public/data/keyword-schedule.json
+git commit -m "chore: update keyword-schedule.json [오늘날짜]"
+git push
 ```
 
 ## 완료 후 보고

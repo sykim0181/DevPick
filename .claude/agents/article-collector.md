@@ -93,14 +93,20 @@ URL이나 title이 없는 항목은 제외합니다.
 
 ### 4단계: Claude API로 글 분석
 
-수집한 articles 배열을 `/tmp/articles.json`에 저장한 뒤, `/tmp/analyze.js`를 작성해 각 글을 순차적으로 분석합니다.
+수집한 articles 배열을 `tmp/articles.json`에 저장한 뒤, `tmp/analyze.js`를 작성해 각 글을 순차적으로 분석합니다.
 
-`/tmp/analyze.js`:
+먼저 tmp 디렉토리를 생성합니다:
+
+```bash
+node -e "require('fs').mkdirSync('tmp', { recursive: true })"
+```
+
+`tmp/analyze.js`:
 
 ```javascript
 const fs = require('fs');
 const keyword = process.argv[2];
-const articles = JSON.parse(fs.readFileSync('/tmp/articles.json', 'utf8'));
+const articles = JSON.parse(fs.readFileSync('tmp/articles.json', 'utf8'));
 const apiKey = process.env.ANTHROPIC_API_KEY;
 
 const PROMPT = (title) => `다음 글을 읽을 프론트엔드 주니어 개발자를 위해 아래 정보를 생성해주세요.
@@ -170,7 +176,7 @@ main();
 ```
 
 ```bash
-node /tmp/analyze.js "{keyword}" > /tmp/enriched_articles.json
+node tmp/analyze.js "{keyword}" > tmp/enriched_articles.json
 ```
 
 ### 5단계: JSON 업데이트
@@ -216,6 +222,20 @@ enriched articles를 `public/data/keywords-data.json`에 병합합니다:
 - GeekNews: WebSearch(site:news.hada.io)로만 수집
 - velog: WebSearch(Google 경유)만 사용, 직접 크롤링 금지
 - 글이 0개인 소스는 건너뛰고 다음 소스로 이동
+
+### 6단계: git commit & push
+
+```bash
+node -e "const d=new Date();const kst=new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Seoul'}).format(d);console.log(kst)"
+```
+
+위 명령으로 오늘 날짜를 구한 뒤:
+
+```bash
+git add public/data/keywords-data.json
+git commit -m "chore: update keywords-data.json [오늘날짜]"
+git push
+```
 
 ## 완료 후 보고
 
