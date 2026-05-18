@@ -1,8 +1,6 @@
 name: Daily Article Collection
 
 on:
-  schedule:
-    - cron: '0 14 * * *'  # 매일 오후 11시 KST (UTC 14:00) — 다음날 키워드 미리 수집
   workflow_dispatch:
     inputs:
       keyword:

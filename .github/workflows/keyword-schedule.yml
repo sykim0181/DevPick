@@ -1,8 +1,6 @@
 name: Weekly Keyword Schedule
 
 on:
-  schedule:
-    - cron: '0 12 * * 0'  # 매주 일요일 21:00 KST (UTC 12:00) — 다음 주 키워드 선정
   workflow_dispatch:
 
 jobs:
