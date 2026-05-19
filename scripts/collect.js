@@ -195,6 +195,31 @@ async function analyzeArticle(article, keyword) {
   }
 }
 
+async function generateKeywordDescription(keyword) {
+  if (!ANTHROPIC_API_KEY) return null;
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'x-api-key': ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+        'content-type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 100,
+        messages: [
+          { role: 'user', content: `"${keyword}"를 주니어 개발자에게 한 문장으로 설명해주세요. 40자 이내 한국어로만 답하세요.` },
+        ],
+      }),
+    });
+    const data = await res.json();
+    return data.content?.[0]?.text?.trim() ?? null;
+  } catch {
+    return null;
+  }
+}
+
 async function main() {
   const keyword = resolveKeyword();
   console.log(`키워드: ${keyword}`);
@@ -207,25 +232,31 @@ async function main() {
   const articles = [...hn, ...gn, ...velog];
   console.log(`수집: HN ${hn.length}개, GeekNews ${gn.length}개, velog ${velog.length}개`);
 
-  const enriched = [];
-  for (const article of articles) {
-    const r = await analyzeArticle(article, keyword);
-    enriched.push({
-      ...article,
-      minutes: r.minutes ?? null,
-      one_liner: r.one_liner ?? null,
-      summary: r.summary ?? null,
-      prereqs: r.prereqs ?? [],
-      related_concepts: r.related_concepts ?? [],
-    });
-  }
+  const [enriched, description] = await Promise.all([
+    (async () => {
+      const result = [];
+      for (const article of articles) {
+        const r = await analyzeArticle(article, keyword);
+        result.push({
+          ...article,
+          minutes: r.minutes ?? null,
+          one_liner: r.one_liner ?? null,
+          summary: r.summary ?? null,
+          prereqs: r.prereqs ?? [],
+          related_concepts: r.related_concepts ?? [],
+        });
+      }
+      return result;
+    })(),
+    generateKeywordDescription(keyword),
+  ]);
 
   const dataPath = 'public/data/keywords-data.json';
   let existing = {};
   try { existing = JSON.parse(readFileSync(dataPath, 'utf8')); } catch {}
   existing.generated_at = kstDate();
   existing.keywords = existing.keywords ?? {};
-  existing.keywords[keyword] = { articles: enriched };
+  existing.keywords[keyword] = { description, articles: enriched };
   writeFileSync(dataPath, JSON.stringify(existing, null, 2));
   console.log(`완료: ${enriched.length}개 저장 → ${dataPath}`);
 }
