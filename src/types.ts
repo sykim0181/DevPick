@@ -24,6 +24,7 @@ export interface Article {
 }
 
 export interface KeywordData {
+  description?: string;
   articles: Article[];
 }
 

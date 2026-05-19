@@ -50,7 +50,31 @@ console.log(KEYWORDS[hashDate(dateStr) % KEYWORDS.length]);
 " {OFFSET}
 ```
 
-### 2단계: 기존 JSON 읽기
+### 2단계: 키워드 설명 생성
+
+Claude API로 키워드 설명을 한 문장(40자 이내 한국어)으로 생성합니다.
+
+```bash
+node -e "
+fetch('https://api.anthropic.com/v1/messages', {
+  method: 'POST',
+  headers: {
+    'x-api-key': process.env.ANTHROPIC_API_KEY,
+    'anthropic-version': '2023-06-01',
+    'content-type': 'application/json',
+  },
+  body: JSON.stringify({
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 100,
+    messages: [{ role: 'user', content: '\"{keyword}\"를 주니어 개발자에게 한 문장으로 설명해주세요. 40자 이내 한국어로만 답하세요.' }],
+  }),
+}).then(r => r.json()).then(d => console.log(d.content[0].text.trim()));
+"
+```
+
+결과를 `{keyword_description}` 변수로 저장합니다.
+
+### 3단계: 기존 JSON 읽기
 
 `public/data/keywords-data.json`을 읽어 기존 데이터를 보존합니다.
 
@@ -183,7 +207,7 @@ node tmp/analyze.js "{keyword}" > tmp/enriched_articles.json
 
 enriched articles를 `public/data/keywords-data.json`에 병합합니다:
 
-- 해당 키워드가 이미 있으면 articles 배열 **교체** (최신화)
+- 해당 키워드가 이미 있으면 `description`과 `articles` 배열 **교체** (최신화)
 - 키워드가 없으면 새로 추가
 - 기존 다른 키워드 데이터는 보존
 - `generated_at`을 오늘 날짜(YYYY-MM-DD)로 업데이트
@@ -195,6 +219,7 @@ enriched articles를 `public/data/keywords-data.json`에 병합합니다:
   "generated_at": "YYYY-MM-DD",
   "keywords": {
     "{keyword}": {
+      "description": "키워드를 한 문장으로 설명 (40자 이내 한국어)",
       "articles": [
         {
           "title": "...",

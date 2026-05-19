@@ -75,7 +75,7 @@ const HomePage = () => {
   );
 
   const displayKeyword = formatKeyword(keyword);
-  const keywordDesc = KEYWORD_DESCRIPTIONS[keyword] ?? "";
+  const keywordDesc = data?.keywords[keyword]?.description ?? KEYWORD_DESCRIPTIONS[keyword] ?? "";
   const topTrending = (trendingData?.articles ?? []).slice(0, 3);
 
   return (
