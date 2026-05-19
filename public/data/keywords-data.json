@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17",
+  "generated_at": "2026-05-19",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -3032,6 +3032,406 @@
             {
               "keyword": "ux-patterns",
               "reason": "사용자 경험 향상을 위한 UI 패턴 적용"
+            }
+          ]
+        }
+      ]
+    },
+    "ai-is-making-me-dumb": {
+      "articles": [
+        {
+          "title": "AI is making me dumb",
+          "url": "https://jpain.io/god-damn-ai-is-making-me-dumb/",
+          "source": "hn",
+          "lang": "en",
+          "points": 552,
+          "published_at": "2026-05-14",
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 도구 의존성이 개발자의 사고력과 학습능력을 저하시킨다.",
+          "summary": "AI 기술의 발전으로 개발자들이 도구에 과도하게 의존하면서 문제 해결 능력과 기본 개념 이해가 약화되고 있다. 편의성 뒤에 숨은 인지 능력 저하의 위험성을 경고하며 균형잡힌 AI 활용을 강조한다.",
+          "prereqs": [
+            {
+              "name": "인지 부하 이론",
+              "detail": "과도한 도구 의존이 뇌의 사고 능력에 미치는 영향을 이해하기 위해"
+            },
+            {
+              "name": "개발자 역량",
+              "detail": "코딩 능력과 문제 해결 능력의 핵심 요소들을 알아야 하기 때문"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "cognitive-offloading",
+              "reason": "기술이 인지 작업을 대신하는 현상 이해 필요"
+            },
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI 시대에 필요한 핵심 역량으로 강조됨"
+            },
+            {
+              "keyword": "learning-retention",
+              "reason": "도구 의존과 학습 효과의 관계 파악 필요"
+            },
+            {
+              "keyword": "developer-skills",
+              "reason": "AI 시대 개발자가 유지해야 할 능력 정의"
+            }
+          ]
+        },
+        {
+          "title": "AI Is Making Developers Dumb",
+          "url": "https://eli.cx/blog/ai-is-making-developers-dumb",
+          "source": "hn",
+          "lang": "en",
+          "points": 173,
+          "published_at": "2025-03-16",
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 도구에 의존하면 개발자의 문제 해결 능력이 약해질 수 있다.",
+          "summary": "AI 코딩 보조 도구의 과도한 사용이 개발자의 기본기와 비판적 사고력을 약화시킬 수 있다는 경고글입니다. 개발자는 AI를 편리함의 도구로만 보지 말고, 자신의 실력을 꾸준히 개발하고 검증하는 능력을 유지해야 합니다.",
+          "prereqs": [
+            {
+              "name": "AI 코딩 도구",
+              "detail": "ChatGPT, GitHub Copilot 등 코드 생성 보조 도구의 기본 이해"
+            },
+            {
+              "name": "개발자 역량",
+              "detail": "문제 해결 능력, 알고리즘 이해, 코드 리뷰 역량"
+            },
+            {
+              "name": "기술 독립성",
+              "detail": "개발자로서 자체 학습과 성장의 중요성"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI 생성 코드를 검증하는 비판적 사고력"
+            },
+            {
+              "keyword": "skill-degradation",
+              "reason": "도구 의존으로 인한 개발 능력 저하 위험"
+            },
+            {
+              "keyword": "continuous-learning",
+              "reason": "AI 시대의 지속적 자기 개발 필요성"
+            },
+            {
+              "keyword": "code-review",
+              "reason": "AI 출력물 검토 및 품질 검증 능력"
+            },
+            {
+              "keyword": "fundamentals-mastery",
+              "reason": "프로그래밍 기초 개념의 깊은 이해 중요성"
+            }
+          ]
+        },
+        {
+          "title": "Teachers: AI is making children dumb as fuck",
+          "url": "https://old.reddit.com/r/Teachers/comments/1df6qep/ai_is_making_children_dumb_as_fuck/",
+          "source": "hn",
+          "lang": "en",
+          "points": 48,
+          "published_at": "2024-06-14",
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 도구 과다 사용이 학생들의 인지 능력 저하를 초래하고 있다.",
+          "summary": "교사들은 AI 기술이 학생들의 비판적 사고력과 학습 능력을 약화시키고 있다고 지적합니다. 과도한 AI 의존은 문제 해결 능력 감소와 깊이 있는 학습 기회 박탈로 이어지고 있습니다.",
+          "prereqs": [
+            {
+              "name": "인지 발달",
+              "detail": "학습 과정에서 뇌의 발달 메커니즘을 이해하기 위함"
+            },
+            {
+              "name": "교육 심리학",
+              "detail": "학생의 학습 동기와 학습 방식의 변화를 분석하기 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI에 의존할수록 독립적 사고력이 감소하는 현상"
+            },
+            {
+              "keyword": "digital-literacy",
+              "reason": "기술 활용 능력과 올바른 사용법의 균형 필요"
+            },
+            {
+              "keyword": "learning-outcomes",
+              "reason": "AI 도구가 학습 성과에 미치는 실질적 영향 측정"
+            },
+            {
+              "keyword": "educational-technology",
+              "reason": "교육 현장에서의 AI 기술 도입과 부작용 관리"
+            }
+          ]
+        },
+        {
+          "title": "AI 지원이 코딩 기술 형성에 미치는 영향",
+          "url": "https://news.hada.io/topic?id=26275",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 코딩 도구에 의존하면 개발 기술이 약화될 수 있다.",
+          "summary": "AI 지원 도구의 과도한 의존은 개발자의 문제 해결 능력과 코딩 기초를 약화시킬 수 있습니다. 자동 완성과 코드 생성에만 의존하지 않고 기본기를 다지며 비판적 사고를 유지해야 합니다.",
+          "prereqs": [
+            {
+              "name": "AI 코딩 도구",
+              "detail": "ChatGPT, Copilot 등 코딩 보조 AI의 기능과 한계 이해"
+            },
+            {
+              "name": "개발 기초 역량",
+              "detail": "문제 해결, 알고리즘 이해 등 핵심 개발 능력의 중요성"
+            },
+            {
+              "name": "학습 심리학",
+              "detail": "도구 의존이 학습과 기술 형성에 미치는 영향 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI 결과물을 검증하는 비판적 사고 능력 필수"
+            },
+            {
+              "keyword": "fundamentals-first",
+              "reason": "기초 개념 학습으로 AI 도구 올바른 활용 가능"
+            },
+            {
+              "keyword": "tool-dependency",
+              "reason": "도구 의존도 높으면 독립적 문제 해결 능력 저하"
+            },
+            {
+              "keyword": "continuous-learning",
+              "reason": "AI 시대에도 지속적 자기 학습으로 경쟁력 유지"
+            }
+          ]
+        },
+        {
+          "title": "AI 코딩이 초래하는 비용",
+          "url": "https://news.hada.io/topic?id=27099",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 코딩 도구에 의존하면 개발자의 실력이 저하될 수 있다.",
+          "summary": "AI 코딩 어시스턴트의 과도한 사용은 개발자의 문제 해결 능력과 기초 개념 이해를 약화시킬 수 있습니다. 편의성 뒤에 숨겨진 학습 부채와 기술력 퇴화의 위험성을 조명합니다.",
+          "prereqs": [
+            {
+              "name": "AI 코딩 어시스턴트",
+              "detail": "ChatGPT, Copilot 등 코드 생성 도구의 작동 원리"
+            },
+            {
+              "name": "기술 부채",
+              "detail": "단기 편의성으로 인한 장기적 문제 축적의 개념"
+            },
+            {
+              "name": "개발자 역량",
+              "detail": "문제 분석, 설계, 구현 능력의 종합적 평가"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI 결과물을 검증하는 비판적 사고력 필요"
+            },
+            {
+              "keyword": "hands-on-practice",
+              "reason": "직접 코딩하며 경험하는 실무 학습의 중요성"
+            },
+            {
+              "keyword": "code-comprehension",
+              "reason": "생성된 코드를 이해하고 수정할 능력 요구"
+            },
+            {
+              "keyword": "learning-curve",
+              "reason": "기초부터 차근차근 배우는 성장 과정의 가치"
+            }
+          ]
+        },
+        {
+          "title": "AI를 활용한 프로그래밍 역량을 높이는 방법",
+          "url": "https://news.hada.io/topic?id=25060",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 도구 의존도를 줄이고 근본적인 프로그래밍 역량을 키우는 전략",
+          "summary": "AI 코딩 보조 도구의 과도한 사용은 개발자의 문제 해결 능력을 약화시킬 수 있습니다. 기초 개념 학습, 직접 코딩 연습, 비판적 사고를 병행하여 AI와 함께 성장하는 개발자가 되어야 합니다.",
+          "prereqs": [
+            {
+              "name": "프로그래밍 기초",
+              "detail": "변수, 함수, 제어문 등 핵심 개념 이해 필요"
+            },
+            {
+              "name": "AI 도구 활용",
+              "detail": "ChatGPT, Copilot 같은 AI 보조 도구의 기본 사용법"
+            },
+            {
+              "name": "학습 동기부여",
+              "detail": "장기적 성장을 위한 자기 주도적 학습 의지"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "deliberate-practice",
+              "reason": "의도적 반복 연습으로 진정한 역량 강화"
+            },
+            {
+              "keyword": "problem-solving-skills",
+              "reason": "AI가 해결할 수 없는 창의적 문제 해결 능력"
+            },
+            {
+              "keyword": "code-review",
+              "reason": "AI 생성 코드 검토를 통한 비판적 사고 개발"
+            },
+            {
+              "keyword": "debugging-techniques",
+              "reason": "스스로 문제를 찾고 해결하는 디버깅 역량"
+            },
+            {
+              "keyword": "learning-fundamentals",
+              "reason": "알고리즘과 자료구조 같은 근본 개념 학습"
+            }
+          ]
+        },
+        {
+          "title": "AI 시대의 개발자: 현업 개발자의 솔직한 이야기",
+          "url": "https://velog.io/@teo/ai-and-developer",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 도구 사용이 개발자의 사고력을 약화시킬 수 있다는 현실적 경고",
+          "summary": "현업 개발자가 AI 코딩 보조 도구에 과도하게 의존하면서 문제 해결 능력과 깊이 있는 사고가 감소하는 현상을 지적합니다. 편의성과 생산성 향상 사이에서 개발자가 놓쳐서는 안 될 기본 역량 유지의 중요성을 강조합니다.",
+          "prereqs": [
+            {
+              "name": "개발자 역량",
+              "detail": "문제 해결, 논리적 사고, 코드 이해력 등"
+            },
+            {
+              "name": "AI 코딩 도구",
+              "detail": "ChatGPT, Copilot 등 개발 보조 AI의 역할과 한계"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI에 의존하지 않으려면 필수적인 역량"
+            },
+            {
+              "keyword": "skill-decay",
+              "reason": "도구 의존으로 인한 기술 퇴화 현상 이해"
+            },
+            {
+              "keyword": "continuous-learning",
+              "reason": "AI 시대에도 개발자가 지속 학습해야 하는 이유"
+            },
+            {
+              "keyword": "developer-productivity",
+              "reason": "효율성과 역량 사이의 균형 맞추기"
+            }
+          ]
+        },
+        {
+          "title": "(번역) 프런트엔드 개발의 종말",
+          "url": "https://velog.io/@sehyunny/the-end-of-fe-development",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-19",
+          "minutes": 7,
+          "one_liner": "AI 시대에 프론트엔드 개발자의 역할과 미래에 대한 고찰",
+          "summary": "AI 도구의 급속한 발전이 프론트엔드 개발의 미래를 위협하고 있습니다. 개발자들이 AI에 의존하면서 기본 실력이 저하되는 문제와 함께, 진정한 가치 창출을 위해 필요한 능력을 다룹니다.",
+          "prereqs": [
+            {
+              "name": "현대 프론트엔드 기술스택",
+              "detail": "React, Vue, Angular 등 주요 프레임워크에 대한 기본 이해"
+            },
+            {
+              "name": "AI 개발 보조 도구",
+              "detail": "ChatGPT, GitHub Copilot 등 코드 생성 AI의 존재와 기능 인지"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "critical-thinking-in-coding",
+              "reason": "AI 코드 검증을 위한 비판적 사고력의 중요성"
+            },
+            {
+              "keyword": "fundamentals-mastery",
+              "reason": "AI에 의존하지 않으면서도 견고한 개발 기초 역량"
+            },
+            {
+              "keyword": "problem-solving-skills",
+              "reason": "AI가 제시한 솔루션을 평가하고 개선하는 능력"
+            },
+            {
+              "keyword": "continuous-learning",
+              "reason": "변화하는 기술 환경에서 핵심 역량 유지의 필요성"
+            },
+            {
+              "keyword": "code-quality-assessment",
+              "reason": "AI 생성 코드의 품질과 최적성을 판단하는 안목"
+            }
+          ]
+        },
+        {
+          "title": "당신은 AI 주도 개발을 받아들일 수 있나요? (AIDD)",
+          "url": "https://velog.io/@playername_ltt/%EB%8B%B9%EC%8B%A0%EC%9D%80-AI-%EC%A3%BC%EB%8F%84-%EA%B0%9C%EB%B0%9C%EC%9D%84-%EB%B0%9B%EC%95%84%EB%93%A4%EC%9D%BC-%EC%88%98-%EC%9E%88%EB%82%98%EC%9A%94-AIDD",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-19",
+          "minutes": 5,
+          "one_liner": "AI 개발 도구 의존도 증가가 개발자의 실력 저하를 초래할 수 있다는 경고",
+          "summary": "AI 기반 개발 도구의 급속한 확산으로 개발자들이 기본기를 잃을 위험성을 다룹니다. 편의성과 생산성 향상의 이면에 비판적 사고력과 문제해결 능력 약화라는 역설적 문제를 제시하며, 균형잡힌 AI 활용의 필요성을 강조합니다.",
+          "prereqs": [
+            {
+              "name": "AI 코딩 도구",
+              "detail": "ChatGPT, Copilot 등 AI 기반 코드 생성 도구의 특징"
+            },
+            {
+              "name": "개발자 역량",
+              "detail": "프로그래밍 기초 지식과 문제해결 능력의 중요성"
+            },
+            {
+              "name": "기술 의존성",
+              "detail": "도구 의존이 초래할 수 있는 장기적 영향"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "cognitive-offloading",
+              "reason": "인지 부하 감소로 인한 학습 약화 메커니즘"
+            },
+            {
+              "keyword": "skill-degradation",
+              "reason": "반복 사용으로 인한 기술 능력 저하 현상"
+            },
+            {
+              "keyword": "critical-thinking",
+              "reason": "AI 결과물을 검증하는 비판적 사고력 필요성"
+            },
+            {
+              "keyword": "balanced-ai-adoption",
+              "reason": "AI 활용과 기본기 습득의 적절한 균형"
+            },
+            {
+              "keyword": "developer-learning-path",
+              "reason": "실제 경험을 통한 단계적 개발자 성장 방식"
             }
           ]
         }
