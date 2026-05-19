@@ -23,7 +23,7 @@ $LogFile = Join-Path $LogDir "collect-$(Get-Date -Format 'yyyy-MM-dd').log"
 
 Write-Output "[$(Get-Date -Format 'HH:mm:ss')] 기사 수집 시작" | Tee-Object -FilePath $LogFile -Append
 
-claude --dangerouslySkipPermissions -p "collect tomorrow" --agent article-collector 2>&1 | Tee-Object -FilePath $LogFile -Append
+claude --dangerously-skip-permissions -p "collect tomorrow" --agent article-collector 2>&1 | Tee-Object -FilePath $LogFile -Append
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "[$(Get-Date -Format 'HH:mm:ss')] 수집 실패 (exit $LASTEXITCODE)"

@@ -23,7 +23,7 @@ $LogFile = Join-Path $LogDir "trending-$(Get-Date -Format 'yyyy-MM-dd').log"
 
 Write-Output "[$(Get-Date -Format 'HH:mm:ss')] 트렌딩 수집 시작" | Tee-Object -FilePath $LogFile -Append
 
-claude --dangerouslySkipPermissions -p "collect trending" --agent trending-collector 2>&1 | Tee-Object -FilePath $LogFile -Append
+claude --dangerously-skip-permissions -p "collect trending" --agent trending-collector 2>&1 | Tee-Object -FilePath $LogFile -Append
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "[$(Get-Date -Format 'HH:mm:ss')] 수집 실패 (exit $LASTEXITCODE)"

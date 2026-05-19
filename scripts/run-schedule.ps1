@@ -23,7 +23,7 @@ $LogFile = Join-Path $LogDir "schedule-$(Get-Date -Format 'yyyy-MM-dd').log"
 
 Write-Output "[$(Get-Date -Format 'HH:mm:ss')] 키워드 스케줄 갱신 시작" | Tee-Object -FilePath $LogFile -Append
 
-claude --dangerouslySkipPermissions -p "schedule next week" --agent keyword-scheduler 2>&1 | Tee-Object -FilePath $LogFile -Append
+claude --dangerously-skip-permissions -p "schedule next week" --agent keyword-scheduler 2>&1 | Tee-Object -FilePath $LogFile -Append
 
 if ($LASTEXITCODE -ne 0) {
     Write-Error "[$(Get-Date -Format 'HH:mm:ss')] 스케줄 갱신 실패 (exit $LASTEXITCODE)"
