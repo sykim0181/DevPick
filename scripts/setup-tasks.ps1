@@ -33,17 +33,17 @@ function Register-Task {
     Write-Output "등록 완료: $TaskName"
 }
 
-# 매일 22:00 - 키워드 관련 기사 수집 (내일 키워드 미리 수집)
+# 매일 21:00 - 키워드 관련 기사 수집 (내일 키워드 미리 수집)
 Register-Task `
     -TaskName "DevPick-Keyword" `
     -ScriptName "run-keyword.ps1" `
-    -Trigger (New-ScheduledTaskTrigger -Daily -At "22:00")
+    -Trigger (New-ScheduledTaskTrigger -Daily -At "21:00")
 
-# 매일 23:00 - 트렌딩 수집
+# 매일 21:00 - 트렌딩 수집
 Register-Task `
     -TaskName "DevPick-Trending" `
     -ScriptName "run-trending.ps1" `
-    -Trigger (New-ScheduledTaskTrigger -Daily -At "23:00")
+    -Trigger (New-ScheduledTaskTrigger -Daily -At "21:00")
 
 # 매주 일요일 12:00 - 키워드 스케줄 갱신
 Register-Task `
@@ -53,8 +53,8 @@ Register-Task `
 
 Write-Output ""
 Write-Output "Task Scheduler 등록 완료:"
-Write-Output "  DevPick-Collect  → 매일 22:00"
-Write-Output "  DevPick-Trending → 매일 23:00"
+Write-Output "  DevPick-Collect  → 매일 21:00"
+Write-Output "  DevPick-Trending → 매일 21:00"
 Write-Output "  DevPick-Schedule → 매주 일요일 12:00"
 Write-Output ""
 Write-Output "확인: Get-ScheduledTask | Where-Object { `$_.TaskName -like 'DevPick-*' }"
