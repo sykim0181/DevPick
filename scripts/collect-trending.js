@@ -157,15 +157,25 @@ async function main() {
 
   enriched.sort((a, b) => (b.points ?? b.positive_reactions ?? 0) - (a.points ?? a.positive_reactions ?? 0));
 
-  const result = {
-    generated_at: new Date().toISOString(),
-    period: '24h',
-    articles: enriched.slice(0, 30),
-  };
-
   const dataPath = 'public/data/trending-data.json';
-  writeFileSync(dataPath, JSON.stringify(result, null, 2));
-  console.log(`완료: ${result.articles.length}개 저장 → ${dataPath}`);
+  let existing = {};
+  try { existing = JSON.parse(readFileSync(dataPath, 'utf8')); } catch {}
+
+  // 기존 파일이 구 포맷({articles:[...]})이면 초기화
+  if (Array.isArray(existing.articles)) existing = {};
+
+  const today = kstDate();
+  existing[today] = enriched.slice(0, 30);
+
+  // 7일 초과 항목 삭제
+  const cutoff = new Date();
+  cutoff.setDate(cutoff.getDate() - 7);
+  for (const key of Object.keys(existing)) {
+    if (new Date(key) < cutoff) delete existing[key];
+  }
+
+  writeFileSync(dataPath, JSON.stringify(existing, null, 2));
+  console.log(`완료: ${enriched.slice(0, 30).length}개 저장 → ${dataPath}`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

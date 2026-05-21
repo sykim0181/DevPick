@@ -28,16 +28,17 @@ const TrendingPage = () => {
       .catch(() => null);
   }, []);
 
-  const filtered = (data?.articles ?? []).filter(
+  const latestDate = Object.keys(data ?? {}).sort().reverse()[0] ?? null;
+  const latestArticles = latestDate ? (data?.[latestDate] ?? []) : [];
+
+  const filtered = latestArticles.filter(
     (a) => category === "all" || a.category === (category as TrendingCategory),
   );
 
-  const generatedAt = data?.generated_at
-    ? new Date(data.generated_at).toLocaleString("ko-KR", {
+  const generatedAt = latestDate
+    ? new Date(latestDate).toLocaleString("ko-KR", {
         month: "numeric",
         day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
       })
     : null;
 

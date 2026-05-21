@@ -54,8 +54,4 @@ export interface TrendingArticle {
   related_concepts?: RelatedConcept[];
 }
 
-export interface TrendingData {
-  generated_at: string;
-  period: '24h' | '7d';
-  articles: TrendingArticle[];
-}
+export type TrendingData = Record<string, TrendingArticle[]>;

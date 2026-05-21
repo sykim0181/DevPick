@@ -5,6 +5,7 @@ import "./index.css";
 import App from "./App.tsx";
 import HomePage from "./pages/HomePage.tsx";
 import TrendingPage from "./pages/TrendingPage.tsx";
+import DigestPage from "./pages/DigestPage.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById("root")!).render(
         <Route path="/" element={<App />}>
           <Route index element={<HomePage />} />
           <Route path="trending" element={<TrendingPage />} />
+          <Route path="digest" element={<DigestPage />} />
         </Route>
       </Routes>
     </HashRouter>

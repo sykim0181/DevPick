@@ -62,6 +62,18 @@ export default function App() {
               >
                 트렌딩
               </NavLink>
+              <NavLink
+                to="/digest"
+                className={({ isActive }) =>
+                  `text-[13px] font-semibold no-underline transition-colors ${
+                    isActive
+                      ? "text-[#1c1c1e] dark:text-white"
+                      : "text-[var(--sub)] hover:text-[#1c1c1e] dark:hover:text-white"
+                  }`
+                }
+              >
+                모아보기
+              </NavLink>
             </div>
             <DarkToggle dark={dark} onToggle={() => setDark((d) => !d)} />
           </div>
