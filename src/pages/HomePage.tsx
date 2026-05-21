@@ -104,24 +104,23 @@ const HomePage = () => {
             오늘의 키워드 · {dateDisplay}
           </span>
 
-          <div className="relative">
-            <div
-              className="absolute inset-x-0 z-0 rounded-[12px]"
+          <div
+            className="font-bold leading-[0.92] tracking-[-0.045em] sm:text-right"
+            style={{ fontSize: "clamp(44px, 7vw, 72px)" }}
+          >
+            <span
               style={{
-                top: 0,
-                height: "100%",
                 background: dark
                   ? "rgba(255, 210, 0, 0.22)"
                   : "rgba(255, 210, 0, 0.4)",
-                transform: "rotate(0.5deg)",
+                borderRadius: "12px",
+                padding: "2px 6px",
+                boxDecorationBreak: "clone",
+                WebkitBoxDecorationBreak: "clone",
               }}
-            />
-            <div
-              className="relative z-10 font-bold leading-[0.92] tracking-[-0.045em] sm:text-right"
-              style={{ fontSize: "clamp(44px, 7vw, 72px)" }}
             >
               {displayKeyword}
-            </div>
+            </span>
           </div>
 
           {keywordDesc && (
