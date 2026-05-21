@@ -81,7 +81,7 @@ const HomePage = () => {
   return (
     <div className="max-w-[980px] mx-auto px-6">
       {/* ── Hero ── */}
-      <div className="flex items-end justify-between gap-6 pt-4 pb-6">
+      <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 sm:gap-6 pt-4 pb-6">
         {/* 서비스 설명 */}
         <div className="flex flex-col gap-1.5 min-w-0 pb-1">
           <p className="text-[20px] font-bold leading-[1.3] tracking-[-0.025em] text-[#1c1c1e] dark:text-white">
@@ -95,7 +95,7 @@ const HomePage = () => {
         </div>
 
         {/* 키워드 섹션 */}
-        <div className="flex flex-col items-end gap-2 min-w-0 shrink-0">
+        <div className="flex flex-col items-start sm:items-end gap-2 min-w-0 shrink-0">
           <span className="inline-flex items-center gap-1.5 text-[13px] font-bold tracking-[0.03em] uppercase text-white dark:text-white bg-[#1c1c1e] px-3 py-[5px] rounded-full">
             <span
               className="w-1.5 h-1.5 rounded-full shrink-0"
@@ -117,7 +117,7 @@ const HomePage = () => {
               }}
             />
             <div
-              className="relative z-10 font-bold leading-[0.92] tracking-[-0.045em] text-right"
+              className="relative z-10 font-bold leading-[0.92] tracking-[-0.045em] sm:text-right"
               style={{ fontSize: "clamp(44px, 7vw, 72px)" }}
             >
               {displayKeyword}
@@ -125,7 +125,7 @@ const HomePage = () => {
           </div>
 
           {keywordDesc && (
-            <p className="text-[13px] leading-[1.5] text-[var(--sub)] text-right">
+            <p className="text-[13px] leading-[1.5] text-[var(--sub)] sm:text-right">
               {keywordDesc}
             </p>
           )}

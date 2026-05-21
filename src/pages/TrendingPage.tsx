@@ -54,7 +54,7 @@ const TrendingPage = () => {
           트렌딩
         </span>
         <div className="flex gap-4 items-center">
-          <img src="/cursor_running.png" width={150} />
+          <img src="/cursor_running.png" width={150} className="hidden sm:block" />
 
           <div>
             <div className="flex items-baseline gap-3">
