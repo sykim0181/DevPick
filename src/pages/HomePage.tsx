@@ -95,7 +95,7 @@ const HomePage = () => {
         </div>
 
         {/* 키워드 섹션 */}
-        <div className="flex flex-col items-start sm:items-end gap-2 min-w-0 shrink-0">
+        <div className="flex flex-col items-start sm:items-end gap-4 min-w-0 shrink-0">
           <span className="inline-flex items-center gap-1.5 text-[13px] font-bold tracking-[0.03em] uppercase text-white dark:text-white bg-[#1c1c1e] px-3 py-[5px] rounded-full">
             <span
               className="w-1.5 h-1.5 rounded-full shrink-0"
@@ -114,7 +114,7 @@ const HomePage = () => {
                   ? "rgba(255, 210, 0, 0.22)"
                   : "rgba(255, 210, 0, 0.4)",
                 borderRadius: "12px",
-                padding: "2px 6px",
+                padding: "0px 6px",
                 boxDecorationBreak: "clone",
                 WebkitBoxDecorationBreak: "clone",
               }}
