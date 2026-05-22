@@ -24,7 +24,7 @@ function pickRecommended(articles: Article[]): Article[] {
   const picked: Article[] = [];
   if (hn[0]) picked.push(hn[0]);
   if (ko[0] && !picked.includes(ko[0])) picked.push(ko[0]);
-  if (picked.length < 3) {
+  if (picked.length < 5) {
     const remaining = articles
       .filter((a) => !picked.includes(a))
       .sort((a, b) => (b.one_liner ? 1 : 0) - (a.one_liner ? 1 : 0));
@@ -131,7 +131,7 @@ const DigestPage = () => {
     const keyword = schedule[dateStr] ?? getKeywordForDate(dateStr);
     const articles = keywordsData?.keywords[keyword]?.articles ?? [];
     const recommended = pickRecommended(articles);
-    const trending = (trendingData?.[dateStr] ?? []).slice(0, 3);
+    const trending = (trendingData?.[dateStr] ?? []).slice(0, 5);
     return { dateStr, keyword, recommended, trending };
   });
 
