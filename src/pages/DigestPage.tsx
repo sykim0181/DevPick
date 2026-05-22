@@ -188,11 +188,10 @@ const DigestPage = () => {
       {keywordsData === null ? (
         <p className="text-sm text-[var(--sub)] py-12 text-center">로딩 중...</p>
       ) : (
-        <div className="bg-white dark:bg-[#1c1c1e] rounded-[20px] border border-[var(--sep)] px-6 py-6">
-
-          {/* 키워드 헤더 */}
-          <div className="pb-5 mb-5 border-b border-[var(--sep)]">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--sub)] mb-2">
+        <div className="flex flex-col gap-4">
+          {/* 키워드 카드 */}
+          <div className="bg-white dark:bg-[#1c1c1e] rounded-[20px] border border-[var(--sep)] px-6 py-6">
+            <p className="text-[14px] font-semibold uppercase tracking-[0.06em] mb-2">
               {formatDate(active.dateStr)} · 키워드
             </p>
             <div className="text-[32px] font-bold leading-[1.1] tracking-[-0.035em]">
@@ -209,33 +208,35 @@ const DigestPage = () => {
               </span>
             </div>
             {keywordDesc && (
-              <p className="mt-2 text-[13px] leading-[1.5] text-[var(--sub)]">{keywordDesc}</p>
+              <p className="mt-2 text-[14px] leading-[1.5] text-[var(--sub)]">{keywordDesc}</p>
+            )}
+
+            {active.recommended.length > 0 ? (
+              <>
+                <div className="border-t border-[var(--sep)] my-5" />
+                <p className="text-[14px] font-semibold text-[#1c1c1e] dark:text-white mb-1">
+                  {formatKeyword(active.keyword)} 관련 글 · {active.recommended.length}
+                </p>
+                <div>
+                  {active.recommended.map((a, i) => (
+                    <DigestItem key={`${a.url}-${i}`} article={a} onClick={() => setSelected(a)} />
+                  ))}
+                </div>
+              </>
+            ) : (
+              <p className="text-sm text-[var(--sub)] py-8 text-center">데이터가 없습니다.</p>
             )}
           </div>
 
-          {/* 추천 아티클 */}
-          {active.recommended.length > 0 && (
-            <div className="mb-6">
-              <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--sub)] mb-1">
-                추천 아티클
-              </p>
-              <div>
-                {active.recommended.map((a, i) => (
-                  <DigestItem key={`${a.url}-${i}`} article={a} onClick={() => setSelected(a)} />
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* 그날 트렌딩 */}
+          {/* 트렌딩 카드 */}
           {active.trending.length > 0 && (
-            <div>
-              {active.recommended.length > 0 && (
-                <div className="border-t border-[var(--sep)] mb-6" />
-              )}
-              <p className="text-[11px] font-semibold uppercase tracking-[0.06em] text-[var(--sub)] mb-1">
-                그날 트렌딩
-              </p>
+            <div className="bg-white dark:bg-[#1c1c1e] rounded-[20px] border border-[var(--sep)] px-6 py-6">
+              <div className="flex items-baseline justify-between mb-1">
+                <p className="text-[14px] font-semibold text-[#1c1c1e] dark:text-white">
+                  🔥 트렌딩 · {active.trending.length}
+                </p>
+                <p className="text-[12px] text-[var(--sub)]">키워드와 무관한 그날의 인기 글</p>
+              </div>
               <div>
                 {active.trending.map((a, i) => (
                   <TrendingItem
@@ -246,10 +247,6 @@ const DigestPage = () => {
                 ))}
               </div>
             </div>
-          )}
-
-          {active.recommended.length === 0 && active.trending.length === 0 && (
-            <p className="text-sm text-[var(--sub)] py-8 text-center">데이터가 없습니다.</p>
           )}
         </div>
       )}
