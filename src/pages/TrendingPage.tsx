@@ -93,7 +93,7 @@ const TrendingPage = () => {
       {/* Card grid */}
       {filtered.length === 0 ? (
         <div className="flex flex-col items-center gap-3 py-16">
-          <img src="/cursor_heart.png" width={80} alt="" />
+          <img src="/cursor_heart.png" width={80} alt="" className="opacity-40" />
           <p className="text-sm text-[var(--sub)]">글이 없습니다.</p>
         </div>
       ) : (

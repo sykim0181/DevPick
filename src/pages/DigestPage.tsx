@@ -144,17 +144,22 @@ const DigestPage = () => {
   return (
     <div className="max-w-[980px] mx-auto px-6">
       {/* Header */}
-      <div className="pt-6 pb-5">
+      <div className="pt-6 pb-5 flex flex-col items-start gap-2">
         <span className="inline-flex items-center gap-1.5 text-[13px] font-bold tracking-[0.03em] uppercase text-white bg-[#1c1c1e] px-3 py-[5px] rounded-full">
           <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "rgba(255,210,0,0.9)" }} />
           모아보기
         </span>
-        <h1 className="mt-3 text-[28px] font-bold tracking-[-0.03em] text-[#1c1c1e] dark:text-white">
-          지난 7일 돌아보기
-        </h1>
-        <p className="mt-1 text-[14px] text-[var(--sub)]">
-          날짜를 선택해 놓친 키워드와 트렌딩을 확인하세요.
-        </p>
+        <div className="flex gap-4 items-center">
+          <img src="/cursor_curation.png" width={150} className="hidden sm:block" />
+          <div>
+            <h1 className="text-[28px] font-bold tracking-[-0.03em] text-[#1c1c1e] dark:text-white">
+              지난 7일 돌아보기
+            </h1>
+            <p className="mt-1 text-[14px] text-[var(--sub)]">
+              날짜를 선택해 놓친 키워드와 트렌딩을 확인하세요.
+            </p>
+          </div>
+        </div>
       </div>
 
       {/* 날짜 탭 */}
@@ -225,7 +230,7 @@ const DigestPage = () => {
               </>
             ) : (
               <div className="flex flex-col items-center gap-3 py-10">
-                <img src="/cursor_heart.png" width={80} alt="" />
+                <img src="/cursor_heart.png" width={80} alt="" className="opacity-40" />
                 <p className="text-sm text-[var(--sub)]">글이 없습니다.</p>
               </div>
             )}
