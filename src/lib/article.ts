@@ -12,7 +12,8 @@ export const SOURCES: Record<
   },
   velog: { name: "velog", dot: "#07C851", short: "velog", host: "velog.io" },
   gn:    { name: "GeekNews", dot: "#4BA2FF", short: "Geek",   host: "news.hada.io" },
-  devto: { name: "dev.to",   dot: "#3B49DF", short: "dev.to", host: "dev.to" },
+  devto:    { name: "dev.to",    dot: "#3B49DF", short: "dev.to", host: "dev.to" },
+  velopers: { name: "Velopers",  dot: "#FF6B35", short: "Velo",  host: "velopers.kr" },
 };
 
 export const LANGUAGES: Record<string, string> = {

@@ -115,6 +115,79 @@ velog.io 도메인 링크와 제목 최대 3개.
 각 키워드당 최대: HN 3개, GeekNews 3개, velog 3개 (총 9개 이하).
 URL이나 title이 없는 항목은 제외합니다.
 
+#### ④ Velopers RSS (한국어, 국내 기업 기술 블로그)
+
+```
+GET https://www.velopers.kr/summary-rss.xml
+```
+
+WebFetch로 XML을 가져온 뒤, 아래 Node.js 인라인 스크립트로 파싱합니다:
+
+```bash
+node -e "
+const xml = \`{XML_CONTENT}\`;
+const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
+const get = (item, tag) => {
+  const m = item.match(new RegExp('<' + tag + '[^>]*><!\\\\[CDATA\\\\[([\\\\s\\\\S]*?)\\\\]\\\\]></' + tag + '>|<' + tag + '[^>]*>([^<]*)</' + tag + '>'));
+  return m ? (m[1] || m[2] || '').trim() : '';
+};
+const cutoff = Date.now() - 7 * 86400 * 1000;
+const articles = items
+  .map(item => ({
+    title: get(item, 'title'),
+    url: get(item, 'link') || get(item, 'guid'),
+    description: get(item, 'description'),
+    pubDate: get(item, 'pubDate'),
+    creator: get(item, 'dc:creator'),
+  }))
+  .filter(a => a.title && a.url && new Date(a.pubDate).getTime() > cutoff);
+console.log(JSON.stringify(articles));
+"
+```
+
+파싱된 articles를 `tmp/velopers.json`에 저장합니다.
+
+다음으로 Claude API 단일 호출로 키워드 관련 글을 선별합니다:
+
+```bash
+node -e "
+const fs = require('fs');
+const articles = JSON.parse(fs.readFileSync('tmp/velopers.json', 'utf8'));
+const keyword = '{keyword}';
+const list = articles.map((a, i) => '[' + i + '] ' + a.title + '\n' + a.description).join('\n\n');
+fetch('https://api.anthropic.com/v1/messages', {
+  method: 'POST',
+  headers: { 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+  body: JSON.stringify({
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 200,
+    messages: [{ role: 'user', content: '키워드: \"' + keyword + '\"\n\n다음 글 목록에서 이 키워드와 직접 관련된 글의 인덱스를 JSON 배열로만 반환하세요 (예: [0, 2]). 관련 없으면 [].\n\n' + list }],
+  }),
+}).then(r => r.json()).then(d => {
+  const text = d.content?.[0]?.text ?? '[]';
+  const indices = JSON.parse(text.match(/\[[\d,\s]*\]/)?.[0] ?? '[]');
+  const selected = indices.map(i => articles[i]).filter(Boolean).slice(0, 3).map(a => ({
+    title: a.title,
+    url: a.url,
+    source: 'velopers',
+    lang: 'ko',
+    published_at: new Date(a.pubDate).toISOString().slice(0, 10),
+    collected_at: new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date()),
+    one_liner: a.description.slice(0, 80),
+    summary: a.description,
+    prereqs: [],
+    related_concepts: [],
+  }));
+  console.log(JSON.stringify(selected));
+});
+" > tmp/velopers_selected.json
+```
+
+`tmp/velopers_selected.json`을 읽어 기존 articles 배열에 추가합니다. 최대 3개.
+- source: "velopers", lang: "ko"
+- `description`을 `one_liner`와 `summary`로 사용 (Claude 분석 불필요)
+- Velopers 글은 4단계 Claude 분석 대상에서 제외합니다.
+
 ### 4단계: Claude API로 글 분석
 
 수집한 articles 배열을 `tmp/articles.json`에 저장한 뒤, `tmp/analyze.js`를 작성해 각 글을 순차적으로 분석합니다.

@@ -57,7 +57,55 @@ WebFetch로 JSON 응답을 파싱합니다. 배열에서 추출:
 - `reading_time_minutes` → article.reading_time_minutes
 - `published_at` → article.published_at (앞 10자리 YYYY-MM-DD만 사용)
 
-### 3단계: Claude API로 글 분석
+### 3단계: Velopers RSS 수집 (한국어, 국내 기업 기술 블로그)
+
+```
+GET https://www.velopers.kr/summary-rss.xml
+```
+
+WebFetch로 XML을 가져온 뒤, 아래 Node.js 인라인 스크립트로 최근 24시간 글을 파싱합니다:
+
+```bash
+node -e "
+const xml = \`{XML_CONTENT}\`;
+const items = xml.match(/<item>[\s\S]*?<\/item>/g) ?? [];
+const get = (item, tag) => {
+  const m = item.match(new RegExp('<' + tag + '[^>]*><!\\\\[CDATA\\\\[([\\\\s\\\\S]*?)\\\\]\\\\]></' + tag + '>|<' + tag + '[^>]*>([^<]*)</' + tag + '>'));
+  return m ? (m[1] || m[2] || '').trim() : '';
+};
+const cutoff = Date.now() - 86400 * 1000;
+const kstDate = () => new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date());
+const articles = items
+  .map(item => ({
+    title: get(item, 'title'),
+    url: get(item, 'link') || get(item, 'guid'),
+    description: get(item, 'description'),
+    pubDate: get(item, 'pubDate'),
+    creator: get(item, 'dc:creator'),
+  }))
+  .filter(a => a.title && a.url && new Date(a.pubDate).getTime() > cutoff)
+  .map(a => ({
+    title: a.title,
+    url: a.url,
+    source: 'velopers',
+    lang: 'ko',
+    published_at: new Date(a.pubDate).toISOString().slice(0, 10),
+    collected_at: kstDate(),
+    one_liner: a.description.slice(0, 80),
+    summary: a.description,
+    prereqs: [],
+    related_concepts: [],
+  }));
+console.log(JSON.stringify(articles));
+"
+```
+
+결과를 기존 articles 배열에 추가합니다.
+- source: "velopers", lang: "ko"
+- `description`을 `one_liner`와 `summary`로 사용
+- category는 4단계 Claude 분석에서 결정 (다른 글과 동일하게 처리)
+
+### 4단계: Claude API로 글 분석
 
 수집한 articles 배열을 `tmp/articles.json`에 저장한 뒤, `tmp/analyze.js`를 작성해 각 글을 순차적으로 분석합니다.
 
@@ -151,60 +199,44 @@ node tmp/analyze.js > /tmp/enriched_articles.json
 
 ### 4단계: JSON 저장
 
-enriched articles를 points(HN) または positive_reactions(dev.to) 기준 내림차순으로 정렬합니다.
+enriched articles를 points(HN) / positive_reactions(dev.to) 기준 내림차순으로 정렬합니다.
 중복 URL 제거 후 최대 30개만 저장합니다.
 
-오늘 날짜 계산:
+저장은 **날짜 키 포맷** (Record<string, article[]>)으로, 기존 파일을 읽어 오늘 날짜 키에 덮어쓰고 7일 초과 항목을 삭제합니다:
 
 ```bash
-node -e "console.log(new Date().toISOString().slice(0,10))"
-```
+node -e "
+const fs = require('fs');
+const enriched = JSON.parse(fs.readFileSync('tmp/enriched_articles.json', 'utf8'));
 
-최종 JSON 형식:
+// 포인트 기준 정렬 및 중복 제거
+const seen = new Set();
+const sorted = enriched
+  .filter(a => { if (seen.has(a.url)) return false; seen.add(a.url); return true; })
+  .sort((a, b) => (b.points ?? b.positive_reactions ?? 0) - (a.points ?? a.positive_reactions ?? 0))
+  .slice(0, 30);
 
-```json
-{
-  "generated_at": "YYYY-MM-DDTHH:mm:ssZ",
-  "period": "24h",
-  "articles": [
-    {
-      "title": "...",
-      "url": "https://...",
-      "source": "hn",
-      "lang": "en",
-      "points": 843,
-      "comments": 218,
-      "category": "frontend",
-      "minutes": 5,
-      "published_at": "YYYY-MM-DD",
-      "collected_at": "YYYY-MM-DD",
-      "one_liner": "한 줄 요약",
-      "summary": "글 요약 2~3문장",
-      "prereqs": [
-        { "name": "개념명", "detail": "설명" }
-      ],
-      "related_concepts": [
-        { "keyword": "...", "reason": "..." }
-      ]
-    },
-    {
-      "title": "...",
-      "url": "https://dev.to/...",
-      "source": "devto",
-      "lang": "en",
-      "positive_reactions": 412,
-      "reading_time_minutes": 8,
-      "category": "ai",
-      "minutes": 8,
-      "published_at": "YYYY-MM-DD",
-      "collected_at": "YYYY-MM-DD",
-      "one_liner": "...",
-      "summary": "...",
-      "prereqs": [...],
-      "related_concepts": [...]
-    }
-  ]
+// 기존 파일 읽기
+const dataPath = 'public/data/trending-data.json';
+let existing = {};
+try { existing = JSON.parse(fs.readFileSync(dataPath, 'utf8')); } catch {}
+// 구 포맷({articles:[...]})이면 초기화
+if (Array.isArray(existing.articles)) existing = {};
+
+// 오늘 날짜 키로 저장
+const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date());
+existing[today] = sorted;
+
+// 7일 초과 항목 삭제
+const cutoff = new Date();
+cutoff.setDate(cutoff.getDate() - 7);
+for (const key of Object.keys(existing)) {
+  if (new Date(key) < cutoff) delete existing[key];
 }
+
+fs.writeFileSync(dataPath, JSON.stringify(existing, null, 2));
+console.log('저장 완료:', today, sorted.length + '개');
+"
 ```
 
 `public/data/trending-data.json`에 씁니다.
@@ -229,6 +261,7 @@ git push
 트렌딩 수집 완료
 - HN: {n}개
 - dev.to: {n}개
+- Velopers: {n}개
 - 배치 API: {n}개 요청 → 성공 {n}개
 - 총 {n}개 저장
 - 저장: public/data/trending-data.json

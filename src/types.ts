@@ -11,7 +11,7 @@ export interface Prereq {
 export interface Article {
   title: string;
   url: string;
-  source: 'hn' | 'velog' | 'gn' | 'devto';
+  source: 'hn' | 'velog' | 'gn' | 'devto' | 'velopers';
   lang: 'en' | 'ko';
   points?: number | null;
   minutes?: number;
@@ -38,7 +38,7 @@ export type TrendingCategory = 'frontend' | 'backend' | 'ai' | 'devops' | 'cs' |
 export interface TrendingArticle {
   title: string;
   url: string;
-  source: 'hn' | 'devto';
+  source: 'hn' | 'devto' | 'velopers';
   lang?: 'en' | 'ko';
   points?: number;
   comments?: number;
