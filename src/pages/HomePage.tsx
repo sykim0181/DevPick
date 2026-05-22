@@ -146,9 +146,14 @@ const HomePage = () => {
 
       {/* ── 아티클 그리드 ── */}
       {filtered.length === 0 ? (
-        <div className="text-center py-12 text-sm text-[var(--sub)]">
-          {data === null ? "로딩 중..." : "글이 없습니다."}
-        </div>
+        data === null ? (
+          <div className="text-center py-12 text-sm text-[var(--sub)]">로딩 중...</div>
+        ) : (
+          <div className="flex flex-col items-center gap-3 py-12">
+            <img src="/cursor_heart.png" width={80} alt="" />
+            <p className="text-sm text-[var(--sub)]">글이 없습니다.</p>
+          </div>
+        )
       ) : (
         <div className="grid grid-cols-[repeat(auto-fit,minmax(260px,1fr))] gap-3.5 mb-8">
           {filtered.map((article, i) => (
