@@ -149,8 +149,8 @@ const DigestPage = () => {
           <span className="w-1.5 h-1.5 rounded-full shrink-0" style={{ background: "rgba(255,210,0,0.9)" }} />
           모아보기
         </span>
-        <div className="flex gap-4 items-center">
-          <img src="/cursor_curation.png" width={150} className="hidden sm:block" />
+        <div className="flex gap-4 items-center py-4">
+          <img src="/cursor_curation.png" width={130} className="hidden sm:block" />
           <div>
             <h1 className="text-[28px] font-bold tracking-[-0.03em] text-[#1c1c1e] dark:text-white">
               지난 7일 돌아보기
