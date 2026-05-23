@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21",
+  "generated_at": "2026-05-23",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -3785,6 +3785,436 @@
             {
               "keyword": "html-definition-lists",
               "reason": "다른 종류의 목록 태그인 dl, dt, dd를 학습합니다."
+            }
+          ]
+        }
+      ]
+    },
+    "rust-coding-agent": {
+      "description": "Rust 프로그래밍을 도와주는 AI 어시스턴트입니다.",
+      "articles": [
+        {
+          "title": "Zerostack – A Unix-inspired coding agent written in pure Rust",
+          "url": "https://news.ycombinator.com/item?id=48164287",
+          "source": "hn",
+          "lang": "en",
+          "points": 572,
+          "published_at": "2026-05-16",
+          "collected_at": "2026-05-23",
+          "category": "backend",
+          "minutes": 8,
+          "one_liner": "Rust로 만든 Unix 철학 기반의 AI 코딩 에이전트",
+          "summary": "Zerostack은 Unix 철학에 영감을 받아 순수 Rust로 작성된 코딩 에이전트입니다. 모듈식 설계와 단일 책임 원칙을 따르며, 개발자가 코드 작성을 자동화할 수 있도록 돕습니다.",
+          "prereqs": [
+            {
+              "name": "Unix 철학",
+              "detail": "Zerostack의 설계 원칙을 이해하기 위해 필요"
+            },
+            {
+              "name": "Rust 기초",
+              "detail": "구현 언어와 코드 예제를 이해하는 데 필수"
+            },
+            {
+              "name": "AI 에이전트 개념",
+              "detail": "코딩 에이전트의 동작 원리를 파악하기 위해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "rust-programming",
+              "reason": "Zerostack의 구현 언어이며 성능 특성 이해"
+            },
+            {
+              "keyword": "unix-philosophy",
+              "reason": "소프트웨어 설계의 핵심 원칙이자 영감원"
+            },
+            {
+              "keyword": "llm-agents",
+              "reason": "AI 기반 자동화 에이전트의 일반적 개념"
+            },
+            {
+              "keyword": "code-generation",
+              "reason": "Zerostack의 주요 기능이자 활용 분야"
+            },
+            {
+              "keyword": "modular-design",
+              "reason": "확장 가능한 아키텍처 설계 패턴 습득"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: Memex is a Claude Code alternative built on Rust+Tauri for vibe coding",
+          "url": "https://memex.tech",
+          "source": "hn",
+          "lang": "en",
+          "points": 86,
+          "published_at": "2025-04-29",
+          "collected_at": "2026-05-23",
+          "category": "frontend",
+          "minutes": 8,
+          "one_liner": "Rust와 Tauri로 만든 Claude Code 대안 개발 도구",
+          "summary": "Memex는 Rust와 Tauri 기술을 사용하여 개발된 Claude Code의 대체 도구입니다. 자유로운 코딩 경험(vibe coding)을 지향하며, 데스크톱 기반의 경량 개발 환경을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "Tauri",
+              "detail": "Rust 기반 크로스플랫폼 데스크톱 앱 프레임워크"
+            },
+            {
+              "name": "Claude API",
+              "detail": "AI 코드 생성 및 분석을 위한 언어 모델 API"
+            },
+            {
+              "name": "IDE/에디터 개념",
+              "detail": "통합 개발 환경의 기본 구조와 기능 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "tauri-framework",
+              "reason": "Memex의 핵심 기술 스택"
+            },
+            {
+              "keyword": "rust-desktop-apps",
+              "reason": "Rust로 데스크톱 앱 개발 방식 학습"
+            },
+            {
+              "keyword": "ai-code-generation",
+              "reason": "AI 기반 코드 생성 기능 이해"
+            },
+            {
+              "keyword": "electron-alternative",
+              "reason": "경량 데스크톱 앱 프레임워크 비교"
+            },
+            {
+              "keyword": "developer-tools",
+              "reason": "현대적인 개발 도구의 트렌드 파악"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: Xmloxide – an agent-made Rust replacement for libxml2",
+          "url": "https://github.com/jonwiggins/xmloxide",
+          "source": "hn",
+          "lang": "en",
+          "points": 64,
+          "published_at": "2026-02-28",
+          "collected_at": "2026-05-23",
+          "category": "backend",
+          "minutes": 8,
+          "one_liner": "AI가 만든 Rust 기반 libxml2 대체 라이브러리",
+          "summary": "Xmloxide는 AI 에이전트가 개발한 Rust 언어의 XML 처리 라이브러리로, C 기반의 libxml2를 대체하기 위해 설계되었습니다. Rust의 메모리 안전성 장점을 활용하면서 XML 파싱 및 조작 기능을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "libxml2",
+              "detail": "XML 처리의 표준 C 라이브러리로, 대체 대상 기술"
+            },
+            {
+              "name": "Rust 기초",
+              "detail": "메모리 안전성과 소유권 개념 이해 필요"
+            },
+            {
+              "name": "XML 파싱",
+              "detail": "XML 구조와 DOM/SAX 파싱 방식 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "rust-xml-libraries",
+              "reason": "Rust 생태계의 다른 XML 라이브러리 비교"
+            },
+            {
+              "keyword": "memory-safety",
+              "reason": "Rust의 핵심 장점인 메모리 안전성 학습"
+            },
+            {
+              "keyword": "ffi-binding",
+              "reason": "기존 C 라이브러리와의 호환성 고려"
+            },
+            {
+              "keyword": "ai-code-generation",
+              "reason": "AI가 만든 코드의 특징과 신뢰성 이해"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "C 대체재로서의 성능 특성 비교"
+            }
+          ]
+        },
+        {
+          "title": "OpenFang — Rust로 만든 오픈소스 에이전트 운영체제 (v0.1.0)",
+          "url": "https://news.hada.io/topic?id=27050",
+          "source": "gn",
+          "lang": "en",
+          "collected_at": "2026-05-23",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "Rust로 구현한 오픈소스 AI 에이전트 운영체제 소개",
+          "summary": "OpenFang은 Rust로 개발된 오픈소스 에이전트 운영체제로, AI 에이전트를 효율적으로 관리하고 실행하는 플랫폼입니다. v0.1.0 버전을 통해 기본 아키텍처와 핵심 기능을 제시하며, 고성능 시스템 개발에 필요한 기반을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "Rust 기본 문법",
+              "detail": "OpenFang의 구현 언어로서 필수적인 지식"
+            },
+            {
+              "name": "AI 에이전트 개념",
+              "detail": "자율적으로 동작하는 AI 시스템의 기본 이해"
+            },
+            {
+              "name": "운영체제 아키텍처",
+              "detail": "시스템 리소스 관리 및 프로세스 제어의 기초"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "agent-framework",
+              "reason": "에이전트 개발 및 배포를 위한 프레임워크 학습"
+            },
+            {
+              "keyword": "rust-systems-programming",
+              "reason": "고성능 시스템 프로그래밍에 필요한 Rust 심화"
+            },
+            {
+              "keyword": "distributed-systems",
+              "reason": "에이전트 간 통신 및 협력 메커니즘 이해"
+            },
+            {
+              "keyword": "llm-integration",
+              "reason": "대규모 언어모델 기반 에이전트 구축 방법"
+            },
+            {
+              "keyword": "open-source-contribution",
+              "reason": "오픈소스 프로젝트에 참여하는 실무 경험"
+            }
+          ]
+        },
+        {
+          "title": "agf - AI 코딩 에이전트 세션을 한 곳에서 관리하는 TUI",
+          "url": "https://news.hada.io/topic?id=26776",
+          "source": "gn",
+          "lang": "ko",
+          "collected_at": "2026-05-23",
+          "category": "devops",
+          "minutes": 8,
+          "one_liner": "AI 코딩 에이전트 세션을 TUI로 통합 관리하는 도구",
+          "summary": "agf는 AI 코딩 에이전트의 여러 세션을 하나의 터미널 사용자 인터페이스에서 관리할 수 있는 도구입니다. 복잡한 AI 개발 워크플로우를 단순화하고, 여러 세션을 효율적으로 추적하며 제어할 수 있게 해줍니다.",
+          "prereqs": [
+            {
+              "name": "AI 코딩 에이전트",
+              "detail": "자동화된 코딩 작업을 수행하는 AI 시스템의 개념"
+            },
+            {
+              "name": "TUI (Terminal User Interface)",
+              "detail": "터미널 환경에서 상호작용적 UI를 제공하는 기술"
+            },
+            {
+              "name": "세션 관리",
+              "detail": "여러 작업 상태를 추적하고 제어하는 방법"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "terminal-ui",
+              "reason": "TUI 구현의 핵심 기술 스택 이해"
+            },
+            {
+              "keyword": "ai-automation",
+              "reason": "AI 에이전트의 자동화 원리 학습"
+            },
+            {
+              "keyword": "workflow-orchestration",
+              "reason": "복수 세션 조율 패턴 습득"
+            },
+            {
+              "keyword": "developer-tools",
+              "reason": "개발자 도구 설계 원칙 이해"
+            },
+            {
+              "keyword": "rust-cli",
+              "reason": "고성능 CLI 도구 개발 방법론"
+            }
+          ]
+        },
+        {
+          "title": "병렬 Claude 팀을 활용한 C 컴파일러 구축",
+          "url": "https://news.hada.io/topic?id=26446",
+          "source": "gn",
+          "lang": "en",
+          "collected_at": "2026-05-23",
+          "category": "backend",
+          "minutes": 8,
+          "one_liner": "여러 Claude 에이전트를 병렬로 활용하여 C 컴파일러를 구축하는 방법",
+          "summary": "이 글은 Claude API를 활용하여 여러 AI 에이전트를 병렬로 작동시켜 C 컴파일러를 구현하는 방식을 소개합니다. 각 에이전트가 렉싱, 파싱, 타입 체크, 코드 생성 등 컴파일 단계를 담당하며 협력하는 구조를 설명합니다.",
+          "prereqs": [
+            {
+              "name": "컴파일러 구조",
+              "detail": "렉싱, 파싱, 코드 생성 등 컴파일 단계 이해 필요"
+            },
+            {
+              "name": "Claude API",
+              "detail": "Claude 모델 호출 방식과 멀티턴 대화 방식 숙지 필요"
+            },
+            {
+              "name": "병렬 처리",
+              "detail": "여러 작업을 동시에 실행하는 개념 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "llm-agents",
+              "reason": "여러 AI 에이전트 협력 패턴 학습"
+            },
+            {
+              "keyword": "compiler-design",
+              "reason": "컴파일러 설계 원리 이해 심화"
+            },
+            {
+              "keyword": "prompt-engineering",
+              "reason": "Claude에게 효과적으로 지시하는 기법"
+            },
+            {
+              "keyword": "concurrent-programming",
+              "reason": "병렬 작업 조정 및 동기화 방법"
+            },
+            {
+              "keyword": "api-integration",
+              "reason": "Claude API를 실제 애플리케이션과 통합"
+            }
+          ]
+        },
+        {
+          "title": "LLM·코딩 에이전트 시대에서 살아남기 - 진짜 어려운 코드베이스를 다루는 법",
+          "url": "https://velog.io/@okorion/LLM%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8-%EC%8B%9C%EB%8C%80%EC%97%90%EC%84%9C-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0-%EC%A7%84%EC%A7%9C-%EC%96%B4%EB%A0%A4%EC%9A%B4-%EC%BD%94%EB%93%9C%EB%B2%A0%EC%9D%B4%EC%8A%A4%EB%A5%BC-%EB%8B%A4%EB%A3%A8%EB%8A%94-%EB%B2%95",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-05-23",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "LLM 시대에 복잡한 코드베이스를 효과적으로 다루는 방법",
+          "summary": "LLM과 코딩 에이전트의 발전으로 개발자의 역할이 변화하고 있습니다. 단순한 코드 생성을 넘어 복잡한 실제 코드베이스를 이해하고 관리하는 능력이 개발자의 차별화 요소가 되었습니다. 이 글은 AI 시대에 생존하기 위해 필요한 코드베이스 이해 및 아키텍처 설계 역량을 다룹니다.",
+          "prereqs": [
+            {
+              "name": "LLM(Large Language Model)",
+              "detail": "코딩 에이전트의 기반이 되는 기술을 이해하기 위해"
+            },
+            {
+              "name": "소프트웨어 아키텍처",
+              "detail": "복잡한 코드베이스를 설계하고 관리하는 기초 지식"
+            },
+            {
+              "name": "코드 리뷰 및 리팩토링",
+              "detail": "AI 생성 코드의 품질 검증 및 개선 능력 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "code-agent",
+              "reason": "AI가 코드를 작성하는 방식과 한계 이해"
+            },
+            {
+              "keyword": "codebase-understanding",
+              "reason": "복잡한 프로젝트 이해 및 유지보수의 핵심"
+            },
+            {
+              "keyword": "system-design",
+              "reason": "AI 시대의 좋은 설계가 개발 생산성 향상"
+            },
+            {
+              "keyword": "developer-productivity",
+              "reason": "LLM 도구 활용으로 효율성을 높이는 방법"
+            },
+            {
+              "keyword": "software-quality",
+              "reason": "자동 생성 코드의 품질 관리 및 검증 필수"
+            }
+          ]
+        },
+        {
+          "title": "【Claude Code】Agent에 설치해야 할 Skills 20선｜skills.sh 활용 가이드",
+          "url": "https://velog.io/@ken708/best-agent-skills-2026",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-05-23",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "Claude Agent 설치 시 필요한 20가지 필수 Skills을 skills.sh로 관리하는 방법",
+          "summary": "Claude Code Agent를 효과적으로 활용하기 위해 설치해야 할 20가지 필수 Skills을 소개합니다. skills.sh 파일을 통해 이러한 Skills을 체계적으로 관리하고 설정하는 실용적인 가이드를 제공합니다.",
+          "prereqs": [
+            {
+              "name": "Claude Agent",
+              "detail": "AI 에이전트 기반의 코드 생성 도구의 기본 개념"
+            },
+            {
+              "name": "Shell Script (sh)",
+              "detail": "자동화 스크립트 작성 및 실행 방식의 이해"
+            },
+            {
+              "name": "개발 환경 설정",
+              "detail": "로컬 개발 환경에서 도구 설치 및 구성 경험"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "claude-sdk",
+              "reason": "Claude Agent의 기본 SDK 및 API 활용"
+            },
+            {
+              "keyword": "ai-code-generation",
+              "reason": "AI 기반 자동 코드 생성의 원리 이해"
+            },
+            {
+              "keyword": "automation-tools",
+              "reason": "개발 워크플로우 자동화와 스크립팅"
+            },
+            {
+              "keyword": "plugin-architecture",
+              "reason": "Agent에 Skills를 플러그인 형태로 확장"
+            }
+          ]
+        },
+        {
+          "title": "cokacdir란 무엇인가: 텔레그램에서 돌아가는 AI 코딩 에이전트",
+          "url": "https://velog.io/@pobi/cokacdir%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-%ED%85%94%EB%A0%88%EA%B7%B8%EB%9E%A8%EC%97%90%EC%84%9C-%EB%8F%8C%EC%95%84%EA%B0%80%EB%8A%94-AI-%EC%BD%94%EB%94%A9-%EC%97%90%EC%9D%B4%EC%A0%84%ED%8A%B8",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-05-23",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "텔레그램 기반 AI 코딩 에이전트 cokacdir의 기능과 활용법",
+          "summary": "cokacdir는 텔레그램 플랫폼에서 실행되는 AI 코딩 에이전트로, 개발자가 채팅 인터페이스를 통해 코딩 작업을 자동화할 수 있습니다. 이 도구는 코드 작성, 디버깅, 문제 해결 등 다양한 개발 업무를 AI가 담당하며, 직관적인 봇 기반 인터페이스로 접근성이 뛰어납니다.",
+          "prereqs": [
+            {
+              "name": "AI 코딩 어시스턴트",
+              "detail": "자동으로 코드를 생성하고 최적화해주는 AI 도구의 개념"
+            },
+            {
+              "name": "텔레그램 Bot API",
+              "detail": "텔레그램에서 자동화된 작업을 수행하는 봇 구현 방식"
+            },
+            {
+              "name": "LLM (Large Language Model)",
+              "detail": "자연어 이해와 코드 생성을 가능하게 하는 기술 기반"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "copilot",
+              "reason": "비슷한 AI 코딩 어시스턴트 도구와의 비교"
+            },
+            {
+              "keyword": "chatgpt",
+              "reason": "코딩 지원 기능을 가진 다른 대표적 AI 모델"
+            },
+            {
+              "keyword": "telegram-integration",
+              "reason": "메신저 플랫폼 기반 개발 도구 통합 방식"
+            },
+            {
+              "keyword": "code-generation",
+              "reason": "AI가 자동으로 코드를 생성하는 핵심 기능"
+            },
+            {
+              "keyword": "developer-automation",
+              "reason": "개발 워크플로우 자동화의 트렌드와 이점"
             }
           ]
         }
