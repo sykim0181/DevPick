@@ -173,6 +173,7 @@ fetch('https://api.anthropic.com/v1/messages', {
     lang: 'ko',
     published_at: new Date(a.pubDate).toISOString().slice(0, 10),
     collected_at: new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date()),
+    creator: a.creator,
     one_liner: a.description.slice(0, 80),
     summary: a.description,
     prereqs: [],

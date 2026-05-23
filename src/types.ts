@@ -13,6 +13,7 @@ export interface Article {
   url: string;
   source: 'hn' | 'velog' | 'gn' | 'devto' | 'velopers';
   lang: 'en' | 'ko';
+  creator?: string;
   points?: number | null;
   minutes?: number;
   published_at: string;
@@ -40,6 +41,7 @@ export interface TrendingArticle {
   url: string;
   source: 'hn' | 'devto' | 'velopers';
   lang?: 'en' | 'ko';
+  creator?: string;
   points?: number;
   comments?: number;
   positive_reactions?: number;

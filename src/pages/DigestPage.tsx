@@ -42,7 +42,9 @@ function DigestItem({ article, onClick }: { article: Article; onClick: () => voi
     >
       <div className="flex items-center gap-1.5">
         <span className="w-[6px] h-[6px] rounded-full shrink-0" style={{ background: s.dot }} />
-        <span className="text-[11px] font-semibold text-[var(--sub)]">{s.name}</span>
+        <span className="text-[11px] font-semibold text-[var(--sub)]">
+          {article.source === "velopers" && article.creator ? article.creator : s.name}
+        </span>
         {article.lang && (
           <span className="font-mono text-[10px] uppercase bg-[var(--fill)] text-[var(--sub)] px-1.5 py-0.5 rounded">
             {article.lang}
@@ -79,7 +81,9 @@ function TrendingItem({ article, onClick }: { article: TrendingArticle; onClick:
     >
       <div className="flex items-center gap-1.5">
         <span className="w-[6px] h-[6px] rounded-full shrink-0" style={{ background: s.dot }} />
-        <span className="text-[11px] font-semibold text-[var(--sub)]">{s.name}</span>
+        <span className="text-[11px] font-semibold text-[var(--sub)]">
+          {article.source === "velopers" && article.creator ? article.creator : s.name}
+        </span>
         <span className="font-mono text-[10px] uppercase bg-[var(--fill)] text-[var(--sub)] px-1.5 py-0.5 rounded">
           {CATEGORY_LABELS[article.category] ?? article.category}
         </span>

@@ -36,5 +36,6 @@ export function trendingToArticle(t: TrendingArticle): Article {
     summary: t.summary,
     prereqs: t.prereqs,
     related_concepts: t.related_concepts ?? [],
+    creator: t.creator,
   };
 }

@@ -976,7 +976,8 @@
         }
       ],
       "category": "devops",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "카카오"
     },
     {
       "title": "디자이너의 상상을 현실로: 여기어때 아이콘 생성기 제작기",
@@ -1024,7 +1025,8 @@
         }
       ],
       "category": "frontend",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "여기어때"
     },
     {
       "title": "[기술 분석] kubernetes Ingress API의 중단. 그 뒤를 잇는 Gateway API 파헤치기",
@@ -1072,7 +1074,8 @@
         }
       ],
       "category": "devops",
-      "minutes": 12
+      "minutes": 12,
+      "creator": "KT 클라우드"
     },
     {
       "title": "ODW #7: 세 가지 방법으로 토큰 소비량 40% 절감! ADK를 이용한 컨텍스트 엔지니어링",
@@ -1120,7 +1123,8 @@
         }
       ],
       "category": "ai",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "라인"
     },
     {
       "title": "Git 커밋 로그로 주간 업무 정리 자동화하기 — Obsidian + Confluence + Claude Code",
@@ -1168,7 +1172,8 @@
         }
       ],
       "category": "devops",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "데보션"
     },
     {
       "title": "현대오토에버의 Amazon Bedrock으로 구축한 빅데이터 클러스터 장애 대응 자동화 에이전트 구축기",
@@ -1216,7 +1221,8 @@
         }
       ],
       "category": "ai",
-      "minutes": 12
+      "minutes": 12,
+      "creator": "AWS"
     },
     {
       "title": "현대오토에버의 Amazon Bedrock으로 구축한 다중 AI 에이전트: 장애 대응 시간 5분으로 단축하기",
@@ -1264,7 +1270,8 @@
         }
       ],
       "category": "ai",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "AWS"
     },
     {
       "title": "[AI인프라] AI 데이터센터(AIDC)는 무엇이 다른가: GPU 전력과 운영 전환",
@@ -1312,7 +1319,8 @@
         }
       ],
       "category": "devops",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "KT 클라우드"
     },
     {
       "title": "서버 0대, 브라우저 SLM으로 만든 차트 추천 봇",
@@ -1360,7 +1368,8 @@
         }
       ],
       "category": "frontend",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "미리디"
     },
     {
       "title": "현대오토에버의 GenAI Sandbox 활용 생산성 향상 Hackathon: 혁신과 협업의 성공 사례",
@@ -1408,7 +1417,8 @@
         }
       ],
       "category": "other",
-      "minutes": 8
+      "minutes": 8,
+      "creator": "AWS"
     }
   ]
 }

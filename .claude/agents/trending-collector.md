@@ -91,6 +91,7 @@ const articles = items
     lang: 'ko',
     published_at: new Date(a.pubDate).toISOString().slice(0, 10),
     collected_at: kstDate(),
+    creator: a.creator,
     one_liner: a.description.slice(0, 80),
     summary: a.description,
     prereqs: [],

@@ -34,7 +34,7 @@ const ArticleCard = ({ article, onOpen }: Props) => {
           style={{ background: s.dot }}
         />
         <span className="text-xs font-semibold text-[#1c1c1e] dark:text-white">
-          {s.name}
+          {article.source === "velopers" && article.creator ? article.creator : s.name}
         </span>
         <span className="font-mono text-[10px] uppercase tracking-[0.04em] bg-[var(--fill)] text-[var(--sub)] px-1.5 py-0.5 rounded">
           {article.lang}
