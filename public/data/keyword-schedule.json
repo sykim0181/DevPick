@@ -18,5 +18,12 @@
   "2026-05-21": "jotai",
   "2026-05-22": "html-lists",
   "2026-05-23": "code-splitting",
-  "2026-05-24": "rust-coding-agent"
+  "2026-05-24": "rust-coding-agent",
+  "2026-05-26": "view-transitions-api",
+  "2026-05-27": "server-actions",
+  "2026-05-28": "conditional-types",
+  "2026-05-29": "deno",
+  "2026-05-30": "accessibility-testing",
+  "2026-05-31": "mcp-protocol",
+  "2026-06-01": "embeddings"
 }
