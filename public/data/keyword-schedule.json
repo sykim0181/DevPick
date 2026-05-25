@@ -26,5 +26,12 @@
   "2026-05-29": "deno",
   "2026-05-30": "accessibility-testing",
   "2026-05-31": "mcp-protocol",
-  "2026-06-01": "embeddings"
+  "2026-06-01": "embeddings",
+  "2026-06-02": "react-compiler",
+  "2026-06-03": "ai-coding-agents",
+  "2026-06-04": "trpc",
+  "2026-06-05": "web-workers",
+  "2026-06-06": "prompt-caching",
+  "2026-06-07": "satisfies-operator",
+  "2026-06-08": "semantic-search"
 }
