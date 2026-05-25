@@ -22,42 +22,46 @@ claude --agent keyword-scheduler "schedule next week"
 아래는 학습 가치가 높고 꾸준히 중요한 키워드 목록입니다. 매주 새로 추가될 수 있습니다.
 
 ```
-# React/렌더링
-react-compiler, use-transition, use-deferred-value, react-server-components,
-server-actions, react-suspense, react-19, concurrent-rendering
+# React 핵심 기능
+react-compiler, use-transition, use-deferred-value, use-optimistic,
+react-server-components, server-actions, react-suspense,
+concurrent-rendering, react-context-performance
 
-# Next.js
+# Next.js 패턴
 partial-prerendering, nextjs-middleware, nextjs-cache, parallel-routes,
 intercepting-routes, nextjs-instrumentation
 
-# 상태관리/데이터패칭
-zustand, jotai, tanstack-query, tanstack-router, swr, optimistic-updates
+# 상태 관리 패턴
+server-state-vs-client-state, atom-based-state, flux-pattern,
+optimistic-updates, stale-while-revalidate, query-invalidation,
+query-prefetching, type-safe-routing
 
-# TypeScript
-typescript-generics, conditional-types, template-literal-types, zod,
-type-predicates, satisfies-operator
+# TypeScript 고급
+typescript-generics, conditional-types, template-literal-types, mapped-types,
+type-predicates, satisfies-operator, discriminated-unions, runtime-type-validation
 
-# 번들러/빌드
-turborepo, nx-monorepo, vite-plugins, rspack, esbuild, biome,
-module-federation, tree-shaking
+# 빌드 & 번들링
+vite-plugins, module-federation, tree-shaking, code-splitting,
+bundle-analysis, monorepo-caching, build-performance
 
-# 웹표준/브라우저
+# 웹표준/브라우저 API
 view-transitions-api, container-queries, anchor-positioning, speculation-rules,
 web-workers, wasm, web-streams, css-layers, has-selector
 
-# 성능
-inp, core-web-vitals, react-performance, code-splitting, bundle-analysis, edge-runtime
+# 성능 최적화
+inp, core-web-vitals, react-performance, edge-runtime
 
-# 테스팅
-msw, playwright, vitest, testing-library, visual-regression, contract-testing
+# 테스팅 패턴
+api-mocking, e2e-testing-patterns, component-testing,
+visual-regression, contract-testing, accessibility-testing
 
-# API/풀스택
-trpc, graphql-subscriptions, rest-vs-graphql, api-design, edge-functions,
-drizzle-orm, prisma, supabase, serverless
+# API/풀스택 패턴
+trpc, graphql-subscriptions, rest-vs-graphql, type-safe-api,
+api-design, edge-functions, database-migrations, realtime-subscriptions, serverless
 
 # AI/LLM 개발
-vercel-ai-sdk, langchain-js, rag, llm-streaming, function-calling,
-prompt-engineering, ai-sdk-rsc, embeddings
+rag, llm-streaming, function-calling, prompt-engineering,
+ai-sdk-rsc, embeddings, ai-ui-streaming
 ```
 
 > **새 키워드 추가 방법**: 위 목록에 줄을 추가하면 다음 스케줄링부터 반영됩니다.

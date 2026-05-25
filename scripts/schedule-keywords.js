@@ -3,20 +3,23 @@ import { readFileSync, writeFileSync } from 'fs';
 const ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY;
 
 const EVERGREEN_POOL = `
-react-compiler, use-transition, use-deferred-value, react-server-components,
-server-actions, react-suspense, react-19, concurrent-rendering,
-partial-prerendering, nextjs-middleware, nextjs-cache, parallel-routes,
-intercepting-routes, nextjs-instrumentation, zustand, jotai, tanstack-query,
-tanstack-router, swr, optimistic-updates, typescript-generics, conditional-types,
-template-literal-types, zod, type-predicates, satisfies-operator, turborepo,
-nx-monorepo, vite-plugins, rspack, esbuild, biome, module-federation, tree-shaking,
-view-transitions-api, container-queries, anchor-positioning, speculation-rules,
-web-workers, wasm, web-streams, css-layers, has-selector, inp, core-web-vitals,
-react-performance, code-splitting, bundle-analysis, edge-runtime, msw, playwright,
-vitest, testing-library, visual-regression, contract-testing, trpc,
-graphql-subscriptions, rest-vs-graphql, api-design, edge-functions, drizzle-orm,
-prisma, supabase, serverless, vercel-ai-sdk, langchain-js, rag, llm-streaming,
-function-calling, prompt-engineering, ai-sdk-rsc, embeddings
+react-compiler, use-transition, use-deferred-value, use-optimistic,
+react-server-components, server-actions, react-suspense, concurrent-rendering,
+react-context-performance, partial-prerendering, nextjs-middleware, nextjs-cache,
+parallel-routes, intercepting-routes, nextjs-instrumentation,
+server-state-vs-client-state, atom-based-state, flux-pattern, optimistic-updates,
+stale-while-revalidate, query-invalidation, query-prefetching, type-safe-routing,
+typescript-generics, conditional-types, template-literal-types, mapped-types,
+type-predicates, satisfies-operator, discriminated-unions, runtime-type-validation,
+vite-plugins, module-federation, tree-shaking, code-splitting, bundle-analysis,
+monorepo-caching, build-performance, view-transitions-api, container-queries,
+anchor-positioning, speculation-rules, web-workers, wasm, web-streams, css-layers,
+has-selector, inp, core-web-vitals, react-performance, edge-runtime,
+api-mocking, e2e-testing-patterns, component-testing, visual-regression,
+contract-testing, accessibility-testing, trpc, graphql-subscriptions,
+rest-vs-graphql, type-safe-api, api-design, edge-functions, database-migrations,
+realtime-subscriptions, serverless, rag, llm-streaming, function-calling,
+prompt-engineering, ai-sdk-rsc, embeddings, ai-ui-streaming
 `.trim();
 
 function kstDate(offsetDays = 0) {
