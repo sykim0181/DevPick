@@ -4497,6 +4497,291 @@
           ]
         }
       ]
+    },
+    "view-transitions-api": {
+      "description": "웹페이지 간 전환 시 부드러운 애니메이션 효과를 제공하는 API",
+      "articles": [
+        {
+          "title": "SPA view transitions land in Chrome 111",
+          "url": "https://developer.chrome.com/blog/spa-view-transitions-land/",
+          "source": "hn",
+          "lang": "en",
+          "points": 173,
+          "published_at": "2023-03-10",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "Chrome 111에서 SPA의 부드러운 화면 전환을 위한 View Transitions API 지원 시작",
+          "summary": "Chrome 111부터 View Transitions API가 정식 지원되어 SPA에서 페이지 전환 시 자연스러운 애니메이션 효과를 구현할 수 있습니다. 이 API는 DOM 업데이트 전후의 스냅샷을 자동으로 캡처하여 부드러운 크로스페이드 전환을 제공하며, CSS와 JavaScript로 커스터마이징이 가능합니다.",
+          "prereqs": [
+            {
+              "name": "SPA (Single Page Application)",
+              "detail": "View Transitions API의 주요 사용 대상이 되는 웹 애플리케이션 아키텍처"
+            },
+            {
+              "name": "CSS 애니메이션",
+              "detail": "전환 효과를 커스터마이징할 때 필요한 스타일링 기초"
+            },
+            {
+              "name": "DOM 조작",
+              "detail": "JavaScript에서 페이지 업데이트 시점을 제어하기 위한 기본 지식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "css-animations",
+              "reason": "전환 효과를 정의하고 커스터마이징하는 핵심 기술"
+            },
+            {
+              "keyword": "document-object-model",
+              "reason": "API가 동작하는 기반이 되는 DOM 구조 이해 필요"
+            },
+            {
+              "keyword": "browser-compatibility",
+              "reason": "각 브라우저의 지원 현황과 폴백 전략 파악 필요"
+            },
+            {
+              "keyword": "page-navigation",
+              "reason": "SPA에서의 라우팅 전환 시 API를 적용하는 방식"
+            },
+            {
+              "keyword": "javascript-promises",
+              "reason": "비동기 전환 처리와 타이밍 제어에 활용됨"
+            }
+          ]
+        },
+        {
+          "title": "Unlocking view transitions in SvelteKit 1.24",
+          "url": "https://svelte.dev/blog/view-transitions",
+          "source": "hn",
+          "lang": "en",
+          "points": 45,
+          "published_at": "2023-08-31",
+          "collected_at": "2026-05-25",
+          "minutes": 8,
+          "one_liner": "SvelteKit 1.24에서 View Transitions API를 활용한 부드러운 페이지 전환 구현",
+          "summary": "SvelteKit 1.24 버전에서 새로 지원되는 View Transitions API를 통해 페이지 간 전환 시 부드러운 애니메이션 효과를 구현할 수 있습니다. 이 글은 View Transitions API의 기본 개념과 SvelteKit에서의 실제 사용 방법을 설명합니다.",
+          "prereqs": [
+            {
+              "name": "SvelteKit의 기본 구조",
+              "detail": "라우팅과 레이아웃 시스템 이해 필요"
+            },
+            {
+              "name": "CSS 애니메이션",
+              "detail": "기본적인 CSS 트랜지션과 애니메이션 지식"
+            },
+            {
+              "name": "모던 브라우저 API",
+              "detail": "브라우저 표준 API 개념 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "page-transitions",
+              "reason": "페이지 네비게이션 시 전환 효과 구현 방식"
+            },
+            {
+              "keyword": "sveltekit-navigation",
+              "reason": "SvelteKit의 라우팅 시스템과 연동 방법"
+            },
+            {
+              "keyword": "css-animations",
+              "reason": "전환 효과를 위한 CSS 커스터마이징 기법"
+            },
+            {
+              "keyword": "browser-compatibility",
+              "reason": "View Transitions API 브라우저 지원 범위 확인"
+            },
+            {
+              "keyword": "progressive-enhancement",
+              "reason": "미지원 브라우저에 대한 폴백 전략"
+            }
+          ]
+        },
+        {
+          "title": "Google I/O 2026에서 발표한 모든 것",
+          "url": "https://news.hada.io/topic?id=29729",
+          "source": "gn",
+          "lang": "ko",
+          "published_at": "2026-05-21",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "Google I/O 2026에서 공개한 웹 기술의 최신 트렌드",
+          "summary": "Google I/O 2026에서는 View Transitions API를 포함한 다양한 웹 플랫폼 기술들이 발표되었습니다. 이 API는 페이지 전환 시 부드러운 애니메이션을 구현할 수 있게 해주며, 현대적인 사용자 경험 향상에 중점을 두고 있습니다.",
+          "prereqs": [
+            {
+              "name": "CSS 애니메이션",
+              "detail": "요소 스타일 변화를 시간에 따라 부드럽게 표현하는 기술"
+            },
+            {
+              "name": "DOM API",
+              "detail": "웹 페이지의 구조와 요소를 조작하는 자바스크립트 인터페이스"
+            },
+            {
+              "name": "페이지 로딩 성능",
+              "detail": "사용자가 느끼는 페이지 전환 속도와 반응성"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "page-transitions",
+              "reason": "페이지 이동 시 시각적 연속성을 제공"
+            },
+            {
+              "keyword": "css-animations",
+              "reason": "부드러운 애니메이션 효과 구현의 기초"
+            },
+            {
+              "keyword": "user-experience",
+              "reason": "더 나은 사용자 경험 디자인의 핵심 요소"
+            },
+            {
+              "keyword": "web-standards",
+              "reason": "W3C 표준화 프로세스 이해 필요"
+            }
+          ]
+        },
+        {
+          "title": "React의 중요한 변화 2가지: View Transitions와 Activity",
+          "url": "https://news.hada.io/topic?id=20550",
+          "source": "gn",
+          "lang": "ko",
+          "published_at": "2025-04-27",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "React에서 View Transitions와 Activity를 활용한 최신 UI 변화 기법",
+          "summary": "React에서 페이지 전환 시 부드러운 애니메이션을 제공하는 View Transitions API와 사용자 활동을 추적하는 Activity 기능이 주목받고 있습니다. 이 두 기능을 활용하면 더욱 향상된 사용자 경험을 제공할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "함수형 컴포넌트에서 상태 관리하는 기본 개념"
+            },
+            {
+              "name": "CSS Animation",
+              "detail": "페이지 전환 애니메이션 구현의 기초 지식"
+            },
+            {
+              "name": "DOM API",
+              "detail": "브라우저 API를 통한 DOM 조작 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "page-transitions",
+              "reason": "뷰 전환과 함께 자주 사용되는 페이지 이동 기법"
+            },
+            {
+              "keyword": "animation-performance",
+              "reason": "부드러운 애니메이션을 위한 성능 최적화 방법"
+            },
+            {
+              "keyword": "user-experience",
+              "reason": "최신 API를 통한 UX 개선의 중요성"
+            },
+            {
+              "keyword": "browser-compatibility",
+              "reason": "새로운 API의 브라우저 지원 범위 확인"
+            },
+            {
+              "keyword": "react-transitions",
+              "reason": "React에서 제공하는 다양한 전환 라이브러리"
+            }
+          ]
+        },
+        {
+          "title": "Next.js에서 View Transitions API 적용해보기",
+          "url": "https://velog.io/@kwaksj329/View-Transitions-API",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-04-08",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "Next.js에서 View Transitions API를 활용한 부드러운 페이지 전환 구현",
+          "summary": "View Transitions API는 브라우저 네이티브 기능으로 페이지 간 전환을 애니메이션화합니다. Next.js에서 라우팅 시 이 API를 적용하면 사용자 경험을 향상시킬 수 있으며, startViewTransition() 메서드와 CSS를 조합하여 구현합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 라우팅",
+              "detail": "페이지 전환이 발생하는 시점을 이해하기 위함"
+            },
+            {
+              "name": "CSS 애니메이션",
+              "detail": "뷰 전환 스타일을 커스터마이징하기 위함"
+            },
+            {
+              "name": "자바스크립트 비동기 처리",
+              "detail": "startViewTransition() 콜백 동작 이해를 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "page-transitions",
+              "reason": "페이지 전환 애니메이션 구현의 기본 개념"
+            },
+            {
+              "keyword": "next-router",
+              "reason": "Next.js의 라우팅 시스템과 연계되는 부분"
+            },
+            {
+              "keyword": "css-animations",
+              "reason": "뷰 전환 시각적 표현을 위한 스타일링"
+            },
+            {
+              "keyword": "browser-compatibility",
+              "reason": "API 브라우저 지원 범위 확인 필수"
+            },
+            {
+              "keyword": "progressive-enhancement",
+              "reason": "미지원 브라우저 대응 전략 수립이 필요"
+            }
+          ]
+        },
+        {
+          "title": "View Transitions API 알아보기 및 실습",
+          "url": "https://velog.io/@ckstn0777/View-Transitions-API-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-%EB%B0%8F-%EC%8B%A4%EC%8A%B5",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-05-14",
+          "collected_at": "2026-05-25",
+          "minutes": 8,
+          "one_liner": "View Transitions API로 웹 페이지 간 부드러운 전환 효과를 구현하자",
+          "summary": "View Transitions API는 페이지 전환 시 자동으로 애니메이션 효과를 적용해주는 새로운 웹 표준입니다. 복잡한 JavaScript 없이 CSS만으로 화면 전환을 매끄럽게 만들 수 있으며, SPA와 MPA 모두에서 사용 가능합니다.",
+          "prereqs": [
+            {
+              "name": "CSS 애니메이션",
+              "detail": "전환 효과를 이해하기 위한 기본 개념"
+            },
+            {
+              "name": "DOM 조작",
+              "detail": "페이지 업데이트 시점의 제어 방법"
+            },
+            {
+              "name": "비동기 처리",
+              "detail": "전환 효과 동안의 동작 제어"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "css-transitions",
+              "reason": "기본 애니메이션 개념으로 필수적"
+            },
+            {
+              "keyword": "spa-routing",
+              "reason": "단일 페이지 앱에서 전환 효과 적용"
+            },
+            {
+              "keyword": "dom-api",
+              "reason": "페이지 업데이트와 애니메이션 타이밍 조정"
+            },
+            {
+              "keyword": "browser-compatibility",
+              "reason": "지원 범위 확인 필수"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "부드러운 전환 위한 성능 고려"
+            }
+          ]
+        }
+      ]
     }
   }
 }
