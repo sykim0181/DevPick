@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23",
+  "generated_at": "2026-05-25",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -4215,6 +4215,284 @@
             {
               "keyword": "developer-automation",
               "reason": "개발 워크플로우 자동화의 트렌드와 이점"
+            }
+          ]
+        }
+      ]
+    },
+    "code-splitting": {
+      "description": "큰 코드를 작은 조각으로 나누어 필요할 때만 로드하는 기술입니다.",
+      "articles": [
+        {
+          "title": "Rollup now has code-splitting and we need your help",
+          "url": "https://medium.com/rollup/rollup-now-has-code-splitting-and-we-need-your-help-46defd901c82",
+          "source": "hn",
+          "lang": "en",
+          "points": 75,
+          "published_at": "2018-02-08",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "Rollup 번들러에 코드 분할 기능이 추가되었습니다.",
+          "summary": "Rollup 번들러가 code-splitting 기능을 새로 지원하게 되었습니다. 이 기능은 번들 크기를 줄이고 성능을 개선하는 데 도움이 됩니다. 커뮤니티의 피드백과 기여가 필요한 상황입니다.",
+          "prereqs": [
+            {
+              "name": "번들러(Bundler)",
+              "detail": "여러 모듈을 하나의 파일로 묶기 위해 필요한 도구입니다."
+            },
+            {
+              "name": "모듈 시스템",
+              "detail": "JavaScript 코드를 재사용 가능한 단위로 나누기 위해 필요합니다."
+            },
+            {
+              "name": "번들 크기 최적화",
+              "detail": "웹 애플리케이션의 성능 개선에 중요한 개념입니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "webpack",
+              "reason": "다른 주요 번들러로 비교 이해가 필요합니다."
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "코드 분할과 함께 사용되는 성능 최적화 기법입니다."
+            },
+            {
+              "keyword": "tree-shaking",
+              "reason": "번들 최적화의 핵심 기법으로 함께 학습하면 좋습니다."
+            },
+            {
+              "keyword": "dynamic-import",
+              "reason": "코드 분할을 구현하는 JavaScript 문법입니다."
+            }
+          ]
+        },
+        {
+          "title": "Code Splitting with Vue.js and Webpack",
+          "url": "https://vuejsdevelopers.com/2017/07/03/vue-js-code-splitting-webpack/",
+          "source": "hn",
+          "lang": "en",
+          "points": 49,
+          "published_at": "2018-03-02",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "Webpack과 Vue.js로 번들 파일을 작은 청크로 분할하는 기법",
+          "summary": "번들 파일의 크기를 줄이기 위해 코드를 작은 파일로 분할하는 기법입니다. Vue.js의 비동기 컴포넌트와 Webpack의 동적 모듈 로딩(import())을 활용하면 필요한 코드만 동적으로 로드할 수 있어 초기 로딩 성능을 크게 개선할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Webpack",
+              "detail": "코드 분할 지점을 설정하고 청크를 생성하는 번들러"
+            },
+            {
+              "name": "Vue.js 컴포넌트",
+              "detail": "비동기 컴포넌트를 정의하기 위한 기본 개념"
+            },
+            {
+              "name": "Promise & async/await",
+              "detail": "비동기 모듈 로딩의 동작 원리 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "async-components",
+              "reason": "코드 분할의 핵심 메커니즘으로 필수"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "동적 모듈 로딩의 구체적 구현 방식"
+            },
+            {
+              "keyword": "vue-router",
+              "reason": "라우트 기반 코드 분할에 활용"
+            },
+            {
+              "keyword": "web-performance",
+              "reason": "초기 로딩 시간 단축의 주요 최적화 기법"
+            }
+          ]
+        },
+        {
+          "title": "TikTok is reportedly splitting its source code to create a US-only algorithm",
+          "url": "https://www.theverge.com/2024/5/30/24168353/tiktok-douyin-algorithm-code-splitting-bytedance-rumor",
+          "source": "hn",
+          "lang": "en",
+          "points": 45,
+          "published_at": "2024-05-31",
+          "collected_at": "2026-05-25",
+          "minutes": 3,
+          "one_liner": "틱톡이 미국 규제 대응을 위해 소스코드를 분리해 독립적 알고리즘을 개발 중",
+          "summary": "틱톡이 중국 모회사 바이트댄스로부터 독립적으로 작동하는 미국 전용 추천 알고리즘 개발을 위해 소스코드를 분리하고 있다는 로이터 보도가 나왔습니다. 틱톡은 이를 부인했으나, 미국의 규제 압박에 따른 기술적 대응 움직임으로 해석됩니다.",
+          "prereqs": [
+            {
+              "name": "recommendation-algorithm",
+              "detail": "사용자에게 콘텐츠를 추천하는 핵심 기술로, 플랫폼의 경쟁력을 결정합니다."
+            },
+            {
+              "name": "source-code-architecture",
+              "detail": "대규모 애플리케이션의 코드 구조를 이해하면 코드 분리 전략을 파악할 수 있습니다."
+            },
+            {
+              "name": "regulation-compliance",
+              "detail": "국가별 규제 요건을 충족하기 위한 기술적 접근 방식을 이해하는 데 필요합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "microservices-architecture",
+              "reason": "독립적인 알고리즘 운영을 위한 아키텍처 패턴"
+            },
+            {
+              "keyword": "algorithm-abstraction",
+              "reason": "플랫폼별로 다른 알고리즘을 관리하는 추상화 기법"
+            },
+            {
+              "keyword": "data-isolation",
+              "reason": "지역별 데이터 분리를 통한 규제 준수 전략"
+            },
+            {
+              "keyword": "version-control",
+              "reason": "분리된 코드베이스 관리를 위한 필수 도구"
+            }
+          ]
+        },
+        {
+          "title": "Code-splitting  (React)",
+          "url": "https://velog.io/@keeprok/Code-splitting",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-08-15",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "번들 크기를 줄여 앱 로딩 성능을 개선하는 코드 분할 기법",
+          "summary": "Code-splitting은 필요한 코드만 지연 로드하여 초기 번들 크기를 줄이는 기법입니다. import(), React.lazy, Route 기반 분할 등 다양한 구현 방법이 있으며, Suspense와 함께 사용하여 로딩 중 대체 콘텐츠를 표시할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "번들(Bundle)",
+              "detail": "웹팩 등의 도구가 만드는 파일로, 코드 분할의 대상"
+            },
+            {
+              "name": "동적 임포트(Dynamic Import)",
+              "detail": "import() 문법으로 런타임에 모듈을 로드하는 기술"
+            },
+            {
+              "name": "라우팅(Routing)",
+              "detail": "페이지 전환 지점에서 코드 분할 적용 시 필요한 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "react-lazy",
+              "reason": "React에서 컴포넌트 단위 지연 로딩 구현"
+            },
+            {
+              "keyword": "suspense",
+              "reason": "지연 로드 중 로딩 상태와 대체 콘텐츠 관리"
+            },
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요할 때만 리소스 로드하는 웹 성능 최적화 기법"
+            },
+            {
+              "keyword": "webpack",
+              "reason": "번들 생성 및 분할을 처리하는 모듈 번들러"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "초기 로딩 시간 단축으로 UX 개선"
+            }
+          ]
+        },
+        {
+          "title": "code splitting",
+          "url": "https://velog.io/@skek298/code-splitting",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-08-07",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "애플리케이션을 작은 번들로 나누어 필요할 때 동적으로 로드하는 기술",
+          "summary": "Code Splitting은 큰 번들을 여러 작은 청크로 분할하여 초기 로딩 시간을 줄이고 성능을 향상시키는 최적화 기술입니다. React에서는 동적 import(), React.lazy(), 라우트 기반 분할 등의 방법으로 구현할 수 있으며, 과도한 분할과 사용자 경험, SEO를 고려해야 합니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 모듈 시스템",
+              "detail": "import/export 문법을 이해해야 동적 임포트를 활용할 수 있습니다"
+            },
+            {
+              "name": "React 컴포넌트 및 Hooks",
+              "detail": "React 컴포넌트 구조와 useState 등의 기본 개념이 필요합니다"
+            },
+            {
+              "name": "번들러(Bundler) 개념",
+              "detail": "Webpack 등 번들러의 역할을 알아야 스플리팅을 이해할 수 있습니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요할 때만 리소스를 로드하는 공통 최적화 패턴"
+            },
+            {
+              "keyword": "suspense",
+              "reason": "React.lazy()와 함께 비동기 컴포넌트 로딩을 처리"
+            },
+            {
+              "keyword": "webpack",
+              "reason": "코드 스플리팅을 지원하는 주요 모듈 번들러"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "초기 로딩 시간 감소를 통한 전체 성능 향상 전략"
+            },
+            {
+              "keyword": "dynamic-import",
+              "reason": "코드 스플리팅 구현의 핵심 JavaScript 문법"
+            }
+          ]
+        },
+        {
+          "title": "Code Splitting",
+          "url": "https://velog.io/@jm8468/Code-Splitting",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-11-12",
+          "collected_at": "2026-05-25",
+          "minutes": 5,
+          "one_liner": "큰 번들 파일을 작게 나누어 필요한 코드만 로드하는 최적화 기술",
+          "summary": "코드 스플리팅은 하나의 큰 자바스크립트 파일을 여러 개의 작은 파일로 분할하여 초기 로딩 속도를 향상시키는 기술입니다. 동적 import(), React.lazy(), next/dynamic 등의 방법으로 구현할 수 있으며, 사용자가 필요한 시점에만 필요한 리소스를 로드합니다.",
+          "prereqs": [
+            {
+              "name": "번들링(Bundling)",
+              "detail": "왜 코드를 여러 파일로 나누어야 하는지 이해하는 데 필요"
+            },
+            {
+              "name": "비동기 처리(Async/Await)",
+              "detail": "동적 import()와 Promise 기반 로딩 방식을 이해하기 위해 필요"
+            },
+            {
+              "name": "라우팅(Routing)",
+              "detail": "페이지 단위의 코드 스플리팅 구현에 필요한 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "lazy-loading",
+              "reason": "필요한 시점에 리소스를 로드하는 공통 기법"
+            },
+            {
+              "keyword": "react-lazy",
+              "reason": "React에서 코드 스플리팅을 구현하는 핵심 API"
+            },
+            {
+              "keyword": "suspense",
+              "reason": "로딩 중 UI를 처리하는 React의 필수 컴포넌트"
+            },
+            {
+              "keyword": "webpack",
+              "reason": "코드 스플리팅을 지원하는 주요 번들러"
+            },
+            {
+              "keyword": "ssr",
+              "reason": "Next.js의 서버 사이드 렌더링 환경에서 고려해야 할 사항"
             }
           ]
         }
