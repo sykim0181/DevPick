@@ -4737,7 +4737,7 @@
       ]
     },
     "server-actions": {
-      "description": "서버에서 실행되는 함수로, 클라이언트에서 안전하게 호출할 수 있습니다.",
+      "description": "서버에서 직접 실행되는 함수로, 클라이언트에서 쉽게 호출할 수 있는 기능입니다.",
       "articles": [
         {
           "title": "Show HN: V1 – An open-source starter kit for your next project",
@@ -4748,179 +4748,474 @@
           "published_at": "2024-08-31",
           "collected_at": "2026-05-27",
           "minutes": 5,
-          "one_liner": "Next.js 프로젝트를 빠르게 시작할 수 있는 오픈소스 스타터 킷 V1 소개",
-          "summary": "V1은 Server Actions를 활용한 Next.js 오픈소스 스타터 킷입니다. 모던 프론트엔드 개발에 필요한 기본 구조와 모범 사례를 제공하여 새 프로젝트를 빠르게 시작할 수 있습니다.",
+          "one_liner": "Next.js 기반 오픈소스 스타터 킷으로 프로젝트를 빠르게 시작하세요",
+          "summary": "V1은 Server Actions를 활용한 오픈소스 스타터 킷으로, 새로운 프로젝트를 빠르게 구성할 수 있도록 설계되었습니다. Next.js의 최신 기능들을 미리 구성하여 개발자의 초기 셋업 시간을 단축합니다.",
           "prereqs": [
             {
-              "name": "Next.js",
-              "detail": "React 기반 풀스택 프레임워크로 이 스타터 킷의 기초"
+              "name": "Next.js 기본",
+              "detail": "Next.js의 기본 구조와 라우팅 이해 필요"
             },
             {
               "name": "React",
-              "detail": "UI 컴포넌트 작성 및 상태 관리의 핵심"
+              "detail": "React 컴포넌트 작성 능력 필수"
             },
             {
               "name": "TypeScript",
-              "detail": "타입 안정성으로 코드 품질 향상"
+              "detail": "타입 안전성 확보를 위한 기본 지식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "next-js",
+              "reason": "V1의 기반이 되는 핵심 프레임워크"
+            },
+            {
+              "keyword": "typescript",
+              "reason": "타입 안전한 개발 경험 제공"
+            },
+            {
+              "keyword": "react-component",
+              "reason": "UI 구성의 기본 단위"
+            },
+            {
+              "keyword": "database-orm",
+              "reason": "데이터 관리 통합을 위해 필요"
+            },
+            {
+              "keyword": "authentication",
+              "reason": "스타터 킷에 포함된 주요 기능"
+            }
+          ]
+        },
+        {
+          "title": "Next.js Server Actions vs API Routes: When to Use Each",
+          "url": "https://dev.to/mahdi_benrhouma_fe1c6005/nextjs-server-actions-vs-api-routes-when-to-use-each-3m76",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-10",
+          "collected_at": "2026-05-27",
+          "minutes": 8,
+          "one_liner": "Server Actions와 API Routes의 차이점과 각각의 사용 시기를 알아봅니다.",
+          "summary": "Next.js의 Server Actions와 API Routes는 백엔드 로직을 처리하는 두 가지 방식입니다. Server Actions는 간단한 폼 처리에 적합하고, API Routes는 복잡한 API 구축에 유리하므로 상황에 맞게 선택해야 합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js의 구조와 페이지 라우팅 개념 이해"
+            },
+            {
+              "name": "클라이언트-서버 통신",
+              "detail": "HTTP 요청/응답과 기본적인 통신 원리 숙지"
+            },
+            {
+              "name": "React 폼 처리",
+              "detail": "React에서 폼 데이터를 다루는 방법"
             }
           ],
           "related_concepts": [
             {
               "keyword": "api-routes",
-              "reason": "클라이언트 요청 처리의 기존 방식"
+              "reason": "Server Actions의 대안으로 API 엔드포인트 구축"
             },
             {
-              "keyword": "react-hooks",
-              "reason": "Server Actions와 함께 상태 관리"
+              "keyword": "form-submission",
+              "reason": "Server Actions의 주요 사용 사례인 폼 제출"
             },
             {
-              "keyword": "form-handling",
-              "reason": "Server Actions의 주요 활용 사례"
+              "keyword": "data-fetching",
+              "reason": "백엔드에서 데이터를 가져오는 방법 비교"
             },
             {
-              "keyword": "database-integration",
-              "reason": "백엔드 로직 실행 시 필요한 데이터 처리"
+              "keyword": "revalidation",
+              "reason": "Server Actions 후 캐시 무효화 처리"
+            },
+            {
+              "keyword": "middleware",
+              "reason": "API Routes와 Server Actions의 인증/검증 처리"
+            }
+          ]
+        },
+        {
+          "title": "Next.js Server Actions with Supabase: Complete Production Guide",
+          "url": "https://dev.to/mahdi_benrhouma_fe1c6005/nextjs-server-actions-with-supabase-complete-production-guide-2dhk",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-09",
+          "collected_at": "2026-05-27",
+          "minutes": 8,
+          "one_liner": "Next.js Server Actions와 Supabase를 활용한 본격적인 프로덕션 개발 가이드",
+          "summary": "Next.js Server Actions를 Supabase와 함께 사용하여 안전하고 효율적인 백엔드 로직을 구현하는 방법을 다룹니다. 클라이언트-서버 통신을 단순화하고 보안성을 높이는 실전 패턴과 베스트 프랙티스를 제시합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "App Router와 기본 구조 이해가 필요합니다"
+            },
+            {
+              "name": "Supabase 개념",
+              "detail": "데이터베이스와 인증 시스템의 기본 동작 원리를 알아야 합니다"
+            },
+            {
+              "name": "REST API와 데이터 통신",
+              "detail": "클라이언트-서버 데이터 흐름의 기본 이해가 필요합니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "supabase",
+              "reason": "Server Actions의 백엔드 데이터베이스로 핵심 역할"
+            },
+            {
+              "keyword": "form-submission",
+              "reason": "Server Actions 주요 활용 사례 중 하나"
             },
             {
               "keyword": "authentication",
-              "reason": "보안 작업을 Server Actions로 구현"
+              "reason": "Supabase 인증과 Server Actions 보안 구현"
+            },
+            {
+              "keyword": "api-routes",
+              "reason": "Server Actions 대안으로 비교 검토 필요"
+            },
+            {
+              "keyword": "error-handling",
+              "reason": "프로덕션 환경의 안정적인 에러 관리 방법"
+            }
+          ]
+        },
+        {
+          "title": "React 19 Server Actions in Production: A Year of Lessons From a 4M-User App",
+          "url": "https://dev.to/nilesh_kasar_2b00e7247dd5/react-19-server-actions-in-production-a-year-of-lessons-from-a-4m-user-app-4m1e",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-09",
+          "collected_at": "2026-05-27",
+          "minutes": 8,
+          "one_liner": "React 19 Server Actions를 실제 프로덕션 환경에서 운영하며 배운 교훈들",
+          "summary": "4백만 사용자 규모의 앱에서 React 19 Server Actions를 1년간 운영한 경험을 바탕으로 실무 최적화 전략과 주의사항을 공유합니다. 성능 개선, 보안 고려사항, 그리고 클라이언트-서버 통신 패턴에 대한 실전 가이드를 제공합니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "Server Actions 내에서 상태 관리 로직을 이해하기 위해 필수"
+            },
+            {
+              "name": "클라이언트-서버 통신",
+              "detail": "Server Actions의 동작 원리와 데이터 전송 방식 이해 필요"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "async/await와 Promise 기반의 Server Actions 처리 방식 학습"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "next-js",
+              "reason": "React 19 Server Actions의 주요 구현 프레임워크"
+            },
+            {
+              "keyword": "form-handling",
+              "reason": "Server Actions의 주요 사용 사례인 폼 제출 처리"
+            },
+            {
+              "keyword": "caching-strategies",
+              "reason": "프로덕션 성능 최적화를 위한 캐싱 전략 필요"
+            },
+            {
+              "keyword": "error-handling",
+              "reason": "Server Actions의 에러 처리와 폴백 메커니즘 이해"
+            },
+            {
+              "keyword": "performance-monitoring",
+              "reason": "대규모 사용자 환경에서의 성능 측정과 개선"
+            }
+          ]
+        },
+        {
+          "title": "Next.js 13.4 릴리즈 App Router 안정화, Server Actions alpha",
+          "url": "https://news.hada.io/topic?id=9130",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-27",
+          "minutes": 5,
+          "one_liner": "Next.js 13.4에서 App Router가 안정화되고 Server Actions가 알파로 출시됨",
+          "summary": "Next.js 13.4 릴리즈에서 App Router가 프로덕션 레벨로 안정화되었습니다. Server Actions 알파 버전이 도입되어 서버 함수를 더 간편하게 작성할 수 있게 되었으며, 이는 풀스택 개발 패러다임의 변화를 의미합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js App Router",
+              "detail": "파일 기반 라우팅 시스템으로 새로운 프로젝트 구조를 이해하기 위함"
+            },
+            {
+              "name": "클라이언트/서버 컴포넌트",
+              "detail": "Server Actions 구현에 필요한 컴포넌트 분리 개념"
+            },
+            {
+              "name": "API 라우트",
+              "detail": "기존 방식과 Server Actions의 차이점을 파악하기 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "app-router",
+              "reason": "Server Actions의 기반이 되는 라우팅 시스템"
+            },
+            {
+              "keyword": "react-server-components",
+              "reason": "Server Actions 구현의 핵심 기술"
+            },
+            {
+              "keyword": "form-submission",
+              "reason": "Server Actions의 주요 사용 사례"
+            },
+            {
+              "keyword": "data-fetching",
+              "reason": "서버에서 데이터 처리 방식의 변화"
+            },
+            {
+              "keyword": "api-routes",
+              "reason": "기존 API 패턴과의 비교 학습"
+            }
+          ]
+        },
+        {
+          "title": "Next.js 14 릴리즈",
+          "url": "https://news.hada.io/topic?id=11538",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-27",
+          "minutes": 5,
+          "one_liner": "Next.js 14에서 server-actions로 서버 기능을 간편하게 구현하세요.",
+          "summary": "Next.js 14 릴리즈는 server-actions를 통해 클라이언트에서 직접 서버 함수를 호출할 수 있는 기능을 제공합니다. 이를 통해 API 엔드포인트 작성을 줄이고 더 간단한 풀스택 개발 경험을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js의 기본 구조와 라우팅을 이해해야 합니다."
+            },
+            {
+              "name": "클라이언트-서버 통신",
+              "detail": "HTTP 요청과 응답의 기본 개념이 필요합니다."
+            },
+            {
+              "name": "React Hooks",
+              "detail": "React 컴포넌트에서 상태 관리 방식을 알아야 합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "api-routes",
+              "reason": "기존 API 구현 방식으로 server-actions와 비교 학습"
+            },
+            {
+              "keyword": "form-submission",
+              "reason": "server-actions 주요 사용처인 폼 제출 패턴"
+            },
+            {
+              "keyword": "data-fetching",
+              "reason": "서버에서 데이터를 가져오는 방식과의 연계"
+            },
+            {
+              "keyword": "revalidation",
+              "reason": "server-actions 실행 후 캐시 업데이트 방법"
+            },
+            {
+              "keyword": "typescript-support",
+              "reason": "server-actions의 타입 안정성 확보 방법"
+            }
+          ]
+        },
+        {
+          "title": "당신에겐 Next.js가 필요하지 않습니다 - 우리가 Next에서 React로 이관한 이유",
+          "url": "https://news.hada.io/topic?id=18547",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-27",
+          "minutes": 8,
+          "one_liner": "Next.js에서 React로 이관한 이유와 Server Actions의 한계",
+          "summary": "Next.js의 Server Actions 기능이 모든 프로젝트에 필요한 것은 아니며, 때로는 순수 React로 돌아가는 것이 더 효율적일 수 있다는 주장입니다. 복잡한 풀스택 기능이 필요 없는 경우 React만으로 충분할 수 있으며, 팀의 요구사항에 맞는 기술 선택이 중요합니다.",
+          "prereqs": [
+            {
+              "name": "React의 기본",
+              "detail": "컴포넌트, 상태관리의 기본 개념"
+            },
+            {
+              "name": "Next.js의 구조",
+              "detail": "파일 기반 라우팅과 풀스택 프레임워크의 개념"
+            },
+            {
+              "name": "클라이언트/서버 구분",
+              "detail": "어떤 코드가 어디서 실행되는지의 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "client-side-rendering",
+              "reason": "Server Actions 없이 CSR만으로 충분한 경우 분석"
+            },
+            {
+              "keyword": "api-routes",
+              "reason": "Server Actions 대신 API 엔드포인트 직접 구성"
+            },
+            {
+              "keyword": "framework-overhead",
+              "reason": "프레임워크의 추가 비용과 복잡성 이해"
+            },
+            {
+              "keyword": "state-management",
+              "reason": "클라이언트 상태관리로 서버 기능 대체 가능성"
+            },
+            {
+              "keyword": "fullstack-vs-spa",
+              "reason": "풀스택과 SPA 아키텍처 선택의 트레이드오프"
+            }
+          ]
+        },
+        {
+          "title": "Next.js 13.4 Server Actions에 대해서 (\"use server\")",
+          "url": "https://velog.io/@ckstn0777/Next.js-13.4-Server-Actions%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-27",
+          "minutes": 8,
+          "one_liner": "Next.js 13.4에서 서버 함수를 클라이언트에서 직접 호출하는 Server Actions 기능",
+          "summary": "Next.js 13.4의 Server Actions는 'use server' 지시어를 통해 서버 함수를 클라이언트 컴포넌트에서 직접 호출할 수 있게 해줍니다. 이는 API 라우트 작성의 복잡성을 줄이고 서버-클라이언트 통신을 간소화하는 혁신적인 기능입니다.",
+          "prereqs": [
+            {
+              "name": "React Server Components",
+              "detail": "Next.js의 서버 환경 이해 필요"
+            },
+            {
+              "name": "클라이언트와 서버 사이의 통신",
+              "detail": "RPC 개념 이해"
+            },
+            {
+              "name": "Next.js 기본 개념",
+              "detail": "라우팅과 컴포넌트 구조"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "api-routes",
+              "reason": "Server Actions와 다른 서버 통신 방식 비교"
+            },
+            {
+              "keyword": "use-client",
+              "reason": "Server Actions와 함께 쓰이는 지시어"
+            },
+            {
+              "keyword": "form-submission",
+              "reason": "Server Actions의 주요 사용 사례"
+            },
+            {
+              "keyword": "typescript-integration",
+              "reason": "타입 안전성 있는 Server Actions 작성"
+            },
+            {
+              "keyword": "data-mutation",
+              "reason": "서버에서 직접 데이터 변경 처리"
+            }
+          ]
+        },
+        {
+          "title": "[nextjs] Server Action",
+          "url": "https://velog.io/@jjunyjjuny/nextjs-Server-Action",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-05-27",
+          "minutes": 5,
+          "one_liner": "Next.js에서 서버 함수를 클라이언트에서 직접 호출하는 기능",
+          "summary": "Server Action은 Next.js 13.4부터 제공하는 기능으로, 클라이언트 컴포넌트에서 서버 함수를 직접 호출할 수 있게 해줍니다. 별도의 API 엔드포인트 작성 없이 비동기 서버 로직을 처리하고, form 제출이나 이벤트 핸들러에서 활용할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Next.js 기초",
+              "detail": "Next.js 프로젝트 구조와 라우팅 이해"
+            },
+            {
+              "name": "클라이언트/서버 컴포넌트",
+              "detail": "RSC 개념과 use client 지시어 이해"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "async/await와 Promise 개념 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "api-routes",
+              "reason": "전통적인 API 엔드포인트 방식과 비교 학습"
+            },
+            {
+              "keyword": "form-handling",
+              "reason": "Server Action으로 form 제출 처리하기"
+            },
+            {
+              "keyword": "client-server-communication",
+              "reason": "클라이언트-서버 통신 메커니즘 이해"
+            },
+            {
+              "keyword": "data-mutation",
+              "reason": "Server Action으로 서버 데이터 변경하기"
+            },
+            {
+              "keyword": "progressive-enhancement",
+              "reason": "점진적 향상으로 JavaScript 미지원 환경 대응"
             }
           ]
         },
         {
           "title": "[Next.js] Server Actions",
-          "url": "https://velog.io/@chosh9128/Next.js-Server-Actions",
+          "url": "https://velog.io/@h22ju/Next.js-Server-Actions",
           "source": "velog",
           "lang": "ko",
-          "published_at": "2024-07-18",
+          "points": null,
+          "published_at": null,
           "collected_at": "2026-05-27",
           "minutes": 5,
-          "one_liner": "Next.js에서 서버 함수를 클라이언트에서 직접 호출하는 Server Actions 활용법",
-          "summary": "Server Actions는 'use server' 지시어로 서버 함수를 정의하여 클라이언트에서 직접 호출할 수 있는 기능입니다. useFormStatus와 useFormState 훅을 활용하면 폼 제출 상태 관리 및 반환값 처리가 가능합니다.",
-          "prereqs": [
-            {
-              "name": "React 폼 기초",
-              "detail": "form 요소와 input의 name 속성 이해"
-            },
-            {
-              "name": "Next.js 기본 구조",
-              "detail": "클라이언트/서버 컴포넌트 구분 필요"
-            },
-            {
-              "name": "비동기 함수",
-              "detail": "async/await 문법 숙지 필수"
-            }
-          ],
-          "related_concepts": [
-            {
-              "keyword": "route-handlers",
-              "reason": "HTTP 통신의 기존 방식으로 Server Actions와의 차이점"
-            },
-            {
-              "keyword": "form-data",
-              "reason": "Server Actions에서 폼 입력값을 받는 데이터 형식"
-            },
-            {
-              "keyword": "use-client",
-              "reason": "클라이언트 컴포넌트 표시로 Server Actions와 함께 사용"
-            },
-            {
-              "keyword": "react-hooks",
-              "reason": "useFormStatus, useFormState 등 폼 상태 관리"
-            },
-            {
-              "keyword": "state-management",
-              "reason": "폼 제출 결과를 상태로 관리하는 패턴"
-            }
-          ]
-        },
-        {
-          "title": "Next.js > Server Actions & Route Handler ",
-          "url": "https://velog.io/@dresulsul/Next.js-Server-Actions-Route-Handler",
-          "source": "velog",
-          "lang": "ko",
-          "published_at": "2024-09-05",
-          "collected_at": "2026-05-27",
-          "minutes": 5,
-          "one_liner": "Next.js Server Actions로 API 없이 서버에서 직접 데이터를 처리하기",
-          "summary": "Server Actions는 클라이언트에서 서버 함수를 직접 호출할 수 있는 Next.js 13+ 기능입니다. 'use server' 지시어로 정의하며, 고유한 URI와 Next-Action 헤더를 통해 POST 요청으로 작동합니다. API 라우트 없이 CRUD 작업을 간편하게 처리할 수 있습니다.",
+          "one_liner": "Next.js에서 서버 함수를 클라이언트에서 직접 호출하는 기능",
+          "summary": "Server Actions는 Next.js 13.4+에서 제공하는 기능으로, 클라이언트 컴포넌트에서 서버 함수를 직접 호출할 수 있게 해줍니다. API 라우트 없이 폼 제출, 데이터 변경 등을 처리하여 개발 경험을 단순화합니다.",
           "prereqs": [
             {
               "name": "Next.js 기초",
-              "detail": "Server Components와 Client Components의 차이를 이해하기 위해"
+              "detail": "Next.js의 기본 구조와 동작 방식 이해"
             },
             {
-              "name": "비동기 함수 (async/await)",
-              "detail": "Server Actions의 비동기 동작 원리를 파악하기 위해"
+              "name": "클라이언트/서버 컴포넌트",
+              "detail": "Client/Server Components 개념 필수"
             },
             {
-              "name": "HTTP 메서드 (POST)",
-              "detail": "Server Actions가 POST로 동작하는 방식을 이해하기 위해"
+              "name": "비동기 작업",
+              "detail": "async/await 문법과 비동기 처리 방식"
             }
           ],
           "related_concepts": [
-            {
-              "keyword": "route-handlers",
-              "reason": "API 엔드포인트 대신 사용할 수 있는 대안"
-            },
-            {
-              "keyword": "form-submission",
-              "reason": "form의 action 속성으로 Server Actions를 연결"
-            },
-            {
-              "keyword": "progressive-enhancement",
-              "reason": "JavaScript 없어도 작동하는 기본 기능 제공"
-            },
-            {
-              "keyword": "hydration",
-              "reason": "클라이언트 컴포넌트의 Server Actions 호출 타이밍"
-            }
-          ]
-        },
-        {
-          "title": "Server Actions",
-          "url": "https://velog.io/@odyssey/Server-Actions",
-          "source": "velog",
-          "lang": "ko",
-          "published_at": "2025-02-07",
-          "collected_at": "2026-05-27",
-          "minutes": 5,
-          "one_liner": "Server Actions로 fetch 없이 Next.js에서 안전하게 서버 데이터를 처리하자",
-          "summary": "Server Actions은 Next.js에서 폼 데이터를 처리하는 최신 방식으로, 'use server'를 선언하여 클라이언트에서 API 없이 직접 서버 함수를 실행할 수 있습니다. 기존 fetch() 방식보다 코드가 간결하고 보안성이 높으며, formData.get()으로 데이터를 쉽게 추출할 수 있습니다.",
-          "prereqs": [
-            {
-              "name": "Next.js 기본 개념",
-              "detail": "클라이언트와 서버 컴포넌트 이해 필요"
-            },
-            {
-              "name": "FormData API",
-              "detail": "폼 데이터 구조와 get() 메서드 이해"
-            },
-            {
-              "name": "비동기 함수(async/await)",
-              "detail": "Server Actions의 비동기 처리 방식 이해"
-            }
-          ],
-          "related_concepts": [
-            {
-              "keyword": "form-submission",
-              "reason": "폼 데이터 전송의 핵심 메커니즘"
-            },
             {
               "keyword": "api-routes",
-              "reason": "기존 API 엔드포인트와 비교 필요"
+              "reason": "전통적인 API 엔드포인트 작성 방식"
             },
             {
-              "keyword": "input-validation",
-              "reason": "Server Actions에서 데이터 검증 처리"
+              "keyword": "form-submission",
+              "reason": "Server Actions의 주요 사용 사례"
             },
             {
               "keyword": "revalidation",
-              "reason": "데이터 변경 후 페이지 자동 갱신"
+              "reason": "서버 액션 후 데이터 갱신 메커니즘"
             },
             {
-              "keyword": "security",
-              "reason": "서버 액션의 보안 이점 이해"
+              "keyword": "use-directive",
+              "reason": "클라이언트 컴포넌트에서 서버 함수 호출"
+            },
+            {
+              "keyword": "database-mutation",
+              "reason": "서버에서 데이터베이스 변경 처리"
             }
           ]
         }
