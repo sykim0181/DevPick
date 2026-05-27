@@ -115,7 +115,42 @@ velog.io 도메인 링크와 제목 최대 3개.
 각 키워드당 최대: HN 3개, GeekNews 3개, velog 3개 (총 9개 이하).
 URL이나 title이 없는 항목은 제외합니다.
 
-#### ④ Velopers RSS (한국어, 국내 기업 기술 블로그)
+#### ④ dev.to (영어)
+
+키워드에서 하이픈을 제거한 태그로 검색합니다:
+
+```
+GET https://dev.to/api/articles?tag={keyword_no_hyphens}&per_page=5
+```
+
+예: `stale-while-revalidate` → `tag=stalewhilerevalidate`
+
+```bash
+node -e "
+const keyword = '{keyword}';
+const tag = keyword.replace(/-/g, '');
+fetch('https://dev.to/api/articles?tag=' + tag + '&per_page=5')
+  .then(r => r.json())
+  .then(arr => {
+    const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Seoul' }).format(new Date());
+    const articles = arr.slice(0, 3).map(a => ({
+      title: a.title,
+      url: a.url,
+      source: 'devto',
+      lang: 'en',
+      points: a.positive_reactions_count ?? 0,
+      published_at: (a.published_at ?? '').slice(0, 10),
+      collected_at: today,
+    }));
+    console.log(JSON.stringify(articles));
+  });
+"
+```
+
+결과가 0개이면 스킵합니다. 최대 3개.
+- source: "devto", lang: "en"
+
+#### ⑤ Velopers RSS (한국어, 국내 기업 기술 블로그)
 
 ```
 GET https://www.velopers.kr/summary-rss.xml
@@ -341,8 +376,9 @@ git push
 ```
 수집 완료: {keyword}
 - HN: {n}개
+- dev.to: {n}개
 - GeekNews: {n}개
 - velog: {n}개
-- 배치 API: {n}개 요청 → 성공 {n}개
+- Velopers: {n}개
 - 저장: public/data/keywords-data.json
 ```
