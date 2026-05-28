@@ -5406,6 +5406,455 @@
           ]
         }
       ]
+    },
+    "deno": {
+      "description": "Node.js의 단점을 개선한 JavaScript/TypeScript 실행 환경",
+      "articles": [
+        {
+          "title": "Deno 1.0",
+          "url": "https://deno.land/v1",
+          "source": "hn",
+          "lang": "en",
+          "points": 2081,
+          "published_at": "2020-05-13",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Node.js의 창시자가 만든 차세대 JavaScript 런타임 Deno 1.0 출시",
+          "summary": "Deno는 Node.js의 설계 문제를 개선하여 만든 새로운 JavaScript/TypeScript 런타임입니다. 보안, 호환성, 표준화를 중심으로 개발되었으며 1.0 버전 출시로 프로덕션 준비가 완료되었습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript/TypeScript",
+              "detail": "Deno의 기본 언어이므로 필수 선행지식입니다."
+            },
+            {
+              "name": "Node.js",
+              "detail": "Deno와 비교하여 이해하려면 Node.js 개념이 필요합니다."
+            },
+            {
+              "name": "런타임(Runtime)",
+              "detail": "Deno가 무엇인지 이해하기 위한 기본 개념입니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "typescript",
+              "reason": "Deno가 기본으로 지원하는 주요 언어"
+            },
+            {
+              "keyword": "security-model",
+              "reason": "Deno의 핵심 설계 철학 중 하나"
+            },
+            {
+              "keyword": "es-modules",
+              "reason": "Deno가 채택한 표준 모듈 시스템"
+            },
+            {
+              "keyword": "server-side-javascript",
+              "reason": "Deno의 주요 사용 사례"
+            }
+          ]
+        },
+        {
+          "title": "The Deno Company",
+          "url": "https://deno.com/blog/the-deno-company",
+          "source": "hn",
+          "lang": "en",
+          "points": 883,
+          "published_at": "2021-03-29",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Deno 생태계를 주도하는 The Deno Company의 비전과 전략",
+          "summary": "The Deno Company는 Deno 런타임을 개발한 회사로, 현대적인 JavaScript/TypeScript 개발 환경을 제공합니다. Node.js의 한계를 극복하고 보안, 성능, 개발자 경험을 개선하는 것을 목표로 합니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript/TypeScript",
+              "detail": "Deno의 기반이 되는 프로그래밍 언어"
+            },
+            {
+              "name": "Node.js",
+              "detail": "Deno가 개선하고자 한 기존 런타임의 이해"
+            },
+            {
+              "name": "런타임 환경",
+              "detail": "서버 사이드 JavaScript 실행 환경의 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "runtime",
+              "reason": "Deno는 JavaScript 런타임이므로 핵심 개념"
+            },
+            {
+              "keyword": "typescript",
+              "reason": "Deno가 기본 지원하는 언어로 필수 학습 대상"
+            },
+            {
+              "keyword": "module-system",
+              "reason": "Node.js와 다른 Deno의 모듈 관리 방식"
+            },
+            {
+              "keyword": "security-model",
+              "reason": "Deno의 차별화된 보안 접근 방식"
+            },
+            {
+              "keyword": "fresh-framework",
+              "reason": "Deno 생태계의 풀스택 웹 프레임워크"
+            }
+          ]
+        },
+        {
+          "title": "Deno 1.9",
+          "url": "https://deno.com/blog/v1.9",
+          "source": "hn",
+          "lang": "en",
+          "points": 670,
+          "published_at": "2021-04-13",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Deno 1.9의 새로운 기능과 개선사항을 소개합니다.",
+          "summary": "Deno 1.9는 TypeScript 런타임의 주요 업데이트로 성능 개선과 새로운 API가 추가되었습니다. 개발자 경험을 향상시키고 표준 라이브러리를 확충하여 더욱 실용적인 개발 환경을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기초",
+              "detail": "Deno는 TypeScript 기반이므로 기본 문법 이해 필요"
+            },
+            {
+              "name": "Node.js와의 차이점",
+              "detail": "Deno의 특징을 이해하기 위한 비교 학습"
+            },
+            {
+              "name": "런타임(Runtime) 개념",
+              "detail": "Deno가 어떻게 작동하는지 이해하기 위함"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "typescript",
+              "reason": "Deno의 기반 언어이므로 함께 학습 필요"
+            },
+            {
+              "keyword": "nodejs",
+              "reason": "대비되는 런타임으로 차이점 이해에 도움"
+            },
+            {
+              "keyword": "api",
+              "reason": "Deno 1.9의 새로운 API 기능 학습 필요"
+            },
+            {
+              "keyword": "package-management",
+              "reason": "Deno의 모듈 관리 방식 이해에 필수"
+            }
+          ]
+        },
+        {
+          "title": "@rabbx/watcher - tiny crossplatform file watcher (node, bun, deno) - chokidar alternative",
+          "url": "https://dev.to/rabbxdev/rabbxwatcher-tinny-crossplatform-file-watchernodebundeno-chokidar-alternative-2fil",
+          "source": "devto",
+          "lang": "en",
+          "points": 5,
+          "published_at": "2026-05-14",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Deno, Node, Bun을 지원하는 경량 파일 감시 라이브러리",
+          "summary": "@rabbx/watcher는 Deno, Node.js, Bun 런타임을 모두 지원하는 크로스플랫폼 파일 감시 도구입니다. Chokidar의 가벼운 대안으로 제시되며, 여러 런타임에서 일관된 파일 변경 감지 기능을 제공합니다.",
+          "prereqs": [
+            {
+              "name": "File System API",
+              "detail": "파일 시스템 변경을 감지하기 위한 기본 개념"
+            },
+            {
+              "name": "런타임 환경",
+              "detail": "Node.js, Deno, Bun의 차이와 특징 이해"
+            },
+            {
+              "name": "이벤트 기반 프로그래밍",
+              "detail": "파일 변경 이벤트를 처리하는 패턴"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "chokidar",
+              "reason": "기존 파일 감시 라이브러리와의 비교"
+            },
+            {
+              "keyword": "file-watcher",
+              "reason": "파일 감시 기능의 핵심 개념"
+            },
+            {
+              "keyword": "cross-platform",
+              "reason": "여러 OS와 런타임 호환성"
+            },
+            {
+              "keyword": "event-emitter",
+              "reason": "파일 변경 이벤트 처리 메커니즘"
+            }
+          ]
+        },
+        {
+          "title": "Deno 2 발표",
+          "url": "https://news.hada.io/topic?id=17173",
+          "source": "gn",
+          "lang": "ko",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Node.js의 대안으로 주목받는 Deno의 새로운 버전 2가 공개되었습니다.",
+          "summary": "Deno 2.0은 JavaScript/TypeScript 런타임의 새로운 버전으로 성능 개선과 새로운 기능들을 제공합니다. Node.js의 한계를 보완하며 현대적인 웹 개발 환경을 지원하는 것을 목표로 합니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript/TypeScript",
+              "detail": "Deno의 기반이 되는 프로그래밍 언어입니다."
+            },
+            {
+              "name": "Node.js",
+              "detail": "Deno와 비교하기 위해 Node.js의 개념을 이해해야 합니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "runtime",
+              "reason": "Deno는 JavaScript 런타임으로 동작하므로 이해 필요"
+            },
+            {
+              "keyword": "typescript",
+              "reason": "Deno의 주요 강점으로 기본 TypeScript 지원"
+            },
+            {
+              "keyword": "module-system",
+              "reason": "Deno의 독특한 모듈 시스템 학습 필요"
+            },
+            {
+              "keyword": "security",
+              "reason": "Deno의 핵심 특징인 보안 모델 이해"
+            }
+          ]
+        },
+        {
+          "title": "유튜브 다운로더 Yt-dlp, 다운로드를 위해 Deno 설치 필수로 변경",
+          "url": "https://news.hada.io/topic?id=23263",
+          "source": "gn",
+          "lang": "ko",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Yt-dlp 사용 시 Deno 설치가 필수 요구사항으로 변경됨",
+          "summary": "유튜브 다운로더 Yt-dlp의 최신 버전에서 동작을 위해 Deno 런타임 설치가 필수 요구사항으로 변경되었습니다. 이는 Yt-dlp가 더 이상 순수 Python만으로는 작동하지 않으며, 추가 의존성 설치가 필요함을 의미합니다.",
+          "prereqs": [
+            {
+              "name": "Yt-dlp",
+              "detail": "YouTube 영상을 다운로드하는 오픈소스 도구의 최신 동향 파악"
+            },
+            {
+              "name": "런타임(Runtime)",
+              "detail": "프로그램 실행을 위한 환경 개념 이해"
+            },
+            {
+              "name": "의존성(Dependency)",
+              "detail": "소프트웨어 실행에 필요한 외부 라이브러리의 개념 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "command-line-tools",
+              "reason": "Yt-dlp와 같은 CLI 도구 사용법 학습"
+            },
+            {
+              "keyword": "javascript-runtime",
+              "reason": "Deno의 대안인 Node.js와의 차이점 이해"
+            },
+            {
+              "keyword": "package-management",
+              "reason": "Deno 설치 및 의존성 관리 방법 습득"
+            },
+            {
+              "keyword": "environment-setup",
+              "reason": "개발 환경 구성 시 필수 설치 요소 관리"
+            }
+          ]
+        },
+        {
+          "title": "Node.js vs. Deno vs. Bun: JavaScript 런타임 비교",
+          "url": "https://news.hada.io/topic?id=10825",
+          "source": "gn",
+          "lang": "ko",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Node.js, Deno, Bun 세 가지 JavaScript 런타임의 특징을 비교합니다.",
+          "summary": "Node.js, Deno, Bun은 JavaScript를 서버 환경에서 실행하는 런타임들입니다. 각각의 성능, 보안, 패키지 관리 방식 등의 차이점을 이해하면 프로젝트에 맞는 최적의 런타임을 선택할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript",
+              "detail": "런타임이 실행하는 프로그래밍 언어이므로 기본 문법 이해 필요"
+            },
+            {
+              "name": "Node.js 기본 개념",
+              "detail": "기존 런타임으로서 비교 대상이 되는 표준 런타임"
+            },
+            {
+              "name": "패키지 매니저",
+              "detail": "npm, yarn 등 의존성 관리 개념이 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "javascript-runtime",
+              "reason": "세 도구 모두 JS 런타임이므로 개념 이해 필수"
+            },
+            {
+              "keyword": "npm-yarn-package-manager",
+              "reason": "각 런타임의 패키지 관리 방식이 다르게 구현됨"
+            },
+            {
+              "keyword": "server-side-javascript",
+              "reason": "런타임들의 주요 사용처인 백엔드 개발 영역"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "각 런타임의 성능 차이를 이해하는 데 중요"
+            },
+            {
+              "keyword": "security-permissions",
+              "reason": "Deno의 권한 시스템과 같은 보안 특성 비교"
+            }
+          ]
+        },
+        {
+          "title": "Deno를 소개합니다",
+          "url": "https://velog.io/@yokitomi/Deno%EB%A5%BC-%EC%86%8C%EA%B0%9C%ED%95%A9%EB%8B%88%EB%8B%A4",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "Node.js의 단점을 보완한 새로운 JavaScript 런타임 Deno 소개",
+          "summary": "Deno는 Node.js의 창시자가 만든 새로운 JavaScript/TypeScript 런타임으로, 보안성 강화, TypeScript 기본 지원, 표준 라이브러리 제공 등의 개선사항을 포함합니다. Node.js의 설계 결정에서 비롯된 여러 문제점들을 해결하기 위해 개발되었습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript",
+              "detail": "Deno의 기본 언어로 필수적인 프로그래밍 언어"
+            },
+            {
+              "name": "Node.js",
+              "detail": "Deno가 대체하고자 하는 기존 런타임 이해"
+            },
+            {
+              "name": "런타임(Runtime)",
+              "detail": "코드 실행 환경의 개념 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "typescript",
+              "reason": "Deno가 기본적으로 지원하는 언어"
+            },
+            {
+              "keyword": "nodejs",
+              "reason": "Deno가 개선하려는 기존 런타임"
+            },
+            {
+              "keyword": "package-manager",
+              "reason": "Node.js의 npm 문제를 Deno가 해결하는 방식"
+            },
+            {
+              "keyword": "security",
+              "reason": "Deno의 핵심 개선사항 중 하나"
+            },
+            {
+              "keyword": "module-system",
+              "reason": "Deno의 모듈 관리 방식 이해 필요"
+            }
+          ]
+        },
+        {
+          "title": "JS런타임들의 대결 - node vs Bun vs Deno (그리고 Bun을 선택한 이유)",
+          "url": "https://velog.io/@mandelina/JS%EB%9F%B0%ED%83%80%EC%9E%84%EB%93%A4%EC%9D%98-%EB%8C%80%EA%B2%B0-node-vs-Bun-vs-Deno-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Bun%EC%9D%84-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-05-28",
+          "minutes": 7,
+          "one_liner": "Node, Bun, Deno 세 가지 JS 런타임을 비교하고 Bun의 장점을 소개합니다.",
+          "summary": "Node.js, Bun, Deno 등 주요 JavaScript 런타임들의 특징과 성능을 비교분석합니다. 각 런타임의 장단점을 살펴보고 저자가 Bun을 선택한 이유와 실제 사용 경험을 공유합니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 런타임",
+              "detail": "JS 코드를 서버에서 실행하는 환경이 무엇인지 이해"
+            },
+            {
+              "name": "Node.js",
+              "detail": "기존의 JS 런타임 표준으로 런타임들의 비교 기준점"
+            },
+            {
+              "name": "패키지 매니저",
+              "detail": "npm/yarn 같은 도구들이 런타임마다 다를 수 있음을 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "node-js",
+              "reason": "가장 널리 사용되는 런타임으로 비교의 기준"
+            },
+            {
+              "keyword": "bun-runtime",
+              "reason": "저자가 선택한 런타임의 주요 특징과 장점 분석"
+            },
+            {
+              "keyword": "typescript-support",
+              "reason": "런타임들의 타입스크립트 지원 정도가 다름"
+            },
+            {
+              "keyword": "performance-comparison",
+              "reason": "런타임 간 성능 차이를 이해하는 것이 선택의 핵심"
+            },
+            {
+              "keyword": "package-management",
+              "reason": "각 런타임의 패키지 관리 방식의 차이 이해"
+            }
+          ]
+        },
+        {
+          "title": "Deno, Supabase, 그리고 Firebase Cloud Messaging을 사용하여 실시간 푸시 알림 시스템 구축하기",
+          "url": "https://velog.io/@kofsitho/Deno-Supabase-%EA%B7%B8%EB%A6%AC%EA%B3%A0-Firebase-Cloud-Messaging%EC%9D%84-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%8B%A4%EC%8B%9C%EA%B0%84-%ED%91%B8%EC%8B%9C-%EC%95%8C%EB%A6%BC-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-05-28",
+          "minutes": 8,
+          "one_liner": "Deno, Supabase, Firebase를 활용한 실시간 푸시 알림 시스템 구축 가이드",
+          "summary": "Deno 런타임을 기반으로 Supabase 데이터베이스와 Firebase Cloud Messaging을 통합하여 실시간 푸시 알림 시스템을 구축하는 방법을 다룹니다. 백엔드와 푸시 서비스 연결 구조와 구현 절차를 실무적으로 설명합니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 문법",
+              "detail": "Deno에서 주로 사용되는 언어이므로 필수"
+            },
+            {
+              "name": "REST API 개념",
+              "detail": "Supabase와 Firebase 서비스 연동 시 필요"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "실시간 알림 처리를 위한 async/await 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "supabase",
+              "reason": "백엔드 데이터베이스 역할 담당"
+            },
+            {
+              "keyword": "firebase-cloud-messaging",
+              "reason": "푸시 알림 전송 서비스 제공"
+            },
+            {
+              "keyword": "real-time-notification",
+              "reason": "시스템의 핵심 기능 구현"
+            },
+            {
+              "keyword": "backend-integration",
+              "reason": "여러 서비스 간 연동 아키텍처"
+            },
+            {
+              "keyword": "authentication",
+              "reason": "안전한 서비스 간 통신을 위한 인증"
+            }
+          ]
+        }
+      ]
     }
   }
 }
