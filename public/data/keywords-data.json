@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27",
+  "generated_at": "2026-05-28",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -5216,6 +5216,192 @@
             {
               "keyword": "database-mutation",
               "reason": "서버에서 데이터베이스 변경 처리"
+            }
+          ]
+        }
+      ]
+    },
+    "conditional-types": {
+      "description": "조건에 따라 다른 타입을 선택하는 TypeScript 기능입니다.",
+      "articles": [
+        {
+          "title": "Interprocedural Sparse Conditional Type Propagation",
+          "url": "https://railsatscale.com/2025-02-24-interprocedural-sparse-conditional-type-propagation/",
+          "source": "hn",
+          "lang": "en",
+          "points": 70,
+          "published_at": "2025-03-13",
+          "collected_at": "2026-05-28",
+          "minutes": 8,
+          "one_liner": "TypeScript의 조건부 타입을 효율적으로 분석하는 컴파일러 최적화 기법",
+          "summary": "TypeScript 컴파일러가 조건부 타입을 분석할 때 불필요한 계산을 줄이기 위한 고급 최적화 기법을 설명합니다. 함수 간 타입 전파 과정에서 조건부 타입의 평가를 더 효율적으로 처리하여 컴파일 성능을 개선합니다.",
+          "prereqs": [
+            {
+              "name": "TypeScript 기본 타입 시스템",
+              "detail": "제네릭, 유니언, 인터섹션 등 기본 타입 개념 이해 필수"
+            },
+            {
+              "name": "함수 타입 추론",
+              "detail": "함수 호출 시 타입이 어떻게 추론되는지 이해 필요"
+            },
+            {
+              "name": "TypeScript 컴파일러 기초",
+              "detail": "타입 검사 과정의 전반적인 흐름 파악 권장"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "type-inference",
+              "reason": "조건부 타입이 추론 과정에서 어떻게 작동하는지 이해"
+            },
+            {
+              "keyword": "generic-constraints",
+              "reason": "조건부 타입과 함께 쓰이는 제네릭 제약 조건 학습"
+            },
+            {
+              "keyword": "distributive-conditional-types",
+              "reason": "조건부 타입의 분배 법칙과 최적화의 관계 파악"
+            },
+            {
+              "keyword": "compiler-performance",
+              "reason": "타입 체크 성능을 개선하는 방법론 습득"
+            },
+            {
+              "keyword": "type-narrowing",
+              "reason": "조건부 타입을 통한 타입 좁히기 기법 적용"
+            }
+          ]
+        },
+        {
+          "title": "Distributive conditional types",
+          "url": "https://velog.io/@yhko1992/Distributive-conditional-types",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-05-03",
+          "collected_at": "2026-05-28",
+          "minutes": 8,
+          "one_liner": "Conditional Types에서 Union 타입이 분산되는 원리와 활용법",
+          "summary": "Distributive Conditional Types는 Union 타입에 대해 조건부 타입이 각 요소별로 적용되는 TypeScript의 고급 기능입니다. 이 분산 특성을 이해하면 복잡한 타입 변환을 더 효과적으로 작성할 수 있으며, 필요시 Distributive를 피할 수도 있습니다.",
+          "prereqs": [
+            {
+              "name": "Conditional Types 기본",
+              "detail": "조건부 타입의 기본 문법과 동작 원리 이해"
+            },
+            {
+              "name": "Union Types",
+              "detail": "Union 타입의 개념과 타입 조합 방식 이해"
+            },
+            {
+              "name": "Generic Types",
+              "detail": "제네릭 타입의 선언과 활용 방식 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "union-types",
+              "reason": "분산이 Union 타입을 기반으로 동작하기 때문"
+            },
+            {
+              "keyword": "generic-constraints",
+              "reason": "제네릭 타입 파라미터 제약을 통한 분산 제어"
+            },
+            {
+              "keyword": "mapped-types",
+              "reason": "분산 조건부 타입을 이용한 타입 변환"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "조건부 타입에서 타입 추론 원리 활용"
+            },
+            {
+              "keyword": "utility-types",
+              "reason": "내장 유틸리티 타입들의 분산 구현 원리"
+            }
+          ]
+        },
+        {
+          "title": "[Typescript] 7장 | TS에서의 조건부 타입 활용법",
+          "url": "https://velog.io/@re_go/Typescript-7%EC%9E%A5-TS%EC%97%90%EC%84%9C%EC%9D%98-%EC%A1%B0%EA%B1%B4%EB%B6%80-%ED%83%80%EC%9E%85-%ED%99%9C%EC%9A%A9%EB%B2%95",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-07-17",
+          "collected_at": "2026-05-28",
+          "minutes": 7,
+          "one_liner": "TypeScript 조건부 타입으로 동적이고 유연한 타입을 구성하는 방법",
+          "summary": "TypeScript의 조건부 타입은 입력 타입에 따라 다른 타입을 반환하는 고급 타입 기능입니다. extends 키워드와 삼항 연산자를 활용하여 복잡한 타입 로직을 구현할 수 있으며, 제네릭과 함께 사용하면 더욱 강력한 타입 안정성을 확보할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "제네릭(Generics)",
+              "detail": "조건부 타입의 기반이 되는 타입 파라미터 개념 이해"
+            },
+            {
+              "name": "extends 키워드",
+              "detail": "타입 호환성을 검사하기 위한 기본 문법"
+            },
+            {
+              "name": "유니온 타입과 인터섹션",
+              "detail": "조건부 타입 결과로 반환되는 복합 타입 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "generics",
+              "reason": "조건부 타입과 함께 사용하여 재사용 가능한 타입 작성"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "조건부 타입에서 infer 키워드로 타입 추론"
+            },
+            {
+              "keyword": "utility-types",
+              "reason": "조건부 타입으로 구현되는 Pick, Exclude 등 이해"
+            },
+            {
+              "keyword": "mapped-types",
+              "reason": "조건부 타입과 조합하여 복잡한 타입 변환"
+            },
+            {
+              "keyword": "type-guards",
+              "reason": "런타임에 조건부 타입과 유사한 타입 검증"
+            }
+          ]
+        },
+        {
+          "title": "TypeScript infer와 유틸리티 타입",
+          "url": "https://velog.io/@2yunseong/TypeScript-infer-and-utility-type",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2025-03-29",
+          "collected_at": "2026-05-28",
+          "minutes": 5,
+          "one_liner": "TypeScript의 infer와 조건부 타입으로 강력한 타입 추론하기",
+          "summary": "TypeScript의 infer 키워드는 조건부 타입 내에서 타입을 동적으로 추론할 수 있게 해줍니다. 이를 활용하여 함수 반환값, 배열 요소, 객체 속성 등을 자동으로 추출하는 유틸리티 타입을 만들 수 있으며, 복잡한 제네릭 타입 조작을 더 간결하고 강력하게 구현할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "Generic Types",
+              "detail": "infer를 활용한 타입 파라미터 처리를 이해하기 위해"
+            },
+            {
+              "name": "Type Narrowing",
+              "detail": "조건부 타입에서 타입 범위를 좁히는 개념을 알기 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "utility-types",
+              "reason": "infer를 사용하여 유틸리티 타입을 구현하는 방법"
+            },
+            {
+              "keyword": "generic-constraints",
+              "reason": "infer와 함께 사용되는 제네릭 제약 조건"
+            },
+            {
+              "keyword": "type-inference",
+              "reason": "TypeScript의 자동 타입 추론 메커니즘 이해"
+            },
+            {
+              "keyword": "function-overloading",
+              "reason": "infer로 함수 시그니처의 타입을 동적으로 처리"
             }
           ]
         }
