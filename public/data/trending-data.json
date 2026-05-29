@@ -4143,5 +4143,1377 @@
         }
       ]
     }
+  ],
+  "2026-05-29": [
+    {
+      "title": "Claude Opus 4.8",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8",
+      "source": "hn",
+      "lang": "en",
+      "points": 1652,
+      "comments": 1286,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "Claude Opus 4.8의 주요 기능과 성능 개선사항 소개",
+      "summary": "Claude Opus 4.8은 Anthropic의 최신 AI 모델로 향상된 성능과 효율성을 제공합니다. 더 빠른 응답 속도와 개선된 추론 능력으로 다양한 개발 작업에 활용할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "Large Language Models (LLM)",
+          "detail": "대규모 언어 모델의 기본 개념과 동작 원리 이해"
+        },
+        {
+          "name": "API 통합",
+          "detail": "외부 API를 애플리케이션에 연결하는 기본 방식"
+        },
+        {
+          "name": "프롬프트 엔지니어링",
+          "detail": "AI 모델에서 원하는 결과를 얻기 위한 질문 설계 방법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "효과적인 모델 활용을 위한 필수 기술"
+        },
+        {
+          "keyword": "token-limits",
+          "reason": "API 비용과 성능 최적화 이해 필요"
+        },
+        {
+          "keyword": "ai-model-comparison",
+          "reason": "다른 모델과의 성능 비교 검토"
+        },
+        {
+          "keyword": "api-rate-limiting",
+          "reason": "대규모 운영 환경에서의 처리량 관리"
+        },
+        {
+          "keyword": "fine-tuning",
+          "reason": "특정 작업에 맞춘 모델 커스터마이징 기법"
+        }
+      ]
+    },
+    {
+      "title": "Bricks and Minifigs Stole a Man's $200k Lego Collection",
+      "url": "https://mybricklog.com/blog/bricks-minifigs-corporate-stole-old-mans-200000-lego-collection",
+      "source": "hn",
+      "lang": "en",
+      "points": 1152,
+      "comments": 508,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 5,
+      "one_liner": "장난감 판매점이 고객의 20만 달러 레고 컬렉션을 횡령한 사건",
+      "summary": "유명 레고 판매점 Bricks and Minifigs가 고객으로부터 위탁받은 약 20만 달러 규모의 레고 컬렉션을 무단으로 판매하고 대금을 지급하지 않은 사건이다. 이는 위탁 판매 시스템의 신뢰 문제와 소비자 피해 사례를 보여준다.",
+      "prereqs": [
+        {
+          "name": "Consignment Sales",
+          "detail": "위탁 판매 시스템의 법적, 윤리적 책임"
+        },
+        {
+          "name": "Consumer Protection",
+          "detail": "소비자 권리 침해 시 구제 절차"
+        },
+        {
+          "name": "Business Ethics",
+          "detail": "기업의 신뢰와 거래 투명성의 중요성"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "fraud-prevention",
+          "reason": "거래 사기 방지 및 검증 방법"
+        },
+        {
+          "keyword": "liability-law",
+          "reason": "위탁자와 수탁자 간 법적 책임"
+        },
+        {
+          "keyword": "supply-chain-trust",
+          "reason": "공급망에서의 신뢰 관계 구축"
+        },
+        {
+          "keyword": "customer-dispute",
+          "reason": "고객 분쟁 해결 및 분쟁 관리"
+        }
+      ]
+    },
+    {
+      "title": "I made a million dollar product from my dorm room (2025)",
+      "url": "https://nick.winans.io/blog/nice-nano/",
+      "source": "hn",
+      "lang": "en",
+      "points": 492,
+      "comments": 74,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "기숙사에서 백만 달러 매출의 제품을 만드는 방법",
+      "summary": "저자가 기숙사에서 시작한 사이드 프로젝트가 어떻게 백만 달러 규모의 성공한 제품으로 성장했는지 소개합니다. 초기 아이디어 발상부터 마케팅, 성장 전략까지 실제 경험을 바탕으로 공유합니다.",
+      "prereqs": [
+        {
+          "name": "제품-시장 적합성",
+          "detail": "사용자가 원하는 것을 찾는 과정의 중요성"
+        },
+        {
+          "name": "MVP(최소 기능 제품)",
+          "detail": "빠르게 출시하고 반복 개선하는 방식"
+        },
+        {
+          "name": "그로스 해킹",
+          "detail": "제한된 자원으로 사용자를 모으는 전략"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "startup-journey",
+          "reason": "스타트업 초기 단계별 경험담 학습"
+        },
+        {
+          "keyword": "product-strategy",
+          "reason": "성공하는 제품 개발 전략 이해"
+        },
+        {
+          "keyword": "user-acquisition",
+          "reason": "초기 사용자 확보 방법 적용"
+        },
+        {
+          "keyword": "side-project",
+          "reason": "개발자의 부업 수익화 사례"
+        },
+        {
+          "keyword": "business-mindset",
+          "reason": "개발자가 알아야 할 비즈니스 사고"
+        }
+      ]
+    },
+    {
+      "title": "GitHub bans security researcher who posted zero-day Windows exploits",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/microsofts-github-bans-security-researcher-who-posted-zero-day-windows-exploits-because-company-ruined-their-life-expert-claims-action-is-vindictive-and-promises-further-retaliation",
+      "source": "hn",
+      "lang": "en",
+      "points": 479,
+      "comments": 231,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "devops",
+      "minutes": 8,
+      "one_liner": "GitHub이 제로데이 Windows 취약점을 공개한 보안 연구자를 차단했다.",
+      "summary": "GitHub은 Windows 제로데이 취약점 정보를 공개한 보안 연구자의 계정을 정책 위반으로 차단했습니다. 이는 보안 연구와 책임감 있는 공개 사이의 긴장을 보여주는 사례입니다.",
+      "prereqs": [
+        {
+          "name": "Zero-day 취약점",
+          "detail": "공급사도 모르는 미패치 보안 결함을 이해해야 합니다."
+        },
+        {
+          "name": "책임감 있는 공개(Responsible Disclosure)",
+          "detail": "취약점 공개 시 고려해야 할 윤리와 절차를 알아야 합니다."
+        },
+        {
+          "name": "GitHub 정책",
+          "detail": "플랫폼의 콘텐츠 정책과 규제 기준을 이해해야 합니다."
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "exploit-disclosure",
+          "reason": "취약점 공개 시 법적, 윤리적 고려사항"
+        },
+        {
+          "keyword": "security-research",
+          "reason": "보안 연구자의 책임과 보호 방안"
+        },
+        {
+          "keyword": "vulnerability-management",
+          "reason": "취약점 발견부터 패치까지의 프로세스"
+        },
+        {
+          "keyword": "platform-moderation",
+          "reason": "GitHub 같은 플랫폼의 콘텐츠 정책 이해"
+        },
+        {
+          "keyword": "legal-frameworks",
+          "reason": "취약점 공개 관련 국가별 법률 체계"
+        }
+      ]
+    },
+    {
+      "title": "Cars collect a startling amount of data about you",
+      "url": "https://www.bbc.com/future/article/20260513-your-car-is-spying-on-you-its-about-to-get-worse",
+      "source": "hn",
+      "lang": "en",
+      "points": 443,
+      "comments": 231,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 6,
+      "one_liner": "자동차가 수집하는 개인정보의 규모와 위험성",
+      "summary": "현대 자동차는 운전 습관, 위치, 개인 정보 등 방대한 양의 데이터를 수집하고 있습니다. 이러한 데이터는 제조사, 보험사, 광고사 등에 의해 활용될 수 있어 개인 정보보호와 프라이버시 침해 문제를 야기합니다. 개발자로서 데이터 보안과 사용자 권리 보호의 중요성을 이해해야 합니다.",
+      "prereqs": [
+        {
+          "name": "Data Privacy",
+          "detail": "개인정보가 어떻게 수집, 활용되는지 이해"
+        },
+        {
+          "name": "Connected Devices",
+          "detail": "IoT 기기의 데이터 수집 메커니즘 이해"
+        },
+        {
+          "name": "Data Security",
+          "detail": "민감한 데이터 보호의 필요성 인식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "gdpr-compliance",
+          "reason": "개인정보 보호 규제 기준 학습"
+        },
+        {
+          "keyword": "encryption",
+          "reason": "전송 데이터 보안 기술 습득"
+        },
+        {
+          "keyword": "iot-security",
+          "reason": "연결 기기의 취약점과 방어 방법"
+        },
+        {
+          "keyword": "telemetry-data",
+          "reason": "자동차 원격측정 데이터 이해"
+        },
+        {
+          "keyword": "privacy-by-design",
+          "reason": "보안 고려 설계 원칙 적용"
+        }
+      ]
+    },
+    {
+      "title": "Blue Origin's New Glenn blows up during static fire test",
+      "url": "https://twitter.com/nasaspaceflight/status/2060164928472854821",
+      "source": "hn",
+      "lang": "en",
+      "points": 367,
+      "comments": 367,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "Blue Origin의 New Glenn 로켓이 정적 연소 시험 중 폭발했다.",
+      "summary": "Blue Origin의 대형 로켓 New Glenn이 정적 연소 시험(Static Fire Test) 중 폭발 사고를 일으켰다. 이는 우주 산업의 기술적 위험성과 개발 과정의 어려움을 보여주는 사례다.",
+      "prereqs": [
+        {
+          "name": "Static Fire Test",
+          "detail": "로켓 발사 전 엔진 성능을 검증하는 필수 테스트 단계"
+        },
+        {
+          "name": "우주 산업의 개발 과정",
+          "detail": "로켓 개발에서 발생하는 예상치 못한 실패와 반복 테스트의 중요성 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "rocket-engine-testing",
+          "reason": "로켓 엔진 검증 프로세스와 실패 사례 학습"
+        },
+        {
+          "keyword": "space-industry-competition",
+          "reason": "SpaceX 등과의 경쟁 속에서 Blue Origin의 입지 파악"
+        },
+        {
+          "keyword": "failure-analysis",
+          "reason": "우주산업에서의 사고 원인 분석 및 개선 방안 이해"
+        }
+      ]
+    },
+    {
+      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation",
+      "url": "https://www.anthropic.com/news/series-h",
+      "source": "hn",
+      "lang": "en",
+      "points": 352,
+      "comments": 384,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "Anthropic이 965억 달러 기업가치로 650억 달러 유치",
+      "summary": "AI 안전 연구 회사 Anthropic이 Series H 펀딩라운드에서 650억 달러를 조달하여 기업가치 965억 달러를 달성했습니다. 이는 OpenAI 다음으로 가장 높은 AI 회사 가치 평가입니다.",
+      "prereqs": [
+        {
+          "name": "Series Funding",
+          "detail": "기업이 성장 단계별로 받는 투자 라운드 구조"
+        },
+        {
+          "name": "Post-money valuation",
+          "detail": "펀딩 후 기업의 전체 가치 평가"
+        },
+        {
+          "name": "AI Safety",
+          "detail": "인공지능의 안전성과 윤리를 연구하는 분야"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "venture-capital",
+          "reason": "큰 규모의 펀딩을 주도하는 투자 형태"
+        },
+        {
+          "keyword": "startup-valuation",
+          "reason": "기업가치 평가 방식과 시장 트렌드 이해"
+        },
+        {
+          "keyword": "llm-competition",
+          "reason": "OpenAI 등 경쟁사와의 시장 위치 파악"
+        },
+        {
+          "keyword": "ai-regulation",
+          "reason": "AI 안전 연구가 중요해지는 규제 배경"
+        }
+      ]
+    },
+    {
+      "title": "Various LLM Smells",
+      "url": "https://shvbsle.in/various-llm-smells/",
+      "source": "hn",
+      "lang": "en",
+      "points": 335,
+      "comments": 262,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "LLM 개발 시 흔한 안티패턴과 문제점들을 분석",
+      "summary": "LLM 기반 애플리케이션 개발에서 자주 나타나는 코드 냄새(smells)와 안티패턴들을 소개합니다. 프롬프트 엔지니어링, 에러 처리, 토큰 관리 등 실제 개발에서 겪는 일반적인 문제점과 해결 방안을 제시합니다.",
+      "prereqs": [
+        {
+          "name": "Large Language Model (LLM)",
+          "detail": "LLM의 기본 개념과 작동 원리를 이해하기 위해 필요"
+        },
+        {
+          "name": "Prompt Engineering",
+          "detail": "LLM에 효과적으로 지시를 전달하는 방법론 이해"
+        },
+        {
+          "name": "API Integration",
+          "detail": "LLM 서비스 API와의 연동 및 통신 방식 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "효과적인 프롬프트 작성으로 코드 냄새 예방"
+        },
+        {
+          "keyword": "error-handling",
+          "reason": "LLM 응답 에러에 대한 견고한 처리 방법"
+        },
+        {
+          "keyword": "token-management",
+          "reason": "토큰 사용량 최적화와 비용 관리 전략"
+        },
+        {
+          "keyword": "llm-testing",
+          "reason": "LLM 애플리케이션의 품질 보증 방법론"
+        },
+        {
+          "keyword": "context-window",
+          "reason": "컨텍스트 길이 제한으로 인한 문제 해결"
+        }
+      ]
+    },
+    {
+      "title": "Building durable workflows on Postgres",
+      "url": "https://www.dbos.dev/blog/postgres-is-all-you-need-for-durable-execution",
+      "source": "hn",
+      "lang": "en",
+      "points": 335,
+      "comments": 138,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "backend",
+      "minutes": 8,
+      "one_liner": "PostgreSQL을 활용한 안정적이고 내구성 있는 워크플로우 구축 방법",
+      "summary": "PostgreSQL 데이터베이스를 기반으로 신뢰할 수 있는 워크플로우 시스템을 설계하고 구현하는 방법을 다룹니다. 작업 큐, 상태 관리, 장애 복구 등 지속 가능한 워크플로우를 위한 핵심 패턴과 기법을 소개합니다.",
+      "prereqs": [
+        {
+          "name": "PostgreSQL 기초",
+          "detail": "트랜잭션, 인덱스, 테이블 설계 이해 필요"
+        },
+        {
+          "name": "워크플로우/잡 큐 개념",
+          "detail": "비동기 작업 처리와 상태 관리의 기본 원리"
+        },
+        {
+          "name": "분산 시스템 신뢰성",
+          "detail": "장애 복구 및 idempotency 같은 핵심 원칙"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "message-queue",
+          "reason": "워크플로우 구현의 대안적 솔루션"
+        },
+        {
+          "keyword": "transaction-processing",
+          "reason": "데이터 일관성과 원자성 보장 메커니즘"
+        },
+        {
+          "keyword": "job-scheduler",
+          "reason": "정시 또는 주기적 작업 실행 관리"
+        },
+        {
+          "keyword": "event-sourcing",
+          "reason": "상태 변화 추적 및 감사 기록 패턴"
+        },
+        {
+          "keyword": "idempotent-operations",
+          "reason": "중복 실행 시에도 안전한 작업 설계"
+        }
+      ]
+    },
+    {
+      "title": "Volkswagen blocks Home Assistant by requiring client assertion",
+      "url": "https://github.com/robinostlund/homeassistant-volkswagencarnet/issues/967",
+      "source": "hn",
+      "lang": "en",
+      "points": 291,
+      "comments": 145,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "backend",
+      "minutes": 5,
+      "one_liner": "폭스바겐이 Home Assistant 접근을 차단하기 위해 클라이언트 어설션을 요구하는 문제",
+      "summary": "Home Assistant가 폭스바겐 API에 접근할 수 없게 되었는데, 이는 폭스바겐이 클라이언트 어설션(Client Assertion) 인증 방식을 새로 도입했기 때문이다. 이는 타사 통합 서비스들의 접근을 제한하는 보안 정책 변화로, 사용자 자동화가 불가능해지는 문제를 야기한다.",
+      "prereqs": [
+        {
+          "name": "OAuth 2.0",
+          "detail": "API 인증 및 권한 부여의 표준 프로토콜"
+        },
+        {
+          "name": "API Integration",
+          "detail": "외부 서비스와의 데이터 연동 방식"
+        },
+        {
+          "name": "Home Assistant",
+          "detail": "오픈소스 홈 자동화 플랫폼"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "client-assertion",
+          "reason": "폭스바겐이 도입한 신규 인증 메커니즘"
+        },
+        {
+          "keyword": "oauth-authentication",
+          "reason": "API 보안의 표준 인증 방식"
+        },
+        {
+          "keyword": "third-party-integration",
+          "reason": "타사 서비스 연동 시 보안 정책 영향"
+        },
+        {
+          "keyword": "api-breaking-changes",
+          "reason": "기존 통합 서비스 장애 원인 분석"
+        },
+        {
+          "keyword": "mutual-tls",
+          "reason": "클라이언트 어설션 구현의 기초 기술"
+        }
+      ]
+    },
+    {
+      "title": "Nitpicking the shell history scene in Tron: Legacy",
+      "url": "https://www.chiark.greenend.org.uk/~sgtatham/quasiblog/tron-legacy/",
+      "source": "hn",
+      "lang": "en",
+      "points": 289,
+      "comments": 99,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "영화 Tron: Legacy의 셸 히스토리 장면을 기술적으로 분석",
+      "summary": "영화 Tron: Legacy에서 등장하는 셸 명령어 히스토리 장면을 세부적으로 검토하는 글입니다. 영화 제작진의 기술적 세밀함과 실제 셸 환경의 정확성을 비교 분석하며, 할리우드 영화에서 표현되는 기술 요소들의 현실성을 살펴봅니다.",
+      "prereqs": [
+        {
+          "name": "Unix/Linux Shell",
+          "detail": "셸 명령어와 히스토리 개념 이해"
+        },
+        {
+          "name": "Command Line Interface",
+          "detail": "터미널과 명령줄 환경의 기본 동작 원리"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "shell-commands",
+          "reason": "실제 셸 명령어 문법과 동작 방식"
+        },
+        {
+          "keyword": "terminal-emulation",
+          "reason": "영화에서 표현된 터미널 시뮬레이션 기법"
+        },
+        {
+          "keyword": "technical-accuracy-film",
+          "reason": "영화의 기술 표현 정확성 평가 방법"
+        },
+        {
+          "keyword": "unix-history",
+          "reason": "셸 히스토리 기능의 역사와 발전"
+        }
+      ]
+    },
+    {
+      "title": "New York passes pied-a-terre tax",
+      "url": "https://www.cnbc.com/2026/05/28/new-york-mamdani-pied-a-terre-tax-passes.html",
+      "source": "hn",
+      "lang": "en",
+      "points": 273,
+      "comments": 431,
+      "published_at": "2026-05-28",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "뉴욕주의 부동산 세금 정책 변화에 관한 뉴스",
+      "summary": "뉴욕주가 투자 목적의 부동산(피에드어테르)에 부과하는 새로운 세금 정책을 도입했습니다. 이는 주택 가격 상승과 공실 증가 문제를 해결하기 위한 정책입니다.",
+      "prereqs": [
+        {
+          "name": "Pied-a-Terre",
+          "detail": "주거 목적이 아닌 투자용 부동산을 의미합니다"
+        },
+        {
+          "name": "Real Estate Tax",
+          "detail": "부동산 소유에 부과되는 세금 체계를 이해해야 합니다"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "real-estate-policy",
+          "reason": "부동산 정책의 다양한 사례 학습"
+        },
+        {
+          "keyword": "tax-regulation",
+          "reason": "세금 규제 메커니즘 이해"
+        },
+        {
+          "keyword": "housing-crisis",
+          "reason": "주택 문제 해결 방안 탐색"
+        }
+      ]
+    },
+    {
+      "title": "Claude Code - Everything You Can Configure That the Docs Don't Tell You",
+      "url": "https://buildingbetter.tech/p/i-read-the-claude-code-source-code",
+      "source": "hn",
+      "lang": "en",
+      "points": 244,
+      "comments": 51,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "Claude Code의 숨겨진 설정 옵션들을 공개하는 개발자 가이드",
+      "summary": "Claude Code의 공식 문서에서 다루지 않는 다양한 설정 옵션들을 소개합니다. AI 코딩 어시스턴트의 동작을 커스터마이징하고 최적화할 수 있는 고급 기능들을 활용하는 방법을 배웁니다.",
+      "prereqs": [
+        {
+          "name": "Claude Code",
+          "detail": "Claude의 코딩 지원 도구 기본 사용법"
+        },
+        {
+          "name": "Configuration",
+          "detail": "소프트웨어 설정 및 커스터마이징 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "claude-api",
+          "reason": "Claude 기능의 더 깊은 이해와 활용"
+        },
+        {
+          "keyword": "ai-code-generation",
+          "reason": "AI 기반 코드 생성 프롬프트 최적화"
+        },
+        {
+          "keyword": "developer-tools",
+          "reason": "개발자 도구 설정 및 통합 전략"
+        },
+        {
+          "keyword": "custom-integration",
+          "reason": "개인 워크플로우에 맞춘 커스마이징"
+        }
+      ]
+    },
+    {
+      "title": "SF startup is testing robots in Airbnbs, and trashing them, lawsuit claims",
+      "url": "https://sfstandard.com/2026/05/28/sf-startup-secretly-testing-robots-airbnbs-trashing-lawsuit-claims/",
+      "source": "hn",
+      "lang": "en",
+      "points": 229,
+      "comments": 125,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "에어비앤비에서 로봇 테스트 중 손상 사건",
+      "summary": "샌프란시스코의 스타트업이 에어비앤비 숙소에서 로봇을 테스트하던 중 기물을 파손했다는 소송이 제기되었습니다. 이는 공유경제 플랫폼에서의 신기술 도입과 책임 문제를 둘러싼 분쟁입니다.",
+      "prereqs": [
+        {
+          "name": "공유경제(Sharing Economy)",
+          "detail": "소유권보다 사용권을 공유하는 경제 모델 이해"
+        },
+        {
+          "name": "로봇 자동화",
+          "detail": "일상 업무에 로봇 기술 적용의 현황과 과제"
+        },
+        {
+          "name": "법적 책임(Liability)",
+          "detail": "신기술 테스트 시 발생하는 손해배상 책임 관계"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "iot-testing",
+          "reason": "실제 환경에서의 로봇 및 기기 테스트 방식"
+        },
+        {
+          "keyword": "liability-insurance",
+          "reason": "신기술 테스트 시 필요한 법적 보호장치"
+        },
+        {
+          "keyword": "sharing-economy-regulation",
+          "reason": "공유경제 플랫폼의 규제 및 책임 체계"
+        },
+        {
+          "keyword": "robotics-ethics",
+          "reason": "로봇 자동화 기술의 윤리적 고려사항"
+        }
+      ]
+    },
+    {
+      "title": "I hated writing until I learned there's a science to it (2024)",
+      "url": "https://www.science.org/content/article/i-hated-writing-until-i-learned-there-s-science-it",
+      "source": "hn",
+      "lang": "en",
+      "points": 227,
+      "comments": 96,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "글쓰기를 과학적으로 접근하면 누구나 잘할 수 있다.",
+      "summary": "글쓰기는 타고난 재능이 아니라 배울 수 있는 기술이다. 이 글은 효과적인 글쓰기의 과학적 원리와 실전 방법론을 제시하여 개발자들이 기술 문서, 블로그, 커뮤니케이션을 더 잘 작성하도록 돕는다.",
+      "prereqs": [
+        {
+          "name": "technical-writing",
+          "detail": "개발자가 명확한 문서를 작성하는 기본 기술"
+        },
+        {
+          "name": "communication-skills",
+          "detail": "팀 내 효과적인 지식 공유의 중요성"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "technical-documentation",
+          "reason": "개발자의 글쓰기 실전 분야"
+        },
+        {
+          "keyword": "cognitive-load",
+          "reason": "읽기 쉬운 글을 위한 심리학 개념"
+        },
+        {
+          "keyword": "blog-writing",
+          "reason": "기술 블로그 작성의 과학적 접근법"
+        },
+        {
+          "keyword": "clear-communication",
+          "reason": "팀 협업에서 필수적인 기술"
+        }
+      ]
+    },
+    {
+      "title": "Sam Altman and Dario Amodei are both walking back AI jobs apocalypse predictions",
+      "url": "https://fortune.com/2026/05/26/sam-altman-dario-amodei-walking-back-ai-jobs-apocalypse-prophecies-ipo/",
+      "source": "hn",
+      "lang": "en",
+      "points": 220,
+      "comments": 171,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 4,
+      "one_liner": "AI 업계 리더들이 AI로 인한 일자리 소멸 예측을 수정하고 있다.",
+      "summary": "Sam Altman과 Dario Amodei 같은 AI 업계 주요 인물들이 과거의 극단적인 AI 일자리 소멸 예측을 완화하고 있다. 이들은 AI가 일자리를 파괴하기보다는 새로운 직무와 기회를 창출할 가능성을 인정하고 있다.",
+      "prereqs": [
+        {
+          "name": "AI의 현재 기술 수준",
+          "detail": "현재 AI가 할 수 있는 것과 한계를 이해해야 한다."
+        },
+        {
+          "name": "기술 혁신의 역사",
+          "detail": "과거 기술이 일자리 시장에 미친 영향을 알면 맥락 파악이 용이하다."
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-job-displacement",
+          "reason": "AI로 인한 고용 변화의 전반적 이해가 필요하다"
+        },
+        {
+          "keyword": "automation-economy",
+          "reason": "자동화가 경제 구조에 어떻게 영향을 미치는지 알아야 한다"
+        },
+        {
+          "keyword": "skill-reskilling",
+          "reason": "미래 인력이 필요한 새로운 기술 습득 방향을 파악할 수 있다"
+        },
+        {
+          "keyword": "technology-adoption",
+          "reason": "새로운 기술이 실제로 어떻게 채택되는지 이해하는 데 도움이 된다"
+        }
+      ]
+    },
+    {
+      "title": "Blue Origin's New Glenn rocket exploded during a static fire test",
+      "url": "https://arstechnica.com/space/2026/05/blue-origins-new-glenn-rocket-just-exploded-during-a-static-fire-test/",
+      "source": "hn",
+      "lang": "en",
+      "points": 208,
+      "comments": 8,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "Blue Origin의 New Glenn 로켓이 정적 연소 시험 중 폭발했다.",
+      "summary": "Blue Origin의 차세대 대형 로켓인 New Glenn이 정적 연소 시험(Static Fire Test) 중에 폭발 사고를 경험했습니다. 이 사건은 민간 우주산업의 안전성과 신뢰성을 보여주는 중요한 사례입니다.",
+      "prereqs": [
+        {
+          "name": "Static Fire Test",
+          "detail": "발사 전 로켓 엔진 성능을 검증하는 필수 시험 과정"
+        },
+        {
+          "name": "New Glenn",
+          "detail": "Blue Origin이 개발 중인 차세대 초중형 발사 로켓"
+        },
+        {
+          "name": "우주 산업",
+          "detail": "민간 기업들의 우주 개발 및 발사 서비스 분야"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "spacex-starship",
+          "reason": "경쟁사 로켓 개발 현황과 비교 분석"
+        },
+        {
+          "keyword": "rocket-engine-testing",
+          "reason": "로켓 엔진 안전 시험의 중요성 이해"
+        },
+        {
+          "keyword": "commercial-spaceflight",
+          "reason": "민간 우주 산업의 발전과 도전 과제"
+        },
+        {
+          "keyword": "aerospace-engineering",
+          "reason": "로켓 설계와 제조의 기술적 이해"
+        }
+      ]
+    },
+    {
+      "title": "The Permanent Upper Crow",
+      "url": "https://permanent-upper-crow.jasonwu.ink/",
+      "source": "hn",
+      "lang": "en",
+      "points": 205,
+      "comments": 77,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "제목만으로는 글의 내용을 파악할 수 없습니다.",
+      "summary": "죄송하지만, 제공하신 제목 \"The Permanent Upper Crow\"만으로는 글의 구체적인 내용을 알 수 없어 정확한 요약을 생성할 수 없습니다. 글의 본문 내용이 필요합니다.",
+      "prereqs": [
+        {
+          "name": "글의 본문",
+          "detail": "정확한 분석을 위해 전체 글 내용이 필요합니다"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "content-analysis",
+          "reason": "글의 주제와 목적을 파악하는 데 도움"
+        }
+      ]
+    },
+    {
+      "title": "Dynamic Workflows in Claude Code",
+      "url": "https://claude.com/blog/introducing-dynamic-workflows-in-claude-code",
+      "source": "hn",
+      "lang": "en",
+      "points": 149,
+      "comments": 115,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "Claude의 동적 워크플로우를 활용한 코드 작성 가이드",
+      "summary": "Claude Code에서 동적 워크플로우를 구현하는 방법과 패턴을 설명합니다. 조건부 실행, 반복 처리, 상태 관리를 통해 AI 기반 코드 생성을 더욱 효율적으로 만드는 기술을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "Claude API",
+          "detail": "Claude 모델과 상호작용하는 기본 방식 이해 필요"
+        },
+        {
+          "name": "프롬프트 엔지니어링",
+          "detail": "효과적인 지시문 작성으로 원하는 결과 도출 능력"
+        },
+        {
+          "name": "코드 제너레이션",
+          "detail": "AI가 코드를 생성하는 원리와 활용 방법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-chaining",
+          "reason": "여러 프롬프트를 연결하여 복잡한 작업 처리"
+        },
+        {
+          "keyword": "state-management",
+          "reason": "워크플로우 진행 중 데이터와 상태 추적 및 유지"
+        },
+        {
+          "keyword": "tool-use",
+          "reason": "Claude가 외부 도구를 활용하도록 지시하는 방법"
+        },
+        {
+          "keyword": "error-handling",
+          "reason": "워크플로우 실행 중 발생하는 오류 처리 전략"
+        },
+        {
+          "keyword": "async-workflows",
+          "reason": "비동기 처리로 여러 작업을 병렬 수행"
+        }
+      ]
+    },
+    {
+      "title": "Is AI causing a repeat of Front end's Lost Decade?",
+      "url": "https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/",
+      "source": "hn",
+      "lang": "en",
+      "points": 138,
+      "comments": 140,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "category": "frontend",
+      "minutes": 7,
+      "one_liner": "AI 시대에 프론트엔드 개발이 과거의 침체기를 반복할 위험",
+      "summary": "AI 도구의 급속한 발전이 프론트엔드 개발자의 역할과 가치를 위협하고 있으며, 2010년대 프론트엔드의 '잃어버린 10년'과 유사한 패턴이 반복될 수 있다는 우려를 제기합니다. 기술 발전이 긍정적이지만, 개발자들이 적응하지 못하면 산업 전체가 정체될 수 있다는 경고입니다.",
+      "prereqs": [
+        {
+          "name": "Frontend Lost Decade",
+          "detail": "프론트엔드의 과거 혼란과 정체 시기 이해"
+        },
+        {
+          "name": "AI/ML Fundamentals",
+          "detail": "현재 AI 기술의 발전 수준과 영향력 파악"
+        },
+        {
+          "name": "Developer Productivity",
+          "detail": "개발 생산성 도구의 역할과 개발자 역량의 관계"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-powered-development",
+          "reason": "AI 코딩 도구가 개발 방식을 변화시키는 방식"
+        },
+        {
+          "keyword": "developer-skills",
+          "reason": "AI 시대에 필요한 개발자 역량의 재정의"
+        },
+        {
+          "keyword": "tech-disruption",
+          "reason": "기술 변화가 업계 구조에 미치는 영향 분석"
+        },
+        {
+          "keyword": "code-generation",
+          "reason": "자동 코드 생성이 프론트엔드 개발에 미치는 영향"
+        },
+        {
+          "keyword": "industry-adaptation",
+          "reason": "산업 변화에 대한 개발자와 조직의 대응 방식"
+        }
+      ]
+    },
+    {
+      "title": "How Are Developers Actually Using AI At Work?",
+      "url": "https://dev.to/sylwia-lask/how-are-developers-actually-using-ai-at-work-4g9c",
+      "source": "devto",
+      "lang": "en",
+      "positive_reactions": 112,
+      "comments": 149,
+      "reading_time_minutes": 4,
+      "published_at": "2026-05-27",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "개발자들이 실무에서 AI를 어떻게 활용하고 있는지 알아보기",
+      "summary": "현재 개발자들이 실제 업무에서 AI 도구를 활용하는 방식과 현황을 다룬 글입니다. 코드 작성부터 디버깅, 문서 작성까지 다양한 분야에서 AI의 역할을 살펴봅니다. 실무 중심의 AI 활용 사례를 통해 앞으로의 개발 환경 변화를 이해할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "AI 코딩 어시스턴트",
+          "detail": "GitHub Copilot, ChatGPT 등 개발에 활용되는 AI 도구"
+        },
+        {
+          "name": "LLM (Large Language Model)",
+          "detail": "대규모 언어 모델이 코드 생성과 분석에 활용되는 원리"
+        },
+        {
+          "name": "개발 워크플로우",
+          "detail": "일반적인 소프트웨어 개발 프로세스와 주요 단계"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "github-copilot",
+          "reason": "가장 널리 사용되는 AI 코딩 보조 도구"
+        },
+        {
+          "keyword": "prompt-engineering",
+          "reason": "AI로부터 더 나은 결과를 얻기 위한 기술"
+        },
+        {
+          "keyword": "code-generation",
+          "reason": "AI를 통한 자동 코드 작성의 현재 수준과 한계"
+        },
+        {
+          "keyword": "developer-productivity",
+          "reason": "AI 도구가 개발자 생산성에 미치는 실질적 영향"
+        },
+        {
+          "keyword": "ai-ethics-code",
+          "reason": "개발에서의 AI 윤리와 책임감 있는 활용"
+        }
+      ]
+    },
+    {
+      "title": "How we're using Gemini Embeddings to build a smarter, community-driven feed on DEV",
+      "url": "https://dev.to/devteam/how-were-using-gemini-embeddings-to-build-a-smarter-community-driven-feed-on-dev-1b9f",
+      "source": "devto",
+      "lang": "en",
+      "positive_reactions": 97,
+      "comments": 26,
+      "reading_time_minutes": 4,
+      "published_at": "2026-05-22",
+      "collected_at": "2026-05-29",
+      "category": "ai",
+      "minutes": 7,
+      "one_liner": "Gemini Embeddings를 활용한 DEV 커뮤니티 피드 개선 사례",
+      "summary": "DEV 커뮤니티에서 Gemini Embeddings를 사용하여 사용자의 관심사에 맞는 스마트한 피드를 구현했습니다. 텍스트를 벡터로 변환하여 의미론적 유사성을 찾아 더 나은 콘텐츠 추천을 제공합니다.",
+      "prereqs": [
+        {
+          "name": "Embeddings",
+          "detail": "텍스트를 벡터로 변환하여 의미를 수치화하는 기법"
+        },
+        {
+          "name": "Vector Similarity",
+          "detail": "벡터 간 유사도를 계산하여 관련성 있는 콘텐츠를 찾는 방법"
+        },
+        {
+          "name": "Recommendation System",
+          "detail": "사용자 선호도에 기반한 콘텐츠 추천 시스템 기초"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "semantic-search",
+          "reason": "의미 기반 검색으로 피드 개선"
+        },
+        {
+          "keyword": "gemini-api",
+          "reason": "Google의 Gemini API 활용 방법"
+        },
+        {
+          "keyword": "vector-database",
+          "reason": "임베딩 벡터 저장 및 검색 최적화"
+        },
+        {
+          "keyword": "personalization",
+          "reason": "사용자 맞춤형 경험 구현 전략"
+        },
+        {
+          "keyword": "machine-learning",
+          "reason": "모델 기반 추천 알고리즘의 원리"
+        }
+      ]
+    },
+    {
+      "title": "Should you use Gemma 4 for your Development? A Multiversal Analysis to Determine if Gemma 4 is Right for You!",
+      "url": "https://dev.to/devengers/should-you-use-gemma-4-for-your-development-a-multiversal-analysis-to-determine-if-gemma-4-is-2iol",
+      "source": "devto",
+      "lang": "en",
+      "positive_reactions": 77,
+      "comments": 102,
+      "reading_time_minutes": 19,
+      "published_at": "2026-05-22",
+      "collected_at": "2026-05-29",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "Gemma 4를 개발 프로젝트에 사용할지 판단하는 가이드",
+      "summary": "Gemma 4 LLM 모델의 성능, 기능, 제한사항을 분석하여 개발자가 자신의 프로젝트에 적합한지 판단할 수 있도록 돕습니다. 다양한 사용 사례와 실제 구현 시 고려사항을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "Large Language Model (LLM)",
+          "detail": "Gemma 4의 기반이 되는 AI 모델 개념 이해"
+        },
+        {
+          "name": "API 통합",
+          "detail": "외부 AI 모델을 프로젝트에 연동하는 방식"
+        },
+        {
+          "name": "프롬프트 엔지니어링",
+          "detail": "LLM의 성능을 최대화하기 위한 입력 설계 기법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "gemma-models",
+          "reason": "Gemma 모델 계열의 다양한 버전 비교"
+        },
+        {
+          "keyword": "llm-deployment",
+          "reason": "LLM 모델을 프로덕션 환경에 배포하는 전략"
+        },
+        {
+          "keyword": "cost-optimization",
+          "reason": "AI 모델 사용 비용 최적화 방법"
+        },
+        {
+          "keyword": "model-evaluation",
+          "reason": "프로젝트 요구사항에 맞는 모델 평가 기준"
+        },
+        {
+          "keyword": "ai-alternatives",
+          "reason": "Gemma 4 외 다른 LLM 옵션 검토"
+        }
+      ]
+    },
+    {
+      "title": "Top 7 Featured DEV Posts of the Week",
+      "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-45na",
+      "source": "devto",
+      "lang": "en",
+      "positive_reactions": 69,
+      "comments": 25,
+      "reading_time_minutes": 3,
+      "published_at": "2026-05-26",
+      "collected_at": "2026-05-29",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "DEV 커뮤니티의 이주 인기 글 7편을 한눈에 모아본 주간 선정.",
+      "summary": "DEV 플랫폼에서 해당 주에 가장 주목받은 블로그 글들을 큐레이션한 주간 총정리 글입니다. 다양한 개발 분야의 실용적인 팁과 인사이트를 제공하며, 커뮤니티 트렌드를 파악할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "DEV 커뮤니티",
+          "detail": "개발자 글쓰기 플랫폼의 특징 이해"
+        },
+        {
+          "name": "기술 블로그 읽기",
+          "detail": "다양한 개발 주제의 글을 효율적으로 소비하는 방법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "dev-community",
+          "reason": "개발자 네트워킹 및 지식 공유 커뮤니티"
+        },
+        {
+          "keyword": "technical-writing",
+          "reason": "효과적인 기술 글쓰기 스킬 습득"
+        },
+        {
+          "keyword": "weekly-digest",
+          "reason": "최신 기술 트렌드를 주기적으로 학습"
+        },
+        {
+          "keyword": "content-curation",
+          "reason": "양질의 콘텐츠 선별 기준 이해"
+        }
+      ]
+    },
+    {
+      "title": "5인 미만 사업장도 기업교육이 필요할까요?",
+      "url": "https://www.velopers.kr/post/6981",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "creator": "가비아",
+      "one_liner": "소규모 사업장에서도 직원 교육의 중요성과 필요성을 다룬다.",
+      "summary": "5인 미만 소규모 사업장도 직원 교육과 역량 개발이 필수적임을 강조한다. 제한된 예산과 인력 속에서도 기업교육을 통해 생산성 향상과 경쟁력 강화가 가능함을 설명한다.",
+      "prereqs": [
+        {
+          "name": "인적자원관리(HRM)",
+          "detail": "직원 개발과 조직 성과의 관계를 이해하기 위해"
+        },
+        {
+          "name": "소기업 경영전략",
+          "detail": "소규모 사업장의 특수한 경영 환경을 파악하기 위해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "employee-development",
+          "reason": "직원 역량 강화의 구체적 방법 학습"
+        },
+        {
+          "keyword": "corporate-training",
+          "reason": "기업교육 프로그램 설계와 운영 방식"
+        },
+        {
+          "keyword": "organizational-culture",
+          "reason": "학습 문화 조성의 중요성 이해"
+        },
+        {
+          "keyword": "talent-retention",
+          "reason": "교육을 통한 우수 인재 유지 전략"
+        }
+      ],
+      "category": "other",
+      "minutes": 5
+    },
+    {
+      "title": "ODW #8: Slack MCP로 사고 대응과 FAQ 생성 작업 속도를 높이는 실습형 사내 워크숍 후기",
+      "url": "https://www.velopers.kr/post/6980",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "creator": "라인",
+      "one_liner": "Slack MCP를 활용한 사고 대응과 FAQ 생성 자동화 워크숍 경험기",
+      "summary": "Slack MCP(Model Context Protocol)를 이용하여 사고 대응 속도를 높이고 FAQ 생성을 자동화하는 실습형 워크숍의 진행 과정과 학습 내용을 공유합니다. 실제 업무 사례를 통해 AI 모델이 Slack과 통합되었을 때 팀의 생산성을 어떻게 향상시킬 수 있는지 보여줍니다.",
+      "prereqs": [
+        {
+          "name": "Slack API",
+          "detail": "Slack과의 통합을 위해 기본 개념 이해 필요"
+        },
+        {
+          "name": "MCP (Model Context Protocol)",
+          "detail": "AI 모델이 외부 도구와 통신하는 방식 이해"
+        },
+        {
+          "name": "사고 대응 (Incident Response)",
+          "detail": "시스템 장애 처리 프로세스의 기본 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "slack-automation",
+          "reason": "Slack을 통한 업무 자동화 패턴 학습"
+        },
+        {
+          "keyword": "ai-integration",
+          "reason": "AI를 기존 시스템과 통합하는 방법 이해"
+        },
+        {
+          "keyword": "incident-management",
+          "reason": "효율적인 사고 대응 체계 구축"
+        },
+        {
+          "keyword": "faq-generation",
+          "reason": "자동화된 문서 생성 기법 습득"
+        },
+        {
+          "keyword": "llm-tools",
+          "reason": "LLM이 외부 도구를 활용하는 메커니즘"
+        }
+      ],
+      "category": "devops",
+      "minutes": 8
+    },
+    {
+      "title": "AI 에이전트를 안전하게 움직이게 하는 설계도, '하네스 엔지니어링(Harness Engineering)'",
+      "url": "https://www.velopers.kr/post/6979",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "creator": "교보DTS",
+      "one_liner": "AI 에이전트의 안전한 동작을 위한 하네스 엔지니어링 설계 원칙",
+      "summary": "하네스 엔지니어링은 AI 에이전트가 안전하고 제어 가능하게 동작하도록 설계하는 방법론입니다. 이는 에이전트의 행동을 모니터링하고 제약을 두며 예상치 못한 동작을 방지하는 여러 기법을 포함합니다.",
+      "prereqs": [
+        {
+          "name": "AI 에이전트",
+          "detail": "자율적으로 행동하는 AI 시스템의 개념 이해"
+        },
+        {
+          "name": "강화학습(Reinforcement Learning)",
+          "detail": "에이전트 학습 및 보상 메커니즘 이해"
+        },
+        {
+          "name": "AI 안전성(AI Safety)",
+          "detail": "AI 시스템의 통제 가능성과 위험 요소 관리"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "에이전트 지시사항 설계의 기본 기술"
+        },
+        {
+          "keyword": "safety-alignment",
+          "reason": "AI 시스템을 인간 의도에 맞추는 방법론"
+        },
+        {
+          "keyword": "guardrails",
+          "reason": "에이전트 동작 범위를 제한하는 메커니즘"
+        },
+        {
+          "keyword": "monitoring-evaluation",
+          "reason": "에이전트 행동 감시 및 성능 평가 필수"
+        },
+        {
+          "keyword": "multi-agent-systems",
+          "reason": "여러 에이전트 간 상호작용 안전성 관리"
+        }
+      ],
+      "category": "ai",
+      "minutes": 8
+    },
+    {
+      "title": "LLM은 모델보다 하네스가 먼저다: 만득이 한 달 수습기",
+      "url": "https://www.velopers.kr/post/6978",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "creator": "펫프렌즈",
+      "one_liner": "LLM 개발에서 모델보다 하네스 구축이 중요함을 강조",
+      "summary": "LLM 기반 제품 개발 시 모델 자체보다 데이터 수집, 평가, 배포 등의 하네스(harness) 구축이 더욱 중요하다는 교훈을 다룬다. 실제 프로덕션 환경에서 성공하려면 견고한 인프라와 평가 체계 구축에 집중해야 한다.",
+      "prereqs": [
+        {
+          "name": "LLM (Large Language Model)",
+          "detail": "대규모 언어모델의 기본 개념 이해"
+        },
+        {
+          "name": "ML 파이프라인",
+          "detail": "학습에서 배포까지의 전체 흐름 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "모델 활용 최적화를 위한 핵심 기술"
+        },
+        {
+          "keyword": "model-evaluation",
+          "reason": "모델 성능 평가 및 검증의 중요성"
+        },
+        {
+          "keyword": "mlops",
+          "reason": "프로덕션 배포와 모니터링 인프라"
+        },
+        {
+          "keyword": "llm-fine-tuning",
+          "reason": "특정 도메인에 맞춘 모델 개선 기법"
+        },
+        {
+          "keyword": "data-labeling",
+          "reason": "고품질 학습 데이터 구축 프로세스"
+        }
+      ],
+      "category": "ai",
+      "minutes": 8
+    },
+    {
+      "title": "효율적인 CLAUDE.md 파일관리 및 컨텍스트 최적화 전략",
+      "url": "https://www.velopers.kr/post/6977",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "creator": "한글과컴퓨터",
+      "one_liner": "Claude와 작업할 때 CLAUDE.md로 컨텍스트를 효율적으로 관리하는 방법",
+      "summary": "CLAUDE.md 파일을 통해 프로젝트 정보와 개발 가이드를 체계적으로 관리하여 AI 어시스턴트와의 협업 효율을 높이는 전략을 소개합니다. 토큰 사용 최적화와 컨텍스트 윈도우 관리를 통해 비용을 절감하고 응답 품질을 개선할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "AI 어시스턴트 활용",
+          "detail": "Claude 같은 LLM의 기본적인 사용법 이해"
+        },
+        {
+          "name": "프로젝트 구조",
+          "detail": "소프트웨어 프로젝트의 구성과 파일 관리 체계"
+        },
+        {
+          "name": "토큰(Token)",
+          "detail": "LLM의 비용 단위로 작용하는 토큰의 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "효과적인 프롬프트 작성으로 응답 품질 향상"
+        },
+        {
+          "keyword": "context-window",
+          "reason": "AI 모델의 컨텍스트 제한을 이해하고 활용"
+        },
+        {
+          "keyword": "token-optimization",
+          "reason": "API 비용 절감을 위한 토큰 사용 최소화"
+        },
+        {
+          "keyword": "documentation",
+          "reason": "명확한 문서화로 AI의 이해도 향상"
+        },
+        {
+          "keyword": "ai-workflow",
+          "reason": "개발자-AI 협업 프로세스 개선"
+        }
+      ],
+      "category": "devops",
+      "minutes": 8
+    },
+    {
+      "title": "모두의 NAVER Engineering Day! D2에서 이어집니다.",
+      "url": "https://www.velopers.kr/post/6976",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-05-29",
+      "collected_at": "2026-05-29",
+      "creator": "네이버 D2",
+      "one_liner": "네이버 엔지니어링 데이 행사가 D2에서 계속 진행됩니다.",
+      "summary": "네이버의 주요 기술 행사인 NAVER Engineering Day가 D2 플랫폼을 통해 개최됩니다. 개발자들을 위한 다양한 세션과 네트워킹 기회를 제공하는 행사입니다.",
+      "prereqs": [
+        {
+          "name": "NAVER D2",
+          "detail": "네이버의 기술 공유 플랫폼으로 개발자 커뮤니티입니다."
+        },
+        {
+          "name": "Engineering Day",
+          "detail": "기업의 기술과 경험을 공유하는 개발자 행사입니다."
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "developer-conference",
+          "reason": "개발자들을 위한 기술 행사와 학습 기회"
+        },
+        {
+          "keyword": "tech-community",
+          "reason": "개발자 네트워킹과 경험 공유의 중요성"
+        },
+        {
+          "keyword": "naver-tech",
+          "reason": "네이버의 기술 스택과 개발 문화 이해"
+        }
+      ],
+      "category": "other",
+      "minutes": 3
+    }
   ]
 }
