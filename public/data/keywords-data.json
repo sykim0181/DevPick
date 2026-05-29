@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28",
+  "generated_at": "2026-05-29",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -5951,6 +5951,432 @@
             {
               "keyword": "runtime-performance",
               "reason": "속도와 효율성 측면의 성능 평가"
+            }
+          ]
+        }
+      ]
+    },
+    "accessibility-testing": {
+      "description": "장애인을 포함한 모든 사용자가 웹사이트를 쉽게 사용할 수 있는지 확인하는 테스트입니다.",
+      "articles": [
+        {
+          "title": "Automated accessibility testing at Slack",
+          "url": "https://slack.engineering/automated-accessibility-testing-at-slack/",
+          "source": "hn",
+          "lang": "en",
+          "points": 131,
+          "published_at": "2025-01-07",
+          "collected_at": "2026-05-29",
+          "minutes": 5,
+          "one_liner": "Slack이 자동화된 접근성 테스트로 사용자 경험을 개선하는 방법",
+          "summary": "Slack은 자동화된 접근성 테스트를 도입하여 모든 사용자가 동등한 경험을 할 수 있도록 보장합니다. 개발 과정에서 접근성 문제를 조기에 발견하고 수정하여 제품 품질을 향상시키는 실무 경험을 공유합니다.",
+          "prereqs": [
+            {
+              "name": "웹 접근성(Web Accessibility)",
+              "detail": "장애인을 포함한 모든 사용자가 웹을 이용할 수 있는 기초 개념"
+            },
+            {
+              "name": "WCAG 표준",
+              "detail": "웹 콘텐츠 접근성 지침으로 접근성 준수의 국제 표준"
+            },
+            {
+              "name": "자동화 테스트(Automated Testing)",
+              "detail": "수작업 없이 테스트를 자동으로 실행하여 효율성을 높이는 기법"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "axe-core",
+              "reason": "자동 접근성 검사 도구로 널리 사용되는 라이브러리"
+            },
+            {
+              "keyword": "screen-reader",
+              "reason": "시각장애인이 사용하는 도구로 접근성 테스트 시 고려 대상"
+            },
+            {
+              "keyword": "ci-cd-pipeline",
+              "reason": "자동 테스트를 배포 전에 실행하는 개발 워크플로우"
+            },
+            {
+              "keyword": "aria-attributes",
+              "reason": "접근성 정보를 마크업에 추가하는 표준 방식"
+            },
+            {
+              "keyword": "keyboard-navigation",
+              "reason": "마우스 없이 키보드로만 사용할 수 있는지 검증"
+            }
+          ]
+        },
+        {
+          "title": "Axe: Accessibility Testing Tools and Software",
+          "url": "https://www.deque.com/axe/",
+          "source": "hn",
+          "lang": "en",
+          "points": 35,
+          "published_at": "2020-12-16",
+          "collected_at": "2026-05-29",
+          "minutes": 5,
+          "one_liner": "웹 접근성 자동 검사 도구인 Axe의 사용법과 특징",
+          "summary": "Axe는 웹사이트의 접근성 문제를 자동으로 검사하고 보고해주는 강력한 도구입니다. 개발자는 Axe를 통해 WCAG 표준 준수 여부를 확인하고 장애인 사용자도 웹에 쉽게 접근할 수 있도록 개선할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "웹 접근성 (Accessibility)",
+              "detail": "모든 사용자가 웹을 이용할 수 있어야 하는 기본 원칙"
+            },
+            {
+              "name": "WCAG 표준",
+              "detail": "웹 접근성 준수 기준을 정의한 국제 표준"
+            },
+            {
+              "name": "자동화 테스팅",
+              "detail": "버그를 자동으로 찾는 테스트 방식 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "wcag-compliance",
+              "reason": "웹 접근성 표준 준수 수준을 정의"
+            },
+            {
+              "keyword": "screen-reader",
+              "reason": "시각장애인이 사용하는 보조기술"
+            },
+            {
+              "keyword": "semantic-html",
+              "reason": "접근성 향상을 위한 올바른 HTML 구조"
+            },
+            {
+              "keyword": "aria-attributes",
+              "reason": "접근성 정보를 추가하는 HTML 속성"
+            },
+            {
+              "keyword": "automated-testing",
+              "reason": "Axe 같은 자동 검사 도구의 기본 개념"
+            }
+          ]
+        },
+        {
+          "title": "Show HN: Visualization of website accessibility tree",
+          "url": "https://chromewebstore.google.com/detail/aria-devtools/dneemiigcbbgbdjlcdjjnianlikimpck",
+          "source": "hn",
+          "lang": "en",
+          "points": 272,
+          "published_at": "2024-10-07",
+          "collected_at": "2026-05-29",
+          "minutes": 5,
+          "one_liner": "웹사이트 접근성 트리를 시각화하는 도구 소개",
+          "summary": "웹사이트의 접근성 트리 구조를 시각적으로 표현하는 도구를 소개합니다. 개발자들이 스크린리더 사용자 경험을 이해하고 접근성 문제를 파악하는 데 도움이 됩니다.",
+          "prereqs": [
+            {
+              "name": "접근성(Accessibility)",
+              "detail": "모든 사용자가 웹을 이용할 수 있어야 한다는 개념"
+            },
+            {
+              "name": "스크린리더",
+              "detail": "시각장애인을 위해 화면 콘텐츠를 음성으로 읽어주는 보조기술"
+            },
+            {
+              "name": "DOM 트리",
+              "detail": "HTML 요소의 계층 구조를 트리 형태로 표현한 것"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "wcag",
+              "reason": "웹 접근성 표준으로 준수해야 할 지침"
+            },
+            {
+              "keyword": "aria-attributes",
+              "reason": "접근성 정보를 추가하는 HTML 속성"
+            },
+            {
+              "keyword": "semantic-html",
+              "reason": "의미있는 마크업으로 접근성 향상"
+            },
+            {
+              "keyword": "browser-devtools",
+              "reason": "접근성 트리 검사 및 디버깅 도구"
+            }
+          ]
+        },
+        {
+          "title": "Open-Source Alternatives to WAVE for Mobile Application Accessibility Testing",
+          "url": "https://dev.to/clydegarret123/open-source-alternatives-to-wave-for-mobile-application-accessibility-testing-893",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-18",
+          "collected_at": "2026-05-29",
+          "minutes": 5,
+          "one_liner": "모바일 앱 접근성 테스트를 위한 WAVE의 오픈소스 대안들",
+          "summary": "WAVE 도구 대신 사용할 수 있는 오픈소스 접근성 테스팅 솔루션들을 소개합니다. 모바일 애플리케이션의 접근성을 검증하기 위한 다양한 무료 도구와 라이브러리를 비교 분석합니다.",
+          "prereqs": [
+            {
+              "name": "웹 접근성(Web Accessibility)",
+              "detail": "장애인을 포함한 모든 사용자가 웹을 사용할 수 있도록 하는 원칙"
+            },
+            {
+              "name": "WCAG 기준",
+              "detail": "웹 콘텐츠 접근성 지침으로 접근성 평가 표준"
+            },
+            {
+              "name": "자동화 테스팅",
+              "detail": "수동이 아닌 자동 도구를 활용한 테스트 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "axe-core",
+              "reason": "Deque의 오픈소스 접근성 검사 엔진"
+            },
+            {
+              "keyword": "lighthouse-audit",
+              "reason": "구글의 성능 및 접근성 자동화 감사 도구"
+            },
+            {
+              "keyword": "a11y-testing",
+              "reason": "접근성 테스트 자동화 라이브러리와 프레임워크"
+            },
+            {
+              "keyword": "mobile-testing",
+              "reason": "모바일 환경에서의 테스트 방법론 및 도구"
+            },
+            {
+              "keyword": "aria-compliance",
+              "reason": "ARIA 속성 준수도 검증하는 요소"
+            }
+          ]
+        },
+        {
+          "title": "Complete Guide to Automation Accessibility Testing",
+          "url": "https://dev.to/jignect-technologies/complete-guide-to-automation-accessibility-testing-10mi",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2025-12-16",
+          "collected_at": "2026-05-29",
+          "minutes": 8,
+          "one_liner": "웹 접근성 테스트를 자동화하는 완벽한 가이드",
+          "summary": "자동화 도구를 활용한 웹 접근성 테스트의 전략과 방법을 다룹니다. 스크린 리더, 키보드 네비게이션, WCAG 기준 등을 자동으로 검증하는 프로세스를 소개합니다.",
+          "prereqs": [
+            {
+              "name": "웹 접근성(Web Accessibility)",
+              "detail": "모든 사용자가 웹을 이용할 수 있도록 보장하는 원칙"
+            },
+            {
+              "name": "WCAG 표준",
+              "detail": "웹 콘텐츠 접근성 지침으로 준수해야 할 기준"
+            },
+            {
+              "name": "자동화 테스트",
+              "detail": "수동 테스트 대신 도구로 반복적 검증하는 방식"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "wcag-compliance",
+              "reason": "접근성 규준 준수 여부를 측정하는 기준"
+            },
+            {
+              "keyword": "screen-reader-testing",
+              "reason": "시각장애인이 사용하는 스크린 리더 호환성 검증"
+            },
+            {
+              "keyword": "keyboard-navigation",
+              "reason": "마우스 없이 키보드만으로 조작 가능성 확인"
+            },
+            {
+              "keyword": "axe-testing",
+              "reason": "접근성 자동화 테스트의 대표적인 도구"
+            },
+            {
+              "keyword": "aria-attributes",
+              "reason": "보조 기술에 정보를 제공하는 마크업 속성"
+            }
+          ]
+        },
+        {
+          "title": "A Detailed Mobile App Accessibility Testing Checklist",
+          "url": "https://dev.to/nazneenahmad/a-detailed-mobile-app-accessibility-testing-checklist-4i62",
+          "source": "devto",
+          "lang": "en",
+          "points": 2,
+          "published_at": "2025-03-20",
+          "collected_at": "2026-05-29",
+          "minutes": 8,
+          "one_liner": "모바일 앱 접근성 테스트를 위한 체계적인 체크리스트",
+          "summary": "모바일 앱의 접근성을 보장하기 위해 필요한 다양한 테스트 항목들을 구체적으로 제시합니다. 시각, 청각, 운동 능력 등 여러 장애 유형을 고려한 포괄적인 검증 방법을 다룹니다.",
+          "prereqs": [
+            {
+              "name": "웹 접근성(Web Accessibility)",
+              "detail": "모바일 앱 접근성의 기초가 되는 개념"
+            },
+            {
+              "name": "WCAG 표준",
+              "detail": "접근성 평가 기준을 이해하기 위해 필요"
+            },
+            {
+              "name": "스크린 리더(Screen Reader)",
+              "detail": "시각 장애 사용자 테스트의 핵심 도구"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "wcag-compliance",
+              "reason": "접근성 표준 준수 여부 판단 기준"
+            },
+            {
+              "keyword": "screen-reader-testing",
+              "reason": "시각 장애인을 위한 필수 테스트 방법"
+            },
+            {
+              "keyword": "color-contrast",
+              "reason": "저시력 사용자가 콘텐츠를 구별하기 위해 필수"
+            },
+            {
+              "keyword": "keyboard-navigation",
+              "reason": "운동 장애인들의 앱 사용성을 확보하기 위해 중요"
+            },
+            {
+              "keyword": "user-testing",
+              "reason": "실제 장애인 사용자 피드백을 통한 검증"
+            }
+          ]
+        },
+        {
+          "title": "웹 접근성 | 웹 콘텐츠 접근성 지침 (WCAG, Web Content Accessibility Guidelines)",
+          "url": "https://velog.io/@im_hass_/%EC%9B%B9-%EC%A0%91%EA%B7%BC%EC%84%B1",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "",
+          "collected_at": "2026-05-29",
+          "minutes": 8,
+          "one_liner": "모든 사용자가 웹을 쉽게 이용할 수 있도록 하는 WCAG 지침 가이드",
+          "summary": "WCAG는 장애인을 포함한 모든 사용자가 웹 콘텐츠를 접근하고 이용할 수 있도록 하는 국제 표준 지침입니다. 인식의 용이성, 운용의 용이성, 이해의 용이성, 견고성이라는 4가지 원칙과 다양한 기준을 제시합니다.",
+          "prereqs": [
+            {
+              "name": "웹 접근성",
+              "detail": "모든 사용자의 동등한 웹 이용 권리 개념"
+            },
+            {
+              "name": "HTML/CSS",
+              "detail": "접근성 마크업 구현을 위한 기초"
+            },
+            {
+              "name": "보조기술",
+              "detail": "스크린리더 등 장애인 사용 도구 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "aria-labels",
+              "reason": "스크린리더를 위한 추가 정보 제공"
+            },
+            {
+              "keyword": "semantic-html",
+              "reason": "의미있는 마크업으로 접근성 향상"
+            },
+            {
+              "keyword": "color-contrast",
+              "reason": "저시력자를 위한 색상 대비 기준"
+            },
+            {
+              "keyword": "keyboard-navigation",
+              "reason": "마우스 미사용 사용자 지원"
+            }
+          ]
+        },
+        {
+          "title": "[프론트엔드] 웹 접근성 정복하기",
+          "url": "https://velog.io/@s0zzang/%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C-%EC%9B%B9-%EC%A0%91%EA%B7%BC%EC%84%B1-%EC%A0%95%EB%B3%B5%ED%95%98%EA%B8%B0",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "",
+          "collected_at": "2026-05-29",
+          "minutes": 8,
+          "one_liner": "모든 사용자가 웹사이트를 편리하게 이용할 수 있도록 하는 접근성 구현 가이드",
+          "summary": "웹 접근성은 장애인을 포함한 모든 사용자가 웹사이트를 동등하게 이용할 수 있도록 보장하는 것입니다. WCAG 표준을 준수하고 시맨틱 HTML, ARIA 속성, 키보드 네비게이션 등을 구현하면 더 포용적인 웹을 만들 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "HTML 구조",
+              "detail": "시맨틱 태그의 올바른 사용이 기초입니다"
+            },
+            {
+              "name": "CSS 기본",
+              "detail": "포커스 스타일, 색상 대비 등을 이해해야 합니다"
+            },
+            {
+              "name": "JavaScript 이벤트",
+              "detail": "키보드 이벤트 처리가 접근성에 필수입니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "wcag-standards",
+              "reason": "웹 접근성의 국제 표준 지침"
+            },
+            {
+              "keyword": "aria-attributes",
+              "reason": "스크린 리더 사용자를 위한 의미 전달"
+            },
+            {
+              "keyword": "keyboard-navigation",
+              "reason": "마우스 없이 웹사이트 이용 가능성"
+            },
+            {
+              "keyword": "color-contrast",
+              "reason": "시각 장애인을 위한 색상 대비 기준"
+            },
+            {
+              "keyword": "semantic-html",
+              "reason": "구조적 의미로 자동 접근성 향상"
+            }
+          ]
+        },
+        {
+          "title": "웹표준, 웹접근성 체크리스트",
+          "url": "https://velog.io/@odada/%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8-xtjun9k0",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "",
+          "collected_at": "2026-05-29",
+          "minutes": 5,
+          "one_liner": "웹접근성 표준을 준수하기 위한 실무 체크리스트",
+          "summary": "웹 표준과 웹접근성의 중요성을 이해하고, 개발 과정에서 실제로 적용할 수 있는 구체적인 체크리스트를 제시합니다. 장애인을 포함한 모든 사용자가 웹사이트에 접근하고 이용할 수 있도록 보장하는 실무 가이드입니다.",
+          "prereqs": [
+            {
+              "name": "웹접근성",
+              "detail": "모든 사용자가 웹을 이용할 수 있어야 한다는 원칙 이해"
+            },
+            {
+              "name": "WCAG 기준",
+              "detail": "국제 웹접근성 지침의 기준과 레벨 구조 파악"
+            },
+            {
+              "name": "HTML 시맨틱",
+              "detail": "의미 있는 HTML 마크업이 접근성의 기초임을 알기"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "keyboard-navigation",
+              "reason": "키보드만으로도 모든 기능 이용 가능성 검증"
+            },
+            {
+              "keyword": "screen-reader-compatibility",
+              "reason": "스크린리더 사용자를 위한 콘텐츠 호환성 확인"
+            },
+            {
+              "keyword": "color-contrast",
+              "reason": "저시력 사용자를 위한 명도 대비 기준 충족"
+            },
+            {
+              "keyword": "semantic-html",
+              "reason": "접근성 기초가 되는 올바른 마크업 구조"
+            },
+            {
+              "keyword": "aria-attributes",
+              "reason": "HTML만으로 표현 불가능한 상태와 역할 정의"
             }
           ]
         }
