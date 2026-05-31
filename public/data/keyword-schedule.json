@@ -33,5 +33,11 @@
   "2026-06-05": "web-workers",
   "2026-06-06": "prompt-caching",
   "2026-06-07": "satisfies-operator",
-  "2026-06-08": "semantic-search"
+  "2026-06-08": "use-optimistic",
+  "2026-06-09": "llm-streaming",
+  "2026-06-10": "tree-shaking",
+  "2026-06-11": "sqlite-workflows",
+  "2026-06-12": "partial-prerendering",
+  "2026-06-13": "discriminated-unions",
+  "2026-06-14": "visual-regression"
 }
