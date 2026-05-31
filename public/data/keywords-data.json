@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29",
+  "generated_at": "2026-05-31",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -6379,6 +6379,425 @@
               "reason": "HTML만으로 표현 불가능한 상태와 역할 정의"
             }
           ]
+        }
+      ]
+    },
+    "embeddings": {
+      "description": "텍스트나 이미지를 컴퓨터가 이해할 수 있도록 숫자 배열로 변환한 것입니다.",
+      "articles": [
+        {
+          "title": "Show HN: Building a web search engine from scratch with 3B neural embeddings",
+          "url": "https://blog.wilsonl.in/search-engine/",
+          "source": "hn",
+          "lang": "en",
+          "points": 699,
+          "published_at": "2025-08-12",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "3B 신경 임베딩으로 웹 검색 엔진을 처음부터 만드는 방법",
+          "summary": "신경 임베딩을 활용하여 웹 검색 엔진을 구축하는 과정을 다룬 글입니다. 대규모 언어 모델 기반 검색 시스템의 구현 방식과 최적화 기법을 소개합니다.",
+          "prereqs": [
+            {
+              "name": "Neural Embeddings",
+              "detail": "텍스트를 벡터로 변환하여 의미 검색을 가능하게 하는 기초"
+            },
+            {
+              "name": "Information Retrieval",
+              "detail": "검색 엔진의 기본 원리와 랭킹 알고리즘 이해"
+            },
+            {
+              "name": "Vector Database",
+              "detail": "대규모 임베딩 데이터를 효율적으로 저장하고 검색"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "semantic-search",
+              "reason": "의미 기반 검색으로 정확도 향상"
+            },
+            {
+              "keyword": "vector-similarity",
+              "reason": "임베딩 간 유사도 계산의 핵심"
+            },
+            {
+              "keyword": "large-language-models",
+              "reason": "검색 품질 개선을 위한 모델 활용"
+            },
+            {
+              "keyword": "scaling-embeddings",
+              "reason": "수십억 개 임베딩 처리 최적화"
+            },
+            {
+              "keyword": "rag-retrieval",
+              "reason": "생성형 AI와 검색 결합 패턴"
+            }
+          ]
+        },
+        {
+          "title": "Embeddings are a good starting point for the AI curious app developer",
+          "url": "https://bawolf.substack.com/p/embeddings-are-a-good-starting-point",
+          "source": "hn",
+          "lang": "en",
+          "points": 675,
+          "published_at": "2024-04-17",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "AI 앱 개발 입문자를 위한 임베딩의 활용 가이드",
+          "summary": "임베딩은 텍스트나 데이터를 벡터로 변환하여 AI 모델이 의미를 이해하도록 하는 기술입니다. 이 글은 AI에 관심 있는 주니어 개발자들이 임베딩을 활용하여 간단하게 AI 애플리케이션을 시작할 수 있는 방법을 소개합니다.",
+          "prereqs": [
+            {
+              "name": "Vector 개념",
+              "detail": "임베딩의 출력 형태를 이해하기 위해 필요"
+            },
+            {
+              "name": "Machine Learning 기초",
+              "detail": "AI 모델의 동작 원리를 이해하는 데 도움"
+            },
+            {
+              "name": "자연어처리(NLP)",
+              "detail": "텍스트 데이터 처리의 핵심 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "vector-database",
+              "reason": "임베딩된 벡터 데이터를 효율적으로 저장 및 검색"
+            },
+            {
+              "keyword": "semantic-search",
+              "reason": "임베딩을 활용한 의미 기반 검색 구현"
+            },
+            {
+              "keyword": "openai-api",
+              "reason": "실무에서 임베딩 생성에 사용하는 대표 API"
+            },
+            {
+              "keyword": "rag-retrieval",
+              "reason": "임베딩 기반 검색을 활용한 고급 AI 기법"
+            },
+            {
+              "keyword": "similarity-search",
+              "reason": "벡터 간 유사도를 기반으로 한 추천 시스템 구현"
+            }
+          ]
+        },
+        {
+          "title": "Embeddings: What they are and why they matter",
+          "url": "https://simonwillison.net/2023/Oct/23/embeddings/",
+          "source": "hn",
+          "lang": "en",
+          "points": 668,
+          "published_at": "2023-10-23",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "임베딩이 무엇이고 왜 AI 시스템에서 중요한지 설명하는 글",
+          "summary": "임베딩은 텍스트, 이미지 등의 데이터를 수치 벡터로 변환하는 기술입니다. 이를 통해 머신러닝 모델이 데이터의 의미를 이해하고 처리할 수 있으며, 검색, 분류, 추천 등 다양한 AI 애플리케이션의 핵심 기술입니다.",
+          "prereqs": [
+            {
+              "name": "Vector",
+              "detail": "수치 데이터를 다차원 공간에 표현하는 수학적 개념"
+            },
+            {
+              "name": "Neural Networks",
+              "detail": "임베딩을 학습하고 생성하는 기본 머신러닝 구조"
+            },
+            {
+              "name": "Natural Language Processing",
+              "detail": "텍스트 데이터를 임베딩으로 변환하는 주요 분야"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "vector-database",
+              "reason": "임베딩된 데이터를 효율적으로 저장하고 검색"
+            },
+            {
+              "keyword": "semantic-search",
+              "reason": "임베딩을 활용한 의미 기반 검색 기술"
+            },
+            {
+              "keyword": "word2vec",
+              "reason": "단어 임베딩의 대표적인 알고리즘"
+            },
+            {
+              "keyword": "transformer-models",
+              "reason": "현대적 임베딩 생성의 핵심 아키텍처"
+            },
+            {
+              "keyword": "similarity-matching",
+              "reason": "임베딩 간 유사도 계산의 실제 응용"
+            }
+          ]
+        },
+        {
+          "title": "How does an AI agent pick from 686 skills in a second?",
+          "url": "https://dev.to/klymentiev/how-does-an-ai-agent-pick-from-686-skills-in-a-second-57ne",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-23",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 6,
+          "one_liner": "AI 에이전트가 686개의 스킬 중에서 최적의 선택을 빠르게 하는 방식",
+          "summary": "AI 에이전트가 방대한 스킬 풀에서 신속하게 최적의 도구를 선택하는 메커니즘을 설명합니다. 스킬 검색, 랭킹, 우선순위 지정 등의 최적화 기술을 통해 밀리초 단위의 선택이 가능해집니다.",
+          "prereqs": [
+            {
+              "name": "Large Language Models",
+              "detail": "AI 에이전트의 기본이 되는 핵심 기술"
+            },
+            {
+              "name": "Tool Use / Function Calling",
+              "detail": "에이전트가 외부 도구를 활용하는 메커니즘"
+            },
+            {
+              "name": "Retrieval & Ranking",
+              "detail": "대량의 옵션에서 최적값을 찾는 기법"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "prompt-optimization",
+              "reason": "에이전트 성능을 높이는 프롬프트 디자인"
+            },
+            {
+              "keyword": "skill-embedding",
+              "reason": "스킬을 벡터로 표현하여 검색 효율성 향상"
+            },
+            {
+              "keyword": "agent-reasoning",
+              "reason": "의사결정 과정의 투명성과 설명 가능성"
+            },
+            {
+              "keyword": "latency-optimization",
+              "reason": "밀리초 단위 응답시간 달성 기법"
+            },
+            {
+              "keyword": "semantic-similarity",
+              "reason": "사용자 의도와 스킬 매칭 정확도 개선"
+            }
+          ]
+        },
+        {
+          "title": "text-embedding-3-large で RAG ナレッジベースを作る：チャンク分割から検索順位付けまで",
+          "url": "https://dev.to/xujfcn/text-embedding-3-large-de-rag-naretuzibesuwozuo-rutiyankufen-ge-karajian-suo-shun-wei-fu-kemade-429k",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-19",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "text-embedding-3-large를 활용한 RAG 시스템 구축 가이드",
+          "summary": "text-embedding-3-large 모델을 사용하여 RAG 기반 나레지베이스를 구축하는 방법을 다룹니다. 텍스트 청크 분할부터 임베딩, 검색 순위 최적화까지의 전체 과정을 실제 구현 중심으로 설명합니다.",
+          "prereqs": [
+            {
+              "name": "RAG (Retrieval-Augmented Generation)",
+              "detail": "외부 데이터를 검색하여 LLM 답변을 개선하는 패턴"
+            },
+            {
+              "name": "Text Embedding",
+              "detail": "텍스트를 벡터로 변환하여 의미적 유사도 계산"
+            },
+            {
+              "name": "Vector Database",
+              "detail": "임베딩된 벡터를 저장하고 검색하는 DB"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "semantic-search",
+              "reason": "임베딩 기반 의미론적 검색의 핵심"
+            },
+            {
+              "keyword": "chunking-strategy",
+              "reason": "효율적인 검색을 위한 텍스트 분할 전략"
+            },
+            {
+              "keyword": "reranking",
+              "reason": "검색 결과의 순위를 재정렬하는 기법"
+            },
+            {
+              "keyword": "openai-api",
+              "reason": "text-embedding-3-large 모델 활용"
+            },
+            {
+              "keyword": "knowledge-base",
+              "reason": "RAG 시스템의 기반이 되는 데이터 저장소"
+            }
+          ]
+        },
+        {
+          "title": "RAG Pipeline Failures: 3 Production Issues Never in Tutorials",
+          "url": "https://dev.to/tildalice/rag-pipeline-failures-3-production-issues-never-in-tutorials-3n30",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-15",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "실전 RAG 시스템에서 발생하는 예상 밖의 3가지 실패 사례",
+          "summary": "RAG(Retrieval-Augmented Generation) 파이프라인이 튜토리얼과는 달리 실제 프로덕션 환경에서 겪는 3가지 주요 문제점을 다룹니다. 이러한 실제 사례들을 통해 개발자들이 더 견고한 RAG 시스템을 구축할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "RAG (Retrieval-Augmented Generation)",
+              "detail": "LLM의 답변 정확도를 높이기 위해 외부 지식을 검색하여 활용하는 기법"
+            },
+            {
+              "name": "Vector Database",
+              "detail": "텍스트를 벡터로 변환하여 저장하고 유사도 검색을 수행하는 데이터베이스"
+            },
+            {
+              "name": "LLM (Large Language Model)",
+              "detail": "대규모 언어 모델로 RAG 파이프라인의 최종 응답 생성을 담당"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "semantic-search",
+              "reason": "RAG의 검색 단계에서 관련성 높은 문서를 찾는 핵심 기술"
+            },
+            {
+              "keyword": "prompt-engineering",
+              "reason": "검색된 컨텍스트를 효과적으로 활용하기 위한 프롬프트 최적화"
+            },
+            {
+              "keyword": "embedding-models",
+              "reason": "텍스트를 벡터로 변환하는 모델로 검색 품질을 좌우"
+            },
+            {
+              "keyword": "chunking-strategy",
+              "reason": "문서를 적절한 크기로 분할하는 방식이 검색 성능에 영향"
+            },
+            {
+              "keyword": "evaluation-metrics",
+              "reason": "RAG 시스템의 성능을 측정하고 개선하기 위한 지표"
+            }
+          ]
+        },
+        {
+          "title": "[Generative AI] Week 4",
+          "url": "https://velog.io/@jaeheerun/Generative-AI-Week-4",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": null,
+          "collected_at": "2026-05-31",
+          "category": "other",
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "2D Matryoshka Sentence Embedding",
+          "url": "https://velog.io/@hoon_lander/2D-Matryoshka-Sentence-Embedding",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-03-28",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "다양한 차원의 문장 임베딩을 효율적으로 학습하는 방식",
+          "summary": "Matryoshka 구조를 활용하여 하나의 모델에서 여러 차원의 문장 임베딩을 동시에 학습할 수 있는 기법입니다. 이를 통해 계산 효율성을 높이면서도 다양한 작업에 유연하게 대응할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "문장 임베딩 (Sentence Embedding)",
+              "detail": "텍스트를 수치 벡터로 변환하는 기초 개념"
+            },
+            {
+              "name": "신경망 학습",
+              "detail": "모델이 데이터로부터 패턴을 학습하는 방식"
+            },
+            {
+              "name": "벡터 차원 축소",
+              "detail": "고차원 데이터를 저차원으로 표현하는 필요성"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "transformer-models",
+              "reason": "BERT, GPT 등 현대적 임베딩 모델의 기반"
+            },
+            {
+              "keyword": "semantic-similarity",
+              "reason": "의미적 유사도 계산에 임베딩이 활용됨"
+            },
+            {
+              "keyword": "dimensionality-reduction",
+              "reason": "고차원 임베딩을 저차원으로 효율화"
+            },
+            {
+              "keyword": "knowledge-distillation",
+              "reason": "여러 차원 모델 학습의 근간"
+            },
+            {
+              "keyword": "vector-search",
+              "reason": "임베딩을 통한 검색 최적화 기술"
+            }
+          ]
+        },
+        {
+          "title": "[Embeddings] Scaling Sentence Embeddings with Large Language Models",
+          "url": "https://velog.io/@yoonene/%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0-Scaling-Sentence-Embeddings-with-Large-Language-Models",
+          "source": "velog",
+          "lang": "ko",
+          "published_at": "2024-02-08",
+          "collected_at": "2026-05-31",
+          "category": "ai",
+          "minutes": 8,
+          "one_liner": "대규모 언어모델을 활용한 문장 임베딩 확장 기법",
+          "summary": "이 글은 LLM을 이용하여 문장 임베딩의 성능을 개선하고 확장하는 방법론을 다룹니다. 기존 임베딩 모델의 한계를 극복하기 위해 대규모 언어모델의 능력을 활용하는 실제 구현 방법과 최적화 전략을 제시합니다.",
+          "prereqs": [
+            {
+              "name": "Embeddings",
+              "detail": "텍스트를 벡터로 변환하는 기본 개념 이해"
+            },
+            {
+              "name": "Large Language Models (LLM)",
+              "detail": "GPT 같은 대규모 언어모델의 구조와 능력 이해"
+            },
+            {
+              "name": "Vector Similarity",
+              "detail": "벡터 간 유사도 측정 방식과 활용법 학습"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "transformer-architecture",
+              "reason": "LLM의 기반이 되는 핵심 구조"
+            },
+            {
+              "keyword": "semantic-search",
+              "reason": "임베딩의 주요 활용 분야"
+            },
+            {
+              "keyword": "fine-tuning",
+              "reason": "임베딩 모델 최적화 방법"
+            },
+            {
+              "keyword": "vector-databases",
+              "reason": "대규모 임베딩 저장 및 검색 기술"
+            },
+            {
+              "keyword": "rag-systems",
+              "reason": "임베딩을 활용한 고급 AI 시스템 구축"
+            }
+          ]
+        },
+        {
+          "title": "GraphRAG Toolkit으로 지식 그래프 쿼리하기",
+          "url": "https://www.velopers.kr/post/6955",
+          "source": "velopers",
+          "lang": "ko",
+          "published_at": "2026-05-26",
+          "collected_at": "2026-05-31",
+          "creator": "AWS",
+          "one_liner": "GraphRAG Toolkit은 지식 그래프와 벡터 스토어를 결합해 구조적 연관성을 활용한 검색을 제공합니다. Traversal 기반과 Sema",
+          "summary": "GraphRAG Toolkit은 지식 그래프와 벡터 스토어를 결합해 구조적 연관성을 활용한 검색을 제공합니다. Traversal 기반과 Semantic-guided 탐색기를 통해 정확도와 응답 속도 균형을 맞출 수 있습니다.",
+          "prereqs": [],
+          "related_concepts": []
         }
       ]
     }
