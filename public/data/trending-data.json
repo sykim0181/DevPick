@@ -1,1351 +1,4 @@
 {
-  "2026-05-25": [
-    {
-      "title": "DeepSeek reasonix, DeepSeek native coding agent with high caching and low cost",
-      "url": "https://esengine.github.io/DeepSeek-Reasonix/",
-      "source": "hn",
-      "points": 589,
-      "comments": 245,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "DeepSeek의 저비용 고성능 AI 코딩 에이전트 기술 소개",
-      "summary": "DeepSeek Reasonix는 프롬프트 캐싱을 활용하여 비용을 절감하면서도 높은 성능을 제공하는 네이티브 코딩 에이전트입니다. 개발자들이 더 저렴하게 AI 코딩 지원을 받을 수 있는 솔루션을 제시합니다.",
-      "prereqs": [
-        {
-          "name": "LLM (Large Language Model)",
-          "detail": "DeepSeek의 기반이 되는 대규모 언어모델 개념"
-        },
-        {
-          "name": "Prompt Caching",
-          "detail": "반복 사용되는 프롬프트를 캐싱하여 비용 절감하는 기술"
-        },
-        {
-          "name": "Coding Agent",
-          "detail": "코드 작성과 디버깅을 자동화하는 AI 에이전트"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "token-optimization",
-          "reason": "캐싱을 통한 토큰 사용량 최소화 전략"
-        },
-        {
-          "keyword": "cost-efficiency",
-          "reason": "AI 모델 운영 비용 절감 방법론"
-        },
-        {
-          "keyword": "code-generation",
-          "reason": "AI 에이전트의 핵심 기능인 자동 코드 생성"
-        },
-        {
-          "keyword": "deepseek-api",
-          "reason": "DeepSeek 모델 활용을 위한 API 사용법"
-        },
-        {
-          "keyword": "ai-development-tools",
-          "reason": "실무에서 사용할 수 있는 AI 개발 도구들"
-        }
-      ]
-    },
-    {
-      "title": "Memory has grown to nearly two-thirds of AI chip component costs",
-      "url": "https://epoch.ai/data-insights/ai-chip-component-cost-shares",
-      "source": "hn",
-      "points": 400,
-      "comments": 423,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 6,
-      "one_liner": "AI 칩 제조 비용에서 메모리가 차지하는 비중이 급증하고 있다.",
-      "summary": "AI 칩 생산에서 메모리 비용이 전체 부품 비용의 약 2/3에 달할 정도로 증가했다. 이는 대규모 AI 모델 학습과 추론에 필요한 메모리 요구량이 급증하면서 발생한 현상이다. 칩 제조사들은 메모리 최적화와 비용 절감 전략이 경쟁력 확보의 핵심이 되었다.",
-      "prereqs": [
-        {
-          "name": "AI chip architecture",
-          "detail": "AI 칩의 구조와 부품 구성 이해"
-        },
-        {
-          "name": "GPU/NPU memory types",
-          "detail": "고대역폭 메모리와 캐시의 역할 파악"
-        },
-        {
-          "name": "supply chain economics",
-          "detail": "반도체 원가 구조와 비용 요소 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "high-bandwidth-memory",
-          "reason": "AI 칩의 주요 메모리 기술 동향"
-        },
-        {
-          "keyword": "semiconductor-cost",
-          "reason": "칩 제조 비용 구조 변화 분석"
-        },
-        {
-          "keyword": "ai-accelerator",
-          "reason": "메모리 집약적 AI 가속기 설계"
-        },
-        {
-          "keyword": "memory-optimization",
-          "reason": "메모리 비용 절감 기술 및 전략"
-        },
-        {
-          "keyword": "chip-manufacturing",
-          "reason": "메모리 통합 제조 공정의 중요성"
-        }
-      ]
-    },
-    {
-      "title": "Show HN: Audiomass – a free, open-source multitrack audio editor for the web",
-      "url": "https://audiomass.co/?multitrack=1",
-      "source": "hn",
-      "points": 395,
-      "comments": 87,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 5,
-      "one_liner": "웹 기반 무료 오픈소스 멀티트랙 오디오 편집 도구",
-      "summary": "Audiomass는 브라우저에서 직접 사용할 수 있는 무료 오픈소스 멀티트랙 오디오 편집기입니다. 복잡한 설치 없이 웹에서 오디오 파일을 녹음, 편집, 믹싱할 수 있는 기능을 제공합니다.",
-      "prereqs": [
-        {
-          "name": "Web Audio API",
-          "detail": "브라우저에서 오디오를 처리하는 기본 API"
-        },
-        {
-          "name": "오디오 파일 포맷",
-          "detail": "MP3, WAV 등 오디오 형식의 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "web-audio-api",
-          "reason": "브라우저 기반 오디오 처리의 핵심"
-        },
-        {
-          "keyword": "waveform-visualization",
-          "reason": "오디오 편집기의 필수 시각화 기술"
-        },
-        {
-          "keyword": "open-source-tools",
-          "reason": "웹 기반 오픈소스 개발 사례 학습"
-        },
-        {
-          "keyword": "audio-processing",
-          "reason": "음향 신호 처리 이해"
-        }
-      ]
-    },
-    {
-      "title": "The Eternal Sloptember",
-      "url": "https://geohot.github.io//blog/jekyll/update/2026/05/24/the-eternal-sloptember.html",
-      "source": "hn",
-      "points": 361,
-      "comments": 298,
-      "published_at": "2026-05-25",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "prereqs": [],
-      "related_concepts": []
-    },
-    {
-      "title": "Migrating from Go to Rust",
-      "url": "https://corrode.dev/learn/migration-guides/go-to-rust/",
-      "source": "hn",
-      "points": 317,
-      "comments": 311,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "backend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Go에서 Rust로 마이그레이션하는 방법과 고려사항",
-      "summary": "이 글은 Go 언어로 작성된 프로젝트를 Rust로 마이그레이션하는 과정과 두 언어의 특징을 비교합니다. 성능, 메모리 안전성, 컴파일 시간 등의 차이점을 다루며 실무적인 마이그레이션 전략을 제시합니다.",
-      "prereqs": [
-        {
-          "name": "Go 언어의 기본",
-          "detail": "고루틴, 채널 등 Go의 동시성 모델 이해"
-        },
-        {
-          "name": "Rust 언어의 기본",
-          "detail": "소유권, 빌림, 라이프타임 같은 핵심 개념"
-        },
-        {
-          "name": "시스템 프로그래밍",
-          "detail": "메모리 관리와 성능 최적화의 필요성 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "memory-safety",
-          "reason": "Rust의 핵심 강점으로 마이그레이션 이유"
-        },
-        {
-          "keyword": "concurrency-patterns",
-          "reason": "Go의 고루틴과 Rust의 비동기 처리 비교"
-        },
-        {
-          "keyword": "performance-benchmarking",
-          "reason": "마이그레이션 전후 성능 측정 방법"
-        },
-        {
-          "keyword": "error-handling",
-          "reason": "두 언어의 에러 처리 방식 차이"
-        },
-        {
-          "keyword": "build-systems",
-          "reason": "Go의 빌드와 Cargo 빌드 시스템 비교"
-        }
-      ]
-    },
-    {
-      "title": "Claude is not your architect. Stop letting it pretend",
-      "url": "https://www.hollandtech.net/claude-is-not-your-architect/",
-      "source": "hn",
-      "points": 251,
-      "comments": 181,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "AI 코딩 어시스턴트의 한계를 인식하고 올바르게 활용해야 한다",
-      "summary": "Claude와 같은 AI 도구는 아키텍처 결정을 할 수 없으며, 개발자가 주도적으로 설계해야 합니다. AI를 검증 도구나 구현 보조로 사용하되, 아키텍처 책임은 반드시 개발자가 져야 한다는 점을 강조합니다.",
-      "prereqs": [
-        {
-          "name": "Software Architecture",
-          "detail": "소프트웨어 설계의 중요성과 책임을 이해해야 합니다"
-        },
-        {
-          "name": "AI Tools Limitation",
-          "detail": "생성형 AI 모델의 한계와 오류 가능성을 알아야 합니다"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "code-review",
-          "reason": "AI 생성 코드의 검증과 품질 관리"
-        },
-        {
-          "keyword": "system-design",
-          "reason": "개발자가 주도해야 할 핵심 아키텍처 영역"
-        },
-        {
-          "keyword": "ai-collaboration",
-          "reason": "효과적인 AI 도구 활용 방식 이해"
-        },
-        {
-          "keyword": "technical-debt",
-          "reason": "AI 의존으로 인한 잠재적 문제점"
-        }
-      ]
-    },
-    {
-      "title": "Constraint Decay: The Fragility of LLM Agents in Back End Code Generation",
-      "url": "https://arxiv.org/abs/2605.06445",
-      "source": "hn",
-      "points": 247,
-      "comments": 144,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "LLM 에이전트가 백엔드 코드 생성 시 제약조건을 유지하지 못하는 문제",
-      "summary": "LLM 에이전트는 백엔드 코드 생성 작업에서 초기에 설정된 제약조건(constraint)이 시간이 지남에 따라 붕괴되는 현상을 보인다. 이 논문은 에이전트가 복잡한 요구사항을 처리하면서 원래의 제약사항을 잃어버리는 메커니즘을 분석하고, 이러한 취약성이 프로덕션 코드 생성에 미치는 영향을 설명한다.",
-      "prereqs": [
-        {
-          "name": "LLM Agents",
-          "detail": "자율적으로 작업을 수행하는 언어모델 기반 시스템의 작동 원리 이해"
-        },
-        {
-          "name": "Prompt Engineering",
-          "detail": "LLM의 행동을 제어하는 프롬프트 설계 및 제약 조건 명시 방식"
-        },
-        {
-          "name": "Code Generation",
-          "detail": "AI가 프로그래밍 코드를 자동 생성할 때의 신뢰성과 검증 문제"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "prompt-injection",
-          "reason": "제약 조건을 우회하는 공격 패턴과의 유사성"
-        },
-        {
-          "keyword": "instruction-following",
-          "reason": "LLM이 주어진 명령어를 얼마나 잘 따르는지 측정"
-        },
-        {
-          "keyword": "context-window-limitation",
-          "reason": "긴 작업 과정에서 초기 제약 정보 손실의 원인"
-        },
-        {
-          "keyword": "llm-hallucination",
-          "reason": "에이전트가 제약을 무시하고 잘못된 코드 생성"
-        },
-        {
-          "keyword": "agent-safety",
-          "reason": "자율 에이전트의 안전성과 통제 가능성 확보"
-        }
-      ]
-    },
-    {
-      "title": "The four-day workweek in Australia: insights from early adopters of 100:80:100",
-      "url": "https://scienceaim.com/australia-just-proved-the-four-day-work-week-works-here-is-what-the-data-actually-says/",
-      "source": "hn",
-      "points": 244,
-      "comments": 230,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 6,
-      "one_liner": "호주의 4일 근무제 도입 사례와 성과 분석",
-      "summary": "호주 기업들이 도입한 '100:80:100' 모델(같은 급여로 80% 근무시간, 100% 생산성)의 실제 사례와 결과를 소개합니다. 직원 복지 개선, 생산성 유지, 이직률 감소 등의 긍정적 영향을 보여주며 업무 문화 혁신의 가능성을 탐색합니다.",
-      "prereqs": [
-        {
-          "name": "Work-life balance",
-          "detail": "근무제 개선이 직원 만족도와 성과에 미치는 영향 이해"
-        },
-        {
-          "name": "Workplace productivity",
-          "detail": "근무시간 단축이 실제 업무 효율성에 미치는 영향 파악"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "flexible-work-arrangements",
-          "reason": "근무 형태 다양화의 실제 적용 사례와 효과"
-        },
-        {
-          "keyword": "employee-wellness",
-          "reason": "단축 근무제가 직원 건강과 만족도에 미치는 영향"
-        },
-        {
-          "keyword": "organizational-culture",
-          "reason": "기업 문화 변화와 인재 유지 전략"
-        },
-        {
-          "keyword": "remote-work-trends",
-          "reason": "현대 업무 환경의 변화 방향과 미래 전망"
-        }
-      ]
-    },
-    {
-      "title": "Join the GitHub Finish-Up-A-Thon Challenge: $3,000 Prize Pool!",
-      "url": "https://dev.to/devteam/join-the-github-finish-up-a-thon-challenge-3000-prize-pool-f41",
-      "source": "dev.to",
-      "positive_reactions": 221,
-      "comments": 54,
-      "reading_time_minutes": 3,
-      "published_at": "2026-05-21",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "GitHub 챌린지에 참가하여 3,000달러 상금을 획득할 기회",
-      "summary": "GitHub Finish-Up-A-Thon은 미완성 프로젝트를 완료하는 개발자들을 위한 경쟁 이벤트입니다. 총 3,000달러의 상금 풀을 놓고 참가자들이 자신의 프로젝트를 마무리하며 실력을 겨룰 수 있습니다.",
-      "prereqs": [
-        {
-          "name": "Git/GitHub 기본 사용법",
-          "detail": "프로젝트 업로드 및 관리에 필수적인 기술"
-        },
-        {
-          "name": "포트폴리오 구성",
-          "detail": "완성된 프로젝트를 효과적으로 제시하기 위한 방법"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "github-portfolio",
-          "reason": "완성 프로젝트를 효과적으로 전시하는 방법"
-        },
-        {
-          "keyword": "open-source-contribution",
-          "reason": "커뮤니티와의 협력을 통한 프로젝트 완성"
-        },
-        {
-          "keyword": "project-management",
-          "reason": "미완성 프로젝트를 효율적으로 완료하는 전략"
-        },
-        {
-          "keyword": "competitive-programming",
-          "reason": "개발자 챌린지 참가 경험 확대"
-        }
-      ]
-    },
-    {
-      "title": "Childhood Computing",
-      "url": "https://susam.net/childhood-computing.html",
-      "source": "hn",
-      "points": 219,
-      "comments": 102,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "어린 시절 컴퓨팅 경험이 개발자 커리어에 미치는 영향",
-      "summary": "글은 개발자들의 어린 시절 컴퓨팅 경험과 그것이 현재의 기술 역량에 미친 영향을 다룹니다. 초기 프로그래밍 학습과 개인 프로젝트 경험이 어떻게 전문성 형성에 기여하는지 살펴봅니다.",
-      "prereqs": [
-        {
-          "name": "프로그래밍 기초",
-          "detail": "코딩의 기본 개념 이해"
-        },
-        {
-          "name": "커리어 개발",
-          "detail": "기술 전문가로서의 성장 경로 인식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "self-learning",
-          "reason": "독학을 통한 기술 습득 과정"
-        },
-        {
-          "keyword": "passion-driven-coding",
-          "reason": "열정이 이끄는 개발 경험"
-        },
-        {
-          "keyword": "early-exposure",
-          "reason": "어린 나이의 기술 노출 효과"
-        },
-        {
-          "keyword": "programming-mindset",
-          "reason": "문제 해결 사고방식 형성"
-        }
-      ]
-    },
-    {
-      "title": "DeepSeek to Make Permanent 75% Discount on Flagship AI Model",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-23/deepseek-to-make-permanent-75-discount-on-flagship-ai-model",
-      "source": "hn",
-      "points": 208,
-      "comments": 2,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "DeepSeek이 주력 AI 모델에 75% 영구 할인을 제공한다.",
-      "summary": "DeepSeek이 자사의 주력 AI 모델에 대해 75% 영구 할인을 결정했다. 이는 AI 시장의 가격 경쟁이 심화되고 있음을 보여준다. OpenAI 등 주요 업체들과의 경쟁 속에서 DeepSeek의 공격적인 가격 전략이 업계 판도를 바꿀 가능성이 있다.",
-      "prereqs": [
-        {
-          "name": "Large Language Model (LLM)",
-          "detail": "DeepSeek의 주력 모델이 무엇인지 이해하기 위해 필요"
-        },
-        {
-          "name": "AI 시장 구조",
-          "detail": "OpenAI, Google 등 주요 업체들의 경쟁 상황을 파악하기 위해"
-        },
-        {
-          "name": "API 가격 책정 모델",
-          "detail": "토큰 기반 가격 책정 방식을 이해하기 위해 필요"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "deepseek-v3",
-          "reason": "DeepSeek의 최신 모델에 대해 알아야 함"
-        },
-        {
-          "keyword": "ai-pricing-strategy",
-          "reason": "AI 업계의 가격 경쟁 전략을 이해하기 위해"
-        },
-        {
-          "keyword": "llm-cost-optimization",
-          "reason": "LLM 운영 비용 최적화 트렌드 파악"
-        },
-        {
-          "keyword": "market-competition",
-          "reason": "OpenAI, Google 등과의 경쟁 동향 분석"
-        }
-      ]
-    },
-    {
-      "title": "Jira Is Turing-Complete",
-      "url": "https://seriot.ch/computation/jira.html",
-      "source": "hn",
-      "points": 201,
-      "comments": 86,
-      "published_at": "2026-05-25",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Jira의 자동화 기능이 튜링 완전성을 달성할 수 있음을 보여주는 글",
-      "summary": "Jira의 워크플로우 자동화 및 스크립팅 기능을 조합하면 튜링 완전한 시스템을 구축할 수 있다는 주장을 담고 있습니다. 이는 Jira가 단순한 프로젝트 관리 도구를 넘어 복잡한 계산과 로직 구현이 가능함을 의미합니다.",
-      "prereqs": [
-        {
-          "name": "Turing Completeness",
-          "detail": "계산 이론의 핵심 개념으로 Jira의 능력을 이해하기 위해 필요합니다"
-        },
-        {
-          "name": "Jira Automation",
-          "detail": "Jira의 자동화 규칙과 워크플로우 기능에 대한 이해가 필수적입니다"
-        },
-        {
-          "name": "Scripting & Logic",
-          "detail": "조건문과 반복문 등 프로그래밍 개념을 이해해야 합니다"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "jira-scripting",
-          "reason": "Jira 내 스크립트 작성 방법과 제약사항 이해 필요"
-        },
-        {
-          "keyword": "workflow-automation",
-          "reason": "자동화 규칙 설계 원리를 깊이 있게 학습할 수 있습니다"
-        },
-        {
-          "keyword": "computational-theory",
-          "reason": "튜링 완전성의 수학적 배경과 의미를 이해합니다"
-        },
-        {
-          "keyword": "jira-rest-api",
-          "reason": "외부 시스템과 연동해 복잡한 로직 구현 가능성을 확장합니다"
-        }
-      ]
-    },
-    {
-      "title": "A fundamental principle of aeronautical engineering has been overturned",
-      "url": "https://www.wired.com/story/a-fundamental-principle-of-aeronautical-engineering-has-been-overturned/",
-      "source": "hn",
-      "points": 180,
-      "comments": 88,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "cs",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "항공공학의 기본 원리가 뒤바뀌었다는 내용의 기술 글",
-      "summary": "오랫동안 항공공학에서 통용되던 기본 원리가 최신 연구로 인해 재검토되고 있습니다. 이는 기존의 설계 철학과 공기역학 이해에 대한 근본적인 질문을 던지고 있으며, 향후 항공기 설계 방식의 변화를 초래할 수 있습니다.",
-      "prereqs": [
-        {
-          "name": "Aerodynamics",
-          "detail": "항공기 설계의 기초가 되는 공기 흐름 원리"
-        },
-        {
-          "name": "Engineering Principles",
-          "detail": "기술적 지식과 설계 철학의 기본 개념"
-        },
-        {
-          "name": "Scientific Method",
-          "detail": "기존 이론 검증과 새로운 발견 과정 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "fluid-dynamics",
-          "reason": "공기 흐름 특성 이해에 필수적인 분야"
-        },
-        {
-          "keyword": "computational-fluid-dynamics",
-          "reason": "현대 항공공학 설계의 핵심 시뮬레이션 기술"
-        },
-        {
-          "keyword": "aircraft-design",
-          "reason": "새 원리가 직접 적용되는 실무 분야"
-        },
-        {
-          "keyword": "paradigm-shift",
-          "reason": "기존 이론의 전환 과정 이해에 도움"
-        },
-        {
-          "keyword": "experimental-validation",
-          "reason": "새로운 원리 검증의 중요성 인식"
-        }
-      ]
-    },
-    {
-      "title": "Usborne 1980s Computer Books",
-      "url": "https://usborne.com/us/books/computer-and-coding-books",
-      "source": "hn",
-      "points": 177,
-      "comments": 57,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "1980년대 Usborne 컴퓨터 책들의 역사와 영향력",
-      "summary": "1980년대 Usborne 출판사가 발간한 컴퓨터 교육 책들은 초보자 친화적인 일러스트레이션과 실용적인 프로그래밍 지식으로 컴퓨터 literacy를 대중화했다. 이 책들은 당시 개인용 컴퓨터 보급 시대에 프로그래밍의 진입장벽을 낮추었으며, 오늘날까지도 컴퓨터 교육의 고전으로 평가받고 있다.",
-      "prereqs": [
-        {
-          "name": "1980년대 컴퓨터 역사",
-          "detail": "개인용 컴퓨터 보급의 맥락 이해"
-        },
-        {
-          "name": "프로그래밍 기초",
-          "detail": "BASIC 등 초기 언어의 개념 파악"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "computer-literacy",
-          "reason": "컴퓨터 교육의 접근성과 대중화"
-        },
-        {
-          "keyword": "retro-computing",
-          "reason": "과거 컴퓨팅 환경의 향수와 학습"
-        },
-        {
-          "keyword": "programming-education",
-          "reason": "효과적인 교육 콘텐츠 설계 방식"
-        },
-        {
-          "keyword": "basic-language",
-          "reason": "1980년대 주요 프로그래밍 언어"
-        }
-      ]
-    },
-    {
-      "title": "Every Developer Is Lying About Something — And AI Won't Fix It",
-      "url": "https://dev.to/sylwia-lask/every-developer-is-lying-about-something-and-ai-wont-fix-it-4im0",
-      "source": "dev.to",
-      "positive_reactions": 174,
-      "comments": 123,
-      "reading_time_minutes": 6,
-      "published_at": "2026-05-21",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "개발자들이 숨기는 진실과 AI의 한계",
-      "summary": "개발자들은 자신의 역량, 경험, 이해도에 대해 종종 거짓을 말하거나 과장한다. AI 도구의 등장이 이러한 거짓을 해결해줄 것으로 기대되지만, 근본적인 문제는 기술로는 해결할 수 없다는 점을 지적한다. 개발자 커뮤니티에서 더 나은 투명성과 정직함이 필요하다는 주장을 담고 있다.",
-      "prereqs": [
-        {
-          "name": "developer-mindset",
-          "detail": "개발자 문화와 심리를 이해하는 것이 필수적"
-        },
-        {
-          "name": "ai-in-development",
-          "detail": "AI 도구가 개발 업무에 미치는 영향을 알아야 함"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "technical-debt",
-          "reason": "숨겨진 문제가 축적되는 과정과 연관"
-        },
-        {
-          "keyword": "code-review",
-          "reason": "팀 내 투명성과 신뢰를 구축하는 방법"
-        },
-        {
-          "keyword": "imposter-syndrome",
-          "reason": "개발자들의 과장과 거짓의 심리적 배경"
-        },
-        {
-          "keyword": "team-communication",
-          "reason": "정직한 소통이 팀 문화에 미치는 영향"
-        }
-      ]
-    },
-    {
-      "title": "Omarchy Is Not A Distro",
-      "url": "https://abyss.fish/your_dotfiles_are_not_a_distro",
-      "source": "hn",
-      "points": 171,
-      "comments": 157,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Omarchy는 리눅스 배포판이 아닌 독립적인 프로젝트임을 설명",
-      "summary": "Omarchy는 일반적인 리눅스 배포판과 달리 독립적인 운영 체제 프로젝트입니다. 기존 배포판의 개념에서 벗어나 새로운 시스템 아키텍처와 철학을 추구하며, 커뮤니티 기반의 혁신적 접근 방식을 시도합니다.",
-      "prereqs": [
-        {
-          "name": "Linux Distribution",
-          "detail": "일반적인 리눅스 배포판의 구조와 특징"
-        },
-        {
-          "name": "Operating System Architecture",
-          "detail": "운영 체제의 핵심 구성 요소와 설계 원리"
-        },
-        {
-          "name": "Open Source Philosophy",
-          "detail": "오픈소스 프로젝트의 개발 방식과 커뮤니티 구조"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "linux-kernel",
-          "reason": "리눅스 기반 시스템과의 차이점 이해"
-        },
-        {
-          "keyword": "system-architecture",
-          "reason": "Omarchy의 혁신적인 설계 구조 학습"
-        },
-        {
-          "keyword": "open-source-development",
-          "reason": "커뮤니티 기반 프로젝트 진행 방식"
-        },
-        {
-          "keyword": "distribution-design",
-          "reason": "전통적 배포판과의 철학적 차이"
-        }
-      ]
-    },
-    {
-      "title": "'AI washing': firms are scrambling to rebrand themselves as tech-focused",
-      "url": "https://www.theguardian.com/technology/2026/may/24/ai-washing-pr-firms-scrambling-rebrand",
-      "source": "hn",
-      "points": 164,
-      "comments": 150,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 6,
-      "one_liner": "기업들이 AI 기술을 마케팅에 악용하는 'AI washing' 현상 분석",
-      "summary": "많은 기업들이 실제 AI 기술 없이 AI 브랜딩만으로 자신들을 재포장하는 'AI washing' 현상이 확산되고 있다. 이는 투자자와 고객을 기만하려는 의도로 AI와 무관한 제품도 AI 기술이 포함된 것처럼 마케팅하는 사기성 행위이다.",
-      "prereqs": [
-        {
-          "name": "AI (인공지능)",
-          "detail": "기술 마케팅 남용의 대상이 되는 핵심 기술"
-        },
-        {
-          "name": "마케팅 윤리",
-          "detail": "기만 광고와 브랜딩 관행의 문제점 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "marketing-ethics",
-          "reason": "기만적 광고와 윤리의 경계"
-        },
-        {
-          "keyword": "brand-building",
-          "reason": "기술 트렌드 활용한 브랜드 전략"
-        },
-        {
-          "keyword": "tech-buzzword",
-          "reason": "업계에서 남용되는 기술 용어"
-        },
-        {
-          "keyword": "investor-fraud",
-          "reason": "거짓 기술 적용으로 인한 투자 사기"
-        }
-      ]
-    },
-    {
-      "title": "The seed oil panic is hurting my cardiac patients",
-      "url": "https://www.statnews.com/2026/05/22/seed-oils-healthy-fats-tallow-fact-check-cardiac-health/",
-      "source": "hn",
-      "points": 156,
-      "comments": 223,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "씨앗유 공포가 심장 질환 환자들에게 미치는 부정적 영향",
-      "summary": "최근 씨앗유(seed oil)에 대한 과도한 우려가 심장 질환 환자들의 건강 관리를 해치고 있다는 의료 전문가의 주장이다. 과학적 증거보다는 온라인 유행에 의존한 식단 변화가 환자들의 치료 순응도를 낮추고 있다.",
-      "prereqs": [
-        {
-          "name": "심혈관 질환 및 식이요법",
-          "detail": "심장 질환 환자의 영양 관리 원리를 이해하면 좋습니다."
-        },
-        {
-          "name": "식용유와 지방산의 종류",
-          "detail": "포화지방과 불포화지방의 차이를 알면 주장을 판단하기 쉽습니다."
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "health-misinformation",
-          "reason": "온라인에서 의학 정보가 왜곡되는 메커니즘"
-        },
-        {
-          "keyword": "omega-6-fatty-acids",
-          "reason": "씨앗유의 주요 성분과 건강 영향에 대한 과학적 이해"
-        },
-        {
-          "keyword": "patient-compliance",
-          "reason": "의료 지침 준수를 방해하는 사회적 요인 분석"
-        },
-        {
-          "keyword": "evidence-based-medicine",
-          "reason": "근거 없는 유행과 과학적 합의의 차이 학습"
-        }
-      ]
-    },
-    {
-      "title": "CBP Directive 3340-049B: Border Search of Electronic Devices",
-      "url": "https://www.cbp.gov/document/directives/cbp-directive-no-3340-049b-border-search-electronic-devices",
-      "source": "hn",
-      "points": 156,
-      "comments": 109,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "미국 세관의 전자기기 수색 정책과 프라이버시 관련 규정",
-      "summary": "CBP Directive 3340-049B는 미국 세관국경보호청(CBP)이 국경에서 여행객의 전자기기를 수색할 수 있는 권한과 절차를 규정한 정책 문서입니다. 이 지침은 디지털 시대의 보안과 개인정보보호 간의 균형을 다루며, 개발자가 구축한 서비스의 데이터 보호 및 사용자 권리 이해에 중요합니다.",
-      "prereqs": [
-        {
-          "name": "Data Privacy",
-          "detail": "정부 수색 권한과 사용자 데이터 보호 관계"
-        },
-        {
-          "name": "CBP 기관의 역할",
-          "detail": "미국 국경 보안 기관의 권한과 책임"
-        },
-        {
-          "name": "Digital Rights",
-          "detail": "디지털 시대의 개인정보 및 접근권 개념"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "gdpr-compliance",
-          "reason": "국제 데이터 보호 규제와의 비교"
-        },
-        {
-          "keyword": "encryption-standards",
-          "reason": "기기 수색 대비 데이터 보안 방식"
-        },
-        {
-          "keyword": "privacy-by-design",
-          "reason": "개발 단계에서 프라이버시 고려"
-        },
-        {
-          "keyword": "cross-border-data-transfer",
-          "reason": "국제 데이터 이동 규제 이해"
-        }
-      ]
-    },
-    {
-      "title": "Magnifica Humanitas (Encyclical Letter)",
-      "url": "https://www.vatican.va/content/leo-xiv/en/encyclicals/documents/20260515-magnifica-humanitas.html",
-      "source": "hn",
-      "points": 149,
-      "comments": 35,
-      "published_at": "2026-05-25",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 15,
-      "one_liner": "교황청의 인문주의 정신 강조 회칙",
-      "summary": "교황청에서 발표한 회칙으로, 현대 사회에서 인문주의적 가치와 인간 존엄성의 중요성을 강조합니다. 기술 발전 속에서 인간중심 사고의 필요성과 사회 윤리에 대한 교회의 입장을 담고 있습니다.",
-      "prereqs": [
-        {
-          "name": "Encyclical Letter",
-          "detail": "교황청의 공식 서한 문서 형식"
-        },
-        {
-          "name": "Humanism",
-          "detail": "인간의 가치와 존엄성을 강조하는 사상"
-        },
-        {
-          "name": "Catholic Social Teaching",
-          "detail": "카톨릭 교회의 사회 윤리 및 교리"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "papal-teaching",
-          "reason": "교황청 공식 교리와 가르침의 흐름"
-        },
-        {
-          "keyword": "humanistic-values",
-          "reason": "인문주의적 가치관의 현대적 적용"
-        },
-        {
-          "keyword": "ethics-technology",
-          "reason": "기술 발전 속 윤리적 접근 방식"
-        },
-        {
-          "keyword": "human-dignity",
-          "reason": "인간 존엄성의 철학적 기초"
-        }
-      ]
-    },
-    {
-      "title": "Defeating Git Rigour Fatigue with Jujutsu",
-      "url": "https://ikesau.co/blog/defeating-git-rigour-fatigue-with-jujutsu/",
-      "source": "hn",
-      "points": 136,
-      "comments": 141,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "devops",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Jujutsu로 Git 작업의 번거로움을 줄이는 방법",
-      "summary": "Jujutsu는 Git의 복잡한 작업 흐름을 단순화하는 버전 관리 도구입니다. 스냅샷 기반 아키텍처와 직관적인 인터페이스로 개발자의 인지 부하를 줄이고 생산성을 향상시킵니다.",
-      "prereqs": [
-        {
-          "name": "Git",
-          "detail": "버전 관리 시스템의 기본 개념 이해 필수"
-        },
-        {
-          "name": "Commit",
-          "detail": "Git의 커밋 구조와 히스토리 관리 방식"
-        },
-        {
-          "name": "Branching",
-          "detail": "브랜치 전략과 머지 프로세스의 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "version-control",
-          "reason": "버전 관리의 핵심 개념과 도구 비교"
-        },
-        {
-          "keyword": "git-workflow",
-          "reason": "효율적인 Git 작업 흐름 패턴"
-        },
-        {
-          "keyword": "snapshot-based-vcs",
-          "reason": "스냅샷 기반 버전 관리 방식"
-        },
-        {
-          "keyword": "developer-experience",
-          "reason": "개발자 경험 개선의 중요성"
-        }
-      ]
-    },
-    {
-      "title": "Ruby for Good",
-      "url": "https://ti.to/codeforgood/rubyforgood",
-      "source": "hn",
-      "points": 136,
-      "comments": 54,
-      "published_at": "2026-05-24",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Ruby 커뮤니티의 사회 기여 활동과 선한 영향력",
-      "summary": "Ruby for Good는 Ruby 개발자 커뮤니티가 사회적 문제 해결을 위해 기술을 활용하는 글로벌 이니셔티브입니다. 오픈소스 프로젝트와 자원봉사를 통해 비영리 단체와 지역사회를 지원하며, 개발자들이 의미 있는 프로젝트에 참여할 수 있는 기회를 제공합니다.",
-      "prereqs": [
-        {
-          "name": "Ruby 기초",
-          "detail": "Ruby 언어의 기본 문법과 철학 이해"
-        },
-        {
-          "name": "오픈소스 문화",
-          "detail": "협업 개발과 커뮤니티 기여 방식 인지"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "open-source-contribution",
-          "reason": "오픈소스 프로젝트 참여 방법 학습"
-        },
-        {
-          "keyword": "community-driven-development",
-          "reason": "커뮤니티 중심의 개발 철학 이해"
-        },
-        {
-          "keyword": "social-impact-tech",
-          "reason": "기술을 통한 사회 문제 해결 방안"
-        },
-        {
-          "keyword": "ruby-ecosystem",
-          "reason": "Ruby 개발자 커뮤니티와 도구 체계"
-        }
-      ]
-    },
-    {
-      "title": "Working With Japanese Clients Humbled Me Faster Than I Expected",
-      "url": "https://dev.to/itsugo/working-with-japanese-clients-humbled-me-faster-than-i-expected-49da",
-      "source": "dev.to",
-      "positive_reactions": 92,
-      "comments": 39,
-      "reading_time_minutes": 5,
-      "published_at": "2026-05-20",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 7,
-      "one_liner": "일본 클라이언트와의 업무를 통해 배운 겸손함과 문화적 차이",
-      "summary": "일본 클라이언트와의 협업 경험을 통해 개발자가 얻은 겸손함과 성장에 대한 글입니다. 문화적 차이를 이해하고 커뮤니케이션 방식을 개선하는 것의 중요성을 강조하며, 글로벌 환경에서 요구되는 소프트 스킬 개발에 대해 다룹니다.",
-      "prereqs": [
-        {
-          "name": "Cross-cultural communication",
-          "detail": "다양한 문화권의 클라이언트와 소통하기 위한 기본 이해"
-        },
-        {
-          "name": "Professional soft skills",
-          "detail": "개발 외에 필요한 대인관계 및 협업 능력"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "client-communication",
-          "reason": "효과적인 클라이언트 상호작용 방법"
-        },
-        {
-          "keyword": "cultural-differences",
-          "reason": "글로벌 업무에서 문화 이해의 중요성"
-        },
-        {
-          "keyword": "remote-work",
-          "reason": "온라인 협업 환경에서의 커뮤니케이션"
-        },
-        {
-          "keyword": "professional-growth",
-          "reason": "개발자의 소프트 스킬 및 성장"
-        }
-      ]
-    },
-    {
-      "title": "How we're using Gemini Embeddings to build a smarter, community-driven feed on DEV",
-      "url": "https://dev.to/devteam/how-were-using-gemini-embeddings-to-build-a-smarter-community-driven-feed-on-dev-1b9f",
-      "source": "dev.to",
-      "positive_reactions": 76,
-      "comments": 21,
-      "reading_time_minutes": 4,
-      "published_at": "2026-05-22",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 6,
-      "one_liner": "Gemini 임베딩으로 DEV 커뮤니티 피드를 더 똑똑하게 구축하기",
-      "summary": "DEV 커뮤니티에서 Gemini Embeddings을 활용하여 사용자 맞춤형 피드를 구현한 경험을 공유합니다. 텍스트를 벡터로 변환하여 콘텐츠 유사도를 측정하고, 커뮤니티 중심의 추천 시스템을 만드는 방법을 설명합니다.",
-      "prereqs": [
-        {
-          "name": "embeddings",
-          "detail": "텍스트를 수치 벡터로 변환하는 방식 이해 필요"
-        },
-        {
-          "name": "벡터 유사도",
-          "detail": "코사인 유사도 등으로 콘텐츠 관련성을 측정하는 방법"
-        },
-        {
-          "name": "추천 시스템",
-          "detail": "사용자에게 맞춤 콘텐츠를 제공하는 기본 원리"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "vector-database",
-          "reason": "임베딩 벡터를 저장하고 검색하는 데 필요"
-        },
-        {
-          "keyword": "semantic-search",
-          "reason": "의미 기반 콘텐츠 검색 구현에 활용"
-        },
-        {
-          "keyword": "generative-ai",
-          "reason": "Gemini 모델의 기반이 되는 생성형 AI 개념"
-        },
-        {
-          "keyword": "machine-learning",
-          "reason": "임베딩과 유사도 측정의 기계학습 기초"
-        },
-        {
-          "keyword": "rag-retrieval",
-          "reason": "검색 증강 생성에서 임베딩 활용"
-        }
-      ]
-    },
-    {
-      "title": "What was your win this week!?",
-      "url": "https://dev.to/devteam/what-was-your-win-this-week-2ohc",
-      "source": "dev.to",
-      "positive_reactions": 67,
-      "comments": 77,
-      "reading_time_minutes": 1,
-      "published_at": "2026-05-22",
-      "collected_at": "2026-05-25",
-      "category": "other",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "개발자의 주간 성취를 공유하고 축하하는 커뮤니티 문화",
-      "summary": "이 글은 개발자들이 매주 자신의 작은 승리와 성취를 공유하도록 장려하는 글입니다. 버그 수정부터 새로운 기능 구현까지 모든 성과를 인정하고 축하함으로써 개발자의 동기부여와 커뮤니티 형성을 돕습니다.",
-      "prereqs": [
-        {
-          "name": "개발자 커뮤니티 문화",
-          "detail": "동료 개발자들과의 경험 공유의 중요성"
-        },
-        {
-          "name": "성장 마인드셋",
-          "detail": "작은 진전도 가치 있는 학습 과정이라는 인식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "developer-wellbeing",
-          "reason": "개발자의 정신 건강과 직결된 주제"
-        },
-        {
-          "keyword": "knowledge-sharing",
-          "reason": "팀과 커뮤니티 성장을 위한 필수 요소"
-        },
-        {
-          "keyword": "retrospective",
-          "reason": "주간 회고를 통한 지속적인 개선 방법"
-        },
-        {
-          "keyword": "mentoring-culture",
-          "reason": "경험 공유로 주니어 개발자 성장 촉진"
-        }
-      ]
-    },
-    {
-      "title": "Recycling made easy: a Polish recycling assistant powered by Gemma 4",
-      "url": "https://dev.to/klaudiagrz/recycling-made-easy-a-polish-recycling-assistant-powered-by-gemma-4-j0a",
-      "source": "dev.to",
-      "positive_reactions": 67,
-      "comments": 54,
-      "reading_time_minutes": 5,
-      "published_at": "2026-05-21",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Gemma 4 기반의 폴란드 재활용 분류 AI 어시스턴트 개발 사례",
-      "summary": "Gemma 4 LLM을 활용하여 재활용품 분류를 돕는 폴란드 재활용 어시스턴트를 구축한 프로젝트입니다. 사용자가 물품을 입력하면 AI가 올바른 재활용 카테고리와 처리 방법을 제안해줍니다. 실제 환경 문제 해결을 위한 생성형 AI의 실무 활용 사례를 보여줍니다.",
-      "prereqs": [
-        {
-          "name": "Large Language Model (LLM)",
-          "detail": "텍스트 기반의 AI 모델이 어떻게 작동하는지 이해하기 위해"
-        },
-        {
-          "name": "Gemma 모델",
-          "detail": "Google의 경량 오픈소스 LLM 기본 특성 파악하기 위해"
-        },
-        {
-          "name": "프롬프트 엔지니어링",
-          "detail": "AI로부터 원하는 결과를 얻기 위한 입력 설계 방법론"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "prompt-engineering",
-          "reason": "AI 어시스턴트의 정확도를 높이는 핵심 기술"
-        },
-        {
-          "keyword": "llm-application",
-          "reason": "실제 비즈니스 문제 해결을 위한 LLM 활용법"
-        },
-        {
-          "keyword": "text-classification",
-          "reason": "재활용 카테고리 분류의 기본 NLP 작업"
-        },
-        {
-          "keyword": "gemma-deployment",
-          "reason": "경량 LLM을 실제 서비스로 배포하는 방법"
-        },
-        {
-          "keyword": "environmental-ai",
-          "reason": "지속가능성 관련 AI 솔루션 설계 개념"
-        }
-      ]
-    },
-    {
-      "title": "Demystifying AI Agents with Turtle & Gemma",
-      "url": "https://dev.to/googleai/demystifying-ai-agents-with-turtle-gemma-4ajj",
-      "source": "dev.to",
-      "positive_reactions": 62,
-      "comments": 22,
-      "reading_time_minutes": 3,
-      "published_at": "2026-05-19",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Turtle과 Gemma를 활용한 AI 에이전트 구축의 기초",
-      "summary": "이 글은 AI 에이전트의 개념을 Turtle 그래픽과 Gemma 모델을 통해 실제로 구현하는 방법을 설명합니다. 복잡해 보이는 AI 에이전트의 작동 원리를 단순한 예제를 통해 이해할 수 있으며, 초보 개발자도 따라할 수 있는 실습 가능한 내용을 다룹니다.",
-      "prereqs": [
-        {
-          "name": "Python 기초",
-          "detail": "코드 예제를 이해하기 위해 필요"
-        },
-        {
-          "name": "AI 에이전트 개념",
-          "detail": "에이전트의 기본 정의와 역할 이해 필요"
-        },
-        {
-          "name": "LLM (대형 언어 모델)",
-          "detail": "Gemma 같은 모델의 역할을 이해하기 위해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "llm-agents",
-          "reason": "에이전트 개발의 핵심 패러다임"
-        },
-        {
-          "keyword": "gemma-model",
-          "reason": "글에서 사용되는 구체적 모델"
-        },
-        {
-          "keyword": "autonomous-systems",
-          "reason": "자율 에이전트의 상위 개념"
-        },
-        {
-          "keyword": "prompt-engineering",
-          "reason": "에이전트의 지시사항 설계 방법"
-        },
-        {
-          "keyword": "agent-reasoning",
-          "reason": "에이전트의 의사결정 과정"
-        }
-      ]
-    },
-    {
-      "title": "The Most Concerning AI Risk of 2026",
-      "url": "https://dev.to/sachagreif/the-most-concerning-ai-risk-of-2026-3m0d",
-      "source": "dev.to",
-      "positive_reactions": 57,
-      "comments": 14,
-      "reading_time_minutes": 4,
-      "published_at": "2026-05-22",
-      "collected_at": "2026-05-25",
-      "category": "ai",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "2026년 AI의 가장 우려되는 위험 요소와 대응 방안",
-      "summary": "2026년에 예상되는 AI의 주요 위험을 분석하고, 현재 시점에서 이를 인식하고 대비해야 할 필요성을 제시합니다. 기술 발전으로 인한 예측 불가능한 결과와 안전성 문제가 중심 주제입니다.",
-      "prereqs": [
-        {
-          "name": "AI Safety",
-          "detail": "AI 시스템의 안전성과 통제 가능성에 대한 기본 이해"
-        },
-        {
-          "name": "머신러닝 기초",
-          "detail": "딥러닝 모델의 작동 원리와 한계에 대한 인식"
-        },
-        {
-          "name": "Risk Assessment",
-          "detail": "기술 위험도 평가 및 대비책 수립 방법론"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "ai-alignment",
-          "reason": "AI 목표가 인간의 의도와 일치하는지 확보하는 것"
-        },
-        {
-          "keyword": "llm-safety",
-          "reason": "대규모 언어모델의 안전한 배포와 운영 방법"
-        },
-        {
-          "keyword": "ai-governance",
-          "reason": "AI 기술 발전에 따른 규제와 정책 방향"
-        },
-        {
-          "keyword": "adversarial-attacks",
-          "reason": "AI 시스템을 의도적으로 공격하는 기법 이해"
-        },
-        {
-          "keyword": "responsible-ai",
-          "reason": "윤리적이고 책임감 있는 AI 개발의 중요성"
-        }
-      ]
-    },
-    {
-      "title": "From Years to Hours",
-      "url": "https://dev.to/annaspies/from-years-to-hours-joe",
-      "source": "dev.to",
-      "positive_reactions": 47,
-      "comments": 8,
-      "reading_time_minutes": 4,
-      "published_at": "2026-05-21",
-      "collected_at": "2026-05-25",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "개발 생산성을 획기적으로 향상시키는 자동화 도구와 기법 소개",
-      "summary": "개발 작업에서 수년이 걸리던 반복적인 작업들을 몇 시간으로 단축할 수 있는 자동화 전략과 도구들을 다룹니다. 현대적인 개발 환경에서 효율성을 극대화하기 위한 실무적 접근 방법을 제시합니다.",
-      "prereqs": [
-        {
-          "name": "자동화 개념",
-          "detail": "반복 작업을 자동으로 처리하는 기본 원리 이해"
-        },
-        {
-          "name": "개발 워크플로우",
-          "detail": "일반적인 개발 프로세스와 병목 지점 파악"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "ci-cd",
-          "reason": "배포 자동화로 수작업 시간 극적 감소"
-        },
-        {
-          "keyword": "build-tools",
-          "reason": "번들링과 컴파일 자동화 도구 활용"
-        },
-        {
-          "keyword": "scripting",
-          "reason": "반복 작업 자동화를 위한 스크립트 작성"
-        },
-        {
-          "keyword": "task-automation",
-          "reason": "개발 작업 자동화의 핵심 개념"
-        },
-        {
-          "keyword": "devops",
-          "reason": "인프라와 배포 자동화의 통합 관점"
-        }
-      ]
-    },
-    {
-      "title": "Google I/O 2026 - Day 1 - Live from the Front Row",
-      "url": "https://dev.to/gde/google-io-2026-day-1-live-from-the-front-row-52ji",
-      "source": "dev.to",
-      "positive_reactions": 30,
-      "comments": 4,
-      "reading_time_minutes": 3,
-      "published_at": "2026-05-20",
-      "collected_at": "2026-05-25",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Google I/O 2026 첫째 날 현장에서 전하는 최신 기술 트렌드",
-      "summary": "Google I/O 2026의 첫째 날 행사에서 공개된 최신 기술과 제품들을 현장에서 직접 전달합니다. 웹 개발, AI, 그리고 Google의 주요 플랫폼 업데이트에 대한 실시간 소식을 담고 있습니다.",
-      "prereqs": [
-        {
-          "name": "Google의 주요 개발자 플랫폼",
-          "detail": "Chrome, Android, Firebase 등 Google의 기술 생태계 이해"
-        },
-        {
-          "name": "최근 웹 개발 트렌드",
-          "detail": "AI 통합, 웹 성능, 새로운 웹 API의 기본 개념"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "web-apis",
-          "reason": "Google이 발표한 새로운 웹 표준과 API 기능 이해"
-        },
-        {
-          "keyword": "ai-integration",
-          "reason": "프론트엔드에서 AI 기능 활용 방법 학습"
-        },
-        {
-          "keyword": "chrome-updates",
-          "reason": "Chrome 브라우저의 최신 성능 개선사항 확인"
-        },
-        {
-          "keyword": "developer-tools",
-          "reason": "Google의 개발자 도구 업데이트 사항 파악"
-        },
-        {
-          "keyword": "web-performance",
-          "reason": "발표된 성능 최적화 기술과 모범 사례 습득"
-        }
-      ]
-    }
-  ],
   "2026-05-28": [
     {
       "title": "I'm Tired of Talking to AI",
@@ -5470,6 +4123,1337 @@
         {
           "keyword": "junior-developer-growth",
           "reason": "AI 시대 주니어 개발자의 학습 전략 변화"
+        }
+      ]
+    }
+  ],
+  "2026-06-01": [
+    {
+      "title": "Cloudflare Turnstile requiring fingerprintable WebGL",
+      "url": "https://hacktivis.me/articles/cloudflare-turnstile-webgl-fingerprinting",
+      "source": "hackernews",
+      "points": 700,
+      "comments": 397,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "frontend",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "Cloudflare Turnstile의 WebGL 지문 인식 요구사항 분석",
+      "summary": "Cloudflare Turnstile이 WebGL을 통한 디바이스 지문 인식을 요구하며 개인정보 보호 문제를 야기합니다. 이러한 기술적 구현이 사용자 추적에 활용될 수 있음을 설명합니다.",
+      "prereqs": [
+        {
+          "name": "WebGL",
+          "detail": "브라우저의 그래픽 렌더링 API 이해 필요"
+        },
+        {
+          "name": "Device Fingerprinting",
+          "detail": "디바이스 고유 식별 기술의 작동 원리 학습"
+        },
+        {
+          "name": "CAPTCHA/Turnstile",
+          "detail": "봇 방지 도구의 기본 개념 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "canvas-fingerprinting",
+          "reason": "WebGL과 유사한 지문 인식 기법"
+        },
+        {
+          "keyword": "privacy-concerns",
+          "reason": "개인정보 보호 이슈 이해"
+        },
+        {
+          "keyword": "bot-detection",
+          "reason": "봇 방지 메커니즘의 다른 접근법"
+        },
+        {
+          "keyword": "browser-api-security",
+          "reason": "브라우저 API의 보안 함의 학습"
+        }
+      ]
+    },
+    {
+      "title": "Codex just found a \"workaround\" of not having sudo on my PC",
+      "url": "https://twitter.com/i/status/2060746160558543217",
+      "source": "hackernews",
+      "points": 576,
+      "comments": 271,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "devops",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "sudo 없이 작업하기 위한 Codex의 해결방법 소개",
+      "summary": "개발 환경에서 sudo 권한 없이도 필요한 작업을 수행할 수 있는 방법을 다룹니다. AI 코딩 어시스턴트인 Codex가 제시한 실용적인 우회 방법들을 소개하고, 보안과 편의성의 균형을 맞추는 접근법을 설명합니다.",
+      "prereqs": [
+        {
+          "name": "Linux/Unix 권한 시스템",
+          "detail": "sudo 명령어와 사용자 권한의 기본 개념 이해"
+        },
+        {
+          "name": "터미널/CLI 명령어",
+          "detail": "커맨드라인 기본 작업과 권한 관련 개념"
+        },
+        {
+          "name": "Codex/AI 코딩 어시스턴트",
+          "detail": "AI가 코드 작성을 도와주는 기본 원리 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "sudo-alternatives",
+          "reason": "sudo 없이 관리자 작업 수행하기"
+        },
+        {
+          "keyword": "user-permissions",
+          "reason": "Linux 사용자 권한과 그룹 관리"
+        },
+        {
+          "keyword": "security-best-practices",
+          "reason": "개발 환경의 보안 설정 고려사항"
+        },
+        {
+          "keyword": "ai-code-assistant",
+          "reason": "Codex 등 AI 도구의 활용 방법"
+        }
+      ]
+    },
+    {
+      "title": "Creatine raises brain energy levels and slows cognitive decline: study",
+      "url": "https://thesciverse.org/scientists-found-that-the-creatine-supplement-millions-take-for-muscle-gains-is-quietly-raising-brain-energy-levels-and-slowing-early-alzheimers-cognitive-decline-by-30/",
+      "source": "hackernews",
+      "points": 517,
+      "comments": 351,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "크레아틴이 뇌 에너지를 높이고 인지 저하를 완화한다는 연구 결과",
+      "summary": "최근 연구에 따르면 크레아틴 섭취가 뇌의 에너지 수준을 증가시키고 나이 관련 인지 기능 저하를 늦추는 효과가 있다고 한다. 이는 뇌 건강 유지와 신경퇴행성 질환 예방에 새로운 가능성을 제시한다.",
+      "prereqs": [
+        {
+          "name": "Creatine",
+          "detail": "근력과 뇌 에너지 생성에 관여하는 화합물"
+        },
+        {
+          "name": "Cognitive decline",
+          "detail": "나이 증가에 따른 기억력과 사고력 감소 현상"
+        },
+        {
+          "name": "Brain metabolism",
+          "detail": "뇌의 에너지 대사 과정과 효율성"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "mitochondrial-function",
+          "reason": "세포 에너지 생성 메커니즘 이해 필요"
+        },
+        {
+          "keyword": "neuroprotection",
+          "reason": "신경 손상 방지 기전과 연계된 개념"
+        },
+        {
+          "keyword": "supplements-efficacy",
+          "reason": "건강 보조제 효과 검증 방법 학습"
+        },
+        {
+          "keyword": "aging-neuroscience",
+          "reason": "노화와 뇌 건강 관련 최신 연구 동향"
+        }
+      ]
+    },
+    {
+      "title": "1-Bit Bonsai Image 4B Image Generation for Local Devices",
+      "url": "https://prismml.com/news/bonsai-image-4b",
+      "source": "hackernews",
+      "points": 410,
+      "comments": 171,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "저사양 기기에서 구동 가능한 1비트 경량 이미지 생성 모델",
+      "summary": "1-Bit Bonsai는 로컬 기기에서 효율적으로 실행할 수 있는 극도로 경량화된 이미지 생성 모델입니다. 1비트 양자화 기술을 활용해 모델 크기를 대폭 축소하면서도 이미지 생성 품질을 유지합니다. 엣지 디바이스와 리소스 제약 환경에서의 AI 활용을 가능하게 합니다.",
+      "prereqs": [
+        {
+          "name": "Image Generation",
+          "detail": "이 글의 핵심 주제인 이미지 생성 기본 개념"
+        },
+        {
+          "name": "Model Quantization",
+          "detail": "1비트 모델 압축 기술의 기초가 되는 개념"
+        },
+        {
+          "name": "Edge Computing",
+          "detail": "로컬 디바이스 구동 환경의 특성 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "diffusion-models",
+          "reason": "최신 이미지 생성의 기반이 되는 아키텍처"
+        },
+        {
+          "keyword": "model-compression",
+          "reason": "경량 모델 구현의 핵심 기술들"
+        },
+        {
+          "keyword": "quantization-aware-training",
+          "reason": "저비트 모델 학습 방식의 이해"
+        },
+        {
+          "keyword": "mobile-deployment",
+          "reason": "엣지 기기 배포 전략과 최적화"
+        },
+        {
+          "keyword": "inference-optimization",
+          "reason": "제한된 리소스에서의 추론 성능 개선"
+        }
+      ]
+    },
+    {
+      "title": "United Airlines 767 returns to Newark after Bluetooth name sparks alert",
+      "url": "https://simpleflying.com/united-airlines-767-returns-newark-bluetooth-name-alert/",
+      "source": "hackernews",
+      "points": 373,
+      "comments": 740,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "블루투스 기기명이 보안 경고를 유발해 항공기가 회항한 사건",
+      "summary": "유나이티드 항공의 보잉 767편이 블루투스 장치의 이름이 의심스러운 것으로 판단되어 보안 경고를 발생시킨 후 뉴어크로 회항했다. 이 사건은 항공사의 민감한 보안 시스템과 일상적인 기술 간의 오해로 인한 과민 반응을 보여준다.",
+      "prereqs": [
+        {
+          "name": "Bluetooth",
+          "detail": "무선 통신 기술이며 기기명 설정 방식 이해"
+        },
+        {
+          "name": "항공 보안 시스템",
+          "detail": "항공사의 위협 탐지 알고리즘 및 대응 절차"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "false-positive",
+          "reason": "보안 시스템의 오탐 현상 이해"
+        },
+        {
+          "keyword": "iot-security",
+          "reason": "무선 기기의 보안 위험성 인식"
+        },
+        {
+          "keyword": "naming-convention",
+          "reason": "기기명 설정 시 신경쓸 점"
+        },
+        {
+          "keyword": "aviation-safety",
+          "reason": "항공 안전 규정의 엄격성 이해"
+        }
+      ]
+    },
+    {
+      "title": "The solution might be cancelling my AI subscription",
+      "url": "https://thoughts.hmmz.org/2026-05-31.html",
+      "source": "hackernews",
+      "points": 363,
+      "comments": 229,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 4,
+      "one_liner": "AI 구독 서비스 취소가 해결책일 수 있다는 개발자의 성찰",
+      "summary": "저자는 AI 도구 과다 사용으로 인한 생산성 저하와 비용 증가를 경험하며, AI 구독 취소를 통해 근본적인 문제 해결을 제안합니다. 개발자가 AI에 의존하기보다 기본기를 다지는 것의 중요성을 강조합니다.",
+      "prereqs": [
+        {
+          "name": "AI 개발 도구",
+          "detail": "ChatGPT, GitHub Copilot 등 개발 보조 AI 도구의 장단점"
+        },
+        {
+          "name": "개발 생산성",
+          "detail": "코드 작성 속도와 품질 사이의 균형 이해"
+        },
+        {
+          "name": "기술 부채",
+          "detail": "단기 편의성이 장기 코드 품질에 미치는 영향"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-dependency",
+          "reason": "AI 도구 의존도가 개발 능력에 미치는 영향"
+        },
+        {
+          "keyword": "code-quality",
+          "reason": "AI 생성 코드의 품질 평가 기준 학습"
+        },
+        {
+          "keyword": "developer-productivity",
+          "reason": "진정한 생산성 향상을 위한 전략 수립"
+        },
+        {
+          "keyword": "critical-thinking",
+          "reason": "AI 제안을 비판적으로 평가하는 능력"
+        }
+      ]
+    },
+    {
+      "title": "Chuwi Minibook X",
+      "url": "https://tylercipriani.com/blog/2026/05/28/chuwi-minibook-x/",
+      "source": "hackernews",
+      "points": 310,
+      "comments": 236,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "초소형 노트북 Chuwi Minibook X의 사양과 특징 소개",
+      "summary": "Chuwi Minibook X는 휴대성이 뛰어난 초소형 노트북 제품입니다. 컴팩트한 크기에도 불구하고 개발 작업에 필요한 기본 사양을 갖추고 있어 모바일 개발 환경에 관심 있는 주니어 개발자에게 참고가 될 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "노트북 사양 이해",
+          "detail": "CPU, RAM, 저장소 등 기본 하드웨어 개념"
+        },
+        {
+          "name": "개발 환경 요구사항",
+          "detail": "개발 작업에 필요한 최소 컴퓨터 사양 기준"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "portable-development-setup",
+          "reason": "이동 중 개발 환경 구축 방법 학습"
+        },
+        {
+          "keyword": "lightweight-linux",
+          "reason": "초소형 기기에 적합한 OS 선택 고려"
+        },
+        {
+          "keyword": "remote-development",
+          "reason": "로컬 리소스 부족 시 원격 개발 환경"
+        },
+        {
+          "keyword": "productivity-tools",
+          "reason": "제한된 화면에서의 효율적 작업 도구"
+        }
+      ]
+    },
+    {
+      "title": "I put a datacenter GPU in my gaming PC",
+      "url": "https://blog.tymscar.com/posts/v100localllm/",
+      "source": "hackernews",
+      "points": 308,
+      "comments": 174,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "게이밍 PC에 데이터센터 GPU를 장착한 경험과 결과",
+      "summary": "저자가 고성능 데이터센터 GPU를 게이밍 PC에 설치한 실험적 프로젝트를 소개합니다. 하드웨어 호환성, 전력 관리, 성능 차이 등을 실제 경험과 함께 설명하며, 소비자용 GPU와의 장단점을 비교 분석합니다.",
+      "prereqs": [
+        {
+          "name": "GPU 아키텍처",
+          "detail": "데이터센터와 게이밍 GPU의 설계 차이 이해"
+        },
+        {
+          "name": "PC 하드웨어 호환성",
+          "detail": "메인보드, 전원공급, 냉각 시스템의 기본 지식"
+        },
+        {
+          "name": "CUDA/컴퓨팅 성능",
+          "detail": "GPU의 병렬 처리 성능 측정 방식 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "gpu-cooling",
+          "reason": "고성능 GPU의 발열 관리가 필수적"
+        },
+        {
+          "keyword": "power-consumption",
+          "reason": "데이센터 GPU의 전력 소비량 고려"
+        },
+        {
+          "keyword": "cuda-optimization",
+          "reason": "GPU 컴퓨팅 활용도 극대화"
+        },
+        {
+          "keyword": "hardware-compatibility",
+          "reason": "서로 다른 사양의 하드웨어 통합"
+        },
+        {
+          "keyword": "benchmarking",
+          "reason": "GPU 성능 측정 및 비교 평가"
+        }
+      ]
+    },
+    {
+      "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "url": "https://www.promptarmor.com/resources/gpt-for-google-sheets-data-exfiltration",
+      "source": "hackernews",
+      "points": 244,
+      "comments": 88,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "Google Sheets 확장 프로그램의 보안 취약점으로 인한 데이터 유출 위험",
+      "summary": "ChatGPT for Google Sheets 확장 프로그램이 사용자의 스프레드시트 데이터를 무단으로 외부 서버로 전송하는 보안 취약점을 가지고 있습니다. 이는 API 권한 오남용과 불충분한 데이터 보호 정책으로 인한 심각한 데이터 유출 사고입니다.",
+      "prereqs": [
+        {
+          "name": "Browser Extensions Security",
+          "detail": "브라우저 확장 프로그램의 권한 체계와 보안 위험"
+        },
+        {
+          "name": "API Permissions",
+          "detail": "애플리케이션이 요청하는 권한의 범위와 의미 이해"
+        },
+        {
+          "name": "Data Exfiltration",
+          "detail": "개인정보가 권한 없이 외부로 유출되는 공격 방식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "third-party-integration-security",
+          "reason": "외부 도구 통합 시 데이터 보호 방안 검토 필요"
+        },
+        {
+          "keyword": "least-privilege-principle",
+          "reason": "최소 권한 원칙으로 확장 프로그램 권한 제한"
+        },
+        {
+          "keyword": "data-privacy-compliance",
+          "reason": "GDPR, CCPA 등 규제 대응과 사용자 신뢰 확보"
+        },
+        {
+          "keyword": "supply-chain-security",
+          "reason": "인기 있는 도구의 보안 침해로 인한 연쇄 피해"
+        }
+      ]
+    },
+    {
+      "title": "Meta launches Instagram, Facebook, and WhatsApp subscriptions",
+      "url": "https://techcrunch.com/2026/05/27/meta-officially-launches-instagram-facebook-and-whatsapp-subscriptions-with-more-to-come-including-ai-plans/",
+      "source": "hackernews",
+      "points": 241,
+      "comments": 385,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "Meta가 Instagram, Facebook, WhatsApp 구독 서비스를 출시했다.",
+      "summary": "Meta가 광고 없는 사용 경험을 제공하는 구독 서비스를 Instagram, Facebook, WhatsApp에 도입했습니다. 이 서비스는 사용자에게 프리미엄 기능과 향상된 경험을 제공하며, Meta의 수익 다각화 전략을 보여줍니다.",
+      "prereqs": [
+        {
+          "name": "SaaS 비즈니스 모델",
+          "detail": "서비스 기반 구독형 수익 창출 방식 이해"
+        },
+        {
+          "name": "Meta의 주요 플랫폼",
+          "detail": "Facebook, Instagram, WhatsApp의 역할과 사용자 규모 파악"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "subscription-model",
+          "reason": "구독 기반 수익화 전략의 핵심"
+        },
+        {
+          "keyword": "freemium",
+          "reason": "무료/유료 서비스 혼합 제공 방식"
+        },
+        {
+          "keyword": "user-retention",
+          "reason": "구독 서비스로 사용자 충성도 강화"
+        },
+        {
+          "keyword": "monetization-strategy",
+          "reason": "플랫폼 비즈니스의 수익 창출 방법"
+        }
+      ]
+    },
+    {
+      "title": "Restartable Sequences",
+      "url": "https://justine.lol/rseq/",
+      "source": "hackernews",
+      "points": 236,
+      "comments": 59,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "멀티스레드 환경에서 안전한 재시작 가능 시퀀스 구현 기법",
+      "summary": "Restartable Sequences는 멀티스레드 환경에서 원자성을 보장하면서 시퀀스 작업을 안전하게 재시작할 수 있는 기법입니다. CPU 인터럽트나 컨텍스트 스위칭 발생 시에도 데이터 일관성을 유지하며, 특히 락프리 알고리즘 구현에 유용합니다.",
+      "prereqs": [
+        {
+          "name": "Concurrency Control",
+          "detail": "멀티스레드 환경에서의 동시성 문제 이해"
+        },
+        {
+          "name": "Atomic Operations",
+          "detail": "원자적 연산의 개념과 필요성"
+        },
+        {
+          "name": "Context Switching",
+          "detail": "스레드 전환 시 발생하는 문제점"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "lock-free-programming",
+          "reason": "락 없이 동시성을 해결하는 핵심 기법"
+        },
+        {
+          "keyword": "memory-ordering",
+          "reason": "멀티스레드 환경의 메모리 순서 보장"
+        },
+        {
+          "keyword": "compare-and-swap",
+          "reason": "원자적 연산의 구현 메커니즘"
+        },
+        {
+          "keyword": "thread-safety",
+          "reason": "안전한 멀티스레드 프로그래밍"
+        }
+      ]
+    },
+    {
+      "title": "A 10 year old Xeon is all you need",
+      "url": "https://point.free/blog/gemma-4-on-a-2016-xeon/",
+      "source": "hackernews",
+      "points": 232,
+      "comments": 79,
+      "published_at": "2026-06-01",
+      "collected_at": "2026-06-01",
+      "category": "devops",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "10년된 Xeon 프로세서로도 충분한 성능을 낼 수 있다는 주장",
+      "summary": "최신 하드웨어가 반드시 필요하지 않으며, 10년 전의 Xeon CPU도 현대적인 워크로드를 효과적으로 처리할 수 있음을 다룬다. 비용 효율성과 실제 성능 사이의 균형을 강조하며, 오래된 서버 인프라의 가치를 재평가한다.",
+      "prereqs": [
+        {
+          "name": "서버 하드웨어 스펙",
+          "detail": "CPU 성능, 메모리, 스토리지 기초 이해"
+        },
+        {
+          "name": "시스템 성능 측정",
+          "detail": "벤치마크, 처리량, 지연시간 개념"
+        },
+        {
+          "name": "인프라 비용 관리",
+          "detail": "하드웨어 투자 대비 효율성 평가"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "server-optimization",
+          "reason": "오래된 하드웨어의 성능 극대화 기법"
+        },
+        {
+          "keyword": "infrastructure-cost",
+          "reason": "기술 부채와 비용 효율성 트레이드오프"
+        },
+        {
+          "keyword": "performance-benchmarking",
+          "reason": "실제 워크로드 기반 성능 평가"
+        },
+        {
+          "keyword": "legacy-systems",
+          "reason": "레거시 서버의 운영 및 유지보수"
+        },
+        {
+          "keyword": "hardware-lifecycle",
+          "reason": "서버 수명 주기와 교체 전략"
+        }
+      ]
+    },
+    {
+      "title": "Deflock hits 100k ALPRs Mapped in USA",
+      "url": "https://deflock.org/",
+      "source": "hackernews",
+      "points": 215,
+      "comments": 64,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "Deflock이 미국 내 ALPR 100,000개 매핑 달성",
+      "summary": "Deflock은 자동번호판인식(ALPR) 기술을 활용하여 미국 전역의 100,000개 카메라를 매핑하는 마일스톤을 달성했습니다. 이는 대규모 데이터 수집과 인프라 확장의 중요성을 보여주는 사례입니다.",
+      "prereqs": [
+        {
+          "name": "ALPR (자동번호판인식)",
+          "detail": "차량 번호판을 자동으로 인식하는 기술"
+        },
+        {
+          "name": "대규모 시스템 확장",
+          "detail": "서비스 확대에 따른 인프라 구축 방식 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "computer-vision",
+          "reason": "ALPR 기술의 핵심 기반이 되는 분야"
+        },
+        {
+          "keyword": "data-collection",
+          "reason": "대규모 데이터 수집 및 관리 방법론"
+        },
+        {
+          "keyword": "distributed-systems",
+          "reason": "100k 규모 시스템 운영의 기술적 기초"
+        },
+        {
+          "keyword": "privacy-ethics",
+          "reason": "카메라 기반 감시 기술의 윤리적 고려"
+        }
+      ]
+    },
+    {
+      "title": "'Backrooms' Stuns with $81M Debut",
+      "url": "https://variety.com/2026/film/box-office/backrooms-box-office-record-opening-weekend-obsession-jumps-star-wars-crumbles-1236763355/",
+      "source": "hackernews",
+      "points": 203,
+      "comments": 128,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "'Backrooms' 영화가 8천1백만 달러로 데뷔 흥행에 성공했다.",
+      "summary": "'Backrooms'는 인터넷 공포 창작물을 기반으로 한 영화가 개봉 첫 주말 8천1백만 달러의 놀라운 흥행 성적을 거두었다. 이는 저예산 독립 프로젝트에서 출발한 콘텐츠가 대중 문화로 성장한 사례를 보여준다.",
+      "prereqs": [
+        {
+          "name": "인터넷 창작물(Creepypasta)",
+          "detail": "온라인 커뮤니티에서 생성되는 공포 이야기의 흐름을 이해하기 위함"
+        },
+        {
+          "name": "박스오피스 지표",
+          "detail": "영화 흥행 성적을 평가하는 방식과 산업 기준을 알기 위함"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "viral-content",
+          "reason": "소셜 미디어에서 인기 있는 콘텐츠의 특성과 확산 방식"
+        },
+        {
+          "keyword": "indie-film",
+          "reason": "저예산으로 제작되는 독립 영화의 제작 및 배급 전략"
+        },
+        {
+          "keyword": "fan-community",
+          "reason": "온라인 팬덤이 상업 콘텐츠로 발전하는 과정"
+        },
+        {
+          "keyword": "content-adaptation",
+          "reason": "웹 창작물을 영상화하는 제작 관점과 도전 과제"
+        }
+      ]
+    },
+    {
+      "title": "Atherton spent $145K to delay train electrification. The rest of us paid $400M",
+      "url": "https://peninsulaforeveryone.org/blog/atherton-spent-145k-to-delay-caltrain-electrification-the-rest-of-us-paid-400-million-and-waited-3-extra-years/",
+      "source": "hackernews",
+      "points": 196,
+      "comments": 91,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "소수의 이익을 위한 공공 비용 지연의 사회적 비용 문제",
+      "summary": "애서턴이 기차 전철화 프로젝트를 지연시키기 위해 14만 5천 달러를 지출했으나, 이로 인한 사회 전체의 비용은 4억 달러에 달했다는 사례 분석. 개인의 이익을 위한 로비 활동이 공공 인프라 프로젝트에 미치는 부정적 영향을 보여주는 사례 연구.",
+      "prereqs": [
+        {
+          "name": "Infrastructure policy",
+          "detail": "공공 인프라 정책 결정 과정 이해"
+        },
+        {
+          "name": "Cost-benefit analysis",
+          "detail": "비용편익분석으로 의사결정 영향 파악"
+        },
+        {
+          "name": "Public advocacy",
+          "detail": "공공 정책에 영향을 미치는 로비 활동"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "nimbysim",
+          "reason": "지역 이익을 위한 반대 운동의 사회적 비용"
+        },
+        {
+          "keyword": "public-policy",
+          "reason": "공공 정책 결정 시스템의 투명성과 효율성"
+        },
+        {
+          "keyword": "opportunity-cost",
+          "reason": "지연으로 인한 숨겨진 경제적 손실 계산"
+        },
+        {
+          "keyword": "stakeholder-analysis",
+          "reason": "정책 결정에서 다양한 이해관계자 영향 검토"
+        },
+        {
+          "keyword": "infrastructure-planning",
+          "reason": "장기적 인프라 계획의 중요성과 과제"
+        }
+      ]
+    },
+    {
+      "title": "Backpressure is all you need",
+      "url": "https://www.lucasfcosta.com/blog/backpressure-is-all-you-need",
+      "source": "hackernews",
+      "points": 192,
+      "comments": 104,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "데이터 흐름 제어를 통한 시스템 안정성 향상 방법",
+      "summary": "Backpressure는 빠른 생산자와 느린 소비자 간의 속도 불일치로 인한 시스템 과부하를 해결하는 핵심 메커니즘입니다. 버퍼 오버플로우를 방지하고 메모리 누수를 줄이면서 안정적인 데이터 처리 흐름을 유지할 수 있게 합니다.",
+      "prereqs": [
+        {
+          "name": "Stream Processing",
+          "detail": "데이터 흐름 처리의 기본 개념 이해"
+        },
+        {
+          "name": "Producer-Consumer Pattern",
+          "detail": "비동기 데이터 전송의 구조 파악"
+        },
+        {
+          "name": "메모리 관리",
+          "detail": "버퍼와 힙 메모리의 동작 원리"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "reactive-programming",
+          "reason": "Backpressure를 지원하는 프로그래밍 패러다임"
+        },
+        {
+          "keyword": "flow-control",
+          "reason": "데이터 흐름 조절의 구체적 구현 방식"
+        },
+        {
+          "keyword": "async-await",
+          "reason": "비동기 작업에서 backpressure 적용"
+        },
+        {
+          "keyword": "buffer-management",
+          "reason": "backpressure 발생의 근본 원인 해결"
+        },
+        {
+          "keyword": "rxjs-observable",
+          "reason": "JavaScript에서 backpressure 구현 라이브러리"
+        }
+      ]
+    },
+    {
+      "title": "Odysseus – self-hosted AI workspace",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "source": "hackernews",
+      "points": 184,
+      "comments": 83,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "자체 호스팅 가능한 AI 작업 공간 플랫폼 소개",
+      "summary": "Odysseus는 사용자가 직접 서버에 배포할 수 있는 자체 호스팅 AI 워크스페이스입니다. 데이터 프라이버시를 보장하면서 AI 모델을 활용한 다양한 작업을 수행할 수 있는 통합 환경을 제공합니다.",
+      "prereqs": [
+        {
+          "name": "Self-hosted 개념",
+          "detail": "클라우드 대신 자신의 서버에서 직접 운영하는 방식"
+        },
+        {
+          "name": "AI/LLM 기초",
+          "detail": "대규모 언어 모델과 생성형 AI의 기본 개념"
+        },
+        {
+          "name": "Docker/컨테이너",
+          "detail": "애플리케이션 배포와 환경 구성을 위한 기술"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "privacy-first-ai",
+          "reason": "데이터 보안을 우선하는 AI 시스템 구축"
+        },
+        {
+          "keyword": "llm-integration",
+          "reason": "대규모 언어 모델을 애플리케이션에 통합"
+        },
+        {
+          "keyword": "docker-deployment",
+          "reason": "컨테이너 기반 애플리케이션 배포 방식"
+        },
+        {
+          "keyword": "open-source-ai",
+          "reason": "오픈소스 AI 도구와 모델 활용"
+        },
+        {
+          "keyword": "workspace-automation",
+          "reason": "AI를 활용한 작업 흐름 자동화"
+        }
+      ]
+    },
+    {
+      "title": "The Speed of Prototyping in the Age of AI",
+      "url": "https://darylcecile.net/notes/speed-of-prototyping-age-of-ai",
+      "source": "hackernews",
+      "points": 172,
+      "comments": 88,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 6,
+      "one_liner": "AI 시대에 프로토타이핑 속도가 개발 과정을 어떻게 변화시키는가",
+      "summary": "AI 도구의 발전으로 프로토타이핑 속도가 급격히 증가하고 있습니다. 이는 개발자가 더 빠르게 아이디어를 검증하고 반복할 수 있게 해줍니다. 개발 사이클의 단축으로 인한 생산성 향상과 새로운 도전 과제를 다룹니다.",
+      "prereqs": [
+        {
+          "name": "프로토타이핑",
+          "detail": "제품 개발의 초기 단계에서 빠르게 아이디어를 구현하는 방식"
+        },
+        {
+          "name": "AI 개발 도구",
+          "detail": "코드 작성, 디버깅을 돕는 AI 기반의 보조 도구들"
+        },
+        {
+          "name": "소프트웨어 개발 사이클",
+          "detail": "계획부터 배포까지 전체 개발 프로세스의 단계들"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-assisted-coding",
+          "reason": "AI가 코드 작성을 직접 지원하는 방식"
+        },
+        {
+          "keyword": "rapid-development",
+          "reason": "빠른 개발 속도를 달성하는 방법론"
+        },
+        {
+          "keyword": "iteration-cycles",
+          "reason": "반복적인 개선 과정의 효율성"
+        },
+        {
+          "keyword": "code-generation",
+          "reason": "AI가 자동으로 코드를 생성하는 기술"
+        }
+      ]
+    },
+    {
+      "title": "It's Not Just X. It's Y",
+      "url": "https://mail.cyberneticforests.com/its-not-just-data-its-post-training/",
+      "source": "hackernews",
+      "points": 165,
+      "comments": 133,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "prereqs": [],
+      "related_concepts": []
+    },
+    {
+      "title": "Daily pill can double survival time for deadliest cancer, trial shows",
+      "url": "https://www.theguardian.com/society/2026/may/31/daily-pill-daraxonrasib-double-survival-time-pancreatic-pancreas-cancer-clinical-trial",
+      "source": "hackernews",
+      "points": 162,
+      "comments": 53,
+      "published_at": "2026-05-31",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 4,
+      "one_liner": "치명적 암 치료제가 생존 기간을 2배 연장할 수 있다는 임상 결과",
+      "summary": "새로운 경구 약물이 가장 치명적인 암의 생존 기간을 2배 이상 연장할 수 있다는 임상시험 결과가 발표되었다. 이 약은 기존 표준 치료법보다 훨씬 더 효과적이며 혁신적인 치료 옵션을 제시한다.",
+      "prereqs": [
+        {
+          "name": "Clinical trial",
+          "detail": "신약 효과와 안전성을 입증하기 위한 임상시험 과정"
+        },
+        {
+          "name": "Survival rate",
+          "detail": "특정 질환 진단 후 일정 기간 생존하는 환자의 비율"
+        },
+        {
+          "name": "Cancer treatment",
+          "detail": "암 치료의 기본 원리와 다양한 치료법의 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "oncology-advances",
+          "reason": "암 치료 분야의 최신 기술 혁신 동향"
+        },
+        {
+          "keyword": "pharmaceutical-development",
+          "reason": "신약 개발 과정과 임상 데이터 분석"
+        },
+        {
+          "keyword": "precision-medicine",
+          "reason": "개별 환자 맞춤형 암 치료법의 중요성"
+        },
+        {
+          "keyword": "patient-outcomes",
+          "reason": "치료 효과 측정과 환자 예후 평가 방법"
+        }
+      ]
+    },
+    {
+      "title": "How Are Developers Actually Using AI At Work?",
+      "url": "https://dev.to/sylwia-lask/how-are-developers-actually-using-ai-at-work-4g9c",
+      "source": "devto",
+      "positive_reactions": 158,
+      "comments": 212,
+      "reading_time_minutes": 4,
+      "published_at": "2026-05-27",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "개발자들이 실무에서 AI를 어떻게 활용하고 있는지 현황 분석",
+      "summary": "이 글은 현업 개발자들의 실제 AI 도구 사용 현황과 사례를 다룹니다. 코드 작성부터 디버깅, 문서화까지 다양한 업무에서 AI가 어떻게 활용되는지 구체적인 사례를 통해 설명하며, 개발자의 생산성 향상과 실무 효율화에 미치는 영향을 조명합니다.",
+      "prereqs": [
+        {
+          "name": "AI 코드 보조 도구",
+          "detail": "ChatGPT, GitHub Copilot 등의 기본 개념"
+        },
+        {
+          "name": "소프트웨어 개발 프로세스",
+          "detail": "코딩, 디버깅, 테스트 등의 기본 단계 이해"
+        },
+        {
+          "name": "LLM (Large Language Model)",
+          "detail": "생성형 AI의 작동 원리와 한계"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-assisted-development",
+          "reason": "AI를 활용한 개발 방식의 변화 이해"
+        },
+        {
+          "keyword": "code-generation",
+          "reason": "자동 코드 생성 기술의 현황과 활용"
+        },
+        {
+          "keyword": "developer-productivity",
+          "reason": "AI가 개발 생산성에 미치는 실제 영향"
+        },
+        {
+          "keyword": "ai-limitations",
+          "reason": "개발 실무에서 AI의 한계와 주의점"
+        },
+        {
+          "keyword": "workflow-optimization",
+          "reason": "AI를 통한 개발 워크플로우 최적화"
+        }
+      ]
+    },
+    {
+      "title": "I Thought Coding Was The Job",
+      "url": "https://dev.to/itsugo/i-thought-coding-was-the-job-4bo7",
+      "source": "devto",
+      "positive_reactions": 84,
+      "comments": 58,
+      "reading_time_minutes": 4,
+      "published_at": "2026-05-28",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 4,
+      "prereqs": [],
+      "related_concepts": []
+    },
+    {
+      "title": "An LLM API call, in 4 GIFs",
+      "url": "https://dev.to/jasmin/an-llm-api-call-in-4-gifs-33b1",
+      "source": "devto",
+      "positive_reactions": 80,
+      "comments": 57,
+      "reading_time_minutes": 4,
+      "published_at": "2026-05-26",
+      "collected_at": "2026-06-01",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "LLM API 호출의 동작 원리를 GIF로 직관적으로 설명",
+      "summary": "LLM API 호출이 어떻게 작동하는지 4개의 GIF 애니메이션을 통해 시각적으로 설명합니다. 요청 전송부터 응답 수신까지의 전체 과정을 단계별로 이해할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "API 통신",
+          "detail": "클라이언트와 서버 간 데이터 요청/응답 방식"
+        },
+        {
+          "name": "LLM 기초",
+          "detail": "대규모 언어 모델의 개념과 용도"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "api-request-response",
+          "reason": "HTTP 통신의 기본 메커니즘 이해"
+        },
+        {
+          "keyword": "prompt-engineering",
+          "reason": "효과적인 LLM 활용을 위한 프롬프트 작성"
+        },
+        {
+          "keyword": "token-counting",
+          "reason": "API 비용 계산과 성능 최적화"
+        },
+        {
+          "keyword": "rate-limiting",
+          "reason": "API 호출 제한과 에러 처리 전략"
+        }
+      ]
+    },
+    {
+      "title": "Top 7 Featured DEV Posts of the Week",
+      "url": "https://dev.to/devteam/top-7-featured-dev-posts-of-the-week-45na",
+      "source": "devto",
+      "positive_reactions": 80,
+      "comments": 29,
+      "reading_time_minutes": 3,
+      "published_at": "2026-05-26",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "이번 주 DEV 커뮤니티에서 가장 주목받은 7개의 글 모음",
+      "summary": "DEV 커뮤니티의 에디터가 선정한 이번 주 최고의 게시물 7개를 소개합니다. 개발자들이 공유한 다양한 주제의 글들을 통해 최신 개발 트렌드와 실용적인 팁들을 한 눈에 살펴볼 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "DEV 커뮤니티",
+          "detail": "개발자들이 지식을 공유하는 오픈 소스 플랫폼"
+        },
+        {
+          "name": "기술 블로깅",
+          "detail": "개발 경험과 학습 내용을 글로 기록하는 관행"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "dev-community",
+          "reason": "최신 기술 정보와 팁을 얻기 위한 커뮤니티"
+        },
+        {
+          "keyword": "technical-writing",
+          "reason": "효과적인 개발 글쓰기 방법론 습득"
+        },
+        {
+          "keyword": "web-development",
+          "reason": "대부분의 주목 글들의 주요 주제"
+        },
+        {
+          "keyword": "best-practices",
+          "reason": "실무에서 적용 가능한 개발 관행"
+        }
+      ]
+    },
+    {
+      "title": "Why does AI forget what you said (and how to fix it)",
+      "url": "https://dev.to/aws/why-does-ai-forget-what-you-said-and-how-to-fix-it-52f6",
+      "source": "devto",
+      "positive_reactions": 67,
+      "comments": 56,
+      "reading_time_minutes": 7,
+      "published_at": "2026-05-25",
+      "collected_at": "2026-06-01",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "AI 모델이 대화 맥락을 잊는 이유와 해결 방법",
+      "summary": "LLM의 컨텍스트 윈도우 제한으로 인해 긴 대화 기록을 모두 유지하지 못하는 문제를 다룹니다. 메모리 관리, 토큰 최적화, 요약 기법 등을 통해 AI의 기억력을 개선하는 실용적인 방법들을 제시합니다.",
+      "prereqs": [
+        {
+          "name": "Context Window",
+          "detail": "LLM이 한 번에 처리할 수 있는 토큰 수 제한"
+        },
+        {
+          "name": "Token",
+          "detail": "AI가 텍스트를 처리하는 기본 단위"
+        },
+        {
+          "name": "Prompt Engineering",
+          "detail": "AI에게 더 효과적으로 지시하는 기법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "memory-management",
+          "reason": "대화 기록 저장 및 관리 전략"
+        },
+        {
+          "keyword": "conversation-summarization",
+          "reason": "긴 대화를 압축하는 기술"
+        },
+        {
+          "keyword": "vector-database",
+          "reason": "이전 맥락 검색 및 저장"
+        },
+        {
+          "keyword": "rag-retrieval-augmented-generation",
+          "reason": "외부 정보 활용으로 맥락 확장"
+        },
+        {
+          "keyword": "token-optimization",
+          "reason": "제한된 토큰 내에서 효율성 극대화"
+        }
+      ]
+    },
+    {
+      "title": "🗓️ Monthly Dev Report: May 2026",
+      "url": "https://dev.to/francistrdev/monthly-dev-report-may-2026-3gjj",
+      "source": "devto",
+      "positive_reactions": 55,
+      "comments": 25,
+      "reading_time_minutes": 2,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "2026년 5월 개발자 커뮤니티의 주요 기술 동향과 뉴스를 정리한 월간 리포트",
+      "summary": "2026년 5월의 개발 생태계에서 주목할 만한 기술 트렌드, 업데이트 소식, 그리고 개발자 커뮤니티의 핵심 이슈들을 한눈에 정리한 월간 리포트입니다. 프론트엔드부터 백엔드, DevOps까지 다양한 분야의 최신 개발 소식을 빠르게 파악할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "개발 생태계 이해",
+          "detail": "현재 개발 기술 트렌드를 파악하기 위한 기초 지식"
+        },
+        {
+          "name": "주요 프레임워크/라이브러리",
+          "detail": "React, Vue, Angular 등 인기 기술에 대한 기본 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "tech-trends",
+          "reason": "최신 개발 기술 동향을 지속적으로 추적하는 능력"
+        },
+        {
+          "keyword": "developer-news",
+          "reason": "개발자 커뮤니티의 주요 뉴스와 소식 이해"
+        },
+        {
+          "keyword": "ecosystem-updates",
+          "reason": "오픈소스 및 프레임워크 업데이트 정보 수집"
+        },
+        {
+          "keyword": "industry-insights",
+          "reason": "개발 산업의 방향성과 미래 예측 학습"
+        }
+      ]
+    },
+    {
+      "title": "I Spent 10x Longer Debugging AI Code Than Writing It",
+      "url": "https://dev.to/harsh2644/i-spent-10x-longer-debugging-ai-code-than-writing-it-15h4",
+      "source": "devto",
+      "positive_reactions": 54,
+      "comments": 94,
+      "reading_time_minutes": 5,
+      "published_at": "2026-05-28",
+      "collected_at": "2026-06-01",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "AI 코드 작성보다 디버깅에 10배 더 오래 걸리는 이유",
+      "summary": "AI 코드는 작성은 빠르지만 예상치 못한 버그와 복잡한 동작으로 인해 디버깅이 매우 어렵다. 이 글은 AI 개발에서 발생하는 일반적인 디버깅 문제들과 효율적인 해결 전략을 다룬다.",
+      "prereqs": [
+        {
+          "name": "Machine Learning 기초",
+          "detail": "AI 모델의 동작 원리와 일반적인 문제점을 이해하기 위해 필요"
+        },
+        {
+          "name": "디버깅 기법",
+          "detail": "코드 오류를 찾고 해결하는 기본적인 방법론"
+        },
+        {
+          "name": "데이터 처리",
+          "detail": "AI 모델의 입력 데이터 문제를 진단하기 위한 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "AI 출력 품질 개선을 위한 핵심 기술"
+        },
+        {
+          "keyword": "debugging-tools",
+          "reason": "AI 코드 오류를 효율적으로 추적하고 분석"
+        },
+        {
+          "keyword": "model-testing",
+          "reason": "AI 모델의 성능과 신뢰도를 검증하는 방법"
+        },
+        {
+          "keyword": "error-handling",
+          "reason": "AI의 예측 불가능한 동작에 대한 대비"
+        },
+        {
+          "keyword": "logging-monitoring",
+          "reason": "AI 실행 과정을 추적하고 문제점을 파악"
+        }
+      ]
+    },
+    {
+      "title": "What was your win this week?",
+      "url": "https://dev.to/devteam/what-was-your-win-this-week-i1",
+      "source": "devto",
+      "positive_reactions": 47,
+      "comments": 45,
+      "reading_time_minutes": 1,
+      "published_at": "2026-05-29",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "개발자의 주간 성취를 공유하고 축하하는 문화",
+      "summary": "\"What was your win this week?\"는 개발자들이 매주 자신의 성취와 진전을 공유하는 관행을 다룹니다. 작은 성공이든 큰 성공이든 팀과 함께 축하함으로써 긍정적인 업무 문화를 조성하고 개발자의 동기부여를 높이는 방법을 제시합니다.",
+      "prereqs": [
+        {
+          "name": "team-building",
+          "detail": "팀 문화 형성의 중요성 이해"
+        },
+        {
+          "name": "developer-wellbeing",
+          "detail": "개발자의 심리적 안정과 성장 관계 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "retrospective",
+          "reason": "주간 회고와 함께 진행 가능한 활동"
+        },
+        {
+          "keyword": "psychological-safety",
+          "reason": "안전한 환경에서 성취 공유를 격려"
+        },
+        {
+          "keyword": "motivation-management",
+          "reason": "개발자 동기부여의 실질적 방법"
+        },
+        {
+          "keyword": "agile-methodology",
+          "reason": "애자일 팀 내 피드백 문화 강화"
+        }
+      ]
+    },
+    {
+      "title": "Reviving a 12K+ Star Abandoned Library: toastr-next v3 🍞",
+      "url": "https://dev.to/divyesh5981/reviving-a-12k-star-abandoned-library-toastr-next-v3-25mf",
+      "source": "devto",
+      "positive_reactions": 43,
+      "comments": 30,
+      "reading_time_minutes": 6,
+      "published_at": "2026-05-27",
+      "collected_at": "2026-06-01",
+      "category": "frontend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "방치된 인기 라이브러리를 부활시킨 toastr-next v3의 개발 이야기",
+      "summary": "12,000개 이상의 스타를 받은 토스트 알림 라이브러리 toastr를 현대화하여 toastr-next v3으로 부활시킨 프로젝트의 경험담입니다. 오픈소스 유지보수의 어려움과 레거시 코드 현대화 전략, 커뮤니티와의 협업 과정을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "토스트 알림(Toast Notification)",
+          "detail": "사용자에게 일시적으로 표시되는 메시지 UI 패턴"
+        },
+        {
+          "name": "오픈소스 유지보수",
+          "detail": "공개 소프트웨어의 장기 관리 및 커뮤니티 운영 방식"
+        },
+        {
+          "name": "레거시 코드 리팩토링",
+          "detail": "기존 코드 호환성을 유지하면서 현대화하는 기법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "open-source-maintenance",
+          "reason": "라이브러리 장기 운영의 현실적 문제와 해결책"
+        },
+        {
+          "keyword": "notification-library",
+          "reason": "사용자 피드백을 주는 다양한 UI 컴포넌트 이해"
+        },
+        {
+          "keyword": "backwards-compatibility",
+          "reason": "기존 사용자를 위한 버전 관리 전략 학습"
+        },
+        {
+          "keyword": "community-driven-development",
+          "reason": "오픈소스에서 사용자 의견을 개발에 반영하는 방식"
+        }
+      ]
+    },
+    {
+      "title": "AI Agents Are Great at 80% of Our Code. The Other 20% Is Why We Still Need Seniors.",
+      "url": "https://dev.to/mickyarun/ai-agents-are-great-at-80-of-our-code-the-other-20-is-why-we-still-need-seniors-3lh5",
+      "source": "devto",
+      "positive_reactions": 25,
+      "comments": 26,
+      "reading_time_minutes": 6,
+      "published_at": "2026-05-28",
+      "collected_at": "2026-06-01",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "AI는 80%의 코드는 잘 생성하지만, 나머지 20%는 시니어 개발자가 필요한 이유",
+      "summary": "AI 코드 생성 도구는 표준적이고 반복적인 작업 80%에서 뛰어난 생산성을 보여줍니다. 하지만 복잡한 아키텍처 결정, 엣지 케이스 처리, 기술 부채 관리 등 나머지 20%는 경험 많은 시니어 개발자의 판단이 필수적입니다.",
+      "prereqs": [
+        {
+          "name": "Code Generation",
+          "detail": "AI가 코드를 자동 생성하는 방식 이해"
+        },
+        {
+          "name": "Software Architecture",
+          "detail": "시스템 설계와 구조의 중요성 파악"
+        },
+        {
+          "name": "Code Review",
+          "detail": "코드 품질 검토 프로세스의 역할 인식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-assisted-development",
+          "reason": "AI와 인간 개발자의 협업 방식"
+        },
+        {
+          "keyword": "technical-debt",
+          "reason": "단기 효율성과 장기 코드 품질의 균형"
+        },
+        {
+          "keyword": "code-review-practices",
+          "reason": "AI 생성 코드 검증의 중요성"
+        },
+        {
+          "keyword": "system-design",
+          "reason": "AI로 자동화 불가능한 고수준 설계"
+        },
+        {
+          "keyword": "junior-to-senior-growth",
+          "reason": "시니어 개발자의 멘토링 역할 강화"
         }
       ]
     }
