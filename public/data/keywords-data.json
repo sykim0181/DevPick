@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01",
+  "generated_at": "2026-06-09",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -7580,6 +7580,137 @@
           "creator": "AWS",
           "one_liner": "버튼 클릭으로 Kiro+MCP를 통해 RDS/Aurora 장애 분석과 HTML 보고서 생성을 자동화했습니다. 테스트에서 슬로우 쿼리로 발생한 R",
           "summary": "버튼 클릭으로 Kiro+MCP를 통해 RDS/Aurora 장애 분석과 HTML 보고서 생성을 자동화했습니다. 테스트에서 슬로우 쿼리로 발생한 Reader CPU 스파이크를 Cross Join으로 식별했습니다.",
+          "prereqs": [],
+          "related_concepts": []
+        }
+      ]
+    },
+    "tree-shaking": {
+      "description": "사용하지 않는 코드를 빌드 결과에서 제거하는 최적화 기법입니다.",
+      "articles": [
+        {
+          "title": "Tree-shaking, the horticulturally misguided algorithm (2023)",
+          "url": "https://wingolog.org/archives/2023/11/24/tree-shaking-the-horticulturally-misguided-algorithm",
+          "source": "hn",
+          "lang": "en",
+          "points": 247,
+          "published_at": "2024-04-13",
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Tiny Treeshaker: JavaScript tree shaking in 200 lines of code",
+          "url": "https://github.com/magicmark/tiny-treeshaker",
+          "source": "hn",
+          "lang": "en",
+          "points": 62,
+          "published_at": "2021-06-29",
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Tree Shaking",
+          "url": "https://en.wikipedia.org/wiki/Tree_shaking",
+          "source": "hn",
+          "lang": "en",
+          "points": 36,
+          "published_at": "2021-08-01",
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Deep Dive: Understanding Tree-Shaking and Its Impact",
+          "url": "https://dev.to/norviktech/deep-dive-understanding-tree-shaking-and-its-impa-5ddj",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-06-07",
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Tree Shaking : Understand in 3 Minutes",
+          "url": "https://dev.to/hongster85/tree-shaking-understand-in-3-minutes-2h29",
+          "source": "devto",
+          "lang": "en",
+          "points": 1,
+          "published_at": "2026-03-17",
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Understanding Tree Shaking in JavaScript: A Comprehensive Guide",
+          "url": "https://dev.to/playfulprogramming/understanding-tree-shaking-in-javascript-a-comprehensive-guide-5e86",
+          "source": "devto",
+          "lang": "en",
+          "points": 19,
+          "published_at": "2025-03-10",
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "🍃 트리 쉐이킹 (Tree Shaking)",
+          "url": "https://velog.io/@wlwl99/%ED%8A%B8%EB%A6%AC-%EC%89%90%EC%9D%B4%ED%82%B9-Tree-Shaking",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "Tree Shaking 관점에서의 CommonJS와 ES Module",
+          "url": "https://velog.io/@ckstn0777/Tree-Shaking-%EA%B4%80%EC%A0%90%EC%97%90%EC%84%9C%EC%9D%98-CommonJS%EC%99%80-ES-Module",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
+          "prereqs": [],
+          "related_concepts": []
+        },
+        {
+          "title": "React Import 사용시 Tree Shaking 에 주의하자",
+          "url": "https://velog.io/@exafe1009/React-Import-%EC%82%AC%EC%9A%A9%EC%8B%9C-Tree-Shaking-%EC%97%90-%EC%A3%BC%EC%9D%98%ED%95%98%EC%9E%90",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-06-10",
+          "minutes": null,
+          "one_liner": null,
+          "summary": null,
           "prereqs": [],
           "related_concepts": []
         }
