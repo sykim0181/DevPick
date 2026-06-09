@@ -35,9 +35,11 @@
   "2026-06-07": "satisfies-operator",
   "2026-06-08": "use-optimistic",
   "2026-06-09": "llm-streaming",
-  "2026-06-10": "tree-shaking",
-  "2026-06-11": "sqlite-workflows",
-  "2026-06-12": "partial-prerendering",
-  "2026-06-13": "discriminated-unions",
-  "2026-06-14": "visual-regression"
+  "2026-06-10": "react-suspense",
+  "2026-06-11": "typescript-generics",
+  "2026-06-12": "edge-runtime",
+  "2026-06-13": "module-federation",
+  "2026-06-14": "query-prefetching",
+  "2026-06-15": "streaming-ssr",
+  "2026-06-16": "ai-gateway-patterns"
 }
