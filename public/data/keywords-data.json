@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-09",
+  "generated_at": "2026-06-26",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -7713,6 +7713,468 @@
           "summary": null,
           "prereqs": [],
           "related_concepts": []
+        }
+      ]
+    },
+    "web-workers": {
+      "description": "메인 스레드와 별도의 백그라운드 스레드에서 무거운 작업을 처리하는 기술",
+      "articles": [
+        {
+          "title": "OpenCV in the browser using WebAssembly and web workers",
+          "url": "https://aralroca.com/blog/opencv-in-the-web",
+          "source": "hn",
+          "lang": "en",
+          "points": 316,
+          "published_at": "2020-05-08",
+          "collected_at": "2026-06-26",
+          "minutes": 8,
+          "one_liner": "WebAssembly와 Web Workers로 브라우저에서 OpenCV를 효율적으로 실행하기",
+          "summary": "WebAssembly로 컴파일된 OpenCV를 브라우저에서 실행하고, Web Workers를 활용하여 메인 스레드 블로킹 없이 이미지 처리를 병렬로 수행합니다. 이를 통해 복잡한 컴퓨터 비전 작업을 웹 애플리케이션에서 부드럽게 실행할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "WebAssembly (WASM)",
+              "detail": "C/C++를 브라우저에서 실행 가능하도록 컴파일하는 기술"
+            },
+            {
+              "name": "OpenCV 기초",
+              "detail": "이미지 처리 및 컴퓨터 비전 라이브러리의 기본 개념"
+            },
+            {
+              "name": "JavaScript 비동기 처리",
+              "detail": "Promise와 async/await 등 비동기 패턴 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "webassembly",
+              "reason": "브라우저에서 고성능 연산을 위한 핵심 기술"
+            },
+            {
+              "keyword": "opencv",
+              "reason": "이미지 처리의 표준 라이브러리로 주요 대상"
+            },
+            {
+              "keyword": "image-processing",
+              "reason": "실제 적용 분야인 웹 기반 이미지 처리"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "메인 스레드 블로킹 방지로 UI 반응성 개선"
+            },
+            {
+              "keyword": "multi-threading",
+              "reason": "Web Workers를 통한 병렬 처리 개념"
+            }
+          ]
+        },
+        {
+          "title": "When to use web workers",
+          "url": "https://dassur.ma/things/when-workers/",
+          "source": "hn",
+          "lang": "en",
+          "points": 257,
+          "published_at": "2019-06-15",
+          "collected_at": "2026-06-26",
+          "minutes": 5,
+          "one_liner": "Web Worker를 언제 사용해야 하는지 알아보는 실전 가이드",
+          "summary": "Web Worker는 백그라운드에서 JavaScript를 실행하여 메인 스레드의 블로킹을 방지합니다. 무거운 연산이나 장시간 작업이 필요할 때 사용하면 UI 반응성을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 동시성",
+              "detail": "단일 스레드 특성과 블로킹 문제를 이해하기 위해"
+            },
+            {
+              "name": "메인 스레드와 렌더링",
+              "detail": "Worker 도입 필요성을 판단하려면 렌더링 파이프라인 이해가 필수"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "Worker와 메인 스레드 간 통신 방식을 이해하기 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "main-thread",
+              "reason": "Worker와 대비되는 메인 스레드의 역할과 한계 이해"
+            },
+            {
+              "keyword": "message-passing",
+              "reason": "Worker와 통신하기 위한 메시지 전달 메커니즘"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "Worker를 통한 성능 최적화 방법론"
+            },
+            {
+              "keyword": "cpu-intensive-tasks",
+              "reason": "Worker 사용이 효과적인 작업의 특성"
+            },
+            {
+              "keyword": "shared-memory",
+              "reason": "SharedArrayBuffer를 통한 효율적인 데이터 공유"
+            }
+          ]
+        },
+        {
+          "title": "JavaScript in Parallel: Web Workers and SharedArrayBuffer",
+          "url": "http://50linesofco.de/post/2017-02-06-javascript-in-parallel-web-workers-transferables-and-sharedarraybuffer",
+          "source": "hn",
+          "lang": "en",
+          "points": 172,
+          "published_at": "2017-03-03",
+          "collected_at": "2026-06-26",
+          "minutes": 8,
+          "one_liner": "JavaScript에서 병렬 처리를 구현하는 Web Workers와 SharedArrayBuffer 활용법",
+          "summary": "Web Workers를 통해 메인 스레드와 별도로 백그라운드에서 JavaScript를 실행할 수 있습니다. SharedArrayBuffer를 활용하면 여러 워커 간에 메모리를 공유하여 효율적인 병렬 처리가 가능합니다. 이를 통해 무거운 연산 작업으로 인한 UI 블로킹을 방지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 스레드 모델",
+              "detail": "단일 스레드 구조를 이해하기 위한 기초"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "워커와 메인 스레드 간 통신 방식을 이해하는 데 필요"
+            },
+            {
+              "name": "메모리 관리",
+              "detail": "SharedArrayBuffer와 메모리 공유의 개념 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "worker-threads",
+              "reason": "Node.js 환경에서의 워커 스레드 구현"
+            },
+            {
+              "keyword": "message-passing",
+              "reason": "워커 간 데이터 통신의 핵심 메커니즘"
+            },
+            {
+              "keyword": "atomics",
+              "reason": "SharedArrayBuffer의 동시성 제어 API"
+            },
+            {
+              "keyword": "cpu-intensive-tasks",
+              "reason": "워커 사용의 주요 사용 사례"
+            }
+          ]
+        },
+        {
+          "title": "How I stopped a local chess engine from freezing the browser UI",
+          "url": "https://dev.to/karthick_ajan/how-i-stopped-a-local-chess-engine-from-freezing-the-browser-ui-4n8j",
+          "source": "devto",
+          "lang": "en",
+          "points": 1,
+          "published_at": "2026-06-01",
+          "collected_at": "2026-06-26",
+          "minutes": 5,
+          "one_liner": "Web Workers로 체스 엔진의 무거운 계산을 백그라운드에서 처리하여 UI 프리징 해결",
+          "summary": "브라우저의 메인 스레드에서 실행되는 체스 엔진의 계산으로 인해 UI가 멈추는 문제가 발생했습니다. Web Workers를 활용하여 무거운 연산을 별도 스레드에서 처리함으로써 UI 반응성을 개선했습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 싱글 스레드 모델",
+              "detail": "메인 스레드 블로킹의 원인 이해"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "Worker와의 메시지 기반 통신 방식 습득"
+            },
+            {
+              "name": "브라우저 성능",
+              "detail": "UI 반응성과 프레임 드롭 개념 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "multithreading",
+              "reason": "Web Workers로 멀티스레딩 구현 가능"
+            },
+            {
+              "keyword": "message-passing",
+              "reason": "메인 스레드와 Worker 간 안전한 통신"
+            },
+            {
+              "keyword": "cpu-bound-tasks",
+              "reason": "무거운 계산 작업을 Worker에 오프로드"
+            },
+            {
+              "keyword": "event-loop",
+              "reason": "이벤트 루프 블로킹 이해 필수"
+            }
+          ]
+        },
+        {
+          "title": "Web Workers : Understand in 3 Minutes",
+          "url": "https://dev.to/hongster85/web-workers-understand-in-3-minutes-5gb9",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-05-19",
+          "collected_at": "2026-06-26",
+          "minutes": 3,
+          "one_liner": "메인 스레드를 블로킹하지 않고 백그라운드에서 작업을 처리하는 Web Workers",
+          "summary": "Web Workers는 JavaScript 실행을 별도의 백그라운드 스레드에서 처리하여 메인 스레드의 UI 반응성을 유지하는 기술입니다. 복잡한 계산이나 무거운 작업을 Worker 스레드에서 수행하면 사용자 인터페이스가 끊기지 않습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 멀티스레딩 개념",
+              "detail": "단일 스레드의 JS 실행 모델을 이해하기 위해 필요합니다"
+            },
+            {
+              "name": "Event Loop와 Blocking",
+              "detail": "메인 스레드 블로킹 문제를 파악하기 위한 배경 지식입니다"
+            },
+            {
+              "name": "Message Passing (PostMessage API)",
+              "detail": "스레드 간 데이터 통신 방식을 알아야 합니다"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "service-workers",
+              "reason": "네트워크 요청 처리를 담당하는 다른 유형의 워커"
+            },
+            {
+              "keyword": "shared-workers",
+              "reason": "여러 탭/창에서 공유 가능한 워커 타입"
+            },
+            {
+              "keyword": "cpu-intensive-tasks",
+              "reason": "워커가 주로 해결하는 성능 병목 문제"
+            },
+            {
+              "keyword": "thread-safety",
+              "reason": "워커 간 데이터 공유 시 고려해야 할 동시성 문제"
+            },
+            {
+              "keyword": "offloading",
+              "reason": "메인 스레드에서 작업을 분리하는 핵심 패턴"
+            }
+          ]
+        },
+        {
+          "title": "Why Your Browser Crashes on Large File Hashing (and How to Fix It with Web Workers)",
+          "url": "https://dev.to/will_indie/why-your-browser-crashes-on-large-file-hashing-and-how-to-fix-it-with-web-workers-2lmi",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2026-06-04",
+          "collected_at": "2026-06-26",
+          "minutes": 5,
+          "one_liner": "Web Workers로 대용량 파일 해싱 시 브라우저 충돌을 방지하는 방법",
+          "summary": "메인 스레드에서 대용량 파일을 해싱하면 브라우저가 멈추는 문제가 발생합니다. Web Workers를 사용하면 백그라운드 스레드에서 독립적으로 작업을 처리하여 UI 응답성을 유지할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 이벤트 루프",
+              "detail": "메인 스레드 차단이 왜 문제인지 이해하기 위해"
+            },
+            {
+              "name": "Promise와 비동기 처리",
+              "detail": "Worker와의 비동기 통신을 이해하기 위해"
+            },
+            {
+              "name": "File API",
+              "detail": "브라우저에서 파일 데이터를 다루는 방식 학습"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "main-thread",
+              "reason": "UI 블로킹 문제의 근본 원인 이해"
+            },
+            {
+              "keyword": "message-passing",
+              "reason": "Worker와 메인 스레드 간 데이터 통신 방식"
+            },
+            {
+              "keyword": "crypto-api",
+              "reason": "브라우저 내장 해싱 함수로 구현하기"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "백그라운드 처리로 앱 성능 개선"
+            },
+            {
+              "keyword": "shared-array-buffer",
+              "reason": "대용량 데이터 효율적으로 공유하기"
+            }
+          ]
+        },
+        {
+          "title": "브라우저는 샌드박스다",
+          "url": "https://news.hada.io/topic?id=26175",
+          "source": "gn",
+          "lang": "ko",
+          "published_at": "2026-01-27",
+          "collected_at": "2026-06-26",
+          "minutes": 5,
+          "one_liner": "브라우저의 샌드박스 보안 구조와 Web Workers의 역할",
+          "summary": "브라우저는 각 탭과 프로세스를 격리하여 보안을 유지하는 샌드박스 환경입니다. Web Workers를 활용하면 메인 스레드의 부하를 줄이고 안전하게 백그라운드 작업을 처리할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "브라우저 보안 모델",
+              "detail": "웹 애플리케이션이 안전하게 실행되는 기본 원리 이해"
+            },
+            {
+              "name": "JavaScript 스레드 모델",
+              "detail": "싱글 스레드 특성과 블로킹 이해"
+            },
+            {
+              "name": "프로세스와 스레드",
+              "detail": "운영체제 수준의 격리 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "same-origin-policy",
+              "reason": "브라우저 샌드박스의 핵심 보안 정책"
+            },
+            {
+              "keyword": "event-loop",
+              "reason": "메인 스레드 블로킹 문제 이해에 필수"
+            },
+            {
+              "keyword": "message-passing",
+              "reason": "Worker와 메인 스레드 간 통신 방식"
+            },
+            {
+              "keyword": "cross-origin-requests",
+              "reason": "샌드박스 환경에서의 통신 제약사항"
+            }
+          ]
+        },
+        {
+          "title": "Web Worker 사용해 이미지 압축 및 포멧 변환 최적화",
+          "url": "https://velog.io/@cloud_oort/Web-Worker-%EC%82%AC%EC%9A%A9%ED%95%B4-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%95%95%EC%B6%95-%EB%B0%8F-%ED%8F%AC%EB%A9%A7-%EB%B3%80%ED%99%98-%EC%B5%9C%EC%A0%81%ED%99%94",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-06-26",
+          "minutes": 5,
+          "one_liner": "Web Worker를 활용한 이미지 압축 및 포멧 변환 최적화 방법",
+          "summary": "Web Worker를 사용하여 메인 스레드 블로킹 없이 이미지 압축과 포멧 변환을 백그라운드에서 처리할 수 있습니다. 이를 통해 UI 반응성을 유지하면서 무거운 이미지 처리 작업을 효율적으로 수행할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 비동기 처리",
+              "detail": "Web Worker 통신의 기초가 되는 Promise, 콜백 패턴 이해 필요"
+            },
+            {
+              "name": "Canvas API",
+              "detail": "이미지 압축과 포멧 변환에 필수적인 그래픽 처리 도구"
+            },
+            {
+              "name": "메인 스레드 개념",
+              "detail": "Worker의 필요성을 이해하기 위해 브라우저 렌더링 방식 학습"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "canvas-api",
+              "reason": "이미지 처리 및 변환에 핵심적인 도구"
+            },
+            {
+              "keyword": "image-optimization",
+              "reason": "이미지 압축의 목표와 최적화 전략 학습"
+            },
+            {
+              "keyword": "message-passing",
+              "reason": "메인 스레드와 Worker 간의 데이터 통신 메커니즘"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "UI 반응성 향상과 성능 측정 방법"
+            },
+            {
+              "keyword": "blob-and-file-api",
+              "reason": "이미지 데이터 처리 및 다운로드 기능 구현에 필요"
+            }
+          ]
+        },
+        {
+          "title": "웹앱의 사용성을 높이는 Web Worker와 Service Worker에 대해 알아보기",
+          "url": "https://velog.io/@oneook/Web-Worker%EC%99%80-Service-Worker%EC%97%90-%EB%8C%80%ED%95%B4-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-06-26",
+          "minutes": 7,
+          "one_liner": "Web Worker와 Service Worker로 웹앱의 성능과 오프라인 기능을 향상시키는 방법",
+          "summary": "Web Worker는 메인 스레드와 별도로 백그라운드에서 작업을 처리하여 UI 반응성을 높이고, Service Worker는 네트워크 요청을 가로채 오프라인 지원과 캐싱을 구현합니다. 두 기술을 함께 활용하면 웹앱의 사용성과 성능을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 기본 문법",
+              "detail": "스레드, 콜백, Promise 개념 이해 필요"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "async/await, Promise로 백그라운드 작업 이해"
+            },
+            {
+              "name": "HTTP 및 캐싱",
+              "detail": "브라우저 캐시와 네트워크 요청의 기본 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "service-worker",
+              "reason": "오프라인 지원과 네트워크 캐싱을 위한 필수 기술"
+            },
+            {
+              "keyword": "multi-threading",
+              "reason": "Web Worker의 스레드 개념과 병렬 처리 이해"
+            },
+            {
+              "keyword": "message-api",
+              "reason": "워커와 메인 스레드 간 통신 메커니즘"
+            },
+            {
+              "keyword": "pwa",
+              "reason": "Service Worker를 활용한 Progressive Web App 구현"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "워커를 통한 웹앱 성능 개선 전략"
+            }
+          ]
+        },
+        {
+          "title": "Web worker로 성능 향상시키기",
+          "url": "https://velog.io/@seeh_h/Web-worker%EB%A1%9C-%EC%84%B1%EB%8A%A5-%ED%96%A5%EC%83%81%EC%8B%9C%ED%82%A4%EA%B8%B0",
+          "source": "velog",
+          "lang": "ko",
+          "collected_at": "2026-06-26",
+          "minutes": 5,
+          "one_liner": "Web Worker로 메인 스레드를 차단하지 않고 성능을 높이는 방법",
+          "summary": "Web Worker는 백그라운드에서 별도의 스레드로 JavaScript를 실행하여 메인 스레드의 블로킹을 방지합니다. 이를 통해 복잡한 연산이나 데이터 처리 작업을 분리하여 사용자 인터페이스의 반응성을 크게 향상시킬 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "JavaScript 멀티스레딩 개념",
+              "detail": "Web Worker 이전의 JS 실행 모델을 이해하기 위해"
+            },
+            {
+              "name": "비동기 프로그래밍",
+              "detail": "Worker와 메인 스레드 간 통신 방식을 이해하기 위해"
+            },
+            {
+              "name": "브라우저 렌더링 성능",
+              "detail": "왜 메인 스레드 블로킹이 문제인지 파악하기 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "message-passing",
+              "reason": "Worker와 메인 스레드 간 데이터 전송 메커니즘"
+            },
+            {
+              "keyword": "shared-array-buffer",
+              "reason": "Worker 간 메모리 효율적인 데이터 공유 방식"
+            },
+            {
+              "keyword": "cpu-intensive-tasks",
+              "reason": "Worker로 해결할 수 있는 대표적인 작업 유형"
+            },
+            {
+              "keyword": "event-loop",
+              "reason": "Worker 도입으로 개선되는 JS 이벤트 루프 동작"
+            }
+          ]
         }
       ]
     }
