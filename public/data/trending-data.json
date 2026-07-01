@@ -1403,5 +1403,1347 @@
       "category": "other",
       "minutes": 3
     }
+  ],
+  "2026-07-01": [
+    {
+      "title": "Claude Code is steganographically marking requests",
+      "url": "https://thereallo.dev/blog/claude-code-prompt-steganography",
+      "points": 2172,
+      "comments": 629,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "ai",
+      "minutes": 4,
+      "one_liner": "Claude가 API 요청에 은닉 마크를 추가하는 방식",
+      "summary": "Claude는 자신이 생성한 코드 요청에 대해 은닉 마크(steganographic marking)를 추가하여 추적하고 있습니다. 이는 보안 및 감시 목적으로 사용되며, 사용자가 명시적으로 인지하지 못하는 상태에서 발생합니다.",
+      "prereqs": [
+        {
+          "name": "Steganography",
+          "detail": "정보를 숨겨서 전송하는 기술을 이해해야 합니다"
+        },
+        {
+          "name": "API 요청",
+          "detail": "HTTP 요청과 데이터 전송 방식의 기본 개념"
+        },
+        {
+          "name": "LLM 보안",
+          "detail": "AI 모델의 보안 이슈와 추적 메커니즘"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "api-monitoring",
+          "reason": "API 요청 모니터링의 필요성과 방법"
+        },
+        {
+          "keyword": "prompt-injection",
+          "reason": "LLM 보안 취약점과 공격 벡터"
+        },
+        {
+          "keyword": "ai-transparency",
+          "reason": "AI 모델의 투명성과 윤리적 문제"
+        },
+        {
+          "keyword": "code-analysis",
+          "reason": "생성된 코드의 숨겨진 마킹 분석"
+        },
+        {
+          "keyword": "digital-forensics",
+          "reason": "은닉 마크 탐지 및 분석 기법"
+        }
+      ]
+    },
+    {
+      "title": "Claude Sonnet 5",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5",
+      "points": 1162,
+      "comments": 697,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "Anthropic의 최신 AI 모델 Claude Sonnet 5의 기능과 특징 소개",
+      "summary": "Claude Sonnet 5는 Anthropic이 출시한 최신 대규모 언어 모델로, 향상된 성능과 효율성을 제공합니다. 기존 모델 대비 빠른 응답 속도와 더욱 정확한 추론 능력을 갖추고 있으며, 다양한 AI 애플리케이션 개발에 활용될 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "Large Language Model",
+          "detail": "대규모 언어 모델의 개념과 동작 원리 이해"
+        },
+        {
+          "name": "AI API",
+          "detail": "API를 통한 AI 모델 통합 방식 파악"
+        },
+        {
+          "name": "Prompt Engineering",
+          "detail": "AI 모델에서 원하는 결과를 얻기 위한 기법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "anthropic",
+          "reason": "Claude 모델을 개발한 기업"
+        },
+        {
+          "keyword": "llm-performance",
+          "reason": "모델의 성능 지표와 비교 분석"
+        },
+        {
+          "keyword": "api-integration",
+          "reason": "Claude Sonnet 5 API 활용 방법"
+        },
+        {
+          "keyword": "ai-inference",
+          "reason": "추론 속도와 효율성 최적화"
+        },
+        {
+          "keyword": "token-pricing",
+          "reason": "API 사용 비용 구조 이해"
+        }
+      ]
+    },
+    {
+      "title": "Department of Commerce has lifted export controls on Claude Fable 5 and Mythos 5",
+      "url": "https://twitter.com/AnthropicAI/status/2072106151890809341",
+      "points": 746,
+      "comments": 464,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "미국 상무부가 Claude와 Mythos AI 모델의 수출 규제를 완화했다.",
+      "summary": "미국 상무부가 Claude Fable 5와 Mythos 5에 대한 수출 통제를 해제했습니다. 이는 AI 모델의 국제 배포 및 접근성이 확대됨을 의미하며, 글로벌 AI 개발 생태계에 영향을 미칩니다.",
+      "prereqs": [
+        {
+          "name": "AI 모델 수출 규제",
+          "detail": "국가별 AI 기술 통제 정책 이해"
+        },
+        {
+          "name": "Claude와 Mythos",
+          "detail": "주요 AI 언어 모델의 특징과 용도"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "ai-export-policy",
+          "reason": "AI 기술의 국제 규제 정책 동향"
+        },
+        {
+          "keyword": "large-language-models",
+          "reason": "Claude 같은 최신 LLM의 기능 이해"
+        },
+        {
+          "keyword": "ai-accessibility",
+          "reason": "규제 완화가 개발자 접근성에 미치는 영향"
+        },
+        {
+          "keyword": "global-ai-governance",
+          "reason": "국가 간 AI 기술 통제의 미래 방향"
+        }
+      ]
+    },
+    {
+      "title": "Claude Science",
+      "url": "https://claude.com/product/claude-science",
+      "points": 511,
+      "comments": 150,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "Claude AI의 과학적 기초와 개발 원리에 대한 설명",
+      "summary": "Claude는 대규모 언어 모델로서 머신러닝과 신경망 기술을 기반으로 개발되었습니다. 모델의 훈련 방식, 안전성 강화 기법, 그리고 성능 최적화 전략을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "Large Language Model (LLM)",
+          "detail": "Claude 같은 AI 모델의 기본 개념"
+        },
+        {
+          "name": "Deep Learning",
+          "detail": "신경망 기반 머신러닝 이해"
+        },
+        {
+          "name": "Transformer Architecture",
+          "detail": "현대 AI 모델의 핵심 구조"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "reinforcement-learning-from-human-feedback",
+          "reason": "Claude의 안전성 강화 방식"
+        },
+        {
+          "keyword": "prompt-engineering",
+          "reason": "Claude를 효과적으로 사용하는 기법"
+        },
+        {
+          "keyword": "ai-safety",
+          "reason": "Claude 개발의 중요한 우선순위"
+        },
+        {
+          "keyword": "model-scaling",
+          "reason": "성능 향상의 핵심 전략"
+        }
+      ]
+    },
+    {
+      "title": "The labor share of income in the US is at its lowest post-war level",
+      "url": "https://libertystreeteconomics.newyorkfed.org/2026/06/the-post-covid-decline-in-the-labor-share/",
+      "points": 482,
+      "comments": 518,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "미국 노동소득 비중이 전후(戰後) 최저 수준에 도달했다",
+      "summary": "미국에서 노동자들이 받는 소득이 전체 국민소득에서 차지하는 비중이 2차 세계대전 이후 가장 낮은 수준으로 떨어졌다. 이는 자본소득 대비 노동소득의 상대적 감소를 의미하며, 불평등 심화와 경제 구조 변화를 반영한다.",
+      "prereqs": [
+        {
+          "name": "labor-share",
+          "detail": "노동 소득이 전체 GDP에서 차지하는 비율"
+        },
+        {
+          "name": "소득불평등",
+          "detail": "개인과 계층 간 소득 격차의 확대 추이 이해"
+        },
+        {
+          "name": "macroeconomics",
+          "detail": "국가 경제 전체의 추세와 정책의 영향 파악"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "income-inequality",
+          "reason": "소득 양극화 심화의 근본 원인 이해"
+        },
+        {
+          "keyword": "wage-stagnation",
+          "reason": "노동소득 비중 감소의 구체적 사례"
+        },
+        {
+          "keyword": "capital-gains",
+          "reason": "노동소득 대비 자본소득의 증가 추세"
+        },
+        {
+          "keyword": "labor-market",
+          "reason": "노동 시장 구조 변화와 고용 형태의 다양화"
+        },
+        {
+          "keyword": "gdp-distribution",
+          "reason": "경제 성장의 결과가 불균형하게 분배되는 현상"
+        }
+      ]
+    },
+    {
+      "title": "County with 37 Data Centers Asks Schools to 'Conserve Electricity'",
+      "url": "https://www.404media.co/henrico-virginia-datacenter-energy-cost-email/",
+      "points": 403,
+      "comments": 178,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 5,
+      "one_liner": "데이터센터 밀집 지역의 전력 부족 문제와 모순된 정책",
+      "summary": "37개의 데이터센터가 밀집한 지역의 학교들이 전력 절감을 요청받는 역설적 상황을 다룬다. 데이터센터의 막대한 전력 소비와 인프라 수용 능력 사이의 불균형을 지적하며, 산업 성장과 공공 시설 운영의 우선순위 문제를 제기한다.",
+      "prereqs": [
+        {
+          "name": "Data Center Infrastructure",
+          "detail": "대규모 컴퓨팅 자원의 전력 소비 규모 이해"
+        },
+        {
+          "name": "Power Grid Management",
+          "detail": "지역 전력망의 용량과 수급 관리 방식 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "energy-consumption",
+          "reason": "데이터센터의 전력 사용량 증가 추세"
+        },
+        {
+          "keyword": "cloud-infrastructure",
+          "reason": "클라우드 산업 확장에 따른 인프라 수요"
+        },
+        {
+          "keyword": "sustainability",
+          "reason": "에너지 효율과 환경 영향 관리"
+        },
+        {
+          "keyword": "urban-planning",
+          "reason": "산업 밀집도와 지역 자원 배분 문제"
+        }
+      ]
+    },
+    {
+      "title": "Nano Banana 2 Lite",
+      "url": "https://deepmind.google/models/gemini-image/flash-lite/",
+      "points": 397,
+      "comments": 161,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "prereqs": [],
+      "related_concepts": []
+    },
+    {
+      "title": "Knoppix",
+      "url": "https://www.knopper.net/knoppix/index-en.html",
+      "points": 317,
+      "comments": 114,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "devops",
+      "minutes": 8,
+      "one_liner": "라이브 부팅 가능한 경량 리눅스 배포판 Knoppix 소개",
+      "summary": "Knoppix는 CD/DVD에서 직접 부팅 가능한 경량 리눅스 배포판으로, 설치 없이 완전한 데스크톱 환경을 제공합니다. 시스템 복구, 테스트, 교육 목적으로 널리 사용되며, 다양한 오픈소스 도구를 포함하고 있습니다.",
+      "prereqs": [
+        {
+          "name": "Linux 기초",
+          "detail": "리눅스 운영체제의 기본 개념 이해"
+        },
+        {
+          "name": "부팅 프로세스",
+          "detail": "컴퓨터 부팅 메커니즘과 부트로더의 역할"
+        },
+        {
+          "name": "배포판(Distribution)",
+          "detail": "리눅스 배포판의 종류와 특징 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "live-usb",
+          "reason": "USB를 통한 부팅 방식으로 Knoppix 실행"
+        },
+        {
+          "keyword": "system-recovery",
+          "reason": "손상된 시스템 복구 도구로 활용"
+        },
+        {
+          "keyword": "linux-distribution",
+          "reason": "다른 경량 배포판과 비교 학습"
+        },
+        {
+          "keyword": "debian-based",
+          "reason": "Knoppix의 베이스인 Debian 계열 특성"
+        },
+        {
+          "keyword": "containerization",
+          "reason": "모던 대안으로 Docker 컨테이너 이해"
+        }
+      ]
+    },
+    {
+      "title": "We Are the Last People Who Know How It Works",
+      "url": "https://unix.foo/posts/last-people-who-know-how-it-works/",
+      "points": 310,
+      "comments": 256,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "레거시 시스템을 이해하는 마지막 세대 개발자들의 책임",
+      "summary": "현대 개발자들이 이전 세대가 만든 시스템의 작동 원리를 이해하는 마지막 사람들이 될 수 있다는 주제의 글입니다. 기술 부채, 문서화 부족, 지식 손실의 위험성을 다루며 이러한 지식을 다음 세대에 전승하는 것의 중요성을 강조합니다.",
+      "prereqs": [
+        {
+          "name": "Legacy Code",
+          "detail": "오래된 코드베이스 유지보수의 도전과제 이해"
+        },
+        {
+          "name": "Technical Debt",
+          "detail": "단기적 편의로 인한 장기적 비용 개념"
+        },
+        {
+          "name": "Knowledge Management",
+          "detail": "조직 내 기술 지식 보존과 전파 중요성"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "technical-debt",
+          "reason": "레거시 시스템이 만들어지는 근본 원인"
+        },
+        {
+          "keyword": "code-documentation",
+          "reason": "지식 손실 방지를 위한 필수 요소"
+        },
+        {
+          "keyword": "knowledge-transfer",
+          "reason": "경험 있는 개발자의 역할과 책임"
+        },
+        {
+          "keyword": "system-architecture",
+          "reason": "기존 시스템 이해의 핵심 요소"
+        },
+        {
+          "keyword": "mentoring",
+          "reason": "다음 세대 개발자 교육의 중요성"
+        }
+      ]
+    },
+    {
+      "title": "I ported Kubernetes to the browser",
+      "url": "https://ngrok.com/blog/i-ported-kubernetes-to-the-browser",
+      "points": 297,
+      "comments": 83,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "devops",
+      "minutes": 8,
+      "one_liner": "Kubernetes를 브라우저에서 실행할 수 있도록 포팅한 프로젝트",
+      "summary": "개발자가 Kubernetes를 브라우저 환경에서 직접 실행할 수 있도록 포팅한 경험을 공유합니다. WebAssembly와 같은 기술을 활용하여 복잡한 오케스트레이션 도구를 웹 기반으로 구현하는 방법을 소개합니다.",
+      "prereqs": [
+        {
+          "name": "Kubernetes",
+          "detail": "컨테이너 오케스트레이션 플랫폼의 기본 개념"
+        },
+        {
+          "name": "WebAssembly",
+          "detail": "브라우저에서 저수준 코드를 실행하는 기술"
+        },
+        {
+          "name": "Docker/Container",
+          "detail": "컨테이너화된 애플리케이션의 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "webassembly",
+          "reason": "브라우저에서 고성능 코드 실행의 핵심"
+        },
+        {
+          "keyword": "container-runtime",
+          "reason": "쿠버네티스 기능을 브라우저에서 구현하기 위해 필요"
+        },
+        {
+          "keyword": "wasm-modules",
+          "reason": "Go/Rust 코드를 웹에서 실행하는 방법"
+        },
+        {
+          "keyword": "distributed-systems",
+          "reason": "쿠버네티스의 오케스트레이션 원리 이해"
+        },
+        {
+          "keyword": "browser-apis",
+          "reason": "브라우저 환경의 제약과 가능성 파악"
+        }
+      ]
+    },
+    {
+      "title": "Godot will no longer accept AI-authored code contributions",
+      "url": "https://www.pcgamer.com/gaming-industry/open-source-game-engine-godot-will-no-longer-accept-ai-authored-code-contributions-we-cant-trust-heavy-users-of-ai-to-understand-their-code-enough-to-fix-it/",
+      "points": 287,
+      "comments": 179,
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 5,
+      "one_liner": "Godot 엔진이 AI 생성 코드 기여를 더 이상 받지 않기로 결정",
+      "summary": "Godot 프로젝트는 AI로 작성된 코드 기여를 받아들이지 않기로 공식 결정했습니다. 이는 코드 품질 관리, 라이선스 명확성, 커뮤니티 신뢰 유지를 위한 조치입니다.",
+      "prereqs": [
+        {
+          "name": "오픈소스 개발",
+          "detail": "커뮤니티 기반 프로젝트 관리와 기여 프로세스 이해"
+        },
+        {
+          "name": "저작권과 라이선스",
+          "detail": "오픈소스 라이선스와 코드 소유권 문제 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "open-source-governance",
+          "reason": "프로젝트 정책 결정 과정 이해"
+        },
+        {
+          "keyword": "code-review",
+          "reason": "코드 품질 검수의 중요성"
+        },
+        {
+          "keyword": "ai-ethics",
+          "reason": "AI 생성 콘텐츠의 윤리적 이슈"
+        },
+        {
+          "keyword": "software-licensing",
+          "reason": "오픈소스 라이선스 명확성 문제"
+        }
+      ]
+    },
+    {
+      "title": "Leanstral 1.5",
+      "url": "https://docs.mistral.ai/models/model-cards/leanstral-1-5-26-06",
+      "points": 253,
+      "comments": 99,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "prereqs": [],
+      "related_concepts": []
+    },
+    {
+      "title": "Google copybara: moving code between repositories",
+      "url": "https://github.com/google/copybara",
+      "points": 238,
+      "comments": 44,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "devops",
+      "minutes": 8,
+      "one_liner": "Google Copybara를 이용한 저장소 간 코드 이동 및 동기화",
+      "summary": "Google Copybara는 여러 저장소 간에 코드를 효율적으로 이동하고 동기화하는 도구입니다. 복잡한 변환 규칙을 통해 코드 구조 변경, 메타데이터 처리, 의존성 관리를 자동화할 수 있으며, 단방향 또는 양방향 동기화를 지원합니다.",
+      "prereqs": [
+        {
+          "name": "Git 기본 개념",
+          "detail": "저장소, 커밋, 브랜치 등 버전 관리의 기초"
+        },
+        {
+          "name": "CI/CD 파이프라인",
+          "detail": "자동화된 배포 및 통합 프로세스 이해"
+        },
+        {
+          "name": "코드 마이그레이션",
+          "detail": "여러 저장소 간 코드 이동의 필요성 인지"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "monorepo",
+          "reason": "단일 저장소에서 다중 프로젝트 관리와의 비교"
+        },
+        {
+          "keyword": "git-subtree",
+          "reason": "저장소 간 코드 공유의 대안 도구"
+        },
+        {
+          "keyword": "code-transformation",
+          "reason": "저장소 이동 시 코드 자동 변환 필요성"
+        },
+        {
+          "keyword": "workflow-automation",
+          "reason": "배포 파이프라인에서 자동화된 동기화"
+        },
+        {
+          "keyword": "version-control",
+          "reason": "다중 저장소 환경의 효과적인 관리 방식"
+        }
+      ]
+    },
+    {
+      "title": "Crypto firms have spent $189M so far on 2026 US election, report says",
+      "url": "https://www.reuters.com/world/crypto-firms-have-spent-189-million-so-far-2026-us-election-report-says-2026-06-30/",
+      "points": 219,
+      "comments": 103,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "암호화폐 기업들의 2026년 미국 선거 정치자금 기부 현황",
+      "summary": "암호화폐 업계가 2026년 미국 선거를 앞두고 1억8900만 달러를 정치 자금으로 지출했다는 보도이다. 이는 업계의 정치적 영향력 확대와 규제 정책에 대한 로비 활동이 증가하고 있음을 보여준다.",
+      "prereqs": [
+        {
+          "name": "Cryptocurrency",
+          "detail": "암호화폐의 기본 개념 이해가 필요"
+        },
+        {
+          "name": "Political Funding",
+          "detail": "선거 자금과 로비의 정치적 역할 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "blockchain-regulation",
+          "reason": "암호화폐 규제 정책 동향 파악"
+        },
+        {
+          "keyword": "political-lobbying",
+          "reason": "기업의 정치 활동 전략 이해"
+        },
+        {
+          "keyword": "election-finance",
+          "reason": "선거 자금 공개 제도 및 투명성"
+        },
+        {
+          "keyword": "crypto-policy",
+          "reason": "정부의 암호화폐 정책 방향"
+        }
+      ]
+    },
+    {
+      "title": "Looking Ahead to Postgres 19",
+      "url": "https://www.snowflake.com/en/blog/engineering/postgresql-19-features-beta/",
+      "points": 211,
+      "comments": 125,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "backend",
+      "minutes": 8,
+      "one_liner": "PostgreSQL 19의 새로운 기능과 개선사항을 소개합니다.",
+      "summary": "PostgreSQL 19에서 기대할 수 있는 주요 기능과 성능 개선사항들을 미리 살펴보는 글입니다. 데이터베이스 성능 최적화, 새로운 쿼리 기능, 그리고 개발자 경험 향상에 초점을 맞추고 있습니다.",
+      "prereqs": [
+        {
+          "name": "PostgreSQL 기본 개념",
+          "detail": "관계형 데이터베이스의 핵심 기능 이해"
+        },
+        {
+          "name": "SQL 문법",
+          "detail": "데이터베이스 쿼리 작성 방법 숙지"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "database-performance",
+          "reason": "PostgreSQL 성능 최적화 전략 학습"
+        },
+        {
+          "keyword": "query-optimization",
+          "reason": "효율적인 쿼리 작성 방법 개선"
+        },
+        {
+          "keyword": "postgresql-versions",
+          "reason": "PostgreSQL 버전 업그레이드 고려사항"
+        },
+        {
+          "keyword": "sql-features",
+          "reason": "새로운 SQL 기능 활용 방법"
+        }
+      ]
+    },
+    {
+      "title": "Supreme Court upholds broad conception of birthright citizenship",
+      "url": "https://apnews.com/live/birthright-citizenship-decision-supreme-court-updates-06-30-2026",
+      "points": 204,
+      "comments": 528,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "미국 대법원이 광범위한 출생지 시민권 해석을 지지하다",
+      "summary": "미국 대법원이 14수정헌법의 출생지 시민권 조항에 대해 광범위한 해석을 유지하기로 판결했습니다. 이 판결은 미국 영토에서 태어난 개인들의 시민권 획득 권리를 보호하는 헌법적 기초를 재확인합니다.",
+      "prereqs": [
+        {
+          "name": "14th Amendment",
+          "detail": "미국 헌법의 시민권 조항 이해"
+        },
+        {
+          "name": "Birthright Citizenship",
+          "detail": "출생지 기반의 자동 시민권 부여 개념"
+        },
+        {
+          "name": "Constitutional Law",
+          "detail": "미국 헌법 해석과 판례법 기초"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "citizenship-law",
+          "reason": "시민권 취득의 법적 기준과 절차"
+        },
+        {
+          "keyword": "immigration-policy",
+          "reason": "이민 정책과 시민권의 상관관계"
+        },
+        {
+          "keyword": "constitutional-interpretation",
+          "reason": "헌법 조항의 광의/협의 해석 방식"
+        },
+        {
+          "keyword": "supreme-court-precedent",
+          "reason": "대법원 판례의 구속력과 영향"
+        }
+      ]
+    },
+    {
+      "title": "Asahi Linux 7.1 Progress Report",
+      "url": "https://asahilinux.org/2026/06/progress-report-7-1/",
+      "points": 204,
+      "comments": 41,
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "devops",
+      "minutes": 8,
+      "one_liner": "Apple Silicon 기반 리눅스 배포판 Asahi의 7.1 버전 개발 진행 상황",
+      "summary": "Asahi Linux 7.1의 최신 개발 진행 상황을 다룬 보고서입니다. Apple Silicon Mac에서 네이티브로 실행되는 리눅스 환경 구축의 기술적 진전, 하드웨어 지원 확대, 그리고 앞으로의 로드맵을 설명합니다.",
+      "prereqs": [
+        {
+          "name": "Apple Silicon Architecture",
+          "detail": "ARM 기반 Apple 칩의 구조 이해가 필요합니다"
+        },
+        {
+          "name": "Linux Kernel",
+          "detail": "커널 레벨의 하드웨어 지원과 드라이버 개념 이해"
+        },
+        {
+          "name": "Boot Process",
+          "detail": "OS 부팅 메커니즘과 펌웨어 관계 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "arm-architecture",
+          "reason": "Apple Silicon의 기반 아키텍처 학습"
+        },
+        {
+          "keyword": "linux-kernel-development",
+          "reason": "하드웨어 지원 추가 과정 이해"
+        },
+        {
+          "keyword": "device-drivers",
+          "reason": "Mac 하드웨어 제어 드라이버 개발"
+        },
+        {
+          "keyword": "cross-platform-development",
+          "reason": "다양한 플랫폼 호환성 고려 방식"
+        },
+        {
+          "keyword": "open-source-projects",
+          "reason": "커뮤니티 주도 프로젝트 운영 방식"
+        }
+      ]
+    },
+    {
+      "title": "Have you restarted your computer this week?",
+      "url": "https://taonaw.com/2026/06/27/have-you-restarted-your-computer.html",
+      "points": 197,
+      "comments": 349,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "devops",
+      "minutes": 3,
+      "one_liner": "컴퓨터 재시작의 중요성과 개발 환경 유지보수",
+      "summary": "개발자가 간과하기 쉬운 컴퓨터 재시작의 중요성을 다룬 글입니다. 정기적인 재시작은 시스템 안정성, 메모리 누수 방지, 소프트웨어 업데이트 적용 등 여러 이점을 제공합니다.",
+      "prereqs": [
+        {
+          "name": "System Memory Management",
+          "detail": "메모리 누수 현상과 재부팅의 관계 이해"
+        },
+        {
+          "name": "Software Updates",
+          "detail": "OS 및 애플리케이션 업데이트의 필요성 인식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "system-maintenance",
+          "reason": "개발 환경 최적화의 기본 관리 항목"
+        },
+        {
+          "keyword": "memory-management",
+          "reason": "재시작이 필요한 메모리 관련 문제 이해"
+        },
+        {
+          "keyword": "cache-clearing",
+          "reason": "재시작 대신 활용 가능한 캐시 초기화 방법"
+        },
+        {
+          "keyword": "process-monitoring",
+          "reason": "시스템 리소스 상태 모니터링 도구"
+        }
+      ]
+    },
+    {
+      "title": "I built a mmWave material classification radar (2025)",
+      "url": "https://gauthier-lechevalier.com/radar",
+      "points": 189,
+      "comments": 55,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "mmWave 레이더를 이용한 재료 분류 시스템 구축 경험담",
+      "summary": "저자가 밀리미터파(mmWave) 레이더를 활용하여 다양한 재료를 분류하는 시스템을 직접 구현한 과정을 기술합니다. 신호 처리, 머신러닝, 하드웨어 통합 등의 실제 개발 경험을 담고 있으며, 실용적인 IoT/센서 응용 사례를 제시합니다.",
+      "prereqs": [
+        {
+          "name": "레이더 신호 처리",
+          "detail": "mmWave 레이더의 기본 원리와 신호 수집 방식 이해"
+        },
+        {
+          "name": "머신러닝 분류",
+          "detail": "센서 데이터 기반 분류 모델 학습 및 예측 개념"
+        },
+        {
+          "name": "임베디드 시스템",
+          "detail": "마이크로컨트롤러와 센서 통합 기초 지식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "signal-processing",
+          "reason": "레이더 신호 수집과 특성 추출의 핵심 기술"
+        },
+        {
+          "keyword": "iot-sensor-integration",
+          "reason": "실제 하드웨어와 소프트웨어 통합 구현 방식"
+        },
+        {
+          "keyword": "machine-learning-classification",
+          "reason": "수집한 데이터를 이용한 모델 학습과 예측"
+        },
+        {
+          "keyword": "edge-computing",
+          "reason": "임베디드 환경에서의 효율적인 처리"
+        },
+        {
+          "keyword": "mmwave-technology",
+          "reason": "고주파 대역 레이더의 특성과 응용"
+        }
+      ]
+    },
+    {
+      "title": "Memoirs of Extraordinary Popular Delusions and the Madness of Crowds (1852)",
+      "url": "https://www.gutenberg.org/ebooks/24518",
+      "points": 182,
+      "comments": 59,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 45,
+      "one_liner": "군중 심리와 집단 망상이 초래한 역사적 금융 위기 사례 분석",
+      "summary": "1852년 출간된 이 고전은 튤립 광란, 남해 거품, 마녀사냥 등 역사 속 집단 광기 사례들을 분석한다. 저자는 개인의 이성도 군중에 휩싸지면 광신적 행동으로 변할 수 있음을 보여주며, 이는 현대의 금융 거품과 소셜 미디어 확산에도 여전히 적용된다.",
+      "prereqs": [
+        {
+          "name": "행동경제학",
+          "detail": "개인 심리가 경제 의사결정에 미치는 영향을 이해"
+        },
+        {
+          "name": "금융 시장 기초",
+          "detail": "버블과 크래시의 메커니즘 이해"
+        },
+        {
+          "name": "사회심리학",
+          "detail": "집단 행동과 동조 현상의 원리 파악"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "herd-behavior",
+          "reason": "집단 심리가 개별 판단을 어떻게 왜곡하는지"
+        },
+        {
+          "keyword": "behavioral-economics",
+          "reason": "비이성적 경제 행동의 원인과 패턴"
+        },
+        {
+          "keyword": "financial-bubbles",
+          "reason": "역사적 금융 거품의 원인과 결과 분석"
+        },
+        {
+          "keyword": "cognitive-bias",
+          "reason": "개인의 인지 편향이 군중 광기로 확대되는 과정"
+        }
+      ]
+    },
+    {
+      "title": "Trump made more than $1B on crypto deals, part of 2025 windfall",
+      "url": "https://www.wsj.com/politics/policy/trump-made-more-than-1-billion-on-crypto-deals-part-of-2025-windfall-ee917d3f",
+      "points": 172,
+      "comments": 47,
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 3,
+      "one_liner": "트럼프가 2025년 암호화폐 거래로 10억 달러 이상 수익",
+      "summary": "트럼프 전 대통령이 2025년 암호화폐 관련 거래를 통해 10억 달러 이상의 수익을 창출했다. 이는 그의 올해 전체 재정 이득의 중요한 부분을 차지하며, 정치인의 암호화폐 투자 활동이 얼마나 큰 규모인지를 보여준다.",
+      "prereqs": [
+        {
+          "name": "cryptocurrency",
+          "detail": "암호화폐의 기본 개념과 거래 방식 이해"
+        },
+        {
+          "name": "blockchain",
+          "detail": "블록체인 기술의 작동 원리와 보안 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "bitcoin",
+          "reason": "주요 암호화폐로서 거래 동향 파악"
+        },
+        {
+          "keyword": "crypto-regulation",
+          "reason": "정치인의 투자와 규제 정책의 연관성"
+        },
+        {
+          "keyword": "defi",
+          "reason": "탈중앙화 금융 시장에서의 수익 창출 방식"
+        },
+        {
+          "keyword": "nft-trading",
+          "reason": "디지털 자산 거래의 또 다른 형태"
+        }
+      ]
+    },
+    {
+      "title": "From brain waves to words: a new path to communication without surgery",
+      "url": "https://ai.meta.com/blog/brain2qwerty-brain-ai-human-communication/?_fb_noscript=1",
+      "points": 170,
+      "comments": 83,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "ai",
+      "minutes": 8,
+      "one_liner": "수술 없이 뇌파로 직접 텍스트를 변환하는 새로운 의사소통 기술",
+      "summary": "뇌-컴퓨터 인터페이스(BCI) 기술을 통해 침습적 수술 없이 뇌파만으로 생각을 텍스트로 변환할 수 있는 혁신적인 커뮤니케이션 방식이 개발되었습니다. 이 기술은 마비 환자나 언어 장애인 등 의사소통에 어려움을 겪는 사람들의 삶의 질을 크게 향상시킬 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "Brain-Computer Interface (BCI)",
+          "detail": "뇌 신호와 외부 장치를 직접 연결하는 기술"
+        },
+        {
+          "name": "Neural Signal Processing",
+          "detail": "뇌파 신호를 해석하고 처리하는 방식"
+        },
+        {
+          "name": "Machine Learning",
+          "detail": "뇌파 패턴 인식을 위한 AI 알고리즘"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "electroencephalography",
+          "reason": "뇌파 측정의 기초 기술"
+        },
+        {
+          "keyword": "neural-decoding",
+          "reason": "뇌 신호를 의미 있는 데이터로 변환"
+        },
+        {
+          "keyword": "assistive-technology",
+          "reason": "장애인 지원 기술의 중요한 분야"
+        },
+        {
+          "keyword": "deep-learning",
+          "reason": "복잡한 뇌파 패턴 학습에 필수"
+        },
+        {
+          "keyword": "human-computer-interaction",
+          "reason": "뇌파 기반 새로운 인터페이스 설계"
+        }
+      ]
+    },
+    {
+      "title": "ArXiv's Next Chapter",
+      "url": "https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/",
+      "points": 162,
+      "comments": 52,
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "ArXiv의 미래 방향과 학술 출판 플랫폼의 진화",
+      "summary": "ArXiv는 과학 논문의 선행 공개 플랫폼으로서 학술 공유 방식을 혁신했습니다. 이 글은 ArXiv의 역사적 성과와 함께 AI 시대에 직면한 과제들, 그리고 앞으로의 발전 방향을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "Open Access",
+          "detail": "학술 자료의 자유로운 접근 운동의 개념"
+        },
+        {
+          "name": "Preprint",
+          "detail": "동료 검증 전에 공개되는 학술 논문"
+        },
+        {
+          "name": "Peer Review",
+          "detail": "학술 출판의 질 관리 메커니즘"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "academic-publishing",
+          "reason": "학술 출판의 현재와 미래 트렌드"
+        },
+        {
+          "keyword": "open-science",
+          "reason": "과학 연구의 개방성과 투명성"
+        },
+        {
+          "keyword": "research-infrastructure",
+          "reason": "학술 커뮤니티의 디지털 기반"
+        },
+        {
+          "keyword": "machine-learning-papers",
+          "reason": "ArXiv에서 가장 활발한 분야"
+        }
+      ]
+    },
+    {
+      "title": "Tokyo has only two barley tea makers, we visited one to see how mugicha is made",
+      "url": "https://soranews24.com/2026/06/30/tokyo-has-only-two-barley-tea-makers-and-we-visited-one-to-see-how-mugicha-is-made/",
+      "points": 148,
+      "comments": 38,
+      "published_at": "2026-06-30",
+      "collected_at": "2026-07-01",
+      "source": "hackernews",
+      "lang": "en",
+      "category": "other",
+      "minutes": 8,
+      "one_liner": "도쿄의 보리차 장인 방문기를 통해 전통 음료 제조 과정을 소개한다.",
+      "summary": "도쿄에 남은 단 두 곳의 보리차 제조소 중 한 곳을 방문한 기사입니다. 전통적인 보리차(무기차) 제조 방식과 그 역사, 그리고 현대에 이 기술을 지키는 장인들의 노력을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "보리차(Mugicha)",
+          "detail": "일본의 전통 음료이며 제조 과정을 이해하는 배경지식"
+        },
+        {
+          "name": "전통 공예 기술",
+          "detail": "시간에 따라 변하는 전통 산업의 특성 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "japanese-food-culture",
+          "reason": "일본 전통 음식문화와 음료의 역사 이해"
+        },
+        {
+          "keyword": "artisanal-craftsmanship",
+          "reason": "전통 장인정신과 기술 계승의 가치"
+        },
+        {
+          "keyword": "cultural-preservation",
+          "reason": "사라져가는 전통 기술 보존의 중요성"
+        },
+        {
+          "keyword": "food-manufacturing",
+          "reason": "음료 제조 과정의 기술적 이해"
+        }
+      ]
+    },
+    {
+      "title": "옴니채널 재고 정합성 한계에 대응하는 인벤토리 데이터 파이프라인 구축기",
+      "url": "https://www.velopers.kr/post/7198",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-07-02",
+      "collected_at": "2026-07-01",
+      "creator": "올리브영",
+      "one_liner": "옴니채널 환경에서 재고 불일치 문제를 해결하는 데이터 파이프라인 구축 사례",
+      "summary": "옴니채널 시스템에서 발생하는 재고 정합성 문제를 데이터 파이프라인으로 해결한 경험담입니다. 여러 채널의 재고 데이터를 수집, 정제, 동기화하는 인벤토리 관리 시스템 구축 과정과 실제 구현 방식을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "재고 관리 시스템",
+          "detail": "옴니채널 환경에서의 재고 추적 필요성"
+        },
+        {
+          "name": "데이터 파이프라인",
+          "detail": "데이터 수집부터 적재까지의 흐름 이해"
+        },
+        {
+          "name": "데이터 정합성",
+          "detail": "여러 소스의 데이터 일관성 유지 방법"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "data-synchronization",
+          "reason": "여러 채널 간 재고 데이터 동기화"
+        },
+        {
+          "keyword": "etl-pipeline",
+          "reason": "재고 데이터 수집, 변환, 적재 프로세스"
+        },
+        {
+          "keyword": "distributed-systems",
+          "reason": "옴니채널 환경의 분산 시스템 이해"
+        },
+        {
+          "keyword": "inventory-management",
+          "reason": "재고 관리 도메인 지식 필요"
+        },
+        {
+          "keyword": "message-queue",
+          "reason": "실시간 재고 변경 알림 처리"
+        }
+      ],
+      "category": "backend",
+      "minutes": 12
+    },
+    {
+      "title": "포스코DX의 엔지니어링 암묵지를 AI가 활용할 수 있는 지식 자산으로 전환하기",
+      "url": "https://www.velopers.kr/post/7197",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "creator": "AWS",
+      "one_liner": "엔지니어링 암묵지를 AI가 활용 가능한 지식자산으로 전환하는 방법",
+      "summary": "포스코DX가 엔지니어들의 경험과 노하우 같은 암묵지를 구조화하여 AI가 학습하고 활용할 수 있는 명시적 지식으로 변환하는 프로세스를 소개합니다. 이를 통해 기업의 핵심 역량을 보존하고 의사결정을 고도화할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "암묵지 vs 명시지",
+          "detail": "개인의 경험 지식과 문서화된 지식의 차이 이해"
+        },
+        {
+          "name": "Knowledge Management",
+          "detail": "조직의 지식을 체계적으로 관리하는 개념"
+        },
+        {
+          "name": "AI 학습 데이터",
+          "detail": "AI 모델이 학습하기 위한 데이터 준비 방식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "knowledge-extraction",
+          "reason": "암묵지를 추출하는 기술과 방법론 학습"
+        },
+        {
+          "keyword": "ontology-modeling",
+          "reason": "지식을 구조화하는 온톨로지 설계 필요"
+        },
+        {
+          "keyword": "llm-fine-tuning",
+          "reason": "도메인 특화 AI 모델 구축 방식"
+        },
+        {
+          "keyword": "organizational-learning",
+          "reason": "조직 전체의 학습 문화 구축 맥락"
+        },
+        {
+          "keyword": "data-governance",
+          "reason": "기업 지식자산의 품질 관리 중요성"
+        }
+      ],
+      "category": "ai",
+      "minutes": 8
+    },
+    {
+      "title": "[교육환경 AX와 데스크톱 가상화 ②] 데스크톱 가상화로 한정된 AI GPU 자원 효율적으로 배분하기",
+      "url": "https://www.velopers.kr/post/7196",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "creator": "가비아",
+      "one_liner": "데스크톱 가상화로 제한된 AI GPU 자원을 효율적으로 배분하는 방법",
+      "summary": "교육 환경에서 부족한 AI GPU 자원을 여러 사용자가 공평하게 사용하기 위해 데스크톱 가상화 기술을 활용하는 방법을 설명합니다. VDI(가상 데스크톱 인프라)를 통해 GPU 리소스를 동적으로 할당하고 관리하여 학습 효율을 극대화할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "가상화(Virtualization)",
+          "detail": "물리 자원을 논리적으로 분할하여 활용하는 기술의 이해"
+        },
+        {
+          "name": "GPU 컴퓨팅",
+          "detail": "AI/ML 학습에서 GPU의 역할과 리소스 제약 이해"
+        },
+        {
+          "name": "클라우드 인프라",
+          "detail": "데이터센터 자원 관리 및 할당 개념 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "virtual-desktop-infrastructure",
+          "reason": "데스크톱 가상화의 기본 아키텍처 이해"
+        },
+        {
+          "keyword": "gpu-sharing",
+          "reason": "여러 사용자 간 GPU 자원 공유 기술"
+        },
+        {
+          "keyword": "resource-allocation",
+          "reason": "제한된 자원의 최적 배분 전략"
+        },
+        {
+          "keyword": "container-orchestration",
+          "reason": "가상화 환경에서 워크로드 관리 방식"
+        },
+        {
+          "keyword": "ai-education",
+          "reason": "교육 환경에서의 AI 리소스 운영 실제 사례"
+        }
+      ],
+      "category": "devops",
+      "minutes": 8
+    },
+    {
+      "title": "하나투어의 Amazon Neptune과 Amazon Bedrock AgentCore를 활용한 여행상품 기획 에이전트 구축기",
+      "url": "https://www.velopers.kr/post/7195",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "creator": "AWS",
+      "one_liner": "Neptune 그래프DB와 Bedrock AI로 여행상품 추천 에이전트 구축",
+      "summary": "하나투어가 Amazon Neptune의 그래프 데이터베이스와 Amazon Bedrock의 AgentCore를 결합하여 고객 선호도와 여행지 정보를 학습하는 지능형 여행상품 기획 에이전트를 개발한 사례를 소개합니다. 이 시스템은 복잡한 여행 관계데이터를 효과적으로 처리하고 생성형 AI의 추론 능력을 활용해 개인화된 여행상품을 제안합니다.",
+      "prereqs": [
+        {
+          "name": "그래프 데이터베이스",
+          "detail": "관계형 데이터 구조를 효율적으로 표현하기 위해 필수"
+        },
+        {
+          "name": "AWS 기본 서비스",
+          "detail": "Neptune, Bedrock 등 AWS 서비스의 기초 이해"
+        },
+        {
+          "name": "생성형 AI 에이전트",
+          "detail": "자율적으로 작업을 수행하는 AI 에이전트의 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "amazon-neptune",
+          "reason": "그래프 데이터베이스를 통한 복잡한 관계 표현"
+        },
+        {
+          "keyword": "amazon-bedrock",
+          "reason": "생성형 AI 모델 활용 및 에이전트 구현 기반"
+        },
+        {
+          "keyword": "knowledge-graph",
+          "reason": "여행지, 상품, 고객 정보의 의미있는 연결"
+        },
+        {
+          "keyword": "rag-retrieval",
+          "reason": "기존 여행 데이터를 활용한 정확한 추천"
+        },
+        {
+          "keyword": "personalization",
+          "reason": "개인 맞춤형 여행상품 추천의 핵심"
+        }
+      ],
+      "category": "ai",
+      "minutes": 8
+    },
+    {
+      "title": "AI 시대에 테스트 코드를 잘 쓰는 기준이 달라진다.",
+      "url": "https://www.velopers.kr/post/7194",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "creator": "한글과컴퓨터",
+      "one_liner": "AI 시대에 맞춘 효과적인 테스트 코드 작성 기준의 변화",
+      "summary": "AI 기술의 발전으로 코드 작성 방식이 변함에 따라 테스트 코드의 역할과 기준도 재정의되어야 한다. AI가 생성한 코드의 검증, 예측 불가능한 엣지 케이스 대응, 그리고 테스트의 품질 관리가 더욱 중요해진다.",
+      "prereqs": [
+        {
+          "name": "단위 테스트(Unit Testing)",
+          "detail": "테스트의 기본 개념을 이해하기 위해 필요"
+        },
+        {
+          "name": "AI 코드 생성 도구",
+          "detail": "현대 개발 환경의 AI 활용 현황을 파악하기 위해 필요"
+        },
+        {
+          "name": "테스트 커버리지",
+          "detail": "테스트 품질 측정 방식을 이해하기 위해 필요"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "test-driven-development",
+          "reason": "AI 시대의 TDD 적용 방식 재고찰"
+        },
+        {
+          "keyword": "code-review",
+          "reason": "AI 생성 코드 검증의 새로운 기준"
+        },
+        {
+          "keyword": "edge-case-testing",
+          "reason": "예측 불가능한 상황 대비의 중요성"
+        },
+        {
+          "keyword": "integration-testing",
+          "reason": "AI 모델과 기존 시스템의 상호작용 검증"
+        },
+        {
+          "keyword": "prompt-engineering",
+          "reason": "AI 코드 생성 품질 향상을 위한 입력 최적화"
+        }
+      ],
+      "category": "other",
+      "minutes": 8
+    },
+    {
+      "title": "에러로그 하나에 깨던 새벽에서 벗어나기까지 — 상품 모니터링 진화기",
+      "url": "https://www.velopers.kr/post/7193",
+      "source": "velopers",
+      "lang": "ko",
+      "published_at": "2026-07-01",
+      "collected_at": "2026-07-01",
+      "creator": "올리브영",
+      "one_liner": "효과적인 에러 모니터링 시스템으로 새벽 장애 대응에서 벗어나기",
+      "summary": "상품 모니터링 시스템의 진화 과정을 통해 에러 로그 분석과 알림 체계의 중요성을 다룹니다. 초기 수동 대응의 한계를 극복하고 자동화된 모니터링으로 개선한 경험을 공유하며, 안정적인 서비스 운영을 위한 실무 인사이트를 제공합니다.",
+      "prereqs": [
+        {
+          "name": "에러 로깅",
+          "detail": "시스템 문제 파악의 기초 데이터 수집 방법"
+        },
+        {
+          "name": "모니터링 및 알림",
+          "detail": "실시간 시스템 상태 감시와 알림 메커니즘 이해"
+        },
+        {
+          "name": "On-call/장애대응",
+          "detail": "야간 장애 대응의 일반적인 운영 방식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "observability",
+          "reason": "시스템 상태를 가시화하는 핵심 개념"
+        },
+        {
+          "keyword": "alerting-system",
+          "reason": "모니터링 데이터 기반 실시간 알림 구현"
+        },
+        {
+          "keyword": "incident-management",
+          "reason": "장애 발생 시 체계적인 대응 프로세스"
+        },
+        {
+          "keyword": "log-aggregation",
+          "reason": "분산 시스템 로그 수집 및 분석 기술"
+        },
+        {
+          "keyword": "metrics-dashboard",
+          "reason": "모니터링 데이터 시각화와 대시보드 구성"
+        }
+      ],
+      "category": "devops",
+      "minutes": 8
+    }
   ]
 }
