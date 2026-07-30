@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01",
+  "generated_at": "2026-07-30",
   "keywords": {
     "react-server-components": {
       "articles": [
@@ -8015,6 +8015,327 @@
             {
               "keyword": "event-loop",
               "reason": "Worker 도입으로 개선되는 JS 이벤트 루프 동작"
+            }
+          ]
+        }
+      ]
+    },
+    "use-deferred-value": {
+      "description": "값의 업데이트를 지연시켜 UI 렌더링 성능을 개선하는 훅입니다.",
+      "articles": [
+        {
+          "title": "React 19 `useDeferredValue` Deep Dive — How to Keep Your UI Smooth When Things Get Heavy",
+          "url": "https://dev.to/a1guy/react-19-usedeferredvalue-deep-dive-how-to-keep-your-ui-smooth-when-things-get-heavy-1gdl",
+          "source": "devto",
+          "lang": "en",
+          "points": 3,
+          "published_at": "2025-08-18",
+          "collected_at": "2026-07-30",
+          "minutes": 8,
+          "one_liner": "React 19의 useDeferredValue로 무거운 작업 중에도 UI를 부드럽게 유지하기",
+          "summary": "React 19의 useDeferredValue 훅은 상태 업데이트를 지연시켜 긴급한 업데이트를 우선 처리함으로써 UI 반응성을 향상시킵니다. 이 훅을 통해 검색 결과 필터링, 데이터 처리 등 무거운 작업 중에도 부드러운 사용자 경험을 제공할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React State Management",
+              "detail": "상태 관리의 기본 개념 이해 필요"
+            },
+            {
+              "name": "React Hooks",
+              "detail": "useState, useEffect 등 기본 훅 사용 경험"
+            },
+            {
+              "name": "Rendering Performance",
+              "detail": "리렴더링과 성능 최적화의 관계 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "use-transition",
+              "reason": "긴급 업데이트 우선 처리의 또 다른 방식"
+            },
+            {
+              "keyword": "concurrent-rendering",
+              "reason": "동시성 렌더링의 기반 기술"
+            },
+            {
+              "keyword": "useTransition",
+              "reason": "비동기 상태 업데이트 관리 훅"
+            },
+            {
+              "keyword": "react-fiber",
+              "reason": "React의 렌더링 엔진 이해"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "UI 성능 개선의 전략적 접근"
+            }
+          ]
+        },
+        {
+          "title": "useDeferredValue Hook in React!",
+          "url": "https://dev.to/joodi/usedeferredvalue-hook-in-react-5855",
+          "source": "devto",
+          "lang": "en",
+          "points": 6,
+          "published_at": "2025-03-24",
+          "collected_at": "2026-07-30",
+          "minutes": 5,
+          "one_liner": "React의 useDeferredValue Hook으로 성능 최적화하기",
+          "summary": "useDeferredValue는 React 18에서 제공하는 Hook으로, 긴급하지 않은 업데이트를 지연시켜 UI 성능을 개선합니다. 검색 입력이나 필터링 같은 상황에서 사용자 입력은 우선 처리하고, 결과 업데이트는 나중에 처리하여 반응성을 높입니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks 기초",
+              "detail": "Hook의 개념과 사용법을 이해해야 useDeferredValue를 활용할 수 있습니다."
+            },
+            {
+              "name": "렌더링 최적화",
+              "detail": "왜 불필요한 렌더링을 피해야 하는지 이해하는 것이 중요합니다."
+            },
+            {
+              "name": "동시성 개념",
+              "detail": "React 18의 동시성 렌더링 기본 개념을 알면 이해가 쉽습니다."
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "use-transition",
+              "reason": "useDeferredValue와 함께 우선순위 기반 렌더링을 처리합니다."
+            },
+            {
+              "keyword": "concurrent-rendering",
+              "reason": "React 18의 동시성 기능을 기반으로 하므로 함께 학습해야 합니다."
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "Hook의 성능 최적화 원리를 이해하는 데 필수적입니다."
+            },
+            {
+              "keyword": "debouncing-throttling",
+              "reason": "비슷한 성능 문제를 다른 방식으로 해결하는 기법입니다."
+            }
+          ]
+        },
+        {
+          "title": "Série React Hooks: useDeferredValue",
+          "url": "https://dev.to/taisesoares/serie-react-hooks-usedeferredvalue-13d",
+          "source": "devto",
+          "lang": "en",
+          "points": 0,
+          "published_at": "2023-05-22",
+          "collected_at": "2026-07-30",
+          "minutes": 5,
+          "one_liner": "useDeferredValue로 렌더링 성능을 최적화하는 방법",
+          "summary": "useDeferredValue는 React 18의 훅으로, 긴급하지 않은 업데이트를 지연시켜 UI 응답성을 개선합니다. 검색, 필터링 같은 높은 빈도 업데이트에서 성능 저하를 방지하며, useTransition과 함께 사용하면 더욱 효과적입니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks의 기본 개념",
+              "detail": "useDeferredValue의 기초가 되는 Hooks 패턴 이해"
+            },
+            {
+              "name": "동시성(Concurrency) 개념",
+              "detail": "렌더링 우선순위와 지연 업데이트의 원리 파악"
+            },
+            {
+              "name": "렌더링 성능 최적화",
+              "detail": "불필요한 리렌더링 감지 및 개선 방법 숙지"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "use-transition",
+              "reason": "긴급/비긴급 업데이트 분리의 다른 방식"
+            },
+            {
+              "keyword": "concurrent-features",
+              "reason": "동시성 렌더링의 전체 개념 이해"
+            },
+            {
+              "keyword": "use-callback",
+              "reason": "최적화와 함께 고려할 메모이제이션 훅"
+            },
+            {
+              "keyword": "startTransition",
+              "reason": "비긴급 업데이트 표시의 기본 메커니즘"
+            }
+          ]
+        },
+        {
+          "title": "React의 중요한 변화 2가지: View Transitions와 Activity",
+          "url": "https://news.hada.io/topic?id=20550",
+          "source": "gn",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-07-30",
+          "minutes": 5,
+          "one_liner": "React의 View Transitions와 Activity API로 사용자 경험을 향상시키는 방법",
+          "summary": "React에서 새로운 View Transitions API와 Activity API를 활용하여 페이지 전환 애니메이션과 사용자 활동을 더 효과적으로 관리할 수 있습니다. 이러한 변화들은 프론트엔드 개발에서 성능과 UX를 동시에 개선하는 중요한 도구입니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "React에서 상태와 부수 효과를 관리하는 기본 메커니즘"
+            },
+            {
+              "name": "렌더링 성능",
+              "detail": "불필요한 렌더링을 줄이고 최적화하는 개념"
+            },
+            {
+              "name": "Web API",
+              "detail": "브라우저가 제공하는 기본 API의 이해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "view-transitions-api",
+              "reason": "페이지 전환 시 부드러운 애니메이션 효과 제공"
+            },
+            {
+              "keyword": "activity-api",
+              "reason": "사용자의 활동 상태를 감지하고 관리하는 API"
+            },
+            {
+              "keyword": "react-performance",
+              "reason": "새로운 API들이 전체 애플리케이션 성능에 미치는 영향"
+            },
+            {
+              "keyword": "concurrent-features",
+              "reason": "React의 동시성 기능과 함께 작동하는 메커니즘"
+            },
+            {
+              "keyword": "user-experience",
+              "reason": "애니메이션과 반응성으로 사용자 만족도 향상"
+            }
+          ]
+        },
+        {
+          "title": "React 18 - useDeferredValue",
+          "url": "https://velog.io/@mskwon/React-18-useDeferredValue",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-07-30",
+          "minutes": 5,
+          "one_liner": "React 18의 useDeferredValue로 UI 업데이트 성능을 최적화하는 방법",
+          "summary": "useDeferredValue는 React 18에서 도입된 훅으로, 긴급하지 않은 상태 업데이트를 지연시켜 성능을 개선합니다. 검색 입력이나 필터링 같은 대량의 데이터를 처리할 때 UI 반응성을 유지할 수 있게 해줍니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks의 기초",
+              "detail": "useState, useEffect 등 기본 훅 이해"
+            },
+            {
+              "name": "React 렌더링 메커니즘",
+              "detail": "컴포넌트 리렌더링과 성능 영향 이해"
+            },
+            {
+              "name": "동시성(Concurrency)",
+              "detail": "React 18의 새로운 동시성 기능 개념"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "use-transition",
+              "reason": "긴급하지 않은 업데이트를 표시하는 다른 훅"
+            },
+            {
+              "keyword": "concurrent-rendering",
+              "reason": "useDeferredValue가 기반하는 핵심 기술"
+            },
+            {
+              "keyword": "debouncing-throttling",
+              "reason": "성능 최적화의 전통적 방식과 비교"
+            },
+            {
+              "keyword": "suspense",
+              "reason": "비동기 처리와 함께 사용하는 React 18 기능"
+            }
+          ]
+        },
+        {
+          "title": "startTransition, useDeferredValue 활용한 React 18 동시성 렌더링",
+          "url": "https://velog.io/@skiende74/startTransition-useDeferredValue-%ED%99%9C%EC%9A%A9%ED%95%9C-React-%EB%8F%99%EC%8B%9C%EC%84%B1-%EB%A0%8C%EB%8D%94%EB%A7%81",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-07-30",
+          "minutes": 8,
+          "one_liner": "React 18 동시성 기능으로 성능 최적화하기",
+          "summary": "React 18의 startTransition과 useDeferredValue는 동시성 렌더링을 활용한 성능 최적화 기능입니다. 긴급 업데이트와 비긴급 업데이트를 분리하여 사용자 경험을 향상시킬 수 있으며, 검색이나 필터링 같은 대량의 데이터 처리 시나리오에서 특히 유용합니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks",
+              "detail": "함수형 컴포넌트에서 상태 관리를 이해하기 위해"
+            },
+            {
+              "name": "렌더링 성능",
+              "detail": "불필요한 리렌더링 문제를 이해하기 위해"
+            },
+            {
+              "name": "상태 업데이트",
+              "detail": "우선순위 기반 렌더링 개념을 이해하기 위해"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "start-transition",
+              "reason": "동시성 렌더링의 핵심 API"
+            },
+            {
+              "keyword": "concurrent-rendering",
+              "reason": "React 18의 기반이 되는 개념"
+            },
+            {
+              "keyword": "suspense",
+              "reason": "비동기 작업 처리와 함께 사용"
+            },
+            {
+              "keyword": "priority-based-update",
+              "reason": "렌더링 우선순위 관리 이해"
+            }
+          ]
+        },
+        {
+          "title": "React 18 useTransition과 useDeferredValue란?",
+          "url": "https://velog.io/@jerrychu/React-18-useTransition%EA%B3%BC-useDeferredValue%EB%9E%80",
+          "source": "velog",
+          "lang": "ko",
+          "points": null,
+          "published_at": null,
+          "collected_at": "2026-07-30",
+          "minutes": 5,
+          "one_liner": "React 18의 useDeferredValue로 렌더링 성능을 최적화하는 방법",
+          "summary": "React 18에서 도입된 useDeferredValue는 긴급하지 않은 업데이트를 지연시켜 UI 반응성을 높이는 훅입니다. useTransition과 함께 사용하면 검색, 필터링 같은 무거운 작업에서 사용자 입력에 빠르게 응답할 수 있습니다.",
+          "prereqs": [
+            {
+              "name": "React Hooks 기초",
+              "detail": "useState, useEffect 등 기본 훅 사용법 이해 필요"
+            },
+            {
+              "name": "렌더링 최적화",
+              "detail": "메모이제이션, 불필요한 렌더링 개념 이해 필요"
+            },
+            {
+              "name": "동시성(Concurrency)",
+              "detail": "여러 작업을 동시에 처리하는 개념 이해 필요"
+            }
+          ],
+          "related_concepts": [
+            {
+              "keyword": "use-transition",
+              "reason": "긴급 업데이트와 비긴급 업데이트를 분리하는 훅"
+            },
+            {
+              "keyword": "concurrent-rendering",
+              "reason": "React 18의 동시성 렌더링 기능의 기반"
+            },
+            {
+              "keyword": "performance-optimization",
+              "reason": "useDeferredValue로 구현할 수 있는 성능 개선 기법"
+            },
+            {
+              "keyword": "debouncing-throttling",
+              "reason": "업데이트 지연과 유사한 성능 최적화 패턴"
             }
           ]
         }
