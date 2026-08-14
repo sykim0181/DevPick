@@ -1,1440 +1,1413 @@
 {
-  "2026-08-06": [
+  "2026-08-14": [
     {
-      "title": "Discovery Loop",
-      "url": "https://www.discoveryloop.com/",
-      "source": "hackernews",
-      "points": 791,
-      "comments": 493,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 5,
-      "one_liner": "사용자 피드백을 통해 제품을 반복적으로 개선하는 Discovery Loop 패턴",
-      "summary": "Discovery Loop는 사용자의 행동과 피드백을 관찰하고 분석하여 제품 개선 사항을 발견하는 반복적인 프로세스입니다. 프론트엔드 개발에서 사용자 경험을 지속적으로 최적화하기 위한 핵심 방법론입니다.",
-      "prereqs": [
-        {
-          "name": "User Research",
-          "detail": "사용자 니즈를 파악하기 위한 조사 방법론"
-        },
-        {
-          "name": "Analytics",
-          "detail": "사용자 행동 데이터를 수집하고 분석하는 기술"
-        },
-        {
-          "name": "UX/UI Design",
-          "detail": "사용자 경험을 설계하는 기본 개념"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "user-feedback",
-          "reason": "사용자 의견 수집과 분석의 중요성"
-        },
-        {
-          "keyword": "a-b-testing",
-          "reason": "가설 검증을 통한 개선 효과 측정"
-        },
-        {
-          "keyword": "product-iteration",
-          "reason": "발견한 인사이트를 제품에 적용하는 과정"
-        },
-        {
-          "keyword": "user-behavior-analytics",
-          "reason": "사용자 행동 패턴 분석 및 추적"
-        }
-      ]
-    },
-    {
-      "title": "Changes at Google DeepMind: Demis Hassabis from CEO to Chair, Jeff Dean departs",
-      "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source": "hackernews",
-      "points": 708,
-      "comments": 756,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "구글 딥마인드 CEO 교체, 데미스 하사비스 회장으로 승진",
-      "summary": "구글 딥마인드의 CEO 데미스 하사비스가 회장으로 승격되고, 에리카 톱이 새로운 CEO로 임명되었다. 동시에 AI 분야의 핵심 인물인 제프 딘이 회사를 떠난다. 이는 AI 산업의 리더십 변화를 반영한 주요 인사 이동이다.",
-      "prereqs": [
-        {
-          "name": "Google DeepMind",
-          "detail": "구글의 AI 연구 부문으로 알파고 등을 개발한 기관"
-        },
-        {
-          "name": "AI 리더십",
-          "detail": "AI 산업에서 경영진의 역할과 기술 방향성을 이해하는 것"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "artificial-intelligence",
-          "reason": "구글 딥마인드의 핵심 사업 분야"
-        },
-        {
-          "keyword": "tech-leadership",
-          "reason": "CEO 교체 등 기술 회사의 경영 변화 이해"
-        },
-        {
-          "keyword": "machine-learning",
-          "reason": "딥마인드의 주요 연구 및 개발 분야"
-        },
-        {
-          "keyword": "corporate-strategy",
-          "reason": "인사 이동과 조직 전략의 연관성"
-        }
-      ]
-    },
-    {
-      "title": "Cloudflare OS: an open platform for agents, apps, and work",
-      "url": "https://blog.cloudflare.com/cloudflare-os/",
-      "source": "hackernews",
-      "points": 584,
-      "comments": 280,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "backend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Cloudflare가 제공하는 에이전트와 앱 개발을 위한 오픈 플랫폼",
-      "summary": "Cloudflare OS는 AI 에이전트, 애플리케이션, 자동화 작업을 구축하고 배포할 수 있는 개방형 플랫폼입니다. 엣지 컴퓨팅과 워커 기술을 기반으로 하여 글로벌 규모에서 안전하고 효율적인 실행 환경을 제공합니다.",
-      "prereqs": [
-        {
-          "name": "Cloudflare Workers",
-          "detail": "엣지에서 코드를 실행하는 서버리스 컴퓨팅 기술"
-        },
-        {
-          "name": "에이전트 (Agents)",
-          "detail": "자율적으로 작업을 수행하는 AI 기반의 소프트웨어"
-        },
-        {
-          "name": "엣지 컴퓨팅",
-          "detail": "사용자와 가까운 위치에서 데이터를 처리하는 방식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "serverless-computing",
-          "reason": "Cloudflare OS의 기반 기술로 비용 효율적 실행"
-        },
-        {
-          "keyword": "ai-agents",
-          "reason": "플랫폼의 핵심 지원 대상인 자율 에이전트"
-        },
-        {
-          "keyword": "edge-computing",
-          "reason": "글로벌 배포와 저지연성을 위한 핵심 기술"
-        },
-        {
-          "keyword": "workflow-automation",
-          "reason": "플랫폼이 지원하는 자동화 작업 구현 방식"
-        },
-        {
-          "keyword": "api-integration",
-          "reason": "다양한 서비스 연동을 위한 필수 기술"
-        }
-      ]
-    },
-    {
-      "title": "Zed DeltaDB",
-      "url": "https://zed.dev/deltadb",
-      "source": "hackernews",
-      "points": 461,
-      "comments": 245,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "backend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Zed DeltaDB는 실시간 협업을 위한 차등 동기화 데이터베이스다.",
-      "summary": "Zed DeltaDB는 협업 애플리케이션을 위해 설계된 데이터베이스로, 변경사항의 차등(delta)을 추적하여 효율적으로 동기화합니다. 실시간 멀티유저 환경에서 낮은 지연시간으로 데이터 일관성을 유지하며, CRDT 기반 충돌 해결 방식을 지원합니다.",
-      "prereqs": [
-        {
-          "name": "CRDT (Conflict-free Replicated Data Type)",
-          "detail": "분산 환경에서 충돌 없이 데이터를 동기화하는 방식"
-        },
-        {
-          "name": "Delta Synchronization",
-          "detail": "전체 데이터 대신 변경사항만 전송하는 효율적 동기화 기법"
-        },
-        {
-          "name": "Real-time Collaboration",
-          "detail": "여러 사용자가 동시에 같은 데이터를 수정하는 환경"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "operational-transformation",
-          "reason": "또 다른 충돌 해결 알고리즘으로 협업 도구에 사용됨"
-        },
-        {
-          "keyword": "event-sourcing",
-          "reason": "변경사항 기반 데이터 저장 방식의 아키텍처 패턴"
-        },
-        {
-          "keyword": "websocket",
-          "reason": "실시간 데이터 동기화를 위한 양방향 통신 프로토콜"
-        },
-        {
-          "keyword": "distributed-systems",
-          "reason": "다중 노드 환경에서 일관성을 유지하는 핵심 개념"
-        },
-        {
-          "keyword": "figure-api",
-          "reason": "협업 기능을 제공하는 관련 협업 플랫폼"
-        }
-      ]
-    },
-    {
-      "title": "I'm switching my phone from Android to Linux",
-      "url": "https://runarcn.no/android-to-linux/",
-      "source": "hackernews",
-      "points": 369,
-      "comments": 377,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "안드로이드에서 리눅스 기반 모바일 OS로 전환하는 경험 공유",
-      "summary": "개발자가 안드로이드 폰에서 리눅스 기반의 모바일 운영체제로 전환한 이유와 과정을 설명합니다. 오픈소스 운영체제의 장점과 실제 사용 경험, 그리고 발생한 문제들을 다룹니다.",
-      "prereqs": [
-        {
-          "name": "Operating System",
-          "detail": "OS의 기본 개념과 역할 이해"
-        },
-        {
-          "name": "오픈소스 소프트웨어",
-          "detail": "오픈소스의 특징과 장단점 파악"
-        },
-        {
-          "name": "모바일 플랫폼",
-          "detail": "Android와 다른 모바일 OS의 차이점"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "linux-mobile-os",
-          "reason": "리눅스 기반 모바일 환경의 현황 학습"
-        },
-        {
-          "keyword": "open-source-software",
-          "reason": "오픈소스 프로젝트 참여 동기 이해"
-        },
-        {
-          "keyword": "mobile-development",
-          "reason": "다양한 플랫폼 개발 환경 비교"
-        },
-        {
-          "keyword": "privacy-security",
-          "reason": "OS 선택 기준으로서의 보안성"
-        }
-      ]
-    },
-    {
-      "title": "Demis Hassabis is moving from CEO to Chairman at Google DeepMind",
-      "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
-      "source": "hackernews",
-      "points": 369,
-      "comments": 1,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "구글 딥마인드의 데미스 하사비스 CEO가 회장직으로 전환",
-      "summary": "구글 딥마인드의 창립자이자 CEO인 데미스 하사비스가 회장직으로 이동합니다. 이는 조직 구조 개편을 의미하며, AI 산업의 리더십 변화를 반영합니다.",
-      "prereqs": [
-        {
-          "name": "Google DeepMind",
-          "detail": "AI 연구와 개발을 주도하는 구글의 핵심 자회사"
-        },
-        {
-          "name": "CEO vs Chairman",
-          "detail": "CEO는 경영 책임, Chairman은 전략적 감독을 담당"
-        },
-        {
-          "name": "AI Industry Leadership",
-          "detail": "AI 업계에서의 리더십 변화가 시장에 미치는 영향"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "deepmind-research",
-          "reason": "알파고 등 주요 AI 성과 이해"
-        },
-        {
-          "keyword": "ai-leadership",
-          "reason": "AI 산업의 리더십 구조와 전략"
-        },
-        {
-          "keyword": "corporate-restructuring",
-          "reason": "조직 개편의 의도와 영향"
-        },
-        {
-          "keyword": "google-ai-strategy",
-          "reason": "구글의 AI 전략적 방향 파악"
-        }
-      ]
-    },
-    {
-      "title": "Beating GPT-5.6 Sol on retrieval with 100x cheaper open models",
-      "url": "https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency",
-      "source": "hackernews",
-      "points": 345,
-      "comments": 84,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
+      "title": "Gemini 3.7 Flash",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
+      "source": "hn",
+      "points": 880,
+      "comments": 447,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
       "category": "ai",
       "lang": "en",
-      "minutes": 8,
-      "one_liner": "저비용 오픈소스 모델로 GPT-5.6 수준의 검색 성능 달성",
-      "summary": "고가의 GPT-5.6 모델을 사용하지 않고도 오픈소스 모델을 활용하여 정보 검색(retrieval) 작업에서 동등 이상의 성능을 100배 저렴하게 달성하는 방법을 소개합니다. 효율적인 모델 선택과 최적화 기법으로 비용 대비 성능을 극대화하는 실전 가이드입니다.",
-      "prereqs": [
-        {
-          "name": "Information Retrieval",
-          "detail": "검색 시스템의 기본 개념과 평가 지표 이해"
-        },
-        {
-          "name": "Embedding Models",
-          "detail": "텍스트를 벡터로 변환하는 임베딩 모델의 작동 원리"
-        },
-        {
-          "name": "LLM API 비용",
-          "detail": "상용 모델 사용의 경제적 측면과 비용 구조"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "open-source-llm",
-          "reason": "저비용 대체 모델의 선택과 비교"
-        },
-        {
-          "keyword": "vector-database",
-          "reason": "효율적인 검색을 위한 벡터 저장소"
-        },
-        {
-          "keyword": "rag-retrieval",
-          "reason": "검색 기반 생성 시스템의 핵심 구성"
-        },
-        {
-          "keyword": "model-optimization",
-          "reason": "성능 유지하며 비용 절감하는 기법"
-        },
-        {
-          "keyword": "benchmark-evaluation",
-          "reason": "모델 성능 비교와 검증 방법"
-        }
-      ]
-    },
-    {
-      "title": "Crime Pays but Botany Doesn't",
-      "url": "https://www.crimepaysbutbotanydoesnt.com/reading-list",
-      "source": "hackernews",
-      "points": 328,
-      "comments": 113,
-      "published_at": "2026-08-06",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "범죄 소설과 식물학을 통해 본 경력과 선택의 의미",
-      "summary": "이 글은 범죄 소설과 식물학이라는 두 가지 흥미로운 분야를 비교하며 경력 선택과 인생의 의미에 대해 탐구합니다. 흥미로운 주제가 반드시 현실적인 보상으로 이어지지 않는다는 아이러니를 다룹니다.",
-      "prereqs": [
-        {
-          "name": "Career Choice",
-          "detail": "경력 선택 시 고려해야 할 요소들"
-        },
-        {
-          "name": "Work-Life Balance",
-          "detail": "일과 개인 관심사의 조화 필요성"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "passion-vs-practicality",
-          "reason": "열정과 현실적 보상 사이의 균형"
-        },
-        {
-          "keyword": "intrinsic-motivation",
-          "reason": "내재적 동기 부여의 역할 이해"
-        },
-        {
-          "keyword": "career-satisfaction",
-          "reason": "직업 만족도를 결정하는 요소들"
-        },
-        {
-          "keyword": "hobby-monetization",
-          "reason": "취미를 수익화하기 위한 고민"
-        }
-      ]
-    },
-    {
-      "title": "Cops Used Flock to Track a Man Across State Lines for a Pretextual Weed Search",
-      "url": "https://www.404media.co/cops-used-flock-to-track-a-man-across-state-lines-to-create-pretext-to-search-his-car-for-weed/",
-      "source": "hackernews",
-      "points": 318,
-      "comments": 188,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "경찰의 ANPR 기술 오용으로 인한 프라이버시 침해 사례",
-      "summary": "경찰이 Flock 자동차 번호판 인식(ANPR) 기술을 이용해 주(州)를 넘어 용의자를 추적한 후, 실제 목적과 무관한 대마 수색을 구실로 적법성 없이 체포한 사건을 다룬다. 이는 감시 기술의 오용과 프라이버시 침해의 위험성을 보여준다.",
-      "prereqs": [
-        {
-          "name": "ANPR (Automatic Number Plate Recognition)",
-          "detail": "자동차 번호판을 자동으로 인식하는 기술"
-        },
-        {
-          "name": "Pretextual Stop",
-          "detail": "실제 목적을 숨기고 다른 이유로 행해지는 정차"
-        },
-        {
-          "name": "Privacy Rights",
-          "detail": "개인의 프라이버시 보호와 법적 권리"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "surveillance-technology",
-          "reason": "감시 기술의 확산과 통제 필요성"
-        },
-        {
-          "keyword": "digital-privacy",
-          "reason": "개인 데이터 보호와 권리 침해 이슈"
-        },
-        {
-          "keyword": "law-enforcement-accountability",
-          "reason": "경찰 권력 남용 감시 및 투명성"
-        },
-        {
-          "keyword": "data-ethics",
-          "reason": "기술 사용에서의 윤리적 책임"
-        }
-      ]
-    },
-    {
-      "title": "The title cards in Blade Runner are amazing",
-      "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
-      "source": "hackernews",
-      "points": 313,
-      "comments": 151,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "블레이드 러너의 타이틀 카드 디자인이 주는 시각적 임팩트",
-      "summary": "블레이드 러너 영화의 타이틀 카드는 독특한 타이포그래피와 시각 효과로 영화의 분위기를 효과적으로 전달한다. 이러한 디자인 요소들이 어떻게 영화 전체의 미학을 강화하고 관객의 경험을 향상시키는지 탐구한다.",
-      "prereqs": [
-        {
-          "name": "Typography",
-          "detail": "글자 디자인이 시각 전달에 미치는 영향 이해"
-        },
-        {
-          "name": "Film Design",
-          "detail": "영화에서 시각 디자인의 역할과 중요성"
-        },
-        {
-          "name": "Color Theory",
-          "detail": "색상이 감정과 분위기 표현에 미치는 효과"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "motion-graphics",
-          "reason": "동영상 타이틀 디자인 제작 기법"
-        },
-        {
-          "keyword": "ui-animation",
-          "reason": "웹 인터페이스의 애니메이션 적용 원리"
-        },
-        {
-          "keyword": "design-systems",
-          "reason": "일관된 시각 언어 구축의 중요성"
-        },
-        {
-          "keyword": "css-animations",
-          "reason": "웹에서 타이틀 효과 구현 방법"
-        }
-      ]
-    },
-    {
-      "title": "Born Against, or why hobby programming communities are against LLM usage",
-      "url": "https://blog.fogus.me/llm/born-against.html",
-      "source": "hackernews",
-      "points": 302,
-      "comments": 320,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "취미 개발 커뮤니티가 LLM 사용에 반대하는 이유",
-      "summary": "취미 프로그래밍 커뮤니티에서 LLM 활용에 대한 우려와 반발이 발생하는 근본적인 이유를 탐구합니다. 개발자의 학습 과정 훼손, 창의성 감소, 커뮤니티 문화 변화 등 여러 관점에서 LLM 의존성의 문제점을 논의합니다.",
+      "minutes": 5,
+      "one_liner": "Google의 최신 경량 AI 모델 Gemini 3.7 Flash 소개",
+      "summary": "Gemini 3.7 Flash는 Google이 출시한 고성능 경량 AI 모델입니다. 빠른 응답 속도와 낮은 비용으로 실시간 애플리케이션에 최적화되어 있으며, 다양한 모달리티를 지원합니다.",
       "prereqs": [
         {
           "name": "Large Language Model (LLM)",
-          "detail": "AI 기반 코드 생성 도구의 작동 방식 이해"
+          "detail": "AI 모델의 기본 개념 이해를 위해 필요합니다"
         },
         {
-          "name": "개발자 학습 곡선",
-          "detail": "프로그래밍 습득 과정에서 시행착오의 역할 인식"
+          "name": "API 통합",
+          "detail": "Gemini 모델을 실제 애플리케이션에 적용하는 방법입니다"
         },
         {
-          "name": "커뮤니티 문화",
-          "detail": "오픈소스 및 취미 개발 커뮤니티의 가치관 이해"
+          "name": "토큰과 비용",
+          "detail": "AI 서비스 이용 시 요금 계산 방식을 이해하기 위해"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "ai-pair-programming",
-          "reason": "LLM 기반 코딩 도우미의 한계와 장점 비교"
+          "keyword": "prompt-engineering",
+          "reason": "모델의 최적 성능을 위한 프롬프트 작성 기법"
         },
         {
-          "keyword": "software-craftsmanship",
-          "reason": "장인정신과 자동화 사이의 철학적 충돌"
+          "keyword": "model-quantization",
+          "reason": "경량 모델의 효율성 달성 원리 이해"
         },
         {
-          "keyword": "developer-experience",
-          "reason": "개발자 경험 향상과 자동화의 트레이드오프"
+          "keyword": "inference-optimization",
+          "reason": "실시간 응답 속도 개선 방법"
         },
         {
-          "keyword": "open-source-culture",
-          "reason": "커뮤니티 주도 개발의 가치와 LLM의 영향"
+          "keyword": "multimodal-ai",
+          "reason": "텍스트, 이미지 등 다양한 입력 처리 능력"
         },
         {
-          "keyword": "tech-ethics",
-          "reason": "AI 도구 사용의 윤리적 고려사항"
+          "keyword": "cost-efficiency",
+          "reason": "AI 모델 운영 비용 최적화 전략"
         }
       ]
     },
     {
-      "title": "Meta Ran Ads That Contained AI-Generated Child Sexual Abuse Imagery",
-      "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery/",
-      "source": "hackernews",
-      "points": 302,
-      "comments": 236,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "메타가 AI 생성 아동 학대 이미지를 포함한 광고를 송출한 문제",
-      "summary": "메타가 실수로 AI로 생성된 아동 성적 학대 이미지(CSAM)를 포함한 광고를 플랫폼에 게재했습니다. 이 사건은 AI 생성 콘텐츠의 검증 부족과 플랫폼의 콘텐츠 모니터링 체계의 한계를 노출했으며, AI 기술 사용의 윤리적 책임에 대한 중요한 질문을 제기합니다.",
-      "prereqs": [
-        {
-          "name": "CSAM (Child Sexual Abuse Material)",
-          "detail": "아동 성적 학대 자료에 대한 기본 이해"
-        },
-        {
-          "name": "AI 생성 콘텐츠 (Generated Content)",
-          "detail": "AI가 만든 이미지/영상의 특징과 문제점"
-        },
-        {
-          "name": "Content Moderation",
-          "detail": "플랫폼의 콘텐츠 검증 및 필터링 시스템"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "content-moderation",
-          "reason": "플랫폼이 해로운 콘텐츠를 걸러내는 방식"
-        },
-        {
-          "keyword": "ai-ethics",
-          "reason": "AI 기술 사용의 윤리적 책임과 규제"
-        },
-        {
-          "keyword": "deepfake-detection",
-          "reason": "AI 생성 콘텐츠 식별 및 탐지 기술"
-        },
-        {
-          "keyword": "platform-accountability",
-          "reason": "소셜 미디어 플랫폼의 법적 책임과 의무"
-        },
-        {
-          "keyword": "synthetic-media",
-          "reason": "AI 생성 미디어의 위험성과 규제 필요성"
-        }
-      ]
-    },
-    {
-      "title": "Jeff Dean leaving Alphabet",
-      "url": "https://www.nytimes.com/2026/08/05/technology/google-researchers-ai-startup.html",
-      "source": "hackernews",
-      "points": 297,
-      "comments": 9,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "알파벳의 AI 연구 리더 Jeff Dean이 회사를 떠난다.",
-      "summary": "Jeff Dean은 Google의 AI 및 시스템 연구를 주도해온 핵심 인물로, 알파벳을 떠나 새로운 AI 스타트업 설립을 추진하고 있습니다. 이는 AI 업계 내 인재 이동과 기술 리더십의 변화를 보여주는 중요한 사건입니다.",
-      "prereqs": [
-        {
-          "name": "Jeff Dean의 배경",
-          "detail": "Google의 AI/ML 연구 분야 선구자 및 리더"
-        },
-        {
-          "name": "Tech Industry Leadership",
-          "detail": "기술 대기업 내 핵심 인물의 역할과 영향력"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "ai-research-talent-migration",
-          "reason": "AI 분야 인재 유출이 기업에 미치는 영향 이해"
-        },
-        {
-          "keyword": "tech-leadership-transitions",
-          "reason": "주요 기술 리더의 이동이 산업에 미치는 파급효과"
-        },
-        {
-          "keyword": "startup-founding-trends",
-          "reason": "대기업 리더의 창업 동향과 AI 스타트업 생태계"
-        },
-        {
-          "keyword": "alphabet-organizational-changes",
-          "reason": "알파벳의 조직 개편과 전략적 변화 맥락"
-        }
-      ]
-    },
-    {
-      "title": "Muse Code and Muse Spark 1.2",
-      "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "source": "hackernews",
-      "points": 273,
-      "comments": 172,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 5,
-      "one_liner": "Muse Code와 Muse Spark 1.2의 새로운 기능 업데이트 소개",
-      "summary": "Muse Code와 Muse Spark 1.2 버전의 주요 기능과 개선사항을 소개하는 글입니다. 개발자 경험 향상을 위한 새로운 도구와 기능들이 추가되었으며, 이전 버전 대비 성능과 기능성이 개선되었습니다.",
-      "prereqs": [
-        {
-          "name": "Muse Code",
-          "detail": "AI 기반 코드 생성 및 개발 도구"
-        },
-        {
-          "name": "IDE/에디터",
-          "detail": "통합 개발 환경의 기본 개념"
-        },
-        {
-          "name": "버전 관리",
-          "detail": "소프트웨어 버전업 개념 이해"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "ai-coding-tools",
-          "reason": "AI 기반 개발 도구들의 최신 트렌드"
-        },
-        {
-          "keyword": "code-generation",
-          "reason": "자동 코드 생성 기술의 활용"
-        },
-        {
-          "keyword": "developer-experience",
-          "reason": "개발자 경험 향상 방안 학습"
-        },
-        {
-          "keyword": "productivity-tools",
-          "reason": "개발 생산성 향상 도구들"
-        }
-      ]
-    },
-    {
-      "title": "Nashville uses eminent domain to block data center near zoo",
-      "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-      "source": "hackernews",
-      "points": 267,
-      "comments": 327,
-      "published_at": "2026-08-06",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 3,
-      "one_liner": "Nashville이 공원 근처 데이터센터 건설을 법적 권한으로 막다",
-      "summary": "Nashville 시는 동물원 근처에 건설될 예정인 데이터센터 부지에 대해 정부의 강제수용권(Eminent Domain)을 행사하여 개발을 차단했습니다. 이는 환경 보호와 지역사회 이익을 우선시하는 정책 결정으로, 대규모 기술 인프라 개발 시 지역 주민과의 갈등을 다루는 사례입니다.",
-      "prereqs": [
-        {
-          "name": "Eminent Domain",
-          "detail": "정부가 공공이익을 위해 개인 재산을 수용할 수 있는 법적 권한"
-        },
-        {
-          "name": "데이터센터 인프라",
-          "detail": "클라우드 서비스와 IT 인프라를 지탱하는 대규모 물리 시설"
-        },
-        {
-          "name": "도시 계획 정책",
-          "detail": "개발 프로젝트와 환경 보호 사이의 균형을 맞추는 행정 결정 과정"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "infrastructure-policy",
-          "reason": "기술 인프라 구축 시 정책적 제약 요소"
-        },
-        {
-          "keyword": "environmental-protection",
-          "reason": "동물원 근처 개발 제한의 환경 보호 측면"
-        },
-        {
-          "keyword": "government-regulation",
-          "reason": "정부 권한이 기술 산업 전개에 미치는 영향"
-        },
-        {
-          "keyword": "urban-development",
-          "reason": "도시 성장과 지역사회 이익 간의 균형"
-        }
-      ]
-    },
-    {
-      "title": "Atlassian Rovo Exfiltrates Data, Bypassing Controls",
-      "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
-      "source": "hackernews",
-      "points": 251,
-      "comments": 101,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "devops",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "Atlassian Rovo의 데이터 유출 취약점과 보안 제어 우회 방법",
-      "summary": "Atlassian Rovo AI 어시스턴트가 보안 통제를 우회하여 민감한 데이터를 외부로 유출할 수 있는 취약점을 분석한 글입니다. 접근 제어와 인증 메커니즘의 한계를 보여주며 클라우드 기반 AI 도구의 보안 위험성을 경고합니다.",
-      "prereqs": [
-        {
-          "name": "Data Exfiltration",
-          "detail": "데이터 유출 공격의 기본 개념과 메커니즘 이해"
-        },
-        {
-          "name": "Access Control",
-          "detail": "보안 권한 관리 및 접근 제어 원리 학습"
-        },
-        {
-          "name": "API Security",
-          "detail": "API를 통한 보안 위협과 취약점 인식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "prompt-injection",
-          "reason": "AI 어시스턴트 공격의 주요 벡터"
-        },
-        {
-          "keyword": "zero-trust-security",
-          "reason": "신뢰 기반 보안 모델의 필요성"
-        },
-        {
-          "keyword": "secrets-management",
-          "reason": "민감 정보 보호 및 관리 방안"
-        },
-        {
-          "keyword": "cloud-security",
-          "reason": "클라우드 환경의 보안 고려사항"
-        },
-        {
-          "keyword": "incident-response",
-          "reason": "보안 사고 대응 및 완화 전략"
-        }
-      ]
-    },
-    {
-      "title": "Celld: Self-hosted, distributed Durable Objects",
-      "url": "https://github.com/denoland/celld",
-      "source": "hackernews",
-      "points": 237,
-      "comments": 40,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "backend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "자체 호스팅 가능한 분산 Durable Objects 구현체 Celld 소개",
-      "summary": "Celld는 Cloudflare의 Durable Objects를 자체 서버에서 구현할 수 있는 오픈소스 프로젝트입니다. 분산 시스템에서 상태 관리와 일관성을 보장하면서도 셀프 호스팅으로 운영 자율성을 제공합니다.",
-      "prereqs": [
-        {
-          "name": "Durable Objects",
-          "detail": "클라우드플레어의 상태 저장 컴퓨팅 모델 이해"
-        },
-        {
-          "name": "분산 시스템",
-          "detail": "여러 서버 간 상태 동기화 및 일관성 문제"
-        },
-        {
-          "name": "Self-hosted",
-          "detail": "클라우드 대신 자체 인프라에서 운영하는 방식"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "distributed-state-management",
-          "reason": "분산 환경에서 상태 관리 방법론 학습"
-        },
-        {
-          "keyword": "actor-model",
-          "reason": "Durable Objects의 기반이 되는 액터 패턴"
-        },
-        {
-          "keyword": "cloudflare-workers",
-          "reason": "Durable Objects의 원본 플랫폼 이해"
-        },
-        {
-          "keyword": "consensus-protocol",
-          "reason": "분산 시스템의 데이터 일관성 보장 방식"
-        },
-        {
-          "keyword": "edge-computing",
-          "reason": "에지 환경에서의 상태 저장 컴퓨팅"
-        }
-      ]
-    },
-    {
-      "title": "The Valley of Webhooks",
-      "url": "https://weli.dev/blog/the-valley-of-webhooks/",
-      "source": "hackernews",
-      "points": 203,
-      "comments": 85,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "backend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "웹훅 구현 시 마주치는 실제 문제들과 해결 방법",
-      "summary": "웹훅은 이벤트 기반 통신의 핵심이지만 재시도 로직, 순서 보장, 보안 등 실제 구현 과정에서 많은 함정이 있습니다. 이 글은 프로덕션 환경에서 안정적인 웹훅 시스템을 구축하기 위해 고려해야 할 주요 과제들을 다룹니다.",
-      "prereqs": [
-        {
-          "name": "HTTP 기초",
-          "detail": "웹훅이 HTTP 기반으로 동작하는 방식 이해"
-        },
-        {
-          "name": "이벤트 기반 아키텍처",
-          "detail": "이벤트 드리븐 패턴의 기본 개념"
-        },
-        {
-          "name": "분산 시스템",
-          "detail": "네트워크 신뢰성과 비동기 통신의 도전 과제"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "event-driven-architecture",
-          "reason": "웹훅의 기반이 되는 설계 패턴"
-        },
-        {
-          "keyword": "message-queue",
-          "reason": "안정적인 이벤트 전달을 위한 대안"
-        },
-        {
-          "keyword": "retry-logic",
-          "reason": "웹훅 재시도 메커니즘 구현 방법"
-        },
-        {
-          "keyword": "webhook-security",
-          "reason": "서명 검증과 인증 보안 고려사항"
-        },
-        {
-          "keyword": "idempotency",
-          "reason": "중복 요청 처리와 멱등성 보장"
-        }
-      ]
-    },
-    {
-      "title": "The \"Disability Dongle\": Why Silicon Valley Hates Me and You",
-      "url": "https://sightlessscribbles.com/disability-dongle/",
-      "source": "hackernews",
-      "points": 199,
-      "comments": 191,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
-      "category": "other",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "실리콘밸리의 장애인 혐오 문화와 접근성 무시 문제",
-      "summary": "실리콘밸리 기업들이 장애인을 위한 기술(장애 동글)을 외면하고 접근성을 경시하는 현상을 비판합니다. 기술 업계의 포용성 결여와 장애인들이 직면한 현실적 어려움을 조명하며, 진정한 포용적 설계의 필요성을 강조합니다.",
-      "prereqs": [
-        {
-          "name": "Accessibility (웹 접근성)",
-          "detail": "장애인도 웹을 쉽게 사용하기 위한 설계 원칙"
-        },
-        {
-          "name": "Inclusive Design",
-          "detail": "다양한 사용자를 배려한 포용적 제품 설계 방식"
-        },
-        {
-          "name": "Silicon Valley Culture",
-          "detail": "기술 산업의 문화와 가치관 이해하기"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "web-accessibility",
-          "reason": "장애인을 위한 웹 표준과 구현 방법"
-        },
-        {
-          "keyword": "inclusive-design",
-          "reason": "모든 사용자를 고려한 제품 설계 철학"
-        },
-        {
-          "keyword": "assistive-technology",
-          "reason": "장애인 보조 기술과 실제 도구들"
-        },
-        {
-          "keyword": "disability-awareness",
-          "reason": "개발자로서 장애 이해와 공감"
-        },
-        {
-          "keyword": "wcag-standards",
-          "reason": "웹 콘텐츠 접근성 지침 학습"
-        }
-      ]
-    },
-    {
-      "title": "Prime Agent: A self-improving RLM agent",
-      "url": "https://www.primeintellect.ai/blog/prime-agent",
-      "source": "hackernews",
-      "points": 193,
-      "comments": 42,
-      "published_at": "2026-08-05",
-      "collected_at": "2026-08-06",
+      "title": "Accelerating GPT-5.6 Sol Ultrafast",
+      "url": "https://www.cerebras.ai/blog/accelerating-gpt-5-6-sol-ultrafast-with-openai",
+      "source": "hn",
+      "points": 636,
+      "comments": 251,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
       "category": "ai",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "자가 개선 능력을 갖춘 강화학습 기반 AI 에이전트",
-      "summary": "Prime Agent는 강화학습(RL)을 기반으로 자신의 성능을 지속적으로 개선하는 AI 에이전트입니다. 에이전트가 과제를 수행하면서 보상 신호를 통해 학습하고, 자체 피드백 루프로 성능을 향상시키는 자가 개선 메커니즘을 구현합니다.",
+      "one_liner": "GPT-5.6 Sol 모델의 성능 최적화 및 가속화 기법",
+      "summary": "GPT-5.6 Sol 모델의 처리 속도를 향상시키기 위한 다양한 최적화 기법들을 다룹니다. 메모리 효율성, 병렬 처리, 그리고 하드웨어 가속을 활용한 실제 구현 방법을 설명합니다.",
       "prereqs": [
         {
-          "name": "Reinforcement Learning (강화학습)",
-          "detail": "에이전트의 학습 방식의 기초 이론"
+          "name": "Transformer 아키텍처",
+          "detail": "GPT 모델의 기본 구조 이해 필요"
         },
         {
-          "name": "Reward Signal (보상 신호)",
-          "detail": "에이전트 학습을 유도하는 핵심 피드백 메커니즘"
+          "name": "CUDA/GPU 가속",
+          "detail": "하드웨어 가속 원리 학습 필수"
         },
         {
-          "name": "Neural Networks (신경망)",
-          "detail": "에이전트의 의사결정 모델을 구현하는 기술"
+          "name": "모델 양자화",
+          "detail": "메모리 최적화 기법의 기초 개념"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "policy-gradient",
-          "reason": "강화학습에서 정책 최적화의 핵심 알고리즘"
+          "keyword": "inference-optimization",
+          "reason": "추론 속도 최적화의 핵심 기법"
         },
         {
-          "keyword": "self-improvement",
-          "reason": "에이전트의 자동 성능 향상 메커니즘"
+          "keyword": "attention-mechanism",
+          "reason": "트랜스포머 병목 지점 이해 필요"
         },
         {
-          "keyword": "agent-training",
-          "reason": "자율 에이전트 학습 프로세스 이해"
+          "keyword": "model-quantization",
+          "reason": "모델 크기 축소로 속도 향상"
         },
         {
-          "keyword": "feedback-loop",
-          "reason": "자가 개선 시스템의 기본 구조"
+          "keyword": "batch-processing",
+          "reason": "처리량 증대의 중요 전략"
         },
         {
-          "keyword": "deep-reinforcement-learning",
-          "reason": "복잡한 에이전트 구현의 심화 학습"
+          "keyword": "gpu-memory-management",
+          "reason": "가속 실행 환경의 제약 최소화"
         }
       ]
     },
     {
-      "title": "TypeScript 7 Went Native: What Actually Changes And What Doesn't",
-      "url": "https://dev.to/nazar-boyko/typescript-7-went-native-what-actually-changes-and-what-doesnt-6b3",
-      "source": "devto",
-      "positive_reactions": 176,
-      "comments": 76,
-      "reading_time_minutes": 8,
-      "published_at": "2026-08-03",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
+      "title": "GLM-5.3: Frontier coding with emergent cyber capabilities",
+      "url": "https://z.ai/blog/glm-5.3",
+      "source": "hn",
+      "points": 606,
+      "comments": 303,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "ai",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "TypeScript 7의 네이티브 기능과 변경사항을 실질적으로 분석",
-      "summary": "TypeScript 7에서 추가된 네이티브 기능들과 실제 개발에 미치는 영향을 설명합니다. 주요 변경사항과 하위호환성을 유지하는 부분을 구분하여 업그레이드 시 주의할 점을 안내합니다.",
+      "one_liner": "GLM-5.3의 코딩 능력과 신흥 사이버 보안 기능 소개",
+      "summary": "GLM-5.3는 최신 대규모 언어 모델로서 프론티어 수준의 코딩 능력을 갖추고 있습니다. 이 모델은 사이버 보안 관련 emergent capabilities를 보여주며, 개발자들의 생산성 향상과 보안 취약점 분석에 활용될 수 있습니다.",
       "prereqs": [
         {
-          "name": "TypeScript 기본 문법",
-          "detail": "타입 시스템과 제네릭 이해가 필요"
+          "name": "Large Language Model (LLM)",
+          "detail": "코드 생성 및 분석 능력을 이해하기 위한 기초 개념"
         },
         {
-          "name": "JavaScript ES2024+",
-          "detail": "최신 JavaScript 기능 숙지 권장"
+          "name": "Emergent Abilities",
+          "detail": "모델 규모 증가에 따라 나타나는 예측 불가능한 능력"
         },
         {
-          "name": "타입 추론",
-          "detail": "TypeScript의 타입 추론 메커니즘 이해"
+          "name": "Cybersecurity Basics",
+          "detail": "모델의 보안 기능을 평가하기 위한 필수 배경지식"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "type-narrowing",
-          "reason": "TypeScript의 핵심 타입 안정성 기능"
+          "keyword": "code-generation",
+          "reason": "GLM-5.3의 핵심 능력인 코드 생성 메커니즘"
         },
         {
-          "keyword": "decorator",
-          "reason": "TypeScript 7의 네이티브 지원 대상"
+          "keyword": "vulnerability-detection",
+          "reason": "사이버 기능과 직결된 보안 취약점 탐지 능력"
         },
         {
-          "keyword": "module-resolution",
-          "reason": "버전 업그레이드 시 호환성 확인 필요"
+          "keyword": "prompt-engineering",
+          "reason": "모델의 최고 성능을 끌어내기 위한 필수 기술"
         },
         {
-          "keyword": "breaking-changes",
-          "reason": "마이그레이션 계획 수립에 중요"
+          "keyword": "model-evaluation",
+          "reason": "모델 능력 평가 및 벤치마킹 방법론"
+        },
+        {
+          "keyword": "ai-safety",
+          "reason": "강력한 AI 모델 운영 시 고려해야 할 안전성"
         }
       ]
     },
     {
-      "title": "How would you decide, whether the content is good or bad?",
-      "url": "https://dev.to/francistrdev/how-would-you-decide-whether-the-content-is-good-or-bad-295p",
-      "source": "devto",
-      "positive_reactions": 141,
-      "comments": 85,
-      "reading_time_minutes": 9,
-      "published_at": "2026-08-03",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
-      "lang": "en",
-      "minutes": 8,
-      "one_liner": "콘텐츠 품질을 판단하는 기준과 방법론 제시",
-      "summary": "좋고 나쁜 콘텐츠를 구분하기 위한 객관적 평가 기준과 방법론을 설명합니다. 사용자 경험, 성능, 유지보수성 등 다각도에서 콘텐츠 품질을 측정하고 개선하는 실무 접근법을 다룹니다.",
-      "prereqs": [
-        {
-          "name": "UX/UI 기본",
-          "detail": "사용자 관점에서 품질을 평가하기 위한 기초"
-        },
-        {
-          "name": "Performance Metrics",
-          "detail": "콘텐츠 성능 지표 이해의 필수 요소"
-        },
-        {
-          "name": "Code Quality",
-          "detail": "개발자 관점의 품질 판단 기준"
-        }
-      ],
-      "related_concepts": [
-        {
-          "keyword": "user-experience",
-          "reason": "콘텐츠 품질의 사용자 중심 평가 기준"
-        },
-        {
-          "keyword": "web-performance",
-          "reason": "성능 지표를 통한 객관적 품질 측정"
-        },
-        {
-          "keyword": "content-audit",
-          "reason": "품질 평가를 위한 체계적 검토 프로세스"
-        },
-        {
-          "keyword": "accessibility",
-          "reason": "모든 사용자를 위한 포용적 콘텐츠 기준"
-        },
-        {
-          "keyword": "metrics-analytics",
-          "reason": "데이터 기반 품질 개선 추적"
-        }
-      ]
-    },
-    {
-      "title": "Stop Calling Everything Impostor Syndrome: The Myth of \"Just Push Harder\"",
-      "url": "https://dev.to/sylwia-lask/stop-calling-everything-impostor-syndrome-the-myth-of-just-push-harder-1dmm",
-      "source": "devto",
-      "positive_reactions": 127,
-      "comments": 82,
-      "reading_time_minutes": 5,
-      "published_at": "2026-08-04",
-      "collected_at": "2026-08-06",
+      "title": "Choose Boring Technology (2015)",
+      "url": "https://mcfunley.com/choose-boring-technology",
+      "source": "hn",
+      "points": 371,
+      "comments": 200,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
       "category": "other",
       "lang": "en",
-      "minutes": 7,
-      "one_liner": "임포스터 신드롬이 아닌 실제 실력 부족을 구분하고 대처하는 법",
-      "summary": "많은 개발자들이 자신의 불안감을 임포스터 신드롬으로 치부하며 단순히 더 열심히 일하려고 하지만, 실제로는 기술 격차나 경험 부족 같은 구체적인 문제일 수 있다. 이 글은 자신의 약점을 정확히 진단하고 체계적으로 개선하는 것의 중요성을 강조한다.",
+      "minutes": 8,
+      "one_liner": "검증된 기술 선택으로 프로젝트 위험을 줄이자",
+      "summary": "새로운 기술 트렌드보다 안정적이고 검증된 기술을 선택하는 것의 중요성을 다룬다. 혁신성보다 팀의 생산성과 프로젝트 안정성을 우선시해야 한다는 조언을 제시한다.",
       "prereqs": [
         {
-          "name": "Impostor Syndrome",
-          "detail": "개발자가 경험하는 심리적 현상을 이해하기 위함"
+          "name": "기술 스택",
+          "detail": "프로젝트에 사용되는 기술들의 조합"
         },
         {
-          "name": "Self-assessment",
-          "detail": "자신의 실력을 객관적으로 평가하는 능력"
-        },
-        {
-          "name": "Learning mindset",
-          "detail": "지속적인 성장을 위한 학습 태도의 기초"
+          "name": "기술 부채",
+          "detail": "새로운 기술 도입 시 발생할 수 있는 숨겨진 비용"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "skill-gap-analysis",
-          "reason": "현재 실력과 목표 수준의 차이를 파악하는 방법"
+          "keyword": "technical-debt",
+          "reason": "기술 선택으로 인한 장기적 비용 관리"
         },
         {
-          "keyword": "deliberate-practice",
-          "reason": "무작정 노력하는 것이 아닌 의도적 연습의 중요성"
+          "keyword": "risk-management",
+          "reason": "프로젝트 위험 최소화 전략"
         },
         {
-          "keyword": "mentorship",
-          "reason": "경험자의 피드백으로 객관적 평가 받기"
+          "keyword": "team-productivity",
+          "reason": "기술 선택이 개발 속도에 미치는 영향"
+        },
+        {
+          "keyword": "technology-adoption",
+          "reason": "신기술 도입 시 고려사항과 전략"
+        }
+      ]
+    },
+    {
+      "title": "Understanding is the new bottleneck",
+      "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+      "source": "hn",
+      "points": 362,
+      "comments": 188,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "cs",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "코드 작성보다 이해와 소통이 개발의 핵심 병목이다.",
+      "summary": "현대 소프트웨어 개발에서 실제 병목은 코딩 능력이 아닌 문제 이해와 팀 소통 능력이다. 개발자가 요구사항과 시스템을 깊이 있게 이해하고 효과적으로 커뮤니케이션하는 것이 생산성과 품질을 좌우한다.",
+      "prereqs": [
+        {
+          "name": "소프트웨어 개발 프로세스",
+          "detail": "개발 단계별 요구사항 분석의 중요성 이해"
+        },
+        {
+          "name": "팀 협업 경험",
+          "detail": "다양한 직군과의 소통 경험이 있으면 도움"
+        },
+        {
+          "name": "기술 부채 개념",
+          "detail": "빠른 코딩의 숨겨진 비용 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "communication-skills",
+          "reason": "개발자의 소통 능력이 팀 생산성에 미치는 영향"
+        },
+        {
+          "keyword": "code-review",
+          "reason": "이해도를 높이는 효과적인 코드 검토 방법"
+        },
+        {
+          "keyword": "documentation",
+          "reason": "지식 공유와 이해 증진을 위한 문서화"
+        },
+        {
+          "keyword": "problem-solving",
+          "reason": "문제 해결 능력이 이해도를 높이는 과정"
+        },
+        {
+          "keyword": "knowledge-transfer",
+          "reason": "팀 내 지식 전달과 이해 공동화의 중요성"
+        }
+      ]
+    },
+    {
+      "title": "Hello, me. It's been a while",
+      "url": "https://themech.net/2026/08/hello-me-its-been-a-while/",
+      "source": "hn",
+      "points": 261,
+      "comments": 144,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "개발자로서의 성장과 자기 성찰에 관한 개인적인 이야기",
+      "summary": "개발자가 오랜 시간이 지난 후 자신을 돌아보며 그동안의 경험과 성장을 되짚어보는 글입니다. 개발 커리어 과정에서 겪은 변화와 배움, 그리고 앞으로의 방향성을 생각해보게 합니다.",
+      "prereqs": [
+        {
+          "name": "Software Development Career",
+          "detail": "개발 경력 발전 과정을 이해하는 것이 도움됩니다."
+        },
+        {
+          "name": "Self-reflection",
+          "detail": "개인의 성장을 되돌아보는 습관이 필요합니다."
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "career-development",
+          "reason": "개발자 커리어 성장 경로를 이해하는 데 도움"
         },
         {
           "keyword": "growth-mindset",
-          "reason": "고정된 능력 대신 발전 가능성에 집중하기"
+          "reason": "지속적인 학습과 개선의 마인드셋 개발"
         },
         {
-          "keyword": "burnout-prevention",
-          "reason": "무리한 노력으로 인한 번아웃 피하기"
+          "keyword": "developer-burnout",
+          "reason": "개발자가 겪는 번아웃과 피로 관리"
+        },
+        {
+          "keyword": "technical-skills",
+          "reason": "기술 스킬 발전의 중요성 인식"
         }
       ]
     },
     {
-      "title": "Dev Opportunity Radar #10: OpenAI Student Collective, Develop for Good, MLH Global Hack Week & Learning How to Learn",
-      "url": "https://dev.to/devengers/dev-opportunity-radar-10-openai-student-collective-develop-for-good-mlh-global-hack-week--4kh2",
-      "source": "devto",
-      "positive_reactions": 91,
-      "comments": 36,
-      "reading_time_minutes": 11,
-      "published_at": "2026-07-31",
-      "collected_at": "2026-08-06",
+      "title": "Donkey.bas is 45 Years Old – 131 line of Glory",
+      "url": "https://donkeybas.com/",
+      "source": "hn",
+      "points": 248,
+      "comments": 118,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
       "category": "other",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "개발자 성장 기회와 학습 플랫폼을 소개하는 기회 레이더",
-      "summary": "OpenAI Student Collective, Develop for Good, MLH Global Hack Week 등 주니어 개발자를 위한 다양한 기회와 프로그램을 소개합니다. 이 글은 학습하고 성장할 수 있는 실무 경험과 커뮤니티 참여 기회를 제시하며, 효과적인 학습 방법론도 함께 다룹니다.",
+      "one_liner": "45년 된 Donkey.bas 게임의 역사와 131줄의 코드 분석",
+      "summary": "1981년 개발된 Donkey.bas는 컴퓨터 게임 역사의 초석이 된 작품입니다. 131줄의 간단한 BASIC 코드로 만들어진 이 게임은 초기 컴퓨터 프로그래밍의 창의성과 한계를 보여주며, 현대 게임 개발과의 차이를 조명합니다.",
       "prereqs": [
         {
-          "name": "개발자 커뮤니티",
-          "detail": "업계 네트워킹과 기술 교류의 중요성"
+          "name": "BASIC 언어",
+          "detail": "원문 코드를 이해하기 위한 기본 프로그래밍 언어"
         },
         {
-          "name": "해커톤 경험",
-          "detail": "실제 프로젝트 경험을 통한 기술 습득"
+          "name": "게임 프로그래밍 역사",
+          "detail": "초기 컴퓨터 게임 개발의 맥락 이해"
         },
         {
-          "name": "오픈소스 기여",
-          "detail": "실무 코드 작성과 협업 경험"
+          "name": "어셈블리 및 저수준 프로그래밍",
+          "detail": "과거 하드웨어 제약 조건 이해"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "hackathon",
-          "reason": "단기 집중 개발 프로젝트 경험"
+          "keyword": "retro-game-development",
+          "reason": "초기 게임 개발 방식과 현대 개발의 비교"
         },
         {
-          "keyword": "open-source-contribution",
-          "reason": "실무 협업과 포트폴리오 구축"
+          "keyword": "basic-programming-language",
+          "reason": "원문 코드 분석을 위한 언어 학습"
         },
         {
-          "keyword": "learning-strategies",
-          "reason": "효과적인 개발 학습 방법론"
+          "keyword": "game-history",
+          "reason": "컴퓨터 게임 발전 과정의 이해"
         },
         {
-          "keyword": "developer-community",
-          "reason": "동료 개발자와의 네트워킹"
-        },
-        {
-          "keyword": "mentorship-programs",
-          "reason": "경력 개발을 위한 멘토링"
+          "keyword": "code-optimization",
+          "reason": "제한된 자원 내 효율적 코드 작성 기법"
         }
       ]
     },
     {
-      "title": "We're Giving AI Agents More Tools. What Happens When the Boundaries Fail?",
-      "url": "https://dev.to/hemapriya_kanagala/were-giving-ai-agents-more-tools-what-happens-when-the-boundaries-fail-46gh",
-      "source": "devto",
-      "positive_reactions": 71,
-      "comments": 74,
-      "reading_time_minutes": 21,
-      "published_at": "2026-08-03",
-      "collected_at": "2026-08-06",
-      "category": "ai",
+      "title": "Single log line is 49KB+ (ext4) / 110KB+ (btrfs) of systemd-journald disk writes",
+      "url": "https://github.com/systemd/systemd/issues/40262",
+      "source": "hn",
+      "points": 229,
+      "comments": 158,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "devops",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "AI 에이전트에 도구 권한이 증가할 때의 안전성 문제",
-      "summary": "AI 에이전트에게 더 많은 도구와 권한을 제공하면서 발생하는 안전성 경계 붕괴 문제를 다룬다. 에이전트의 기능 확장과 함께 의도하지 않은 동작, 보안 위험, 제어 불가능성 등의 새로운 도전과제가 발생한다.",
+      "one_liner": "systemd-journald의 과도한 디스크 쓰기 문제와 해결 방안",
+      "summary": "단일 로그 라인이 ext4에서는 49KB 이상, btrfs에서는 110KB 이상의 디스크 쓰기를 발생시키는 systemd-journald의 성능 문제를 다룬다. 로그 기록 시 예상보다 훨씬 큰 I/O 오버헤드가 발생하는 원인과 최적화 방법을 설명한다.",
       "prereqs": [
         {
-          "name": "AI Agents",
-          "detail": "자율적으로 작업을 수행하는 AI 시스템의 개념"
+          "name": "systemd-journald",
+          "detail": "리눅스 시스템의 중앙 집중식 로깅 서비스"
         },
         {
-          "name": "Tool Use in AI",
-          "detail": "AI가 외부 도구와 API를 활용하는 메커니즘"
+          "name": "파일시스템 (ext4, btrfs)",
+          "detail": "디스크 데이터 저장 방식의 차이 이해 필요"
         },
         {
-          "name": "AI Safety",
-          "detail": "AI 시스템의 안전성과 통제 가능성 확보의 중요성"
+          "name": "I/O 최적화",
+          "detail": "디스크 쓰기 성능 분석 방법 이해"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "autonomous-agents",
-          "reason": "자율 에이전트의 동작 원리 이해 필요"
+          "keyword": "journal-compression",
+          "reason": "로그 압축으로 디스크 사용량 감소"
         },
         {
-          "keyword": "ai-safety-alignment",
-          "reason": "AI 의도와 실제 동작의 정렬 문제"
+          "keyword": "disk-io-profiling",
+          "reason": "성능 병목 지점 분석 기법"
         },
         {
-          "keyword": "system-boundaries",
-          "reason": "에이전트의 권한 제한과 경계 설정"
+          "keyword": "log-rotation",
+          "reason": "저널 로그 관리 및 용량 제한"
         },
         {
-          "keyword": "prompt-injection",
-          "reason": "도구 사용 시 발생 가능한 보안 취약점"
+          "keyword": "filesystem-performance",
+          "reason": "파일시스템별 쓰기 성능 특성"
         },
         {
-          "keyword": "agent-governance",
-          "reason": "에이전트 행동 모니터링 및 제어 체계"
+          "keyword": "logging-strategy",
+          "reason": "효율적 로깅 정책 수립"
         }
       ]
     },
     {
-      "title": "Skills vs MCP: How AI tools have evolved",
-      "url": "https://dev.to/googleai/skills-vs-mcp-how-ai-tools-have-evolved-3pmk",
-      "source": "devto",
-      "positive_reactions": 57,
-      "comments": 25,
-      "reading_time_minutes": 1,
-      "published_at": "2026-07-30",
-      "collected_at": "2026-08-06",
-      "category": "ai",
+      "title": "NP-overrated",
+      "url": "https://gruhn.me/blog/2026-08-13/",
+      "source": "hn",
+      "points": 223,
+      "comments": 159,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "cs",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "AI 도구 발전 과정에서 Skills에서 MCP로의 진화 이해",
-      "summary": "이 글은 AI 도구의 진화 과정을 Skills와 MCP라는 두 가지 접근 방식을 통해 설명합니다. 초기 Skills 기반 구조의 한계를 극복하기 위해 MCP(Model Context Protocol)라는 새로운 표준이 등장했으며, 이는 AI 시스템의 확장성과 상호 운용성을 크게 개선했습니다.",
+      "one_liner": "NP 복잡도 클래스가 실제로는 과평가되었다는 주장",
+      "summary": "NP 복잡도 클래스의 개념과 중요성이 이론 전산학에서 과도하게 강조되고 있다는 비판을 다룹니다. NP-완전 문제의 실무적 중요성과 이론적 관심도의 괴리를 분석하며, 실제 문제 해결에서는 다른 관점이 필요할 수 있음을 제시합니다.",
       "prereqs": [
         {
-          "name": "AI Tools & Agents",
-          "detail": "AI 도구와 에이전트의 기본 개념"
+          "name": "P vs NP 문제",
+          "detail": "계산 복잡도 이론의 핵심 미해결 문제"
         },
         {
-          "name": "API & Integration",
-          "detail": "시스템 간 통합 및 API 개념 이해"
+          "name": "NP-완전 문제",
+          "detail": "NP 클래스에서 가장 어려운 문제들의 특성"
         },
         {
-          "name": "Protocol Standards",
-          "detail": "통신 프로토콜 표준화의 중요성"
+          "name": "알고리즘 분석",
+          "detail": "시간 복잡도와 공간 복잡도의 개념"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "model-context-protocol",
-          "reason": "글의 핵심 기술, MCP 표준의 작동 원리"
+          "keyword": "computational-complexity",
+          "reason": "복잡도 분석의 이론적 기초"
         },
         {
-          "keyword": "ai-agent-architecture",
-          "reason": "AI 에이전트 설계에서 Skills와 MCP의 역할 비교"
+          "keyword": "approximation-algorithms",
+          "reason": "NP 문제의 실무적 해결 방법"
         },
         {
-          "keyword": "tool-calling",
-          "reason": "AI 모델이 외부 도구를 호출하는 메커니즘"
+          "keyword": "heuristic-methods",
+          "reason": "현실에서 NP 문제 해결의 대안"
         },
         {
-          "keyword": "ai-interoperability",
-          "reason": "다양한 AI 시스템 간 호환성과 표준화"
-        },
-        {
-          "keyword": "llm-extensibility",
-          "reason": "LLM 기능 확장 방식의 발전 과정"
+          "keyword": "satisfiability-problem",
+          "reason": "NP-완전 문제의 대표 사례"
         }
       ]
     },
     {
-      "title": "What was your win this week?",
-      "url": "https://dev.to/devteam/what-was-your-win-this-week-1ed",
+      "title": "US conducted mass spying campaign against leftwing and anti-ICE protesters",
+      "url": "https://www.theguardian.com/us-news/2026/aug/13/us-government-spied-anti-ice-protesters",
+      "source": "hn",
+      "points": 206,
+      "comments": 54,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "미국 정부의 좌파 진영 및 반ICE 시위자 감시 프로그램 적발",
+      "summary": "미국 정부가 좌파 성향 활동가와 반이민단속청(ICE) 항의 시위자들을 대상으로 광범위한 감시 작업을 수행했다는 보도이다. 이는 시민의 자유와 프라이버시 침해 논란을 불러일으키며, 정부의 투명성과 권력 남용 문제를 제기한다.",
+      "prereqs": [
+        {
+          "name": "ICE (Immigration and Customs Enforcement)",
+          "detail": "미국 이민 단속 기관으로 이해하기"
+        },
+        {
+          "name": "시민 자유와 프라이버시",
+          "detail": "감시와 개인정보 보호의 상충 관계 이해"
+        },
+        {
+          "name": "정부 투명성",
+          "detail": "민주주의 사회에서 정부 감시의 정당성 기준"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "government-surveillance",
+          "reason": "정부 감시 시스템의 구조와 윤리 이해"
+        },
+        {
+          "keyword": "privacy-rights",
+          "reason": "시민의 기본권과 정부 권한의 경계 설정"
+        },
+        {
+          "keyword": "foia-transparency",
+          "reason": "정보 공개법을 통한 정부 감시 추적"
+        },
+        {
+          "keyword": "protest-monitoring",
+          "reason": "시위 감시의 법적 정당성 검토"
+        },
+        {
+          "keyword": "civil-liberties",
+          "reason": "표현의 자유와 정치 활동 보호 논의"
+        }
+      ]
+    },
+    {
+      "title": "Where did the old web go? We followed 657,607 links to find out",
+      "url": "https://0.mk/blog/link-rot",
+      "source": "hn",
+      "points": 195,
+      "comments": 190,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "657만 개 링크를 추적하여 사라진 웹의 흔적을 찾은 연구",
+      "summary": "연구팀이 657,607개의 링크를 따라가며 웹의 역사와 소실된 콘텐츠를 추적한 연구입니다. 인터넷 초기부터 현재까지 웹사이트의 변화, 링크 붕괴, 그리고 디지털 콘텐츠의 보존 문제를 데이터 기반으로 분석합니다.",
+      "prereqs": [
+        {
+          "name": "Web History",
+          "detail": "초기 웹과 현대 웹의 변화 추이 이해"
+        },
+        {
+          "name": "HTTP & URLs",
+          "detail": "링크와 웹 주소의 기본 구조 이해"
+        },
+        {
+          "name": "Digital Preservation",
+          "detail": "인터넷 아카이빙과 콘텐츠 보존의 중요성"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "link-rot",
+          "reason": "시간이 지나며 사라지는 링크 현상"
+        },
+        {
+          "keyword": "web-archive",
+          "reason": "과거 웹 콘텐츠 보존 및 복구 기술"
+        },
+        {
+          "keyword": "http-status-codes",
+          "reason": "링크 상태 진단과 오류 추적 방법"
+        },
+        {
+          "keyword": "crawler-bot",
+          "reason": "웹 전체를 자동으로 수집하는 기술"
+        },
+        {
+          "keyword": "internet-history",
+          "reason": "웹의 진화 과정과 구조 변화 이해"
+        }
+      ]
+    },
+    {
+      "title": "How Compaction Works in Pi",
+      "url": "https://earendil.com/posts/compaction-in-pi/",
+      "source": "hn",
+      "points": 177,
+      "comments": 73,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "cs",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "Pi에서 Compaction 동작 원리와 최적화 방법",
+      "summary": "Pi 시스템에서 Compaction은 데이터베이스의 파편화된 데이터를 정리하는 핵심 메커니즘입니다. 이 과정을 통해 저장 공간을 효율적으로 관리하고 읽기 성능을 개선할 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "Log-Structured Storage",
+          "detail": "Compaction이 기반하는 저장소 구조 이해"
+        },
+        {
+          "name": "LSM Tree",
+          "detail": "계층적 데이터 구조와 Compaction 전략"
+        },
+        {
+          "name": "Write Amplification",
+          "detail": "Compaction으로 인한 성능 영향 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "level-compaction",
+          "reason": "레벨별 Compaction 전략 학습"
+        },
+        {
+          "keyword": "bloom-filter",
+          "reason": "Compaction 성능 최적화 기법"
+        },
+        {
+          "keyword": "garbage-collection",
+          "reason": "유사한 메모리 정리 개념"
+        },
+        {
+          "keyword": "sstable",
+          "reason": "Compaction 대상이 되는 데이터 구조"
+        },
+        {
+          "keyword": "read-write-tradeoff",
+          "reason": "Compaction의 성능 트레이드오프"
+        }
+      ]
+    },
+    {
+      "title": "Bluesky Protocol Services",
+      "url": "https://atproto.com/blog/introducing-bluesky-protocol-services",
+      "source": "hn",
+      "points": 174,
+      "comments": 46,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "Bluesky의 분산형 프로토콜과 서비스 아키텍처 이해",
+      "summary": "Bluesky Protocol Services는 중앙화되지 않은 소셜 미디어 인프라를 구축하기 위한 프로토콜과 서비스들을 설명합니다. AT Protocol을 기반으로 하는 분산형 아키텍처, 사용자 데이터 관리, 그리고 상호운용 가능한 서비스 생태계의 구현 방식을 다룹니다.",
+      "prereqs": [
+        {
+          "name": "분산형 시스템 (Decentralized Systems)",
+          "detail": "중앙 서버 없이 네트워크가 동작하는 방식"
+        },
+        {
+          "name": "REST API",
+          "detail": "Bluesky 서비스 간 통신의 기본 방식"
+        },
+        {
+          "name": "데이터 모델링",
+          "detail": "분산 환경에서 사용자 데이터 구조화의 중요성"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "at-protocol",
+          "reason": "Bluesky의 핵심 프로토콜 기술"
+        },
+        {
+          "keyword": "federation",
+          "reason": "분산형 소셜 네트워크 상호운용성"
+        },
+        {
+          "keyword": "did-identifiers",
+          "reason": "분산 신원 관리 메커니즘"
+        },
+        {
+          "keyword": "oauth-2.0",
+          "reason": "인증 및 권한 부여 체계"
+        },
+        {
+          "keyword": "distributed-ledger",
+          "reason": "데이터 무결성 보증 기술"
+        }
+      ]
+    },
+    {
+      "title": "SparrowMap – Cameras that watch government vehicles",
+      "url": "https://sparrowmap.com/",
+      "source": "hn",
+      "points": 154,
+      "comments": 35,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "정부 차량을 감시하는 카메라 시스템 프로젝트",
+      "summary": "SparrowMap은 정부 차량의 동향을 추적하고 감시하기 위한 카메라 기반 시스템입니다. 공공 투명성과 정부 감시를 목표로 시민들이 정부 활동을 모니터링할 수 있는 오픈소스 프로젝트입니다.",
+      "prereqs": [
+        {
+          "name": "Computer Vision",
+          "detail": "카메라 이미지에서 차량을 인식하고 추적하는 기술"
+        },
+        {
+          "name": "IoT & Edge Computing",
+          "detail": "분산된 카메라 네트워크를 관리하는 방식"
+        },
+        {
+          "name": "Public Data & Privacy",
+          "detail": "공공 감시와 개인정보 보호의 균형"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "object-detection",
+          "reason": "차량 인식을 위한 핵심 기술"
+        },
+        {
+          "keyword": "real-time-tracking",
+          "reason": "차량 실시간 추적 시스템"
+        },
+        {
+          "keyword": "distributed-systems",
+          "reason": "다중 카메라 네트워크 운영"
+        },
+        {
+          "keyword": "open-source-governance",
+          "reason": "투명한 공공 프로젝트 운영"
+        },
+        {
+          "keyword": "civic-tech",
+          "reason": "시민 주도의 기술 감시 활동"
+        }
+      ]
+    },
+    {
+      "title": "Hey all! I'm Jem, the DEV Community Program Coordinator",
+      "url": "https://dev.to/devteam/hey-all-im-jem-the-dev-community-program-coordinator-2g2",
       "source": "devto",
-      "positive_reactions": 52,
-      "comments": 49,
-      "reading_time_minutes": 1,
-      "published_at": "2026-07-31",
-      "collected_at": "2026-08-06",
+      "positive_reactions": 146,
+      "comments": 54,
+      "reading_time_minutes": 2,
+      "published_at": "2026-08-10",
+      "collected_at": "2026-08-14",
       "category": "other",
       "lang": "en",
       "minutes": 3,
-      "one_liner": "주간 개발 성과를 되돌아보고 공유하는 문화",
-      "summary": "이 글은 개발자들이 매주 자신의 성취와 진전 사항을 인식하고 공유하는 것의 중요성을 다룹니다. 작은 승리를 기록하는 습관은 자신감을 높이고 팀 문화를 긍정적으로 만들어줍니다.",
+      "one_liner": "DEV 커뮤니티 프로그램 코디네이터 Jem의 자기소개 글",
+      "summary": "Jem이 DEV Community의 프로그램 코디네이터로서의 역할과 배경을 소개하는 글입니다. 커뮤니티 활동과 개발자 지원에 대한 열정을 나누며, 독자들과의 소통을 시작하는 인사말입니다.",
       "prereqs": [
         {
-          "name": "개발 프로세스",
-          "detail": "주간 업무 흐름과 마일스톤 이해"
+          "name": "DEV Community",
+          "detail": "개발자 커뮤니티 플랫폼의 역할과 목적"
         },
         {
-          "name": "팀 커뮤니케이션",
-          "detail": "팀원들과의 효과적인 피드백 공유"
+          "name": "Community Management",
+          "detail": "온라인 커뮤니티 관리의 기본 개념"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "retrospective",
-          "reason": "주기적 회고를 통한 성장 추적"
+          "keyword": "developer-community",
+          "reason": "개발자 커뮤니티 문화 이해"
         },
         {
-          "keyword": "team-culture",
-          "reason": "긍정적 팀 분위기 구축의 핵심"
+          "keyword": "technical-writing",
+          "reason": "기술 콘텐츠 작성과 공유"
         },
         {
-          "keyword": "progress-tracking",
-          "reason": "개인의 성과를 체계적으로 관리"
+          "keyword": "networking",
+          "reason": "개발자 네트워킹의 중요성"
         },
         {
-          "keyword": "motivation",
-          "reason": "성취감이 지속적 업무 동기 부여"
+          "keyword": "mentorship",
+          "reason": "신입 개발자 멘토링 프로그램"
         }
       ]
     },
     {
-      "title": "Catbot: Custom Grammar Problem Fixed",
-      "url": "https://dev.to/annavi11arrea1/catbot-custom-grammar-problem-fixed-oc5",
+      "title": "I Joined dev.to because...",
+      "url": "https://dev.to/francistrdev/i-joined-devto-because-fl0",
       "source": "devto",
-      "positive_reactions": 49,
-      "comments": 14,
-      "reading_time_minutes": 10,
-      "published_at": "2026-08-01",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
+      "positive_reactions": 126,
+      "comments": 97,
+      "reading_time_minutes": 5,
+      "published_at": "2026-08-10",
+      "collected_at": "2026-08-14",
+      "category": "other",
       "lang": "en",
       "minutes": 5,
-      "one_liner": "Catbot의 커스텀 문법 문제 해결 방법",
-      "summary": "Catbot에서 발생한 커스텀 문법 관련 버그를 분석하고 해결하는 과정을 다룹니다. 문제의 원인을 파악하고 효과적인 수정 방법을 제시합니다.",
+      "prereqs": [],
+      "related_concepts": [
+        {
+          "keyword": "developer-community",
+          "reason": "개발자 네트워킹과 지식 공유의 장"
+        },
+        {
+          "keyword": "tech-blogging",
+          "reason": "기술 글쓰기로 성장하는 방법"
+        }
+      ],
+      "one_liner": "개발자들이 dev.to에 합류한 이유를 나누는 커뮤니티 글",
+      "summary": "dev.to 커뮤니티 멤버들이 이 플랫폼에 합류하게 된 다양한 계기와 경험을 공유하는 글입니다. 개발자 커뮤니티의 가치와 소속감에 대한 이야기를 담고 있습니다."
+    },
+    {
+      "title": "Blog about things you don't understand yet",
+      "url": "https://www.seangoedecke.com/blog-about-things-you-dont-understand-yet/",
+      "source": "hn",
+      "points": 121,
+      "comments": 36,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 5,
+      "one_liner": "모르는 것을 블로그에 작성하며 배우는 학습 전략",
+      "summary": "개발자는 완전히 이해하지 못한 주제에 대해 블로그 포스트를 작성해야 한다. 이 과정에서 지식의 갭을 발견하고, 더 깊이 학습하며, 개념을 명확히 이해할 수 있다. 공개적으로 배우는 것은 성장을 가속화하는 강력한 방법이다.",
       "prereqs": [
         {
-          "name": "Chatbot Architecture",
-          "detail": "챗봇의 기본 구조와 동작 원리 이해"
+          "name": "학습 심리학",
+          "detail": "설명하며 배우는 효과를 이해하기 위해 필요"
         },
         {
-          "name": "Grammar Parsing",
-          "detail": "자연어 문법 파싱 및 처리 방식"
-        },
-        {
-          "name": "Debugging",
-          "detail": "버그 추적 및 문제 해결 과정"
+          "name": "기술 블로깅",
+          "detail": "기술 콘텐츠를 효과적으로 작성하는 방법"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "nlp",
-          "reason": "자연어 처리를 통한 문법 분석"
+          "keyword": "learning-in-public",
+          "reason": "공개적으로 학습하며 피드백을 받는 전략"
         },
         {
-          "keyword": "error-handling",
-          "reason": "챗봇의 오류 처리 메커니즘"
+          "keyword": "feynman-technique",
+          "reason": "개념을 단순하게 설명해 이해도를 확인하는 방법"
         },
         {
-          "keyword": "regex-patterns",
-          "reason": "문법 규칙 정의에 정규표현식 활용"
+          "keyword": "knowledge-gaps",
+          "reason": "무엇을 모르는지 파악하고 메우는 과정"
         },
         {
-          "keyword": "testing",
-          "reason": "수정된 코드의 검증 필요"
+          "keyword": "technical-writing",
+          "reason": "복잡한 개념을 명확하게 전달하는 기술"
         }
       ]
     },
     {
-      "title": "Damn Popovers",
-      "url": "https://dev.to/ingosteinke/damn-popovers-23n1",
-      "source": "devto",
-      "positive_reactions": 32,
-      "comments": 4,
-      "reading_time_minutes": 2,
-      "published_at": "2026-08-04",
-      "collected_at": "2026-08-06",
-      "category": "frontend",
+      "title": "How AI text watermarking works",
+      "url": "https://declaude.org/watermarking/",
+      "source": "hn",
+      "points": 116,
+      "comments": 87,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 6,
+      "one_liner": "AI가 생성한 텍스트에 숨겨진 표식을 삽입하는 기술",
+      "summary": "AI 텍스트 워터마킹은 AI가 생성한 콘텐츠를 인간이 작성한 것과 구별하기 위해 텍스트에 숨겨진 신호를 삽입하는 기술이다. 통계적 방법이나 해시 함수 등 다양한 방식으로 구현되며, AI 생성 콘텐츠 검증과 지적 재산권 보호에 활용된다.",
+      "prereqs": [
+        {
+          "name": "해시 함수",
+          "detail": "텍스트 검증에 사용되는 암호화 기법"
+        },
+        {
+          "name": "확률 및 통계",
+          "detail": "워터마킹 신호 삽입 알고리즘의 기초"
+        },
+        {
+          "name": "자연어 처리",
+          "detail": "텍스트 생성 및 분석의 기본 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "generative-ai",
+          "reason": "워터마킹의 대상이 되는 AI 기술"
+        },
+        {
+          "keyword": "digital-forensics",
+          "reason": "콘텐츠 진위 판별의 법적 기초"
+        },
+        {
+          "keyword": "content-authentication",
+          "reason": "AI 생성 콘텐츠 검증 방법"
+        },
+        {
+          "keyword": "adversarial-attack",
+          "reason": "워터마킹 회피 기법 이해 필요"
+        }
+      ]
+    },
+    {
+      "title": "How Organizations Use AI: Evidence from ChatGPT [pdf]",
+      "url": "https://cdn.openai.com/pdf/how-organizations-use-chatgpt.pdf",
+      "source": "hn",
+      "points": 114,
+      "comments": 85,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 15,
+      "one_liner": "조직들이 ChatGPT를 실제로 어떻게 활용하고 있는지 분석한 연구",
+      "summary": "이 논문은 ChatGPT와 같은 대규모 언어 모델이 실제 조직에서 어떻게 도입되고 활용되는지 실증적 데이터를 통해 분석합니다. 다양한 산업과 업무 분야에서의 AI 적용 사례, 사용 패턴, 그리고 조직적 영향을 조사한 연구입니다.",
+      "prereqs": [
+        {
+          "name": "ChatGPT와 Large Language Model",
+          "detail": "생성형 AI 기술의 기본 개념 이해"
+        },
+        {
+          "name": "조직 기술 도입(Digital Transformation)",
+          "detail": "기업이 새로운 기술을 채택하는 과정 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "prompt-engineering",
+          "reason": "조직에서 실제로 사용하는 AI 활용 기술"
+        },
+        {
+          "keyword": "enterprise-ai",
+          "reason": "기업 환경에서의 AI 도입 및 구현 방식"
+        },
+        {
+          "keyword": "ai-adoption-barriers",
+          "reason": "조직의 AI 도입 시 직면하는 문제점"
+        },
+        {
+          "keyword": "workforce-productivity",
+          "reason": "AI가 실제 업무 생산성에 미치는 영향"
+        },
+        {
+          "keyword": "ai-ethics-governance",
+          "reason": "조직에서 AI 사용 시 고려해야 할 윤리 및 거버넌스"
+        }
+      ]
+    },
+    {
+      "title": "Why does Opus 5 feel worse to work with?",
+      "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+      "source": "hn",
+      "points": 110,
+      "comments": 105,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "ai",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "웹 UI의 팝오버 구현 시 마주치는 흔한 문제와 해결책",
-      "summary": "팝오버(Popover) UI 컴포넌트 구현 시 발생하는 일반적인 버그와 UX 문제들을 다룹니다. 포지셔닝, 스택킹, 클릭 외부 감지 등 팝오버 개발에서 주의할 점들을 실제 사례로 설명합니다.",
+      "one_liner": "Claude Opus 5의 성능 저하 원인과 개선 방안 분석",
+      "summary": "Claude Opus 5 모델 사용 시 이전 버전보다 성능이 낮아진 이유를 분석합니다. 모델의 복잡도 증가, 추론 방식 변화, 최적화 미흡 등 기술적 원인을 다루며, 효과적인 프롬프팅과 파라미터 조정을 통한 해결책을 제시합니다.",
       "prereqs": [
         {
-          "name": "DOM 조작",
-          "detail": "팝오버 요소의 위치 제어를 위해 필수"
+          "name": "Large Language Models",
+          "detail": "LLM의 기본 구조와 작동 원리 이해"
         },
         {
-          "name": "CSS Position",
-          "detail": "absolute/fixed 포지셔닝 이해 필요"
+          "name": "프롬프트 엔지니어링",
+          "detail": "효과적인 지시문 작성으로 모델 성능 개선"
         },
         {
-          "name": "이벤트 핸들링",
-          "detail": "클릭, 스크롤 등 이벤트 감지 구현"
+          "name": "모델 평가 지표",
+          "detail": "AI 모델 성능을 측정하는 표준 방법"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "popover-api",
-          "reason": "네이티브 팝오버 API 사용으로 문제 해결 가능"
+          "keyword": "prompt-optimization",
+          "reason": "Opus 5의 성능을 끌어내는 프롬프팅 기법"
         },
         {
-          "keyword": "positioning-library",
-          "reason": "Popper.js 등으로 포지셔닝 자동화"
+          "keyword": "model-tuning",
+          "reason": "모델 파라미터 조정으로 성능 개선"
         },
         {
-          "keyword": "z-index-stacking",
-          "reason": "다중 팝오버의 쌓임 순서 관리"
+          "keyword": "inference-cost",
+          "reason": "성능과 비용의 트레이드오프 분석"
         },
         {
-          "keyword": "a11y-accessibility",
-          "reason": "포커스와 ARIA 속성의 접근성 고려"
+          "keyword": "model-comparison",
+          "reason": "다른 LLM 모델과의 성능 비교 필요"
         },
         {
-          "keyword": "event-delegation",
-          "reason": "효율적인 클릭 외부 감지 구현"
+          "keyword": "fallback-strategy",
+          "reason": "Opus 5 부진 시 대체 모델 전략"
         }
       ]
     },
     {
-      "title": "Interviewing off leetcode you already memorized isn't cheating, it's the job",
-      "url": "https://dev.to/adioof/interviewing-off-leetcode-you-already-memorized-isnt-cheating-its-the-job-5e76",
+      "title": "How Gödel's Proof Works (2020)",
+      "url": "https://www.quantamagazine.org/how-godels-proof-works-20200714/",
+      "source": "hn",
+      "points": 109,
+      "comments": 49,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "cs",
+      "lang": "en",
+      "minutes": 15,
+      "one_liner": "괴델의 불완전성 정리가 수학적 증명의 한계를 보여주는 방식",
+      "summary": "괴델의 불완전성 정리는 어떤 공리 체계도 완전할 수 없다는 것을 증명합니다. 이 글은 자기참조적 논리를 통해 참이지만 증명 불가능한 명제가 존재함을 설명합니다. 이는 수학의 기초와 계산 이론에 깊은 영향을 미쳤습니다.",
+      "prereqs": [
+        {
+          "name": "Mathematical Logic",
+          "detail": "명제와 증명 체계의 기본 개념 이해"
+        },
+        {
+          "name": "Self-reference",
+          "detail": "자기참조 개념이 논리에 미치는 영향"
+        },
+        {
+          "name": "Axiom Systems",
+          "detail": "공리 체계와 형식 체계의 작동 원리"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "turing-completeness",
+          "reason": "계산 가능성의 한계를 정의"
+        },
+        {
+          "keyword": "halting-problem",
+          "reason": "괴델의 정리와 유사한 증명 불가능성"
+        },
+        {
+          "keyword": "church-turing-thesis",
+          "reason": "계산 이론의 근본적 개념"
+        },
+        {
+          "keyword": "formal-systems",
+          "reason": "수학의 기초를 형성하는 체계"
+        },
+        {
+          "keyword": "cantor-diagonal",
+          "reason": "자기참조 증명의 유사 기법"
+        }
+      ]
+    },
+    {
+      "title": "What Would You Tell Someone Early in Their Career?",
+      "url": "https://dev.to/hemapriya_kanagala/what-would-you-tell-someone-early-in-their-career-1k76",
       "source": "devto",
-      "positive_reactions": 20,
-      "comments": 8,
-      "reading_time_minutes": 3,
-      "published_at": "2026-08-04",
-      "collected_at": "2026-08-06",
+      "positive_reactions": 92,
+      "comments": 84,
+      "reading_time_minutes": 12,
+      "published_at": "2026-08-10",
+      "collected_at": "2026-08-14",
       "category": "other",
       "lang": "en",
       "minutes": 8,
-      "one_liner": "면접에서 외운 문제를 푸는 것은 부정행위가 아닌 실무 능력이다.",
-      "summary": "기술 면접에서 미리 외운 LeetCode 문제를 푸는 것은 부정행위가 아니라 실제 업무 방식을 반영한 것이다. 개발자들이 일하면서 이미 알고 있는 패턴과 솔루션을 활용하는 것처럼, 면접도 준비된 지식을 활용하는 능력을 평가하는 것이 맞다.",
+      "one_liner": "커리어 초반 개발자가 꼭 알아야 할 실용적 조언",
+      "summary": "경력 초반 개발자들을 위한 실전 조언을 담은 글로, 기술 학습뿐 아니라 커뮤니케이션, 문제 해결 능력, 지속적인 성장의 중요성을 강조합니다. 단기적 성과보다 장기적 역량 개발과 팀과의 협력 능력을 우선시할 것을 권고합니다.",
       "prereqs": [
         {
-          "name": "Technical Interview",
-          "detail": "개발자 채용 과정에서의 기술 평가 방식"
+          "name": "소프트웨어 개발 기초",
+          "detail": "프로그래밍 언어와 개발 원리의 기본 이해"
         },
         {
-          "name": "LeetCode",
-          "detail": "코딩 인터뷰 준비용 온라인 문제 플랫폼"
-        },
-        {
-          "name": "Problem-solving Skills",
-          "detail": "알고리즘 문제 해결 능력의 중요성"
+          "name": "직무 환경",
+          "detail": "실제 개발팀과 업무 방식에 대한 경험"
         }
       ],
       "related_concepts": [
         {
-          "keyword": "interview-preparation",
-          "reason": "효과적인 면접 준비 전략 수립"
+          "keyword": "soft-skills",
+          "reason": "기술 외 커뮤니케이션 능력의 중요성"
         },
         {
-          "keyword": "algorithm-practice",
-          "reason": "반복 학습과 패턴 인식의 역할"
+          "keyword": "code-review",
+          "reason": "피드백을 통한 지속적 성장 방법"
         },
         {
-          "keyword": "hiring-practices",
-          "reason": "기술 면접 평가 기준의 현실성"
+          "keyword": "mentorship",
+          "reason": "경험자로부터 배우는 효과적 학습법"
         },
         {
-          "keyword": "professional-development",
-          "reason": "개발자로서 성장하는 올바른 방법"
+          "keyword": "debugging-skills",
+          "reason": "문제 해결 능력 발전의 핵심"
+        },
+        {
+          "keyword": "professional-growth",
+          "reason": "장기 커리어 개발 전략 수립"
+        }
+      ]
+    },
+    {
+      "title": "Backend Engineer (Me) Ships a Browser Game With One Unintentional System Requirement: My Monitor",
+      "url": "https://dev.to/georgekobaidze/backend-engineer-me-ships-a-browser-game-with-one-unintentional-system-requirement-my-monitor-1ojd",
+      "source": "devto",
+      "positive_reactions": 81,
+      "comments": 48,
+      "reading_time_minutes": 10,
+      "published_at": "2026-08-09",
+      "collected_at": "2026-08-14",
+      "category": "frontend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "모니터 사양에 의존하게 된 브라우저 게임 개발 사건기",
+      "summary": "백엔드 엔지니어가 브라우저 게임을 출시했으나 예상치 못한 모니터 사양이 시스템 요구사항이 되는 버그를 경험한 이야기입니다. 환경 변수와 하드웨어 의존성 관리의 중요성을 교훈으로 전달합니다.",
+      "prereqs": [
+        {
+          "name": "브라우저 렌더링",
+          "detail": "화면에 콘텐츠가 표시되는 원리 이해"
+        },
+        {
+          "name": "디버깅",
+          "detail": "예상과 다른 동작을 원인 파악하는 과정"
+        },
+        {
+          "name": "환경 변수",
+          "detail": "개발/운영 환경에서 설정을 관리하는 방식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "cross-browser-testing",
+          "reason": "다양한 환경에서 호환성 검증의 필요성"
+        },
+        {
+          "keyword": "responsive-design",
+          "reason": "다양한 화면 사이즈에 대응하는 설계"
+        },
+        {
+          "keyword": "hardware-acceleration",
+          "reason": "GPU/모니터와 브라우저 상호작용 이해"
+        },
+        {
+          "keyword": "performance-optimization",
+          "reason": "하드웨어 사양에 맞춘 성능 최적화"
+        },
+        {
+          "keyword": "edge-cases",
+          "reason": "예상 밖의 환경 조건에서의 테스트"
+        }
+      ]
+    },
+    {
+      "title": "'Not acceptable': Judge orders Google to make rival app store installs easier",
+      "url": "https://www.theverge.com/policy/979852/that-is-not-acceptable-judge-orders-google-to-make-rival-app-store-installs-easier",
+      "source": "hn",
+      "points": 80,
+      "comments": 20,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 4,
+      "one_liner": "구글이 경쟁사 앱스토어 설치를 쉽게 하도록 법원 명령받음",
+      "summary": "법원이 구글에 안드로이드 기기에서 경쟁사 앱스토어 설치를 더 간단하게 할 것을 명령했습니다. 이는 구글의 플레이스토어 독점 지위에 대한 반독점 규제의 일환입니다.",
+      "prereqs": [
+        {
+          "name": "App Store 독점",
+          "detail": "구글 플레이스토어가 안드로이드 앱 배포 시장에서 차지하는 주도적 위치"
+        },
+        {
+          "name": "Antitrust Law (반독점법)",
+          "detail": "기업의 부정행위를 규제하기 위한 법률 체계"
+        },
+        {
+          "name": "Alternative App Stores",
+          "detail": "공식 스토어 외 앱 배포 및 설치 플랫폼"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "app-distribution",
+          "reason": "앱 배포 경로 다양화의 법적 기반"
+        },
+        {
+          "keyword": "platform-regulation",
+          "reason": "대형 플랫폼 기업에 대한 규제 트렌드"
+        },
+        {
+          "keyword": "sideloading",
+          "reason": "공식 스토어 우회 설치 방식의 개선"
+        },
+        {
+          "keyword": "developer-economics",
+          "reason": "앱 개발자의 배포 채널 선택권 확대"
+        },
+        {
+          "keyword": "digital-markets-act",
+          "reason": "유사한 규제 정책의 국제적 사례"
+        }
+      ]
+    },
+    {
+      "title": "Eclipse: The Xiaomi 17 Ultra Confuses the Moon and the Sun",
+      "url": "https://www.frandroid.com/marques/xiaomi/3211257_photo-de-leclipse-on-a-perce-a-jour-la-petite-triche-du-xiaomi-17-ultra-qui-confond-la-lune-et-le-soleil",
+      "source": "hn",
+      "points": 73,
+      "comments": 57,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "샤오미 17 울트라의 카메라 기술과 천체 촬영 능력에 대한 분석",
+      "summary": "이 글은 샤오미 17 울트라 스마트폰의 고급 카메라 기술이 달과 태양을 구별하지 못하는 현상을 다룹니다. 강력한 줌 렌즈와 AI 처리 기능이 천체 촬영에서 발생시키는 기술적 한계를 탐구합니다.",
+      "prereqs": [
+        {
+          "name": "스마트폰 카메라 센서",
+          "detail": "현대 스마트폰 카메라의 기본 구조와 동작 원리"
+        },
+        {
+          "name": "디지털 줌 기술",
+          "detail": "소프트웨어 기반 줌 처리와 이미지 품질 보존"
+        },
+        {
+          "name": "이미지 프로세싱 AI",
+          "detail": "AI가 사진 보정과 최적화에 사용되는 방식"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "computational-photography",
+          "reason": "스마트폰 카메라의 AI 기반 이미지 처리 기술"
+        },
+        {
+          "keyword": "optical-zoom-vs-digital-zoom",
+          "reason": "줌 기술의 차이와 화질 저하 원리"
+        },
+        {
+          "keyword": "sensor-size-limitations",
+          "reason": "스마트폰 센서의 물리적 제약과 영향"
+        },
+        {
+          "keyword": "night-mode-algorithms",
+          "reason": "저조도 및 특수 촬영 환경의 이미지 처리"
+        }
+      ]
+    },
+    {
+      "title": "Show HN: MCP-stama – An ultra-fast Rust MCP server with no dependencies",
+      "url": "https://github.com/StamManif/mcp-stama",
+      "source": "hn",
+      "points": 71,
+      "comments": 0,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "의존성 없는 초고속 Rust 기반 MCP 서버 구현",
+      "summary": "MCP-stama는 외부 의존성 없이 Rust로 구현된 초고속 Model Context Protocol 서버입니다. 최소한의 리소스로 최대의 성능을 제공하며, Rust의 안정성과 속도를 활용하여 효율적인 AI 모델 통신을 가능하게 합니다.",
+      "prereqs": [
+        {
+          "name": "Model Context Protocol (MCP)",
+          "detail": "AI 모델과 외부 도구 간의 통신 표준"
+        },
+        {
+          "name": "Rust",
+          "detail": "메모리 안전성과 고성능을 제공하는 시스템 프로그래밍 언어"
+        },
+        {
+          "name": "Server Architecture",
+          "detail": "네트워크 서버의 기본 구조와 요청-응답 처리"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "mcp-protocol",
+          "reason": "MCP 표준과 스펙 이해"
+        },
+        {
+          "keyword": "rust-performance",
+          "reason": "Rust 기반 고성능 시스템 구현"
+        },
+        {
+          "keyword": "zero-dependency",
+          "reason": "의존성 최소화의 장점과 구현 전략"
+        },
+        {
+          "keyword": "llm-integration",
+          "reason": "AI 모델과의 연동 방식"
+        },
+        {
+          "keyword": "async-runtime",
+          "reason": "Rust의 비동기 처리 및 동시성 관리"
+        }
+      ]
+    },
+    {
+      "title": "DeepSeek peak/off-peak pricing update",
+      "url": "https://api-docs.deepseek.com/news/news260813/",
+      "source": "hn",
+      "points": 69,
+      "comments": 25,
+      "published_at": "2026-08-14",
+      "collected_at": "2026-08-14",
+      "category": "ai",
+      "lang": "en",
+      "minutes": 3,
+      "one_liner": "DeepSeek API의 피크/오프피크 가격 정책 업데이트 안내",
+      "summary": "DeepSeek이 API 가격 체계를 시간대별로 차등 책정하는 피크/오프피크 프리싱 모델을 도입했습니다. 피크 시간대에는 높은 요금을, 오프피크 시간대에는 저렴한 요금을 적용하여 비용 최적화 기회를 제공합니다.",
+      "prereqs": [
+        {
+          "name": "API 가격 모델",
+          "detail": "API 서비스의 비용 책정 방식을 이해하기 위함"
+        },
+        {
+          "name": "Load Balancing",
+          "detail": "시간대별 트래픽 차이와 서버 리소스 효율화 개념"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "cost-optimization",
+          "reason": "API 사용 비용을 절감하는 전략 수립 필요"
+        },
+        {
+          "keyword": "rate-limiting",
+          "reason": "트래픽 관리와 요금 정책의 연관성 이해"
+        },
+        {
+          "keyword": "pricing-strategy",
+          "reason": "동적 가격 책정의 비즈니스 모델 이해"
+        },
+        {
+          "keyword": "api-consumption",
+          "reason": "API 사용량 모니터링과 비용 추적 방법"
+        }
+      ]
+    },
+    {
+      "title": "Solid 2.0 RC: The Big <Reveal>",
+      "url": "https://www.solidjs.com/blog/solid-2-0-rc-the-big-reveal",
+      "source": "hn",
+      "points": 68,
+      "comments": 55,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "frontend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "Solid 2.0 RC의 새로운 기능과 개선사항을 소개하는 글",
+      "summary": "Solid 2.0 RC(릴리즈 후보) 버전의 주요 기능과 개선 사항을 공개합니다. 성능 최적화, 개발자 경험 향상, 새로운 API 등이 포함되어 있으며, 프로덕션 환경 적용을 위한 준비 단계입니다.",
+      "prereqs": [
+        {
+          "name": "Solid.js",
+          "detail": "반응형 프론트엔드 프레임워크의 기본 개념 이해"
+        },
+        {
+          "name": "Reactive Programming",
+          "detail": "반응형 프로그래밍 패턴의 이해"
+        },
+        {
+          "name": "Component API",
+          "detail": "컴포넌트 기반 아키텍처의 기초"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "solid-js",
+          "reason": "Solid.js 프레임워크의 핵심 라이브러리"
+        },
+        {
+          "keyword": "reactive-signals",
+          "reason": "Solid의 상태 관리 기본 메커니즘"
+        },
+        {
+          "keyword": "fine-grained-reactivity",
+          "reason": "세밀한 반응성으로 성능 최적화"
+        },
+        {
+          "keyword": "compiler-optimization",
+          "reason": "컴파일 단계의 최적화 기술"
+        },
+        {
+          "keyword": "developer-experience",
+          "reason": "DX 개선으로 개발 생산성 향상"
+        }
+      ]
+    },
+    {
+      "title": "I want extern \"fil-C\"",
+      "url": "https://domenkozar.com/2026/08/13/i-want-extern-fil-c/",
+      "source": "hn",
+      "points": 64,
+      "comments": 24,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "backend",
+      "lang": "en",
+      "minutes": 8,
+      "one_liner": "C 언어와의 상호운용성을 위한 extern 키워드 사용법",
+      "summary": "extern \"C\" 선언은 C++ 코드에서 C 언어로 작성된 라이브러리를 호출할 때 필요합니다. 이를 통해 C++ 컴파일러의 name mangling을 비활성화하여 C 함수와 호환되도록 만들 수 있습니다.",
+      "prereqs": [
+        {
+          "name": "C++ Name Mangling",
+          "detail": "C++이 함수명을 변환하는 방식을 이해해야 함"
+        },
+        {
+          "name": "C/C++ 호환성",
+          "detail": "두 언어 간의 차이점과 상호운용 필요성 파악"
+        },
+        {
+          "name": "링킹(Linking)",
+          "detail": "컴파일 후 객체 파일들이 연결되는 과정 이해"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "name-mangling",
+          "reason": "C++이 함수명을 변환하는 이유 이해"
+        },
+        {
+          "keyword": "c-linkage",
+          "reason": "C 호환성을 유지하기 위한 링키지 방식"
+        },
+        {
+          "keyword": "header-guards",
+          "reason": "extern C와 함께 헤더에서 사용되는 관례"
+        },
+        {
+          "keyword": "library-binding",
+          "reason": "외부 라이브러리 연동 시 필수 개념"
+        },
+        {
+          "keyword": "symbol-resolution",
+          "reason": "링킹 단계에서 심볼이 해결되는 방식"
+        }
+      ]
+    },
+    {
+      "title": "US sells 30-year bonds at highest borrowing costs since 2001",
+      "url": "https://www.ft.com/content/9c9c948f-dc8b-4385-a9b9-4b98dc1eadd9",
+      "source": "hn",
+      "points": 60,
+      "comments": 69,
+      "published_at": "2026-08-13",
+      "collected_at": "2026-08-14",
+      "category": "other",
+      "lang": "en",
+      "minutes": 4,
+      "one_liner": "미국이 23년 만에 최고 금리로 30년물 채권 발행",
+      "summary": "미국 정부가 2001년 이후 가장 높은 차입 비용으로 30년물 장기채권을 발행했습니다. 이는 인플레이션 억제를 위한 금리 인상 정책의 영향을 반영하며, 정부 채무 비용 상승을 시사합니다.",
+      "prereqs": [
+        {
+          "name": "bond yield",
+          "detail": "채권 가격과 수익률의 역관계 이해"
+        },
+        {
+          "name": "금리 인상 정책",
+          "detail": "중앙은행의 인플레이션 억제 수단"
+        },
+        {
+          "name": "US Treasury",
+          "detail": "미국 정부의 채권 발행 메커니즘"
+        }
+      ],
+      "related_concepts": [
+        {
+          "keyword": "interest-rate-risk",
+          "reason": "금리 변동이 채권 가치에 미치는 영향"
+        },
+        {
+          "keyword": "inflation-economics",
+          "reason": "물가 상승과 정책 금리의 연관성"
+        },
+        {
+          "keyword": "government-debt",
+          "reason": "공적 채무와 경제 지표의 관계"
+        },
+        {
+          "keyword": "market-sentiment",
+          "reason": "차입 비용 상승이 시장 신뢰도 반영"
         }
       ]
     }
